@@ -1,0 +1,109 @@
+{
+  "readAt": "2026-10-30",
+  "name": "Label",
+  "url": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=201332-2291",
+  "id": "201332:2291",
+  "folder": "Components/AltaIDE_Label",
+  "group": "Label",
+  "properties": {},
+  "variants": [
+    {
+      "id": "201332:2291",
+      "n": "Label",
+      "t": "COMPONENT",
+      "w": 36,
+      "h": 20,
+      "x": 167,
+      "y": 110,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "201332:2289",
+          "n": "Label",
+          "t": "TEXT",
+          "w": 36,
+          "h": 20,
+          "x": -1,
+          "y": 0,
+          "b": {},
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Label",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:200721:13931"
+  ],
+  "strokeLayout": {}
+}

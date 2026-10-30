@@ -1,0 +1,346 @@
+{
+  "readAt": "2026-10-30",
+  "name": "AltaIDE/AutocompleteInfo",
+  "url": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=202319-9696",
+  "id": "202319:9696",
+  "folder": "Components/AltaIDE_AutocompleteInfo",
+  "group": "Autocomplete",
+  "n": "AltaIDE/AutocompleteInfo",
+  "properties": {},
+  "variants": [
+    {
+      "id": "202319:9696",
+      "n": "AltaIDE/AutocompleteInfo",
+      "t": "COMPONENT",
+      "w": 304,
+      "h": 284,
+      "x": 617,
+      "y": 197,
+      "b": {
+        "itemSpacing": "VariableID:202320:1346",
+        "paddingLeft": "VariableID:202320:1344",
+        "paddingTop": "VariableID:202320:1345",
+        "paddingRight": "VariableID:202320:1344",
+        "paddingBottom": "VariableID:202320:1345",
+        "topLeftRadius": "VariableID:202320:1581",
+        "topRightRadius": "VariableID:202320:1581",
+        "bottomLeftRadius": "VariableID:202320:1581",
+        "bottomRightRadius": "VariableID:202320:1581"
+      },
+      "layout": "HORIZONTAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 10,
+      "pt": 4,
+      "pr": 10,
+      "pb": 4,
+      "pl": 10,
+      "rtl": 4,
+      "rtr": 4,
+      "rbl": 4,
+      "rbr": 4,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.18039216101169586,
+            "g": 0.1921568661928177,
+            "b": 0.21176470816135406
+          },
+          "a": 1,
+          "b": "VariableID:202320:1341"
+        }
+      ],
+      "stroke": [],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 20,
+          "boundVariables": {},
+          "color": {
+            "r": 0.07923635095357895,
+            "g": 0.0597824789583683,
+            "b": 0.0597824789583683,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 6
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "children": [
+        {
+          "id": "202319:9507",
+          "n": "The MyFun1 class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch. The class Exception and any subclasses that are not also subclasses of RuntimeException are checked exceptions. Checked exceptions need to be declared in a method or constructor's throws clause if they can be thrown by the execution of the method or constructor and propagate outside the method or constructor boundary. Can be thrown by the execution of the method or",
+          "t": "TEXT",
+          "w": 276,
+          "h": 280,
+          "x": 10,
+          "y": 4,
+          "b": {},
+          "hs": "FIXED",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:202320:1343"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "The MyFun1 class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch.\nThe class Exception and any subclasses that are not also subclasses of RuntimeException are checked exceptions. Checked exceptions need to be declared in a method or constructor's throws clause if they can be thrown by the execution of the method or constructor and propagate outside the method or constructor boundary. Can be thrown by the execution of the method or ",
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "segments": [
+            {
+              "text": "The ",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:202320:1343"
+                }
+              ],
+              "decoration": "NONE",
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            },
+            {
+              "text": "MyFun1",
+              "font": {
+                "family": "Rubik",
+                "style": "SemiBold",
+                "variationSettings": {
+                  "wght": 600
+                }
+              },
+              "size": 14,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:202320:1343"
+                }
+              ],
+              "decoration": "NONE",
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            },
+            {
+              "text": " class Exception and its subclasses are a form of Throwable that indicates conditions that a reasonable application might want to catch.\nThe class Exception and any subclasses that are not also subclasses of RuntimeException are checked exceptions. Checked exceptions need to be declared in a method or constructor's throws clause if they can be thrown by the execution of the method or constructor and propagate outside the method or constructor boundary. Can be thrown by the execution of the method or ",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:202320:1343"
+                }
+              ],
+              "decoration": "NONE",
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "202320:1338",
+          "n": "AltaIDE/ScrollVertical",
+          "t": "INSTANCE",
+          "w": 8,
+          "h": 280,
+          "x": 296,
+          "y": 4,
+          "b": {
+            "topLeftRadius": "VariableID:200953:36",
+            "topRightRadius": "VariableID:200953:36",
+            "bottomLeftRadius": "VariableID:200953:36",
+            "bottomRightRadius": "VariableID:200953:36"
+          },
+          "layout": "VERTICAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 8,
+          "pt": 0,
+          "pr": 0,
+          "pb": 152,
+          "pl": 0,
+          "rtl": 8,
+          "rtr": 8,
+          "rbl": 8,
+          "rbr": 8,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.239215686917305,
+                "g": 0.2549019753932953,
+                "b": 0.29411765933036804
+              },
+              "a": 1,
+              "b": "VariableID:200953:34"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I202320:1338;185649:32542",
+              "n": "Rectangle 2778",
+              "t": "RECTANGLE",
+              "w": 8,
+              "h": 70,
+              "x": 0,
+              "y": 0,
+              "b": {
+                "topLeftRadius": "VariableID:200953:36",
+                "topRightRadius": "VariableID:200953:36",
+                "bottomLeftRadius": "VariableID:200953:36",
+                "bottomRightRadius": "VariableID:200953:36"
+              },
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "rtl": 8,
+              "rtr": 8,
+              "rbl": 8,
+              "rbr": 8,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.4901960790157318,
+                    "g": 0.5137255191802979,
+                    "b": 0.5803921818733215
+                  },
+                  "a": 1,
+                  "b": "VariableID:200953:35"
+                }
+              ],
+              "stroke": [],
+              "effects": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:202320:1346",
+    "VariableID:202320:1344",
+    "VariableID:202320:1345",
+    "VariableID:202320:1581",
+    "VariableID:202320:1341",
+    "VariableID:202320:1343",
+    "VariableID:200953:36",
+    "VariableID:200953:34",
+    "VariableID:200953:35"
+  ],
+  "strokeLayout": {}
+}

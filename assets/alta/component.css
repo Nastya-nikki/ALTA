@@ -1,0 +1,19 @@
+/* Generated layout rules come from current Figma nodes. Shared browser mechanics only. */
+.alta-component{position:relative;display:inline-block;line-height:0;max-width:100%}
+.alta-component .fn{position:relative;box-sizing:border-box;margin:0;flex-shrink:0;min-width:0}
+.alta-component .fn-text{display:block;white-space:pre-wrap;overflow-wrap:normal}
+.alta-component .fn-asset{display:block;line-height:0}
+.alta-component .fn-asset img{display:block;max-width:none}
+.alta-component .fn-edit{appearance:none;background:transparent;border:0;outline:none;margin:0;padding:0;font:inherit;color:inherit;letter-spacing:inherit;line-height:inherit;text-align:inherit;resize:none;min-width:0;box-sizing:border-box}
+.alta-component .fn-edit::placeholder{color:inherit;opacity:1}
+.alta-component [data-glyph]{cursor:pointer}
+.alta-component[data-static]{pointer-events:none}
+.alta-component [data-option]{cursor:pointer}
+.alta-popup{position:absolute;top:100%;left:0;z-index:20}
+.alta-component .number-step{position:absolute;right:0;width:16px;height:14px;opacity:0;border:0;padding:0;cursor:pointer}
+.alta-component .number-step[data-direction="up"]{top:0}.alta-component .number-step[data-direction="down"]{bottom:0}
+.alta-component .fn-scroll{overflow:auto;scrollbar-width:thin}
+
+.alta-component [hidden]{display:none!important}
+.alta-component[data-component="AltaIDE_DropdownOpen"] [data-option].is-active{background:var(--combobox-background-active)}
+.alta-component[data-component="AltaIDE_Autocomplete"] [data-option].is-active{background:var(--autocompleteitem-bg-active)}

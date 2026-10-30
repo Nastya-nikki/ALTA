@@ -1,0 +1,2539 @@
+{
+  "readAt": "2026-10-30",
+  "name": "AltaIDE/Comments",
+  "url": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=197726-530",
+  "id": "197726:530",
+  "folder": "Components/AltaIDE_Comments",
+  "group": "Comments",
+  "properties": {
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default_Placeholder",
+      "variantOptions": [
+        "Disabled",
+        "Default_Placeholder",
+        "Default_Filled",
+        "Focused",
+        "Invalid",
+        "HoverFilled",
+        "Hover",
+        "Hover_Invalid",
+        "Focused_Invalid"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "197726:529",
+      "n": "State=Default_Filled",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 120,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "197726:313",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "197726:228",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "SPACE_BETWEEN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 0,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200729:1354"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4901960790157318,
+                "g": 0.5137255191802979,
+                "b": 0.5803921818733215
+              },
+              "a": 1,
+              "b": "VariableID:200729:1374"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "197726:229",
+              "n": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "t": "TEXT",
+              "w": 776,
+              "h": 40,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:200729:1360"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "197726:7298",
+              "n": "AltaIDE/Icons/Resize/Input",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "820fdc12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197726:528",
+      "n": "State=Default_Placeholder",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 20,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "197726:301",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "197726:304",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "SPACE_BETWEEN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 0,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200729:1353"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4901960790157318,
+                "g": 0.5137255191802979,
+                "b": 0.5803921818733215
+              },
+              "a": 1,
+              "b": "VariableID:200729:1373"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "197726:305",
+              "n": "Введите комментарий",
+              "t": "TEXT",
+              "w": 776,
+              "h": 20,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.4901960790157318,
+                    "g": 0.5137255191802979,
+                    "b": 0.5803921818733215
+                  },
+                  "a": 1,
+                  "b": "VariableID:200729:1359"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Введите комментарий",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "197726:7279",
+              "n": "AltaIDE/Icons/Resize/Input",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "820fdc12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197726:527",
+      "n": "State=Focused",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 436,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "197726:287",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "197726:290",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "SPACE_BETWEEN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 0,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200729:1355"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.33725491166114807,
+                "g": 0.5176470875740051,
+                "b": 0.8666666746139526
+              },
+              "a": 1,
+              "b": "VariableID:200729:1375"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "197726:291",
+              "n": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый |",
+              "t": "TEXT",
+              "w": 776,
+              "h": 40,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:202030:4616"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый |",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "197726:7303",
+              "n": "AltaIDE/Icons/ResizeInput",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "b7c09ae9"
+            },
+            {
+              "id": "197726:15518",
+              "n": "AltaIDE/ScrollVertical",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 44,
+              "x": 782,
+              "y": 2,
+              "b": {
+                "topLeftRadius": "VariableID:200953:36",
+                "topRightRadius": "VariableID:200953:36",
+                "bottomLeftRadius": "VariableID:200953:36",
+                "bottomRightRadius": "VariableID:200953:36"
+              },
+              "layout": "VERTICAL",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "FIXED",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 8,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 8,
+              "rtr": 8,
+              "rbl": 8,
+              "rbr": 8,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I197726:15518;197726:15511",
+                  "n": "Rectangle 2778",
+                  "t": "RECTANGLE",
+                  "w": 8,
+                  "h": 20,
+                  "x": 0,
+                  "y": 0,
+                  "b": {
+                    "topLeftRadius": "VariableID:200953:36",
+                    "topRightRadius": "VariableID:200953:36",
+                    "bottomLeftRadius": "VariableID:200953:36",
+                    "bottomRightRadius": "VariableID:200953:36"
+                  },
+                  "hs": "FIXED",
+                  "vs": "FIXED",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "rtl": 8,
+                  "rtr": 8,
+                  "rbl": 8,
+                  "rbr": 8,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 0.4901960790157318,
+                        "g": 0.5137255191802979,
+                        "b": 0.5803921818733215
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2075"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "203522:634",
+      "n": "State=Focused_Invalid",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 746,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "203522:635",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "203522:636",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 4,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200729:1357"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.5882353186607361,
+                "g": 0.14901961386203766,
+                "b": 0.23686274886131287
+              },
+              "a": 1,
+              "b": "VariableID:200729:1376"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "203522:637",
+              "n": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый |",
+              "t": "TEXT",
+              "w": 776,
+              "h": 40,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:200729:1363"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый |",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "203522:638",
+              "n": "AltaIDE/Icons/Resize/Input",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "820fdc12"
+            },
+            {
+              "id": "203522:639",
+              "n": "AltaIDE/ScrollVertical",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 44,
+              "x": 782,
+              "y": 2,
+              "b": {
+                "topLeftRadius": "VariableID:200953:36",
+                "topRightRadius": "VariableID:200953:36",
+                "bottomLeftRadius": "VariableID:200953:36",
+                "bottomRightRadius": "VariableID:200953:36"
+              },
+              "layout": "VERTICAL",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "FIXED",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 8,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 8,
+              "rtr": 8,
+              "rbl": 8,
+              "rbr": 8,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I203522:639;197726:15511",
+                  "n": "Rectangle 2778",
+                  "t": "RECTANGLE",
+                  "w": 8,
+                  "h": 20,
+                  "x": 0,
+                  "y": 0,
+                  "b": {
+                    "topLeftRadius": "VariableID:200953:36",
+                    "topRightRadius": "VariableID:200953:36",
+                    "bottomLeftRadius": "VariableID:200953:36",
+                    "bottomRightRadius": "VariableID:200953:36"
+                  },
+                  "hs": "FIXED",
+                  "vs": "FIXED",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "rtl": 8,
+                  "rtr": 8,
+                  "rbl": 8,
+                  "rbr": 8,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 0.4901960790157318,
+                        "g": 0.5137255191802979,
+                        "b": 0.5803921818733215
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2075"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197726:526",
+      "n": "State=Invalid",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 547,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "197726:495",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "197726:496",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 4,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200729:1357"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.5882353186607361,
+                "g": 0.14901961386203766,
+                "b": 0.23686274886131287
+              },
+              "a": 1,
+              "b": "VariableID:200729:1376"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "197726:497",
+              "n": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "t": "TEXT",
+              "w": 776,
+              "h": 40,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:202030:4616"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "197726:7308",
+              "n": "AltaIDE/Icons/Resize/Input",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "820fdc12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "203513:706",
+      "n": "State=Hover_Invalid",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 647,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "203513:707",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "203513:708",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 4,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200729:1357"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.5882353186607361,
+                "g": 0.14901961386203766,
+                "b": 0.23686274886131287
+              },
+              "a": 1,
+              "b": "VariableID:200729:1376"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "203513:709",
+              "n": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "t": "TEXT",
+              "w": 776,
+              "h": 40,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:202030:4616"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "203513:710",
+              "n": "AltaIDE/Icons/Resize/Input",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "820fdc12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197726:525",
+      "n": "State=Disabled",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 853,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "197726:504",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "197726:505",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 4,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.239215686917305,
+                "g": 0.2549019753932953,
+                "b": 0.29411765933036804
+              },
+              "a": 1,
+              "b": "VariableID:200729:1358"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.239215686917305,
+                "g": 0.2549019753932953,
+                "b": 0.29411765933036804
+              },
+              "a": 1,
+              "b": "VariableID:200729:1377"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "197726:506",
+              "n": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "t": "TEXT",
+              "w": 776,
+              "h": 40,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.4901960790157318,
+                    "g": 0.5137255191802979,
+                    "b": 0.5803921818733215
+                  },
+                  "a": 1,
+                  "b": "VariableID:200729:1372"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "197726:7313",
+              "n": "AltaIDE/Icons/ResizeInput",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "b7c09ae9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202030:4579",
+      "n": "State=Hover",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 220,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "202030:4580",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "202030:4581",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "SPACE_BETWEEN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 0,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:202030:4613"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.33725491166114807,
+                "g": 0.5176470875740051,
+                "b": 0.8666666746139526
+              },
+              "a": 1,
+              "b": "VariableID:202030:4617"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "202030:4582",
+              "n": "Введите комментарий",
+              "t": "TEXT",
+              "w": 776,
+              "h": 20,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.4901960790157318,
+                    "g": 0.5137255191802979,
+                    "b": 0.5803921818733215
+                  },
+                  "a": 1,
+                  "b": "VariableID:202030:4615"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Введите комментарий",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "202030:4583",
+              "n": "AltaIDE/Icons/Resize/Input",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "820fdc12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202030:4584",
+      "n": "State=HoverFilled",
+      "t": "COMPONENT",
+      "w": 792,
+      "h": 70,
+      "x": 20,
+      "y": 320,
+      "b": {
+        "itemSpacing": "VariableID:200721:13933"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 2,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "202030:4585",
+          "n": "Комментарий",
+          "t": "TEXT",
+          "w": 792,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200721:13931"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Комментарий",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "202030:4586",
+          "n": "Input",
+          "t": "FRAME",
+          "w": 792,
+          "h": 48,
+          "x": 0,
+          "y": 22,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "SPACE_BETWEEN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 0,
+          "pt": 4,
+          "pr": 8,
+          "pb": 4,
+          "pl": 8,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:202030:4614"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.33725491166114807,
+                "g": 0.5176470875740051,
+                "b": 0.8666666746139526
+              },
+              "a": 1,
+              "b": "VariableID:202030:4618"
+            }
+          ],
+          "effects": [],
+          "children": [
+            {
+              "id": "202030:4587",
+              "n": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "t": "TEXT",
+              "w": 776,
+              "h": 40,
+              "x": 8,
+              "y": 4,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:202030:4616"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "Данное устройство работает в режиме ведомого (slave). В таблице регистров хранятся текущие измеренные значения датчиков и конфигурационные параметры. В случае некорректного запроса возвращается новый",
+              "font": {
+                "family": "Rubik",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PIXELS",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+            },
+            {
+              "id": "202030:4588",
+              "n": "AltaIDE/Icons/Resize/Input",
+              "t": "INSTANCE",
+              "w": 8,
+              "h": 8,
+              "x": 782,
+              "y": 38,
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "ABSOLUTE",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "820fdc12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "key": "820fdc12",
+      "id": "202030:4588",
+      "n": "AltaIDE/Icons/Resize/Input",
+      "w": 8,
+      "h": 8
+    },
+    {
+      "key": "b7c09ae9",
+      "id": "197726:7313",
+      "n": "AltaIDE/Icons/ResizeInput",
+      "w": 8,
+      "h": 8
+    }
+  ],
+  "refs": [
+    "VariableID:200721:13933",
+    "VariableID:200721:13931",
+    "VariableID:200729:1354",
+    "VariableID:200729:1374",
+    "VariableID:200729:1360",
+    "VariableID:200793:44202",
+    "VariableID:200729:1353",
+    "VariableID:200729:1373",
+    "VariableID:200729:1359",
+    "VariableID:200729:1355",
+    "VariableID:200729:1375",
+    "VariableID:202030:4616",
+    "VariableID:200953:36",
+    "VariableID:200597:2075",
+    "VariableID:200729:1357",
+    "VariableID:200729:1376",
+    "VariableID:200729:1363",
+    "VariableID:200729:1358",
+    "VariableID:200729:1377",
+    "VariableID:200729:1372",
+    "VariableID:202030:4613",
+    "VariableID:202030:4617",
+    "VariableID:202030:4615",
+    "VariableID:202030:4614",
+    "VariableID:202030:4618"
+  ],
+  "strokeLayout": {
+    "197726:228": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "197726:304": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "197726:290": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "203522:636": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "197726:496": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "203513:708": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "197726:505": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "202030:4581": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    },
+    "202030:4586": {
+      "included": false,
+      "top": 1,
+      "right": 1,
+      "bottom": 1,
+      "left": 1
+    }
+  }
+}

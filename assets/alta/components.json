@@ -1,0 +1,209 @@
+[
+  {
+    "name": "ButtonSecondary",
+    "folder": "Components/AltaIDE_ButtonSecondary",
+    "variants": 40,
+    "kind": "button",
+    "css": "button-secondary.css",
+    "js": "button-secondary.js",
+    "default": 0
+  },
+  {
+    "name": "Input",
+    "folder": "Components/AltaIDE_Input",
+    "variants": 30,
+    "kind": "input",
+    "css": "input.css",
+    "js": "input.js",
+    "default": 1
+  },
+  {
+    "name": "InputWithIcons",
+    "folder": "Components/AltaIDE_InputWithIcons",
+    "variants": 9,
+    "kind": "input",
+    "css": "input-with-icons.css",
+    "js": "input-with-icons.js",
+    "default": 0
+  },
+  {
+    "name": "InputLabel",
+    "folder": "Components/AltaIDE_InputLabel",
+    "variants": 4,
+    "kind": "input",
+    "css": "input-label.css",
+    "js": "input-label.js",
+    "default": 0
+  },
+  {
+    "name": "Label",
+    "folder": "Components/AltaIDE_Label",
+    "variants": 1,
+    "kind": "static",
+    "css": "label.css",
+    "js": "label.js",
+    "default": 0
+  },
+  {
+    "name": "InputNumber",
+    "folder": "Components/AltaIDE_InputNumber",
+    "variants": 9,
+    "kind": "number",
+    "css": "input-number.css",
+    "js": "input-number.js",
+    "default": 1
+  },
+  {
+    "name": "InputNumberDouble",
+    "folder": "Components/AltaIDE_InputNumberDouble",
+    "variants": 1,
+    "kind": "double",
+    "css": "input-number-double.css",
+    "js": "input-number-double.js",
+    "default": 0
+  },
+  {
+    "name": "InputNumberLabel",
+    "folder": "Components/AltaIDE_InputNumberLabel",
+    "variants": 2,
+    "kind": "number",
+    "css": "input-number-label.css",
+    "js": "input-number-label.js",
+    "default": 0
+  },
+  {
+    "name": "Hints",
+    "folder": "Components/AltaIDE_Hints",
+    "variants": 1,
+    "kind": "static",
+    "css": "hints.css",
+    "js": "hints.js",
+    "default": 0
+  },
+  {
+    "name": "Clipboard",
+    "folder": "Components/AltaIDE_Clipboard",
+    "variants": 1,
+    "kind": "static",
+    "css": "clipboard.css",
+    "js": "clipboard.js",
+    "default": 0
+  },
+  {
+    "name": "Comments",
+    "folder": "Components/AltaIDE_Comments",
+    "variants": 9,
+    "kind": "textarea",
+    "css": "comments.css",
+    "js": "comments.js",
+    "default": 1
+  },
+  {
+    "name": "CommentsBar",
+    "folder": "Components/AltaIDE_CommentsBar",
+    "variants": 5,
+    "kind": "commentbar",
+    "css": "comments-bar.css",
+    "js": "comments-bar.js",
+    "default": 0
+  },
+  {
+    "name": "Badge",
+    "folder": "Components/AltaIDE_Badge",
+    "variants": 4,
+    "kind": "static",
+    "css": "badge.css",
+    "js": "badge.js",
+    "default": 2
+  },
+  {
+    "name": "Combobox",
+    "folder": "Components/AltaIDE_Combobox",
+    "variants": 7,
+    "kind": "option",
+    "css": "combobox.css",
+    "js": "combobox.js",
+    "default": 1
+  },
+  {
+    "name": "Dropdown",
+    "folder": "Components/AltaIDE_Dropdown",
+    "variants": 22,
+    "kind": "dropdown",
+    "css": "dropdown.css",
+    "js": "dropdown.js",
+    "default": 0
+  },
+  {
+    "name": "DropdownLabel",
+    "folder": "Components/AltaIDE_DropdownLabel",
+    "variants": 3,
+    "kind": "dropdown",
+    "css": "dropdown-label.css",
+    "js": "dropdown-label.js",
+    "default": 0
+  },
+  {
+    "name": "DropdownOpen",
+    "folder": "Components/AltaIDE_DropdownOpen",
+    "variants": 12,
+    "kind": "list",
+    "css": "dropdown-open.css",
+    "js": "dropdown-open.js",
+    "default": 0
+  },
+  {
+    "name": "AutocompleteDescription",
+    "folder": "Components/AltaIDE_AutocompleteDescription",
+    "variants": 1,
+    "kind": "static",
+    "css": "autocomplete-description.css",
+    "js": "autocomplete-description.js",
+    "default": 0
+  },
+  {
+    "name": "Autocomplete",
+    "folder": "Components/AltaIDE_Autocomplete",
+    "variants": 1,
+    "kind": "autocomplete",
+    "css": "autocomplete.css",
+    "js": "autocomplete.js",
+    "default": 0
+  },
+  {
+    "name": "AutocompleteInfo",
+    "folder": "Components/AltaIDE_AutocompleteInfo",
+    "variants": 1,
+    "kind": "static",
+    "css": "autocomplete-info.css",
+    "js": "autocomplete-info.js",
+    "default": 0
+  },
+  {
+    "name": "AutocompleteItem",
+    "folder": "Components/AltaIDE_AutocompleteItem",
+    "variants": 4,
+    "kind": "option",
+    "css": "autocomplete-item.css",
+    "js": "autocomplete-item.js",
+    "default": 1
+  },
+  {
+    "name": "SelectedText",
+    "folder": "Components/AltaIDE_SelectedText",
+    "variants": 3,
+    "kind": "static",
+    "css": "selected-text.css",
+    "js": "selected-text.js",
+    "default": 0
+  },
+  {
+    "name": "AutocompleteVariable",
+    "folder": "Components/AltaIDE_AutocompleteVariable",
+    "variants": 1,
+    "kind": "static",
+    "css": "autocomplete-variable.css",
+    "js": "autocomplete-variable.js",
+    "default": 0
+  }
+]

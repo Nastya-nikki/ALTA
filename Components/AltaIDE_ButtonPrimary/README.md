@@ -2,7 +2,7 @@
 
 Кнопка основного действия: создать, сохранить или подтвердить.
 
-Превью: [Открыть демонстрацию Primary Button](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_ButtonPrimary/preview.html)  
+Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
 Источник: [AltaIDE/ButtonPrimary, node 185100:882](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185100-882).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

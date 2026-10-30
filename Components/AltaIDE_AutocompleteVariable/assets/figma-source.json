@@ -1,0 +1,110 @@
+{
+  "readAt": "2026-10-30",
+  "name": "AltaIDE/Variable",
+  "url": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=202319-8195",
+  "id": "202319:8195",
+  "folder": "Components/AltaIDE_AutocompleteVariable",
+  "group": "Autocomplete",
+  "n": "AltaIDE/Variable",
+  "properties": {},
+  "variants": [
+    {
+      "id": "202319:8195",
+      "n": "AltaIDE/Variable",
+      "t": "COMPONENT",
+      "w": 89,
+      "h": 20,
+      "x": 1628,
+      "y": 197,
+      "b": {},
+      "layout": "VERTICAL",
+      "align": "CENTER",
+      "cross": "CENTER",
+      "primarySizing": "AUTO",
+      "counterSizing": "AUTO",
+      "hs": "HUG",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 10,
+      "pt": 0,
+      "pr": 2,
+      "pb": 0,
+      "pl": 2,
+      "rtl": 2,
+      "rtr": 2,
+      "rbl": 2,
+      "rbr": 2,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "202319:8196",
+          "n": "(VAR1, VAR2)",
+          "t": "TEXT",
+          "w": 85,
+          "h": 20,
+          "x": 2,
+          "y": 0,
+          "b": {},
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4901960790157318,
+                "g": 0.5137255191802979,
+                "b": 0.5803921818733215
+              },
+              "a": 1,
+              "b": "VariableID:202319:8652"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "(VAR1, VAR2)",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:e8050042b2a6961481336cf8a5d0fca7564a5597,682:8"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:202319:8652"
+  ],
+  "strokeLayout": {}
+}

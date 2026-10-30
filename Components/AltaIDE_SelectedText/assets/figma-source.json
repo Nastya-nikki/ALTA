@@ -1,0 +1,674 @@
+{
+  "readAt": "2026-10-30",
+  "name": "AltaIDE/SelectedText",
+  "url": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=202319-8199",
+  "id": "202319:8199",
+  "folder": "Components/AltaIDE_SelectedText",
+  "group": "Autocomplete",
+  "n": "AltaIDE/SelectedText",
+  "properties": {
+    "Property 1": {
+      "type": "VARIANT",
+      "defaultValue": "SelectedCode",
+      "variantOptions": [
+        "CodeSelected",
+        "SelectedCode",
+        "CodeSelectedCode"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "202319:8200",
+      "n": "Property 1=SelectedCode",
+      "t": "COMPONENT",
+      "w": 34,
+      "h": 20,
+      "x": 20,
+      "y": 20,
+      "b": {},
+      "layout": "HORIZONTAL",
+      "align": "MIN",
+      "cross": "CENTER",
+      "primarySizing": "AUTO",
+      "counterSizing": "AUTO",
+      "hs": "HUG",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "202319:8201",
+          "n": "Frame 1261157245",
+          "t": "FRAME",
+          "w": 17,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "layout": "VERTICAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "AUTO",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.11764705926179886,
+                "g": 0.2823529541492462,
+                "b": 0.5960784554481506
+              },
+              "a": 1,
+              "b": "VariableID:202319:9504"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "202319:8202",
+              "n": "DI",
+              "t": "TEXT",
+              "w": 17,
+              "h": 20,
+              "x": 0,
+              "y": 0,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "STRETCH",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.4588235318660736,
+                    "g": 0.6274510025978088,
+                    "b": 0.95686274766922
+                  },
+                  "a": 1,
+                  "b": "VariableID:202319:8651"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "DI",
+              "font": {
+                "family": "JetBrains Mono",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:6570f432184f1eb14517b8be8a929b2fe4d127b9,196455:196"
+            }
+          ]
+        },
+        {
+          "id": "202319:8203",
+          "n": "NT",
+          "t": "TEXT",
+          "w": 17,
+          "h": 20,
+          "x": 17,
+          "y": 0,
+          "b": {},
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:202319:8650"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "NT",
+          "font": {
+            "family": "JetBrains Mono",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:6570f432184f1eb14517b8be8a929b2fe4d127b9,196455:196"
+        }
+      ]
+    },
+    {
+      "id": "202319:8204",
+      "n": "Property 1=CodeSelected",
+      "t": "COMPONENT",
+      "w": 34,
+      "h": 20,
+      "x": 20,
+      "y": 44,
+      "b": {},
+      "layout": "HORIZONTAL",
+      "align": "MIN",
+      "cross": "CENTER",
+      "primarySizing": "AUTO",
+      "counterSizing": "AUTO",
+      "hs": "HUG",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "202319:8205",
+          "n": "NT",
+          "t": "TEXT",
+          "w": 17,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:202319:8650"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "NT",
+          "font": {
+            "family": "JetBrains Mono",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:6570f432184f1eb14517b8be8a929b2fe4d127b9,196455:196"
+        },
+        {
+          "id": "202319:8206",
+          "n": "Frame 1261157245",
+          "t": "FRAME",
+          "w": 17,
+          "h": 20,
+          "x": 17,
+          "y": 0,
+          "b": {},
+          "layout": "VERTICAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "AUTO",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.11764705926179886,
+                "g": 0.2823529541492462,
+                "b": 0.5960784554481506
+              },
+              "a": 1,
+              "b": "VariableID:202319:9504"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "202319:8207",
+              "n": "DI",
+              "t": "TEXT",
+              "w": 17,
+              "h": 20,
+              "x": 0,
+              "y": 0,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "STRETCH",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.4588235318660736,
+                    "g": 0.6274510025978088,
+                    "b": 0.95686274766922
+                  },
+                  "a": 1,
+                  "b": "VariableID:202319:8651"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "DI",
+              "font": {
+                "family": "JetBrains Mono",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:6570f432184f1eb14517b8be8a929b2fe4d127b9,196455:196"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202319:8208",
+      "n": "Property 1=CodeSelectedCode",
+      "t": "COMPONENT",
+      "w": 51,
+      "h": 20,
+      "x": 11,
+      "y": 70,
+      "b": {},
+      "layout": "HORIZONTAL",
+      "align": "MIN",
+      "cross": "CENTER",
+      "primarySizing": "AUTO",
+      "counterSizing": "AUTO",
+      "hs": "HUG",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "202319:8209",
+          "n": "NT",
+          "t": "TEXT",
+          "w": 17,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:202319:8650"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "NT",
+          "font": {
+            "family": "JetBrains Mono",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:6570f432184f1eb14517b8be8a929b2fe4d127b9,196455:196"
+        },
+        {
+          "id": "202319:8210",
+          "n": "Frame 1261157245",
+          "t": "FRAME",
+          "w": 17,
+          "h": 20,
+          "x": 17,
+          "y": 0,
+          "b": {},
+          "layout": "VERTICAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "AUTO",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.11764705926179886,
+                "g": 0.2823529541492462,
+                "b": 0.5960784554481506
+              },
+              "a": 1,
+              "b": "VariableID:202319:9504"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "202319:8211",
+              "n": "DI",
+              "t": "TEXT",
+              "w": 17,
+              "h": 20,
+              "x": 0,
+              "y": 0,
+              "b": {},
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "STRETCH",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.4588235318660736,
+                    "g": 0.6274510025978088,
+                    "b": 0.95686274766922
+                  },
+                  "a": 1,
+                  "b": "VariableID:202319:8651"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "DI",
+              "font": {
+                "family": "JetBrains Mono",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 20
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "LEFT",
+              "textVertical": "TOP",
+              "auto": "HEIGHT",
+              "textStyle": "S:6570f432184f1eb14517b8be8a929b2fe4d127b9,196455:196"
+            }
+          ]
+        },
+        {
+          "id": "202319:8212",
+          "n": "NT",
+          "t": "TEXT",
+          "w": 17,
+          "h": 20,
+          "x": 34,
+          "y": 0,
+          "b": {},
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:202319:8650"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "NT",
+          "font": {
+            "family": "JetBrains Mono",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:6570f432184f1eb14517b8be8a929b2fe4d127b9,196455:196"
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:202319:9504",
+    "VariableID:202319:8651",
+    "VariableID:202319:8650"
+  ],
+  "strokeLayout": {}
+}

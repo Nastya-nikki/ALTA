@@ -1,0 +1,375 @@
+{
+  "readAt": "2026-10-30",
+  "name": "AltaIDE/Badge",
+  "url": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185215-20485",
+  "id": "185215:20485",
+  "folder": "Components/AltaIDE_Badge",
+  "group": "Badge",
+  "properties": {
+    "Text#185521:148": {
+      "type": "TEXT",
+      "defaultValue": "9"
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Done",
+      "variantOptions": [
+        "Error",
+        "Info",
+        "Counter",
+        "Done"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185215:20482",
+      "n": "State=Counter",
+      "t": "COMPONENT",
+      "w": 20,
+      "h": 16,
+      "x": 64,
+      "y": 27,
+      "b": {
+        "paddingLeft": "VariableID:200709:2693",
+        "paddingRight": "VariableID:200709:2693",
+        "topLeftRadius": "VariableID:200709:2694",
+        "topRightRadius": "VariableID:200709:2694",
+        "bottomLeftRadius": "VariableID:200709:2694",
+        "bottomRightRadius": "VariableID:200709:2694"
+      },
+      "layout": "VERTICAL",
+      "align": "CENTER",
+      "cross": "CENTER",
+      "primarySizing": "AUTO",
+      "counterSizing": "AUTO",
+      "hs": "HUG",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 6,
+      "pb": 0,
+      "pl": 6,
+      "rtl": 8,
+      "rtr": 8,
+      "rbl": 8,
+      "rbr": 8,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.9333333373069763,
+            "g": 0.3333333432674408,
+            "b": 0.503333330154419
+          },
+          "a": 1,
+          "b": "VariableID:200709:2690"
+        }
+      ],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "185215:20472",
+          "n": "number",
+          "t": "TEXT",
+          "w": 8,
+          "h": 16,
+          "x": 6,
+          "y": 0,
+          "b": {},
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:200709:2692"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "9",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 12,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "CENTER",
+          "textVertical": "CENTER",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+        }
+      ]
+    },
+    {
+      "id": "185215:20481",
+      "n": "State=Error",
+      "t": "COMPONENT",
+      "w": 6,
+      "h": 6,
+      "x": 36,
+      "y": 30,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "185215:20470",
+          "n": "Ellipse 1",
+          "t": "ELLIPSE",
+          "w": 6,
+          "h": 6,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.9333333373069763,
+                "g": 0.3333333432674408,
+                "b": 0.503333330154419
+              },
+              "a": 1,
+              "b": "VariableID:200709:2688"
+            }
+          ],
+          "stroke": [],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": "186509:5175",
+      "n": "State=Done",
+      "t": "COMPONENT",
+      "w": 6,
+      "h": 6,
+      "x": 23,
+      "y": 30,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 4,
+      "rtr": 4,
+      "rbl": 4,
+      "rbr": 4,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.42352941632270813,
+            "g": 0.7372549176216125,
+            "b": 0.4156862795352936
+          },
+          "a": 1,
+          "b": "VariableID:200709:2691"
+        }
+      ],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "186509:5176",
+          "n": "Ellipse 1",
+          "t": "ELLIPSE",
+          "w": 6,
+          "h": 6,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.42352941632270813,
+                "g": 0.7372549176216125,
+                "b": 0.4156862795352936
+              },
+              "a": 1,
+              "b": "VariableID:200709:2691"
+            }
+          ],
+          "stroke": [],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": "185215:20479",
+      "n": "State=Info",
+      "t": "COMPONENT",
+      "w": 6,
+      "h": 6,
+      "x": 50,
+      "y": 30,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "185215:20478",
+          "n": "Ellipse 1",
+          "t": "ELLIPSE",
+          "w": 6,
+          "h": 6,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.33725491166114807,
+                "g": 0.5176470875740051,
+                "b": 0.8666666746139526
+              },
+              "a": 1,
+              "b": "VariableID:200709:2689"
+            }
+          ],
+          "stroke": [],
+          "effects": []
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:200709:2693",
+    "VariableID:200709:2694",
+    "VariableID:200709:2690",
+    "VariableID:200709:2692",
+    "VariableID:200709:2688",
+    "VariableID:200709:2691",
+    "VariableID:200709:2689"
+  ],
+  "strokeLayout": {}
+}
