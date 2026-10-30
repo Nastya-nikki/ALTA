@@ -409,5 +409,140 @@
     "js": "bit-mask-picker.js",
     "variants": 1,
     "kind": "bit-mask-picker"
+  },
+  {
+    "name": "Textarea",
+    "folder": "Components/AltaIDE_Textarea",
+    "kind": "Textarea",
+    "variants": 4,
+    "css": "textarea.css",
+    "js": "textarea.js",
+    "default": 0
+  },
+  {
+    "name": "Radio",
+    "folder": "Components/AltaIDE_Radio",
+    "kind": "Radio",
+    "variants": 10,
+    "css": "radio.css",
+    "js": "radio.js",
+    "default": 0
+  },
+  {
+    "name": "Toggle",
+    "folder": "Components/AltaIDE_Toggle",
+    "kind": "Toggle",
+    "variants": 4,
+    "css": "toggle.css",
+    "js": "toggle.js",
+    "default": 0
+  },
+  {
+    "name": "Checkbox",
+    "folder": "Components/AltaIDE_Checkbox",
+    "kind": "Checkbox",
+    "variants": 15,
+    "css": "checkbox.css",
+    "js": "checkbox.js",
+    "default": 0
+  },
+  {
+    "name": "LineLoader",
+    "folder": "Components/AltaIDE_LineLoader",
+    "kind": "LineLoader",
+    "variants": 2,
+    "css": "line-loader.css",
+    "js": "line-loader.js",
+    "default": 1
+  },
+  {
+    "name": "RadioLabel",
+    "folder": "Components/AltaIDE_RadioLabel",
+    "kind": "RadioLabel",
+    "variants": 10,
+    "css": "radio-label.css",
+    "js": "radio-label.js",
+    "default": 0
+  },
+  {
+    "name": "RadioSet",
+    "folder": "Components/AltaIDE_RadioSet",
+    "kind": "RadioSet",
+    "variants": 2,
+    "css": "radio-set.css",
+    "js": "radio-set.js",
+    "default": 0
+  },
+  {
+    "name": "ToggleLabel",
+    "folder": "Components/AltaIDE_ToggleLabel",
+    "kind": "ToggleLabel",
+    "variants": 4,
+    "css": "toggle-label.css",
+    "js": "toggle-label.js",
+    "default": 0
+  },
+  {
+    "name": "CheckboxLabel",
+    "folder": "Components/AltaIDE_CheckboxLabel",
+    "kind": "CheckboxLabel",
+    "variants": 75,
+    "css": "checkbox-label.css",
+    "js": "checkbox-label.js",
+    "default": 0
+  },
+  {
+    "name": "CheckboxSet",
+    "folder": "Components/AltaIDE_CheckboxSet",
+    "kind": "CheckboxSet",
+    "variants": 2,
+    "css": "checkbox-set.css",
+    "js": "checkbox-set.js",
+    "default": 0
+  },
+  {
+    "name": "ProgressBar",
+    "folder": "Components/AltaIDE_ProgressBar",
+    "kind": "ProgressBar",
+    "variants": 2,
+    "css": "progress-bar.css",
+    "js": "progress-bar.js",
+    "default": 0
+  },
+  {
+    "name": "TooltipEditor",
+    "folder": "Components/AltaIDE_TooltipEditor",
+    "kind": "TooltipEditor",
+    "variants": 16,
+    "css": "tooltip-editor.css",
+    "js": "tooltip-editor.js",
+    "default": 1
+  },
+  {
+    "name": "TooltipCodeEditor",
+    "folder": "Components/AltaIDE_TooltipCodeEditor",
+    "kind": "TooltipCodeEditor",
+    "variants": 6,
+    "css": "tooltip-code-editor.css",
+    "js": "tooltip-code-editor.js",
+    "default": 0
+  },
+  {
+    "name": "Shortcut",
+    "folder": "Components/AltaIDE_Shortcut",
+    "kind": "Shortcut",
+    "variants": 4,
+    "css": "shortcut.css",
+    "js": "shortcut.js",
+    "default": 1
+  },
+  {
+    "name": "TooltipHelp",
+    "folder": "Components/AltaIDE_TooltipHelp",
+    "kind": "TooltipHelp",
+    "variants": 2,
+    "css": "tooltip-help.css",
+    "js": "tooltip-help.js",
+    "default": 0
   }
 ]

@@ -1,0 +1,17 @@
+/* Shared browser mechanics. Variant geometry, paint and typography come from Figma. */
+.alta-control{position:relative;display:inline-block;vertical-align:middle;line-height:0;flex-shrink:0;max-width:none;box-sizing:border-box}
+button.alta-control{appearance:none;background:none;border:0;border-radius:0;padding:0;margin:0;color:inherit;font:inherit;line-height:0;text-align:initial;cursor:pointer}
+.alta-control .fn{position:relative;box-sizing:border-box;flex-shrink:0;min-width:0;margin:0}
+.alta-control .fn-text{display:block;white-space:pre-wrap;overflow-wrap:normal}
+.alta-control .ac-asset{line-height:0}.alta-control .ac-asset img{display:block;max-width:none;flex-shrink:0}
+.alta-control .fn[hidden]{display:none!important}.alta-control[hidden]{display:none!important}
+.alta-control[data-static]{pointer-events:none}.alta-control[data-visual-only]{pointer-events:none}
+.alta-control button.fn{appearance:none;border:0;margin:0;padding:0;background:transparent;color:inherit;cursor:pointer}
+.alta-control textarea.fn{appearance:none;resize:none;outline:none;border:0;background:transparent;padding:0;margin:0;overflow:auto;scrollbar-width:thin}
+.alta-control textarea.fn::placeholder{color:inherit;opacity:1}
+.alta-control button:disabled,.alta-control:disabled{cursor:default}
+.alta-control:focus-visible,.alta-control [data-resize]:focus-visible,.alta-control [data-stop]:focus-visible{outline:2px solid #93b1ff;outline-offset:3px}
+.alta-control[data-figma-focus="true"]:focus-visible{outline:none}
+.alta-control [data-resize]{touch-action:none;cursor:nwse-resize}.alta-control [data-stop]{cursor:pointer}
+.alta-control[data-resized]>.fn{width:100%!important;height:100%!important}.alta-control[data-resized] textarea.fn{flex:1;height:0!important}
+body:has(.alta-control) h1{overflow-wrap:anywhere}

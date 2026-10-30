@@ -1,0 +1,611 @@
+{
+  "readAt": "2026-10-30",
+  "id": "185224:165",
+  "n": "AltaIDE/Toggle",
+  "type": "COMPONENT_SET",
+  "properties": {
+    "Checked": {
+      "type": "VARIANT",
+      "defaultValue": "False",
+      "variantOptions": [
+        "False",
+        "True"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Active",
+      "variantOptions": [
+        "Active",
+        "Disable"
+      ]
+    }
+  },
+  "total": 4,
+  "next": 4,
+  "variants": [
+    {
+      "id": "185224:160",
+      "n": "Checked=False, State=Active",
+      "t": "COMPONENT",
+      "w": 36,
+      "h": 20,
+      "x": 20,
+      "y": 22,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "185224:146",
+          "n": "bg",
+          "t": "RECTANGLE",
+          "w": 36,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {
+            "topLeftRadius": "VariableID:200752:3728",
+            "topRightRadius": "VariableID:200752:3728",
+            "bottomLeftRadius": "VariableID:200752:3728",
+            "bottomRightRadius": "VariableID:200752:3728"
+          },
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "rtl": 10,
+          "rtr": 10,
+          "rbl": 10,
+          "rbr": 10,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.239215686917305,
+                "g": 0.2549019753932953,
+                "b": 0.29411765933036804
+              },
+              "a": 1,
+              "b": "VariableID:200752:3706"
+            }
+          ],
+          "stroke": [],
+          "effects": []
+        },
+        {
+          "id": "185224:147",
+          "n": "Ellipse 5",
+          "t": "ELLIPSE",
+          "w": 20,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {
+            "strokeWeight": "VariableID:200752:3729"
+          },
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.3450980484485626,
+                "g": 0.3686274588108063,
+                "b": 0.42352941632270813
+              },
+              "a": 1,
+              "b": "VariableID:200752:3709"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4901960790157318,
+                "g": 0.5137255191802979,
+                "b": 0.5803921818733215
+              },
+              "a": 1,
+              "b": "VariableID:200765:2729"
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "renderAsset": "toggle-185224-160"
+    },
+    {
+      "id": "185224:163",
+      "n": "Checked=False, State=Disable",
+      "t": "COMPONENT",
+      "w": 36,
+      "h": 20,
+      "x": 70,
+      "y": 22,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "185224:149",
+          "n": "bg",
+          "t": "RECTANGLE",
+          "w": 36,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {
+            "topLeftRadius": "VariableID:200752:3728",
+            "topRightRadius": "VariableID:200752:3728",
+            "bottomLeftRadius": "VariableID:200752:3728",
+            "bottomRightRadius": "VariableID:200752:3728"
+          },
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "rtl": 10,
+          "rtr": 10,
+          "rbl": 10,
+          "rbr": 10,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.3450980484485626,
+                "g": 0.3686274588108063,
+                "b": 0.42352941632270813
+              },
+              "a": 1,
+              "b": "VariableID:200752:3708"
+            }
+          ],
+          "stroke": [],
+          "effects": []
+        },
+        {
+          "id": "185224:150",
+          "n": "Ellipse 5",
+          "t": "ELLIPSE",
+          "w": 20,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {
+            "strokeWeight": "VariableID:200752:3729"
+          },
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.3450980484485626,
+                "g": 0.3686274588108063,
+                "b": 0.42352941632270813
+              },
+              "a": 1,
+              "b": "VariableID:200752:3709"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4901960790157318,
+                "g": 0.5137255191802979,
+                "b": 0.5803921818733215
+              },
+              "a": 1,
+              "b": "VariableID:200765:2729"
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "renderAsset": "toggle-185224-163"
+    },
+    {
+      "id": "185224:161",
+      "n": "Checked=True, State=Active",
+      "t": "COMPONENT",
+      "w": 36,
+      "h": 20,
+      "x": 20,
+      "y": 69,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "185224:152",
+          "n": "bg",
+          "t": "RECTANGLE",
+          "w": 36,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {
+            "topLeftRadius": "VariableID:200752:3728",
+            "topRightRadius": "VariableID:200752:3728",
+            "bottomLeftRadius": "VariableID:200752:3728",
+            "bottomRightRadius": "VariableID:200752:3728"
+          },
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "rtl": 10,
+          "rtr": 10,
+          "rbl": 10,
+          "rbr": 10,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4588235318660736,
+                "g": 0.6274510025978088,
+                "b": 0.95686274766922
+              },
+              "a": 1,
+              "b": "VariableID:200752:3707"
+            }
+          ],
+          "stroke": [],
+          "effects": []
+        },
+        {
+          "id": "185224:153",
+          "n": "Ellipse 5",
+          "t": "ELLIPSE",
+          "w": 20,
+          "h": 20,
+          "x": 16,
+          "y": 0,
+          "b": {
+            "strokeWeight": "VariableID:200752:3729"
+          },
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.3450980484485626,
+                "g": 0.3686274588108063,
+                "b": 0.42352941632270813
+              },
+              "a": 1,
+              "b": "VariableID:200752:3709"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4901960790157318,
+                "g": 0.5137255191802979,
+                "b": 0.5803921818733215
+              },
+              "a": 1,
+              "b": "VariableID:200765:2729"
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "renderAsset": "toggle-185224-161"
+    },
+    {
+      "id": "185224:157",
+      "n": "Checked=True, State=Disable",
+      "t": "COMPONENT",
+      "w": 36,
+      "h": 20,
+      "x": 70,
+      "y": 69,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "185224:155",
+          "n": "bg",
+          "t": "RECTANGLE",
+          "w": 36,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "b": {
+            "topLeftRadius": "VariableID:200752:3728",
+            "topRightRadius": "VariableID:200752:3728",
+            "bottomLeftRadius": "VariableID:200752:3728",
+            "bottomRightRadius": "VariableID:200752:3728"
+          },
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "rtl": 10,
+          "rtr": 10,
+          "rbl": 10,
+          "rbr": 10,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.3450980484485626,
+                "g": 0.3686274588108063,
+                "b": 0.42352941632270813
+              },
+              "a": 1,
+              "b": "VariableID:200752:3708"
+            }
+          ],
+          "stroke": [],
+          "effects": []
+        },
+        {
+          "id": "185224:156",
+          "n": "Ellipse 5",
+          "t": "ELLIPSE",
+          "w": 20,
+          "h": 20,
+          "x": 16,
+          "y": 0,
+          "b": {
+            "strokeWeight": "VariableID:200752:3729"
+          },
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.3450980484485626,
+                "g": 0.3686274588108063,
+                "b": 0.42352941632270813
+              },
+              "a": 1,
+              "b": "VariableID:200752:3709"
+            }
+          ],
+          "stroke": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4901960790157318,
+                "g": 0.5137255191802979,
+                "b": 0.5803921818733215
+              },
+              "a": 1,
+              "b": "VariableID:200765:2729"
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "renderAsset": "toggle-185224-157"
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:200752:3728",
+    "VariableID:200752:3706",
+    "VariableID:200752:3729",
+    "VariableID:200752:3709",
+    "VariableID:200765:2729",
+    "VariableID:200752:3708",
+    "VariableID:200752:3707"
+  ],
+  "dependencies": []
+}

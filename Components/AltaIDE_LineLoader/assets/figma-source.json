@@ -1,0 +1,305 @@
+{
+  "readAt": "2026-10-30",
+  "id": "199300:3960",
+  "n": "AltaIDE/LineLoader",
+  "type": "COMPONENT_SET",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Progress_Loader",
+      "variantOptions": [
+        "Line_Spinner",
+        "Progress_Loader"
+      ]
+    }
+  },
+  "total": 2,
+  "next": 2,
+  "variants": [
+    {
+      "id": "199300:3805",
+      "n": "Type=Line_Spinner",
+      "t": "COMPONENT",
+      "w": 196,
+      "h": 4,
+      "x": 25,
+      "y": 57,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 1,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 4,
+      "rtr": 4,
+      "rbl": 4,
+      "rbr": 4,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": true,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.33725491166114807,
+            "g": 0.5176470875740051,
+            "b": 0.8666666746139526
+          },
+          "a": 1,
+          "b": "VariableID:202288:253"
+        }
+      ],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "199300:3804",
+          "n": "Progress",
+          "t": "RECTANGLE",
+          "w": 103,
+          "h": 4,
+          "x": 169,
+          "y": 0,
+          "b": {},
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 0,
+          "sa": "CENTER",
+          "opacity": 1,
+          "rotation": -180,
+          "sides": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "fill": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "a": 1,
+              "stops": [
+                {
+                  "color": {
+                    "r": 0.6392157077789307,
+                    "g": 0.7607843279838562,
+                    "b": 1,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0.6392157077789307,
+                    "g": 0.7607843279838562,
+                    "b": 1,
+                    "a": 1
+                  },
+                  "position": 0.5,
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:202288:254"
+                    }
+                  }
+                },
+                {
+                  "color": {
+                    "r": 0.6392157077789307,
+                    "g": 0.7607843279838562,
+                    "b": 1,
+                    "a": 0
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "transform": [
+                [
+                  1,
+                  2.4492937051703357e-16,
+                  -1.1102230246251565e-16
+                ],
+                [
+                  -2.4492937051703357e-16,
+                  1,
+                  1.1102230246251565e-16
+                ]
+              ]
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "matrix": [
+            [
+              -1,
+              0,
+              169
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "constraints": {
+            "horizontal": "STRETCH",
+            "vertical": "CENTER"
+          }
+        }
+      ]
+    },
+    {
+      "id": "193206:96158",
+      "n": "Type=Progress_Loader",
+      "t": "COMPONENT",
+      "w": 196,
+      "h": 4,
+      "x": 25,
+      "y": 34,
+      "b": {},
+      "layout": "NONE",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 1,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 4,
+      "rtr": 4,
+      "rbl": 4,
+      "rbr": 4,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": true,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.3450980484485626,
+            "g": 0.3686274588108063,
+            "b": 0.42352941632270813
+          },
+          "a": 1,
+          "b": "VariableID:202288:252"
+        }
+      ],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "193206:96157",
+          "n": "Progress",
+          "t": "RECTANGLE",
+          "w": 78,
+          "h": 4,
+          "x": 78,
+          "y": 0,
+          "b": {},
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "rtl": 2,
+          "rtr": 2,
+          "rbl": 2,
+          "rbr": 2,
+          "sw": 0,
+          "sa": "CENTER",
+          "opacity": 1,
+          "rotation": -180,
+          "sides": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.33725491166114807,
+                "g": 0.5176470875740051,
+                "b": 0.8666666746139526
+              },
+              "a": 1,
+              "b": "VariableID:202288:253"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "matrix": [
+            [
+              -1,
+              0,
+              78
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "constraints": {
+            "horizontal": "STRETCH",
+            "vertical": "CENTER"
+          }
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:202288:253",
+    "VariableID:202288:252"
+  ],
+  "dependencies": []
+}

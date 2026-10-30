@@ -1,0 +1,780 @@
+{
+  "readAt": "2026-10-30",
+  "id": "186451:1305",
+  "n": "AltaIDE/ProgressBar",
+  "type": "COMPONENT_SET",
+  "properties": {
+    "Hint#186451:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Label#186451:5": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Stop#186451:10": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Text Label#186457:15": {
+      "type": "TEXT",
+      "defaultValue": "Progress..."
+    },
+    "Text Hint#186457:20": {
+      "type": "TEXT",
+      "defaultValue": "Hint"
+    },
+    "MultipleProgress#199733:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "One Line",
+      "variantOptions": [
+        "One Line",
+        "MultiLine"
+      ]
+    }
+  },
+  "total": 2,
+  "next": 2,
+  "variants": [
+    {
+      "id": "186451:1302",
+      "n": "Type=One Line",
+      "t": "COMPONENT",
+      "w": 305,
+      "h": 20,
+      "x": 20,
+      "y": 25,
+      "propRefs": {},
+      "b": {
+        "itemSpacing": "VariableID:202288:263"
+      },
+      "layout": "HORIZONTAL",
+      "align": "MIN",
+      "cross": "CENTER",
+      "primarySizing": "AUTO",
+      "counterSizing": "AUTO",
+      "hs": "HUG",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 12,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "186450:581",
+          "n": "Label",
+          "t": "TEXT",
+          "w": 69,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "propRefs": {
+            "visible": "Label#186451:5",
+            "characters": "Text Label#186457:15"
+          },
+          "b": {},
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.7803921699523926,
+                "g": 0.7882353067398071,
+                "b": 0.8078431487083435
+              },
+              "a": 1,
+              "b": "VariableID:202288:261"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Progress...",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "193206:96161",
+          "n": "AltaIDE/LineLoader",
+          "t": "INSTANCE",
+          "w": 196,
+          "h": 4,
+          "x": 81,
+          "y": 8,
+          "propRefs": {},
+          "b": {},
+          "layout": "NONE",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "AUTO",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 0,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 4,
+          "rtr": 4,
+          "rbl": 4,
+          "rbr": 4,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.3450980484485626,
+                "g": 0.3686274588108063,
+                "b": 0.42352941632270813
+              },
+              "a": 1,
+              "b": "VariableID:202288:252"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I193206:96161;193206:96157",
+              "n": "Progress",
+              "t": "RECTANGLE",
+              "w": 78,
+              "h": 4,
+              "x": 78,
+              "y": 0,
+              "propRefs": {},
+              "b": {},
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "rtl": 2,
+              "rtr": 2,
+              "rbl": 2,
+              "rbr": 2,
+              "sw": 0,
+              "sa": "CENTER",
+              "opacity": 1,
+              "rotation": -180,
+              "sides": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.33725491166114807,
+                    "g": 0.5176470875740051,
+                    "b": 0.8666666746139526
+                  },
+                  "a": 1,
+                  "b": "VariableID:202288:253"
+                }
+              ],
+              "stroke": [],
+              "effects": []
+            }
+          ]
+        },
+        {
+          "id": "186450:1186",
+          "n": "AltaIDE/Icons/Stop",
+          "t": "INSTANCE",
+          "w": 16,
+          "h": 16,
+          "x": 289,
+          "y": 2,
+          "propRefs": {
+            "visible": "Stop#186451:10"
+          },
+          "b": {},
+          "layout": "NONE",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "AUTO",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 0,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 0.800000011920929,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "asset": "b97ff926"
+        },
+        {
+          "id": "199733:746",
+          "n": "Label",
+          "t": "TEXT",
+          "w": 111,
+          "h": 16,
+          "x": 317,
+          "y": 0,
+          "hidden": true,
+          "propRefs": {
+            "visible": "MultipleProgress#199733:0"
+          },
+          "b": {},
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.33725491166114807,
+                "g": 0.5176470875740051,
+                "b": 0.8666666746139526
+              },
+              "a": 1
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Посмотреть все (2)",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 12,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "WIDTH_AND_HEIGHT",
+          "textStyle": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+        }
+      ]
+    },
+    {
+      "id": "186451:1301",
+      "n": "Type=MultiLine",
+      "t": "COMPONENT",
+      "w": 305,
+      "h": 52,
+      "x": 20,
+      "y": 66,
+      "propRefs": {},
+      "b": {},
+      "layout": "VERTICAL",
+      "align": "CENTER",
+      "cross": "MIN",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "186450:1280",
+          "n": "Label",
+          "t": "TEXT",
+          "w": 305,
+          "h": 20,
+          "x": 0,
+          "y": 0,
+          "propRefs": {
+            "visible": "Label#186451:5",
+            "characters": "Text Label#186457:15"
+          },
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.7803921699523926,
+                "g": 0.7882353067398071,
+                "b": 0.8078431487083435
+              },
+              "a": 1,
+              "b": "VariableID:202288:261"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Progress...",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+        },
+        {
+          "id": "186450:1289",
+          "n": "Frame 2",
+          "t": "FRAME",
+          "w": 305,
+          "h": 16,
+          "x": 0,
+          "y": 20,
+          "propRefs": {},
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "AUTO",
+          "hs": "FIXED",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 12,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "202288:264",
+              "n": "AltaIDE/LineLoader",
+              "t": "INSTANCE",
+              "w": 277,
+              "h": 4,
+              "x": 0,
+              "y": 6,
+              "propRefs": {},
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FILL",
+              "vs": "FIXED",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": true,
+              "wrap": "NO_WRAP",
+              "crossGap": 0,
+              "strokeIncluded": false,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.3450980484485626,
+                    "g": 0.3686274588108063,
+                    "b": 0.42352941632270813
+                  },
+                  "a": 1,
+                  "b": "VariableID:202288:252"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I202288:264;193206:96157",
+                  "n": "Progress",
+                  "t": "RECTANGLE",
+                  "w": 159,
+                  "h": 4,
+                  "x": 159,
+                  "y": 0,
+                  "propRefs": {},
+                  "b": {},
+                  "hs": "FIXED",
+                  "vs": "FIXED",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "rtl": 2,
+                  "rtr": 2,
+                  "rbl": 2,
+                  "rbr": 2,
+                  "sw": 0,
+                  "sa": "CENTER",
+                  "opacity": 1,
+                  "rotation": -180,
+                  "sides": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 0.33725491166114807,
+                        "g": 0.5176470875740051,
+                        "b": 0.8666666746139526
+                      },
+                      "a": 1,
+                      "b": "VariableID:202288:253"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": []
+                }
+              ]
+            },
+            {
+              "id": "186450:1282",
+              "n": "AltaIDE/Icons/Stop",
+              "t": "INSTANCE",
+              "w": 16,
+              "h": 16,
+              "x": 289,
+              "y": 0,
+              "propRefs": {
+                "visible": "Stop#186451:10"
+              },
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 0.800000011920929,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 0,
+              "strokeIncluded": false,
+              "sides": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "b97ff926"
+            }
+          ]
+        },
+        {
+          "id": "186450:1290",
+          "n": "Label",
+          "t": "TEXT",
+          "w": 305,
+          "h": 16,
+          "x": 0,
+          "y": 36,
+          "propRefs": {
+            "visible": "Hint#186451:0",
+            "characters": "Text Hint#186457:20"
+          },
+          "b": {},
+          "hs": "FILL",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.4901960790157318,
+                "g": 0.5137255191802979,
+                "b": 0.5803921818733215
+              },
+              "a": 1,
+              "b": "VariableID:202288:262"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "Hint",
+          "font": {
+            "family": "Rubik",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "size": 12,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 16
+          },
+          "ls": {
+            "unit": "PIXELS",
+            "value": 0
+          },
+          "textAlign": "LEFT",
+          "textVertical": "TOP",
+          "auto": "HEIGHT",
+          "textStyle": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "key": "b97ff926",
+      "id": "186450:1282",
+      "n": "AltaIDE/Icons/Stop",
+      "w": 16,
+      "h": 16
+    }
+  ],
+  "refs": [
+    "VariableID:202288:263",
+    "VariableID:202288:261",
+    "VariableID:202288:252",
+    "VariableID:202288:253",
+    "VariableID:201063:54051",
+    "VariableID:201063:54049",
+    "VariableID:202288:262"
+  ],
+  "dependencies": [
+    {
+      "id": "193206:96161",
+      "main": "193206:96158",
+      "variant": "Type=Progress_Loader",
+      "owner": "199300:3960",
+      "name": "AltaIDE/LineLoader"
+    },
+    {
+      "id": "186450:1186",
+      "main": "186450:1164",
+      "variant": "Property=Default",
+      "owner": "186450:1166",
+      "name": "AltaIDE/Icons/Stop"
+    },
+    {
+      "id": "202288:264",
+      "main": "193206:96158",
+      "variant": "Type=Progress_Loader",
+      "owner": "199300:3960",
+      "name": "AltaIDE/LineLoader"
+    },
+    {
+      "id": "186450:1282",
+      "main": "186450:1164",
+      "variant": "Property=Default",
+      "owner": "186450:1166",
+      "name": "AltaIDE/Icons/Stop"
+    }
+  ]
+}
