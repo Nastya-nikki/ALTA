@@ -2,7 +2,7 @@
 
 Список подсказок автодополнения.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_Autocomplete/preview.html)  
 Источник: [AltaIDE/Autocomplete, node 202319:9697](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=202319-9697).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

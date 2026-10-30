@@ -2,7 +2,7 @@
 
 Поле для ввода комментария.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_Comments/preview.html)  
 Источник: [AltaIDE/Comments, node 197726:530](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=197726-530).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

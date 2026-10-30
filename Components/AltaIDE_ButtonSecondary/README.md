@@ -2,7 +2,7 @@
 
 Кнопка дополнительного действия.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_ButtonSecondary/preview.html)  
 Источник: [AltaIDE/ButtonSecondary, node 185107:1051](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185107-1051).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

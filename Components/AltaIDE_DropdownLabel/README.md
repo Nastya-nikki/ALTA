@@ -2,7 +2,7 @@
 
 Поле выбора с подписью.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_DropdownLabel/preview.html)  
 Источник: [AltaIDE/DropdownLabel, node 187251:2393](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=187251-2393).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

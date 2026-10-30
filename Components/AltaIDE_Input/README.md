@@ -2,7 +2,7 @@
 
 Поле для ввода текста.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_Input/preview.html)  
 Источник: [AltaIDE/Input, node 185124:25](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185124-25).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

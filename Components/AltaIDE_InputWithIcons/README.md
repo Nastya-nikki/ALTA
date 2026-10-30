@@ -2,7 +2,7 @@
 
 Поле ввода с иконками.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_InputWithIcons/preview.html)  
 Источник: [AltaIDE/InputIcons, node 190719:29607](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=190719-29607).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

@@ -2,7 +2,7 @@
 
 Сообщение о копировании данных.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_Clipboard/preview.html)  
 Источник: [AltaIDE/Сlipboard, node 200252:19069](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=200252-19069).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

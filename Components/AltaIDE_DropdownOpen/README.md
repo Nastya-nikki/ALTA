@@ -2,7 +2,7 @@
 
 Раскрытый список вариантов выбора.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_DropdownOpen/preview.html)  
 Источник: [AltaIDE/DropdownOpen, node 185838:1684](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185838-1684).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

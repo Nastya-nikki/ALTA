@@ -2,7 +2,7 @@
 
 Подпись аргументов в подсказке автодополнения.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_AutocompleteVariable/preview.html)  
 Источник: [AltaIDE/Variable, node 202319:8195](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=202319-8195).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

@@ -2,7 +2,7 @@
 
 Индикатор статуса или количества.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_Badge/preview.html)  
 Источник: [AltaIDE/Badge, node 185215:20485](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185215-20485).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

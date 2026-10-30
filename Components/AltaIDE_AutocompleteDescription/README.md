@@ -2,7 +2,7 @@
 
 Описание типа в подсказке автодополнения.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_AutocompleteDescription/preview.html)  
 Источник: [AltaCAltaIDE/Description, node 202319:8197](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=202319-8197).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

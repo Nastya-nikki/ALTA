@@ -2,7 +2,7 @@
 
 Краткая контекстная подсказка.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_Hints/preview.html)  
 Источник: [AltaIDE/Hints, node 200283:4385](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=200283-4385).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.

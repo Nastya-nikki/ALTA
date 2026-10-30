@@ -2,7 +2,7 @@
 
 Числовое поле с подписью.
 
-Превью: не опубликовано — GitHub Pages пока не включён. Демонстрация находится в `preview.html`.  
+Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_InputNumberLabel/preview.html)  
 Источник: [AltaIDE/InputNumberLabel, node 187165:114](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=187165-114).  
 Статус: реализовано, ожидает проверки дизайнером.  
 Дизайн, переменные и варианты прочитаны 30.10.2026.
