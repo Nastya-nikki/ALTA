@@ -1,5 +1,14 @@
 [
   {
+    "name": "ButtonPrimary",
+    "folder": "Components/AltaIDE_ButtonPrimary",
+    "variants": 40,
+    "kind": "button",
+    "css": "button.css",
+    "js": "button.js",
+    "default": 0
+  },
+  {
     "name": "ButtonSecondary",
     "folder": "Components/AltaIDE_ButtonSecondary",
     "variants": 40,
@@ -205,5 +214,200 @@
     "css": "autocomplete-variable.css",
     "js": "autocomplete-variable.js",
     "default": 0
+  },
+  {
+    "name": "DateItem",
+    "folder": "Components/AltaIDE_DateItem",
+    "variants": 4,
+    "css": "date-item.css",
+    "js": "date-item.js",
+    "kind": "DateItem",
+    "default": 0
+  },
+  {
+    "name": "TimeItem",
+    "folder": "Components/AltaIDE_TimeItem",
+    "variants": 4,
+    "css": "time-item.css",
+    "js": "time-item.js",
+    "kind": "TimeItem",
+    "default": 3
+  },
+  {
+    "name": "TimeSelect",
+    "folder": "Components/AltaIDE_TimeSelect",
+    "variants": 2,
+    "css": "time-select.css",
+    "js": "time-select.js",
+    "kind": "TimeSelect",
+    "default": 1
+  },
+  {
+    "name": "WeekItem",
+    "folder": "Components/AltaIDE_WeekItem",
+    "variants": 1,
+    "css": "week-item.css",
+    "js": "week-item.js",
+    "kind": "WeekItem",
+    "default": 0
+  },
+  {
+    "name": "DateANDTimePicker",
+    "folder": "Components/AltaIDE_DateANDTimePicker",
+    "variants": 1,
+    "css": "date-andtime-picker.css",
+    "js": "date-andtime-picker.js",
+    "kind": "DateANDTimePicker",
+    "default": 0
+  },
+  {
+    "name": "DateANDTimePicker2",
+    "folder": "Components/AltaIDE_DateANDTimePicker2",
+    "variants": 1,
+    "css": "date-andtime-picker2.css",
+    "js": "date-andtime-picker2.js",
+    "kind": "DateANDTimePicker2",
+    "default": 0
+  },
+  {
+    "name": "TimePicker",
+    "folder": "Components/AltaIDE_TimePicker",
+    "variants": 1,
+    "css": "time-picker.css",
+    "js": "time-picker.js",
+    "kind": "TimePicker",
+    "default": 0
+  },
+  {
+    "name": "TimePicker2",
+    "folder": "Components/AltaIDE_TimePicker2",
+    "variants": 1,
+    "css": "time-picker2.css",
+    "js": "time-picker2.js",
+    "kind": "TimePicker2",
+    "default": 0
+  },
+  {
+    "name": "ColorInput",
+    "folder": "Components/AltaIDE_ColorInput",
+    "variants": 5,
+    "css": "color-input.css",
+    "js": "color-input.js",
+    "kind": "ColorInput",
+    "default": 0
+  },
+  {
+    "name": "Segment",
+    "folder": "Components/AltaIDE_Segment",
+    "variants": 5,
+    "css": "segment.css",
+    "js": "segment.js",
+    "kind": "Segment",
+    "default": 0
+  },
+  {
+    "name": "SegmentControl",
+    "folder": "Components/AltaIDE_SegmentControl",
+    "variants": 1,
+    "css": "segment-control.css",
+    "js": "segment-control.js",
+    "kind": "SegmentControl",
+    "default": 0
+  },
+  {
+    "name": "CodeSelector",
+    "folder": "Components/AltaIDE_CodeSelector",
+    "variants": 2,
+    "css": "code-selector.css",
+    "js": "code-selector.js",
+    "kind": "CodeSelector",
+    "default": 0
+  },
+  {
+    "name": "SegmentedControl",
+    "folder": "Components/AltaIDE_SegmentedControl",
+    "variants": 4,
+    "css": "segmented-control.css",
+    "js": "segmented-control.js",
+    "kind": "SegmentedControl",
+    "default": 3
+  },
+  {
+    "name": "Search",
+    "folder": "Components/AltaIDE_Search",
+    "variants": 4,
+    "css": "search.css",
+    "js": "search.js",
+    "kind": "Search",
+    "default": 0
+  },
+  {
+    "name": "Pagination",
+    "folder": "Components/AltaIDE_Pagination",
+    "variants": 12,
+    "css": "pagination.css",
+    "js": "pagination.js",
+    "kind": "Pagination",
+    "default": 0
+  },
+  {
+    "name": "Tab",
+    "folder": "Components/AltaIDE_Tab",
+    "variants": 3,
+    "css": "tab.css",
+    "js": "tab.js",
+    "kind": "Tab",
+    "default": 0
+  },
+  {
+    "name": "ColorPicker",
+    "folder": "Components/AltaIDE_ColorPicker",
+    "variants": 3,
+    "css": "color-picker.css",
+    "js": "color-picker.js",
+    "kind": "ColorPicker",
+    "default": 2
+  },
+  {
+    "name": "Link",
+    "folder": "Components/AltaIDE_Link",
+    "variants": 9,
+    "css": "link.css",
+    "js": "link.js",
+    "kind": "Link",
+    "default": 0
+  },
+  {
+    "name": "ScrollVertical",
+    "folder": "Components/AltaIDE_ScrollVertical",
+    "variants": 6,
+    "css": "scroll-vertical.css",
+    "js": "scroll-vertical.js",
+    "kind": "ScrollVertical",
+    "default": 3
+  },
+  {
+    "name": "Bit",
+    "folder": "Components/AltaIDE_Bit",
+    "css": "bit.css",
+    "js": "bit.js",
+    "variants": 4,
+    "kind": "bit"
+  },
+  {
+    "name": "BitsGroup",
+    "folder": "Components/AltaIDE_BitsGroup",
+    "css": "bits-group.css",
+    "js": "bits-group.js",
+    "variants": 1,
+    "kind": "bits-group"
+  },
+  {
+    "name": "BitMaskPicker",
+    "folder": "Components/AltaIDE_BitMaskPicker",
+    "css": "bit-mask-picker.css",
+    "js": "bit-mask-picker.js",
+    "variants": 1,
+    "kind": "bit-mask-picker"
   }
 ]

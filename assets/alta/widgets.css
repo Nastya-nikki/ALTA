@@ -1,0 +1,52 @@
+/* Browser mechanics for original Figma layouts; no additional visual states. */
+.alta-widget{position:relative;display:inline-block;vertical-align:middle;line-height:0;max-width:100%}
+.alta-widget .fn{position:relative;box-sizing:border-box;margin:0;border:0;padding:0;min-width:0;flex-shrink:0;appearance:none;background:transparent}
+.alta-widget .fn-text{display:block;white-space:pre-wrap}
+.alta-widget .fn-asset{display:block;line-height:0;cursor:pointer}
+.alta-widget .fn-asset img{display:block;max-width:none}
+.alta-widget [hidden]{display:none!important}
+.alta-widget[data-static]{pointer-events:none}
+.alta-widget button{cursor:pointer}
+.alta-widget button:disabled{cursor:default}
+.alta-widget [data-part="DateItem"]:not(:disabled):not([aria-pressed="true"]):hover{background:var(--dateitem-background-hover)}
+.alta-widget [data-part="DateItem"][aria-pressed="true"]{background:var(--dateitem-background-active)}
+.alta-widget [data-part="Time Item"]:not(:disabled):not([aria-pressed="true"]):hover{background:var(--timeitem-background-hover)}
+.alta-widget [data-part="Time Item"][aria-pressed="true"]{background:var(--timeitem-background-active)}
+.alta-widget [data-part="DateItem"][aria-pressed="true"] .fn-text{color:var(--dateitem-content-active)}
+.alta-widget [data-part="Time Item"][aria-pressed="true"] .fn-text{color:var(--timeitem-content-active)}
+.alta-widget:not([data-static]) [data-part="ButtonSecondary"]:hover{background:var(--buttons-secondary-background-hover)}
+.alta-widget:not([data-static]) [data-part="ButtonPrimary"]:hover{background:var(--buttons-primary-background-hover)}
+.alta-widget [data-time-column]{scrollbar-width:none;overflow-y:auto!important}
+.alta-widget [data-time-column]::-webkit-scrollbar{display:none}
+.alta-widget{max-width:none;flex-shrink:0}
+body:has(.alta-widget) h1{overflow-wrap:anywhere;min-width:0}
+
+.alta-widget .aw-color-input{appearance:none;margin:0;padding:0;border:0;outline:none;background:transparent;box-sizing:border-box;min-width:0;}
+
+.alta-widget:not([data-static]) [data-part="Segment"][data-touched]{background:var(--segment-background-default);border-color:var(--segment-border-default)}
+.alta-widget:not([data-static]) [data-part="Segment"][data-touched][aria-pressed="true"]{background:var(--segment-background-active);border-color:var(--segment-border-active)}
+.alta-widget:not([data-static]) [data-selection-style="fill"] [data-part="Segment"][data-touched][aria-pressed="true"]{background:var(--segment-background-active-alternative)}
+.alta-widget:not([data-static]) [data-part="Segment"][data-touched][aria-pressed="false"]:not(:disabled):hover{background:var(--segment-background-hover);border-color:var(--segment-border-hover)}
+.alta-widget:not([data-static]) [data-part="SegmentedControl"][data-touched]{background:var(--dark-gray-12)}
+.alta-widget:not([data-static]) [data-part="SegmentedControl"][data-touched][aria-pressed="true"]{background:var(--dark-gray-11)}
+.alta-widget:not([data-static]) [data-part="SegmentedControl"][data-touched] .fn-text{color:var(--segmentcontrol-content-default)}
+.alta-widget:not([data-static]) [data-part="SegmentedControl"][data-touched][aria-pressed="true"] .fn-text{color:var(--segmentcontrol-content-active)}
+
+.alta-widget .aw-search-input{appearance:none;padding:0;border:0;outline:0;background:transparent;min-width:0;flex:1;box-sizing:border-box;}
+.alta-widget .aw-search-input::-webkit-search-cancel-button{display:none}
+.alta-widget .aw-search-input::placeholder{color:inherit;opacity:1}
+.alta-widget.aw-pagination-demo{display:inline-flex;gap:12px;align-items:center}
+
+.alta-widget [role="tab"][aria-selected="true"]{box-shadow:inset 0 -2px 0 var(--tab-line-active)}
+.alta-widget [role="tab"]:not([aria-selected="true"]):hover{box-shadow:inset 0 -2px 0 var(--tab-line-hover)}
+.alta-widget [data-boolean="Badge"]:not([hidden]){display:block;width:6px;height:6px;flex:none}
+.alta-widget .aw-range{position:absolute;inset:0;appearance:none;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}
+.alta-widget .fn:has(>.aw-range:focus-visible){outline:auto}
+.alta-widget [role="slider"],.alta-widget[data-widget="AltaIDE_ColorPicker"] [role="button"]{cursor:pointer}
+
+.alta-widget a.fn{text-decoration:none;cursor:pointer}
+.alta-widget .aw-scroll-control{cursor:pointer;touch-action:none}
+.alta-widget .aw-scroll-control[data-scroll-state="Hover"]>.fn,.alta-widget .aw-scroll-control[data-scroll-state="Active"]>.fn{background:var(--scroll-element-hover)}
+.alta-widget .aw-time-managed{overflow:hidden!important}
+.alta-widget .aw-time-options{display:flex;flex-direction:column;flex-shrink:0;width:60px;height:224px;overflow-y:auto;scrollbar-width:none;gap:var(--timeselect-between)}
+.alta-widget .aw-time-options::-webkit-scrollbar{display:none}

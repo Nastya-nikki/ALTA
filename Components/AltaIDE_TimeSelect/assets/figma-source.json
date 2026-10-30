@@ -1,0 +1,3119 @@
+{
+  "readAt": "2026-10-30",
+  "id": "200193:8724",
+  "n": "Time Select",
+  "type": "COMPONENT_SET",
+  "properties": {
+    "Property 1": {
+      "type": "VARIANT",
+      "defaultValue": "NoScroll",
+      "variantOptions": [
+        "NoScroll",
+        "Scroll"
+      ]
+    }
+  },
+  "total": 2,
+  "next": 2,
+  "variants": [
+    {
+      "id": "200193:8560",
+      "n": "Property 1=Scroll",
+      "t": "COMPONENT",
+      "w": 60,
+      "h": 224,
+      "x": 118,
+      "y": 20,
+      "b": {
+        "itemSpacing": "VariableID:201150:19453"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": true,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "200193:8539",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.33725491166114807,
+                "g": 0.5176470875740051,
+                "b": 0.8666666746139526
+              },
+              "a": 1,
+              "b": "VariableID:201150:19446"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8539;200076:412",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19443"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "00",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8540",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 28,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200597:2157"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8540;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "01",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8541",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 56,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200597:2157"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8541;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "02",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8542",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 84,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200597:2157"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8542;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "03",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8547",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 112,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200597:2157"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8547;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "04",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8548",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 140,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200597:2157"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8548;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "05",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8549",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 168,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200597:2157"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8549;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "06",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8554",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 196,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.13333334028720856,
+                "g": 0.13333334028720856,
+                "b": 0.14509804546833038
+              },
+              "a": 1,
+              "b": "VariableID:200597:2157"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8554;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "07",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8800",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 224,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8800;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "08",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8805",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 252,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200131:5834",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200131:5834",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8805;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "09",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8810",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 280,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8810;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "10",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8815",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 308,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8815;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "11",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8820",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 336,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8820;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "12",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8557",
+          "n": "AltaIDE/ScrollVertical",
+          "t": "INSTANCE",
+          "w": 8,
+          "h": 224,
+          "x": 52,
+          "y": 0,
+          "b": {
+            "topLeftRadius": "VariableID:200953:36",
+            "topRightRadius": "VariableID:200953:36",
+            "bottomLeftRadius": "VariableID:200953:36",
+            "bottomRightRadius": "VariableID:200953:36"
+          },
+          "layout": "VERTICAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "ABSOLUTE",
+          "gap": 8,
+          "pt": 0,
+          "pr": 0,
+          "pb": 152,
+          "pl": 0,
+          "rtl": 8,
+          "rtr": 8,
+          "rbl": 8,
+          "rbr": 8,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.239215686917305,
+                "g": 0.2549019753932953,
+                "b": 0.29411765933036804
+              },
+              "a": 1,
+              "b": "VariableID:200597:2077"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8557;185649:32542",
+              "n": "Rectangle 2778",
+              "t": "RECTANGLE",
+              "w": 8,
+              "h": 70,
+              "x": 0,
+              "y": 0,
+              "b": {
+                "topLeftRadius": "VariableID:200953:36",
+                "topRightRadius": "VariableID:200953:36",
+                "bottomLeftRadius": "VariableID:200953:36",
+                "bottomRightRadius": "VariableID:200953:36"
+              },
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "rtl": 8,
+              "rtr": 8,
+              "rbl": 8,
+              "rbr": 8,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.4901960790157318,
+                    "g": 0.5137255191802979,
+                    "b": 0.5803921818733215
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2075"
+                }
+              ],
+              "stroke": [],
+              "effects": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "200193:8723",
+      "n": "Property 1=NoScroll",
+      "t": "COMPONENT",
+      "w": 60,
+      "h": 224,
+      "x": 20,
+      "y": 20,
+      "b": {
+        "itemSpacing": "VariableID:201150:19453"
+      },
+      "layout": "VERTICAL",
+      "align": "MIN",
+      "cross": "MIN",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": true,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "200193:8560",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "200193:8560",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "fill": [],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "200193:8705",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 0,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.33725491166114807,
+                "g": 0.5176470875740051,
+                "b": 0.8666666746139526
+              },
+              "a": 1,
+              "b": "VariableID:201150:19446"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8705;200076:412",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19443"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "00",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8706",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 28,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8706;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "01",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8707",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 56,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8707;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "02",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8708",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 84,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8708;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "03",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8709",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 112,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8709;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "04",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8710",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 140,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8710;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "05",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8711",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 168,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8711;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "06",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        },
+        {
+          "id": "200193:8712",
+          "n": "Time Item",
+          "t": "INSTANCE",
+          "w": 60,
+          "h": 28,
+          "x": 0,
+          "y": 196,
+          "b": {},
+          "layout": "HORIZONTAL",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": true,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "200076:420",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "200076:420",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 0.14901961386203766,
+                "g": 0.1568627506494522,
+                "b": 0.1725490242242813
+              },
+              "a": 1,
+              "b": "VariableID:201150:19450"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I200193:8712;200076:409",
+              "n": "time",
+              "t": "TEXT",
+              "w": 16,
+              "h": 22,
+              "x": 22,
+              "y": 3,
+              "b": {},
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "sw": 1,
+              "sa": "OUTSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "a": 1,
+                  "b": "VariableID:201150:19441"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "text": "07",
+              "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "wdth": 100
+                }
+              },
+              "size": 14,
+              "lh": {
+                "unit": "PIXELS",
+                "value": 22
+              },
+              "ls": {
+                "unit": "PERCENT",
+                "value": 0
+              },
+              "textAlign": "CENTER",
+              "textVertical": "CENTER",
+              "auto": "WIDTH_AND_HEIGHT",
+              "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:201150:19453",
+    "VariableID:201150:19446",
+    "VariableID:201150:19443",
+    "VariableID:200597:2157",
+    "VariableID:201150:19441",
+    "VariableID:201150:19450",
+    "VariableID:200953:36",
+    "VariableID:200597:2077",
+    "VariableID:200597:2075"
+  ]
+}

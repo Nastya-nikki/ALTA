@@ -1,0 +1,15 @@
+@import url("../AltaIDE_BitsGroup/bits-group.css");
+@import url("../AltaIDE_ButtonPrimary/button.css");
+@import url("../AltaIDE_ButtonSecondary/button-secondary.css");
+@import url("../AltaIDE_Link/link.css");
+/* Figma 200029:1467: original 384 × 172 panel and source variable bindings. */
+.alta-bit-mask-picker{box-sizing:border-box;display:flex;flex-direction:column;gap:var(--bitmaskpicker-between);width:384px;height:172px;flex-shrink:0;background:var(--bitmaskpicker-background);border-radius:var(--bitmaskpicker-radius);overflow:hidden;box-shadow:0 6px 20px #140f0f;font:400 14px/20px "Rubik",sans-serif;color:var(--bitmaskpicker-content)}
+.alta-bit-mask-main{display:flex;flex-direction:column;align-items:flex-start;gap:var(--bitmaskpicker-betweencontent);padding:var(--bitmaskpicker-padding) 0}
+.alta-bit-mask-heading,.alta-bit-mask-help{box-sizing:border-box;width:384px;padding:0 var(--bitmaskpicker-padding);height:20px;white-space:nowrap}
+.alta-bit-mask-groups{box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:flex-start;column-gap:0;row-gap:4px;width:384px;height:28px;padding:0 var(--bitmaskpicker-hpaddingbit);overflow:hidden}
+.alta-bit-mask-footer{box-sizing:border-box;display:flex;align-items:center;justify-content:flex-end;gap:var(--bitmaskpicker-betweenbutton);width:384px;height:60px;padding:var(--bitmaskpicker-padding);box-shadow:inset 0 1px 0 var(--bitmaskpicker-border)}
+.alta-bit-mask-footer .alta-component>.alta-view>.fn,.alta-bit-mask-footer .alta-component .fn-text{width:max-content!important;max-width:none}
+.alta-bit-mask-help .alta-widget>.fn,.alta-bit-mask-help .alta-widget .fn-text{width:max-content!important;max-width:none}
+.alta-bit-mask-help .alta-widget{line-height:20px}
+
+.alta-bit-mask-picker{text-align:left}

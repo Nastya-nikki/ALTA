@@ -11,3 +11,5 @@
 @font-face {font-family:"JetBrains Mono";font-style:normal;font-weight:400;font-display:swap;src:url("./JetBrainsMono-Regular.ttf") format("truetype");}
 
 @font-face {font-family:"Rubik";font-style:normal;font-weight:600;font-display:swap;src:url("./Rubik-SemiBold.ttf") format("truetype");}
+
+@font-face{font-family:"Roboto";font-style:normal;font-weight:100 900;font-stretch:75% 100%;font-display:swap;src:url("./Roboto-Variable.ttf") format("truetype");}

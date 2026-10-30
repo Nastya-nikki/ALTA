@@ -1,0 +1,454 @@
+{
+  "readAt": "2026-10-30",
+  "id": "200029:1627",
+  "n": "AltaIDE/Bit",
+  "type": "COMPONENT_SET",
+  "properties": {
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Hover"
+      ]
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "0",
+      "variantOptions": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  "total": 4,
+  "next": 4,
+  "variants": [
+    {
+      "id": "200029:1626",
+      "n": "State=Default, Type=0",
+      "t": "COMPONENT",
+      "w": 16,
+      "h": 20,
+      "x": 20,
+      "y": 20,
+      "b": {},
+      "layout": "VERTICAL",
+      "align": "CENTER",
+      "cross": "CENTER",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 10,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 2,
+      "rtr": 2,
+      "rbl": 2,
+      "rbr": 2,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.239215686917305,
+            "g": 0.2549019753932953,
+            "b": 0.29411765933036804
+          },
+          "a": 1,
+          "b": "VariableID:201142:16710"
+        }
+      ],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "200029:1620",
+          "n": "time",
+          "t": "TEXT",
+          "w": 16,
+          "h": 16,
+          "x": 0,
+          "y": 2,
+          "b": {},
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:201142:16712"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "0",
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "ls": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textAlign": "CENTER",
+          "textVertical": "CENTER",
+          "auto": "NONE",
+          "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22",
+          "font": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "200029:1625",
+      "n": "State=Hover, Type=0",
+      "t": "COMPONENT",
+      "w": 16,
+      "h": 20,
+      "x": 46,
+      "y": 20,
+      "b": {},
+      "layout": "VERTICAL",
+      "align": "CENTER",
+      "cross": "CENTER",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 10,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 2,
+      "rtr": 2,
+      "rbl": 2,
+      "rbr": 2,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.33725491166114807,
+            "g": 0.5176470875740051,
+            "b": 0.8666666746139526
+          },
+          "a": 1,
+          "b": "VariableID:201142:16711"
+        }
+      ],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "200029:1623",
+          "n": "time",
+          "t": "TEXT",
+          "w": 16,
+          "h": 16,
+          "x": 0,
+          "y": 2,
+          "b": {},
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:201142:16712"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "0",
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "ls": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textAlign": "CENTER",
+          "textVertical": "CENTER",
+          "auto": "NONE",
+          "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22",
+          "font": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "200029:1628",
+      "n": "State=Default, Type=1",
+      "t": "COMPONENT",
+      "w": 16,
+      "h": 20,
+      "x": 82,
+      "y": 20,
+      "b": {},
+      "layout": "VERTICAL",
+      "align": "CENTER",
+      "cross": "CENTER",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 10,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 2,
+      "rtr": 2,
+      "rbl": 2,
+      "rbr": 2,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.239215686917305,
+            "g": 0.2549019753932953,
+            "b": 0.29411765933036804
+          },
+          "a": 1,
+          "b": "VariableID:201142:16710"
+        }
+      ],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "200029:1629",
+          "n": "time",
+          "t": "TEXT",
+          "w": 16,
+          "h": 16,
+          "x": 0,
+          "y": 2,
+          "b": {},
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:201142:16712"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "1",
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "ls": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textAlign": "CENTER",
+          "textVertical": "CENTER",
+          "auto": "NONE",
+          "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22",
+          "font": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "200029:1630",
+      "n": "State=Hover, Type=1",
+      "t": "COMPONENT",
+      "w": 16,
+      "h": 20,
+      "x": 108,
+      "y": 20,
+      "b": {},
+      "layout": "VERTICAL",
+      "align": "CENTER",
+      "cross": "CENTER",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 10,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 2,
+      "rtr": 2,
+      "rbl": 2,
+      "rbr": 2,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.33725491166114807,
+            "g": 0.5176470875740051,
+            "b": 0.8666666746139526
+          },
+          "a": 1,
+          "b": "VariableID:201142:16711"
+        }
+      ],
+      "stroke": [],
+      "effects": [],
+      "children": [
+        {
+          "id": "200029:1631",
+          "n": "time",
+          "t": "TEXT",
+          "w": 16,
+          "h": 16,
+          "x": 0,
+          "y": 2,
+          "b": {},
+          "hs": "FILL",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "sw": 1,
+          "sa": "OUTSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "fill": [
+            {
+              "type": "SOLID",
+              "c": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "a": 1,
+              "b": "VariableID:201142:16712"
+            }
+          ],
+          "stroke": [],
+          "effects": [],
+          "text": "1",
+          "size": 14,
+          "lh": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "ls": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textAlign": "CENTER",
+          "textVertical": "CENTER",
+          "auto": "NONE",
+          "textStyle": "S:2d2850b2603dabe7e559e6d1c436e8a1e99357a6,106418:22",
+          "font": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "refs": [
+    "VariableID:201142:16710",
+    "VariableID:201142:16712",
+    "VariableID:201142:16711"
+  ]
+}
