@@ -1,0 +1,65 @@
+/* Figma variable export, 2026-10-30. Source: axdKFZbeqNIfskP18KDs32 / 185100:882. */
+:root {
+  --source-4: 4px;
+  --source-12: 12px;
+  --radius-s: 4px;
+  --dark-blue-7: #5684dd;
+  --dark-white: #ffffff;
+  --light-white: #ffffff;
+  --light-blue-9: #4561db;
+  --var-4: 4px;
+  --dark-blue-9: #1e4898;
+  --light-blue-11: #1e2f93;
+  --dark-blue-12: #15284d;
+  --light-blue-12: #121f7a;
+  --light-blue-6: #9fb7ff;
+  --dark-gray-7: #c7c9ce;
+  --dark-gray-11: #585e6c;
+  --light-gray-4: #ebecef;
+  --dark-gray-9: #9498a3;
+  --light-gray-7: #b3bacb;
+  /* Text styles: AltaIDE/Body/Regular and AltaIDE/Footnote/Regular. */
+  --font-family-rubik: "Rubik", sans-serif;
+  --body-regular-font-size: 14px;
+  --body-regular-line-height: 20px;
+  --footnote-regular-font-size: 12px;
+  --footnote-regular-line-height: 16px;
+  --regular-font-weight: 400;
+  --regular-letter-spacing: 0px;
+  /* Measured geometry; these values have no variable binding in Figma. */
+  --button-icon-large: 20px;
+  --button-icon-medium: 16px;
+  --button-medium-disabled-right-height: 26px;
+}
+:root, [data-theme="dark"] {
+  --buttons-betweenpadding: var(--source-4);
+  --buttons-hpadding: var(--source-12);
+  --buttons-primary-vpadding: var(--source-4);
+  --buttons-radius: var(--radius-s);
+  --buttons-primary-content-default: var(--dark-white);
+  --buttons-primary-background-default: var(--dark-blue-7);
+  --buttons-primary-background-hover: var(--dark-blue-9);
+  --buttons-primary-content-hover: var(--dark-white);
+  --buttons-primary-background-pressed: var(--dark-blue-12);
+  --buttons-primary-content-pressed: var(--dark-white);
+  --buttons-primary-background-loading: var(--dark-blue-12);
+  --buttons-primary-content-loading: var(--dark-gray-7);
+  --buttons-primary-background-disabled: var(--dark-gray-11);
+  --buttons-primary-content-disabled: var(--dark-gray-9);
+}
+[data-theme="light"] {
+  --buttons-betweenpadding: var(--source-4);
+  --buttons-hpadding: var(--source-12);
+  --buttons-primary-vpadding: var(--source-4);
+  --buttons-radius: var(--radius-s);
+  --buttons-primary-content-default: var(--light-white);
+  --buttons-primary-background-default: var(--light-blue-9);
+  --buttons-primary-background-hover: var(--light-blue-11);
+  --buttons-primary-content-hover: var(--light-white);
+  --buttons-primary-background-pressed: var(--light-blue-12);
+  --buttons-primary-content-pressed: var(--light-white);
+  --buttons-primary-background-loading: var(--light-blue-6);
+  --buttons-primary-content-loading: var(--light-white);
+  --buttons-primary-background-disabled: var(--light-gray-4);
+  --buttons-primary-content-disabled: var(--light-gray-7);
+}

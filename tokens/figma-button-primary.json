@@ -1,0 +1,5471 @@
+{
+  "source": {
+    "fileKey": "axdKFZbeqNIfskP18KDs32",
+    "nodeId": "185100:882",
+    "readAt": "2026-10-30"
+  },
+  "collections": [
+    {
+      "id": "VariableCollectionId:200597:1981",
+      "name": "Components",
+      "modes": [
+        {
+          "name": "Dark",
+          "modeId": "200597:9"
+        },
+        {
+          "name": "Light",
+          "modeId": "200709:14"
+        }
+      ],
+      "defaultModeId": "200597:9"
+    },
+    {
+      "id": "VariableCollectionId:200597:1979",
+      "name": "Source",
+      "modes": [
+        {
+          "name": "Source",
+          "modeId": "200597:7"
+        }
+      ],
+      "defaultModeId": "200597:7"
+    },
+    {
+      "id": "VariableCollectionId:200597:1980",
+      "name": "Color",
+      "modes": [
+        {
+          "name": "Color",
+          "modeId": "200597:8"
+        }
+      ],
+      "defaultModeId": "200597:8"
+    },
+    {
+      "id": "VariableCollectionId:181601:143663",
+      "name": "Tokens",
+      "modes": [
+        {
+          "name": "Light",
+          "modeId": "181601:1"
+        },
+        {
+          "name": "Dark",
+          "modeId": "183844:2"
+        }
+      ],
+      "defaultModeId": "181601:1"
+    }
+  ],
+  "variables": [
+    {
+      "id": "VariableID:200597:2208",
+      "name": "Buttons/BetweenPadding",
+      "type": "FLOAT",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:1988"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:1988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:1988",
+      "name": "4",
+      "type": "FLOAT",
+      "collection": "VariableCollectionId:200597:1979",
+      "values": {
+        "200597:7": 4
+      }
+    },
+    {
+      "id": "VariableID:200597:2205",
+      "name": "Buttons/hPadding",
+      "type": "FLOAT",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:1992"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:1992"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:1992",
+      "name": "12",
+      "type": "FLOAT",
+      "collection": "VariableCollectionId:200597:1979",
+      "values": {
+        "200597:7": 12
+      }
+    },
+    {
+      "id": "VariableID:200597:2207",
+      "name": "Buttons/Primary/vPadding",
+      "type": "FLOAT",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:1988"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:1988"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2206",
+      "name": "Buttons/Radius",
+      "type": "FLOAT",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2045"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2045"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2045",
+      "name": "radius/S",
+      "type": "FLOAT",
+      "collection": "VariableCollectionId:200597:1979",
+      "values": {
+        "200597:7": 4
+      }
+    },
+    {
+      "id": "VariableID:200597:2085",
+      "name": "Dark/Blue/7",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.33725491166114807,
+          "g": 0.5176470875740051,
+          "b": 0.8666666746139526,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2212",
+      "name": "Buttons/Primary/Content/Default",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2065"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:4530"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2065",
+      "name": "Dark/White",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200701:4530",
+      "name": "Light/White",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2203",
+      "name": "Buttons/Primary/Background/Default",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2085"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:4525"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200701:4525",
+      "name": "Light/Blue/9",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.2705882489681244,
+          "g": 0.3803921639919281,
+          "b": 0.8588235378265381,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:181601:143665",
+      "name": "Var/4",
+      "type": "FLOAT",
+      "collection": "VariableCollectionId:181601:143663",
+      "values": {
+        "181601:1": 4,
+        "183844:2": 4
+      }
+    },
+    {
+      "id": "VariableID:200597:2204",
+      "name": "Buttons/Primary/Background/Hover",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2087"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:4527"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2087",
+      "name": "Dark/Blue/9",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.11764705926179886,
+          "g": 0.2823529541492462,
+          "b": 0.5960784554481506,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200701:4527",
+      "name": "Light/Blue/11",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.11764705926179886,
+          "g": 0.18431372940540314,
+          "b": 0.5764706134796143,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2213",
+      "name": "Buttons/Primary/Content/Hover",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2065"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:4530"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2209",
+      "name": "Buttons/Primary/Background/Pressed",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2090"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:4528"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2090",
+      "name": "Dark/Blue/12",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.08235294371843338,
+          "g": 0.1568627506494522,
+          "b": 0.3019607961177826,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200701:4528",
+      "name": "Light/Blue/12",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.07058823853731155,
+          "g": 0.12156862765550613,
+          "b": 0.47843137383461,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2214",
+      "name": "Buttons/Primary/Content/Pressed",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2065"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:4530"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2210",
+      "name": "Buttons/Primary/Background/Loading",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2090"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:4522"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200701:4522",
+      "name": "Light/Blue/6",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.6235294342041016,
+          "g": 0.7176470756530762,
+          "b": 1,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2215",
+      "name": "Buttons/Primary/Content/Loading",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2072"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:4530"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2072",
+      "name": "Dark/Gray/7",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.7803921699523926,
+          "g": 0.7882353067398071,
+          "b": 0.8078431487083435,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2211",
+      "name": "Buttons/Primary/Background/Disabled",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2076"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:2994"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2076",
+      "name": "Dark/Gray/11",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.3450980484485626,
+          "g": 0.3686274588108063,
+          "b": 0.42352941632270813,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200701:2994",
+      "name": "Light/Gray/4",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.9215686321258545,
+          "g": 0.9254902005195618,
+          "b": 0.9372549057006836,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2216",
+      "name": "Buttons/Primary/Content/Disabled",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1981",
+      "values": {
+        "200597:9": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2074"
+        },
+        "200709:14": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200701:2997"
+        }
+      }
+    },
+    {
+      "id": "VariableID:200597:2074",
+      "name": "Dark/Gray/9",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.5803921818733215,
+          "g": 0.5960784554481506,
+          "b": 0.6392157077789307,
+          "a": 1
+        }
+      }
+    },
+    {
+      "id": "VariableID:200701:2997",
+      "name": "Light/Gray/7",
+      "type": "COLOR",
+      "collection": "VariableCollectionId:200597:1980",
+      "values": {
+        "200597:8": {
+          "r": 0.7019608020782471,
+          "g": 0.729411780834198,
+          "b": 0.7960784435272217,
+          "a": 1
+        }
+      }
+    }
+  ],
+  "bindings": {
+    "185100:854": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2085"
+        }
+      ]
+    },
+    "185100:878": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2203"
+        }
+      ]
+    },
+    "185100:829": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2203"
+        }
+      ]
+    },
+    "185100:862": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2204"
+        }
+      ]
+    },
+    "185100:875": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2204"
+        }
+      ]
+    },
+    "185100:866": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2204"
+        }
+      ]
+    },
+    "185100:845": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2209"
+        }
+      ]
+    },
+    "185100:860": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2209"
+        }
+      ]
+    },
+    "185100:858": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2209"
+        }
+      ]
+    },
+    "185100:873": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2210"
+        }
+      ]
+    },
+    "185100:839": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2210"
+        }
+      ]
+    },
+    "185100:856": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2210"
+        }
+      ]
+    },
+    "185100:880": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2211"
+        }
+      ]
+    },
+    "185100:850": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2211"
+        }
+      ]
+    },
+    "185100:864": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2211"
+        }
+      ]
+    },
+    "185100:841": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2203"
+        }
+      ]
+    },
+    "185100:838": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2203"
+        }
+      ]
+    },
+    "185100:837": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2203"
+        }
+      ]
+    },
+    "185100:853": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2204"
+        }
+      ]
+    },
+    "185100:871": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2204"
+        }
+      ]
+    },
+    "185100:840": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2204"
+        }
+      ]
+    },
+    "185100:831": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2209"
+        }
+      ]
+    },
+    "185100:830": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2209"
+        }
+      ]
+    },
+    "185100:828": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2209"
+        }
+      ]
+    },
+    "185100:865": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2210"
+        }
+      ]
+    },
+    "185100:859": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2210"
+        }
+      ]
+    },
+    "185100:863": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2210"
+        }
+      ]
+    },
+    "185100:822": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2211"
+        }
+      ]
+    },
+    "185100:877": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2211"
+        }
+      ]
+    },
+    "185100:870": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2211"
+        }
+      ]
+    },
+    "186483:17764": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2203"
+        }
+      ]
+    },
+    "186483:17767": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2204"
+        }
+      ]
+    },
+    "186483:17770": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2209"
+        }
+      ]
+    },
+    "186483:17773": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2210"
+        }
+      ]
+    },
+    "186483:17776": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2211"
+        }
+      ]
+    },
+    "186483:17779": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2203"
+        }
+      ]
+    },
+    "186483:17782": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2204"
+        }
+      ]
+    },
+    "186483:17785": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2209"
+        }
+      ]
+    },
+    "186483:17788": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2210"
+        }
+      ]
+    },
+    "186483:17791": {
+      "itemSpacing": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2208"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2205"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2207"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:200597:2206"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:200597:2211"
+        }
+      ]
+    }
+  },
+  "variants": {
+    "properties": {
+      "Text#185520:26": {
+        "type": "TEXT",
+        "defaultValue": "Text"
+      },
+      "Size": {
+        "type": "VARIANT",
+        "defaultValue": "Large",
+        "variantOptions": [
+          "Large",
+          "Medium"
+        ]
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Disabled",
+          "Hover",
+          "Loading",
+          "Pressed"
+        ]
+      },
+      "Icon": {
+        "type": "VARIANT",
+        "defaultValue": "Without",
+        "variantOptions": [
+          "Left",
+          "Right",
+          "Without",
+          "OnlyIcon"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "185100:854",
+        "name": "Size=Large, State=Default, Icon=Without",
+        "w": 52,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33725491166114807,
+              "g": 0.5176470875740051,
+              "b": 0.8666666746139526
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2085"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2040",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2212"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:878",
+        "name": "Size=Large, State=Default, Icon=Left",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33725491166114807,
+              "g": 0.5176470875740051,
+              "b": 0.8666666746139526
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2203"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2002",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          },
+          {
+            "id": "185086:2003",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 36,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2212"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:829",
+        "name": "Size=Large, State=Default, Icon=Right",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33725491166114807,
+              "g": 0.5176470875740051,
+              "b": 0.8666666746139526
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2203"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:1994",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2212"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          },
+          {
+            "id": "185086:1995",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 44,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "185100:862",
+        "name": "Size=Large, State=Hover, Icon=Without",
+        "w": 52,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.11764705926179886,
+              "g": 0.2823529541492462,
+              "b": 0.5960784554481506
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2204"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2037",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2213"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:875",
+        "name": "Size=Large, State=Hover, Icon=Left",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.11764705926179886,
+              "g": 0.2823529541492462,
+              "b": 0.5960784554481506
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2204"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:1998",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          },
+          {
+            "id": "185086:1999",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 36,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2213"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:866",
+        "name": "Size=Large, State=Hover, Icon=Right",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.11764705926179886,
+              "g": 0.2823529541492462,
+              "b": 0.5960784554481506
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2204"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:1990",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2213"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          },
+          {
+            "id": "185086:1991",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 44,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "185100:845",
+        "name": "Size=Large, State=Pressed, Icon=Without",
+        "w": 52,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2209"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2030",
+            "name": "AltaIDE/Dummy/20/Light",
+            "type": "INSTANCE",
+            "visible": false,
+            "x": 13,
+            "y": 5,
+            "w": 20,
+            "h": 20
+          },
+          {
+            "id": "185086:2031",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2214"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:860",
+        "name": "Size=Large, State=Pressed, Icon=Left",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2209"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:1986",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          },
+          {
+            "id": "185086:1987",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 36,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2214"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:858",
+        "name": "Size=Large, State=Pressed, Icon=Right",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2209"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2006",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2214"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          },
+          {
+            "id": "185086:2007",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 44,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "185100:873",
+        "name": "Size=Large, State=Loading, Icon=Without",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2210"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2024",
+            "name": "AltaIDE/Icons/Spiner",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          },
+          {
+            "id": "185086:2025",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 36,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.7803921699523926,
+                  "g": 0.7882353067398071,
+                  "b": 0.8078431487083435
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2215"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:839",
+        "name": "Size=Large, State=Loading, Icon=Left",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2210"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:1982",
+            "name": "AltaIDE/Icons/Spiner",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          },
+          {
+            "id": "185086:1983",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 36,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.7803921699523926,
+                  "g": 0.7882353067398071,
+                  "b": 0.8078431487083435
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2215"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:856",
+        "name": "Size=Large, State=Loading, Icon=Right",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2210"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:1974",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.7803921699523926,
+                  "g": 0.7882353067398071,
+                  "b": 0.8078431487083435
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2215"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          },
+          {
+            "id": "185086:1975",
+            "name": "AltaIDE/Icons/Spiner",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 44,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "185100:880",
+        "name": "Size=Large, State=Disabled, Icon=Without",
+        "w": 52,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3450980484485626,
+              "g": 0.3686274588108063,
+              "b": 0.42352941632270813
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2211"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2020",
+            "name": "AltaIDE/Dummy/20/Light",
+            "type": "INSTANCE",
+            "visible": false,
+            "x": 13,
+            "y": 5,
+            "w": 20,
+            "h": 20
+          },
+          {
+            "id": "185086:2021",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5803921818733215,
+                  "g": 0.5960784554481506,
+                  "b": 0.6392157077789307
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2216"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:850",
+        "name": "Size=Large, State=Disabled, Icon=Left",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3450980484485626,
+              "g": 0.3686274588108063,
+              "b": 0.42352941632270813
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2211"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:1978",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          },
+          {
+            "id": "185086:1979",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 36,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5803921818733215,
+                  "g": 0.5960784554481506,
+                  "b": 0.6392157077789307
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2216"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          }
+        ]
+      },
+      {
+        "id": "185100:864",
+        "name": "Size=Large, State=Disabled, Icon=Right",
+        "w": 76,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3450980484485626,
+              "g": 0.3686274588108063,
+              "b": 0.42352941632270813
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2211"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:1970",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 28,
+            "h": 20,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5803921818733215,
+                  "g": 0.5960784554481506,
+                  "b": 0.6392157077789307
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2216"
+                  }
+                }
+              }
+            ],
+            "style": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+          },
+          {
+            "id": "185086:1971",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 44,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "185100:841",
+        "name": "Size=Medium, State=Default, Icon=Without",
+        "w": 48,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33725491166114807,
+              "g": 0.5176470875740051,
+              "b": 0.8666666746139526
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2203"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2046",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2212"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:838",
+        "name": "Size=Medium, State=Default, Icon=Left",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33725491166114807,
+              "g": 0.5176470875740051,
+              "b": 0.8666666746139526
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2203"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2014",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "id": "185086:2015",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 32,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2212"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:837",
+        "name": "Size=Medium, State=Default, Icon=Right",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33725491166114807,
+              "g": 0.5176470875740051,
+              "b": 0.8666666746139526
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2203"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2010",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2212"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          },
+          {
+            "id": "185086:2011",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 40,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "185100:853",
+        "name": "Size=Medium, State=Hover, Icon=Without",
+        "w": 48,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.11764705926179886,
+              "g": 0.2823529541492462,
+              "b": 0.5960784554481506
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2204"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2066",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2213"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:871",
+        "name": "Size=Medium, State=Hover, Icon=Left",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.11764705926179886,
+              "g": 0.2823529541492462,
+              "b": 0.5960784554481506
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2204"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2071",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "id": "185086:2072",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 32,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2213"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:840",
+        "name": "Size=Medium, State=Hover, Icon=Right",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.11764705926179886,
+              "g": 0.2823529541492462,
+              "b": 0.5960784554481506
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2204"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2079",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2213"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          },
+          {
+            "id": "185086:2080",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 40,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "185100:831",
+        "name": "Size=Medium, State=Pressed, Icon=Without",
+        "w": 48,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2209"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2058",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2214"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:830",
+        "name": "Size=Medium, State=Pressed, Icon=Left",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2209"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2075",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "id": "185086:2076",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 32,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2214"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:828",
+        "name": "Size=Medium, State=Pressed, Icon=Right",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2209"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2051",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2214"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          },
+          {
+            "id": "185086:2052",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 40,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "185100:865",
+        "name": "Size=Medium, State=Loading, Icon=Without",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2210"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2087",
+            "name": "AltaIDE/Icons/Spiner",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "id": "185086:2088",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 32,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.7803921699523926,
+                  "g": 0.7882353067398071,
+                  "b": 0.8078431487083435
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2215"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:859",
+        "name": "Size=Medium, State=Loading, Icon=Left",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2210"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2099",
+            "name": "AltaIDE/Icons/Spiner",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "id": "185086:2100",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 32,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.7803921699523926,
+                  "g": 0.7882353067398071,
+                  "b": 0.8078431487083435
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2215"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:863",
+        "name": "Size=Medium, State=Loading, Icon=Right",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2210"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2083",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.7803921699523926,
+                  "g": 0.7882353067398071,
+                  "b": 0.8078431487083435
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2215"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          },
+          {
+            "id": "185086:2084",
+            "name": "AltaIDE/Icons/Spiner",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 40,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "185100:822",
+        "name": "Size=Medium, State=Disabled, Icon=Without",
+        "w": 48,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3450980484485626,
+              "g": 0.3686274588108063,
+              "b": 0.42352941632270813
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2211"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2110",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5803921818733215,
+                  "g": 0.5960784554481506,
+                  "b": 0.6392157077789307
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2216"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:877",
+        "name": "Size=Medium, State=Disabled, Icon=Left",
+        "w": 68,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3450980484485626,
+              "g": 0.3686274588108063,
+              "b": 0.42352941632270813
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2211"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2115",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          },
+          {
+            "id": "185086:2116",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 32,
+            "y": 4,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5803921818733215,
+                  "g": 0.5960784554481506,
+                  "b": 0.6392157077789307
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2216"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          }
+        ]
+      },
+      {
+        "id": "185100:870",
+        "name": "Size=Medium, State=Disabled, Icon=Right",
+        "w": 68,
+        "h": 26,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3450980484485626,
+              "g": 0.3686274588108063,
+              "b": 0.42352941632270813
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2211"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "185086:2103",
+            "name": "text",
+            "type": "TEXT",
+            "visible": true,
+            "x": 12,
+            "y": 5,
+            "w": 24,
+            "h": 16,
+            "text": "Text",
+            "font": {
+              "family": "Rubik",
+              "style": "Regular",
+              "variationSettings": {
+                "wght": 400
+              }
+            },
+            "size": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "fill": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.5803921818733215,
+                  "g": 0.5960784554481506,
+                  "b": 0.6392157077789307
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:200597:2216"
+                  }
+                }
+              }
+            ],
+            "style": "S:73c0e0cb5b93b8e2c40164c21ffc6f300f1bed1f,"
+          },
+          {
+            "id": "185086:2104",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 40,
+            "y": 5,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "186483:17764",
+        "name": "Size=Large, State=Default, Icon=OnlyIcon",
+        "w": 44,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33725491166114807,
+              "g": 0.5176470875740051,
+              "b": 0.8666666746139526
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2203"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17765",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "186483:17767",
+        "name": "Size=Large, State=Hover, Icon=OnlyIcon",
+        "w": 44,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.11764705926179886,
+              "g": 0.2823529541492462,
+              "b": 0.5960784554481506
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2204"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17768",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "186483:17770",
+        "name": "Size=Large, State=Pressed, Icon=OnlyIcon",
+        "w": 44,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2209"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17771",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "186483:17773",
+        "name": "Size=Large, State=Loading, Icon=OnlyIcon",
+        "w": 44,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2210"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17774",
+            "name": "AltaIDE/Icons/Spiner",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "186483:17776",
+        "name": "Size=Large, State=Disabled, Icon=OnlyIcon",
+        "w": 44,
+        "h": 28,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3450980484485626,
+              "g": 0.3686274588108063,
+              "b": 0.42352941632270813
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2211"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17777",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 20,
+            "h": 20
+          }
+        ]
+      },
+      {
+        "id": "186483:17779",
+        "name": "Size=Medium, State=Default, Icon=OnlyIcon",
+        "w": 40,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33725491166114807,
+              "g": 0.5176470875740051,
+              "b": 0.8666666746139526
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2203"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17780",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "186483:17782",
+        "name": "Size=Medium, State=Hover, Icon=OnlyIcon",
+        "w": 40,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.11764705926179886,
+              "g": 0.2823529541492462,
+              "b": 0.5960784554481506
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2204"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17783",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "186483:17785",
+        "name": "Size=Medium, State=Pressed, Icon=OnlyIcon",
+        "w": 40,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2209"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17786",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "186483:17788",
+        "name": "Size=Medium, State=Loading, Icon=OnlyIcon",
+        "w": 40,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.08235294371843338,
+              "g": 0.1568627506494522,
+              "b": 0.3019607961177826
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2210"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17789",
+            "name": "AltaIDE/Icons/Spiner",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "186483:17791",
+        "name": "Size=Medium, State=Disabled, Icon=OnlyIcon",
+        "w": 40,
+        "h": 24,
+        "padding": [
+          4,
+          12,
+          4,
+          12
+        ],
+        "gap": 4,
+        "radius": 4,
+        "fill": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3450980484485626,
+              "g": 0.3686274588108063,
+              "b": 0.42352941632270813
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:200597:2211"
+              }
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "186483:17792",
+            "name": "AltaIDE/Icons/Dummy",
+            "type": "INSTANCE",
+            "visible": true,
+            "x": 12,
+            "y": 4,
+            "w": 16,
+            "h": 16
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+/* AltaIDE/ButtonPrimary — current Figma variants, 2026-10-30. */
+.alta-button {
+  --_font-size: var(--body-regular-font-size);
+  --_line-height: var(--body-regular-line-height);
+  --_icon-size: var(--button-icon-large);
+  --_bg: var(--buttons-primary-background-default);
+  --_fg: var(--buttons-primary-content-default);
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--buttons-betweenpadding);
+  padding: var(--buttons-primary-vpadding) var(--buttons-hpadding);
+  border: 0;
+  border-radius: var(--buttons-radius);
+  background: var(--_bg);
+  color: var(--_fg);
+  font: var(--regular-font-weight) var(--_font-size)/var(--_line-height) var(--font-family-rubik);
+  letter-spacing: var(--regular-letter-spacing);
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  appearance: none;
+}
+.alta-button[data-size="Medium"] {
+  --_font-size: var(--footnote-regular-font-size);
+  --_line-height: var(--footnote-regular-line-height);
+  --_icon-size: var(--button-icon-medium);
+}
+/* This one source variant binds directly to Dark/Blue/7, even in Light mode. */
+.alta-button[data-size="Large"][data-icon="Without"][data-state="Default"] { --_bg: var(--dark-blue-7); }
+.alta-button:not([disabled]):not([aria-disabled="true"]):not([data-static]):hover,
+.alta-button[data-state="Hover"] { --_bg: var(--buttons-primary-background-hover); --_fg: var(--buttons-primary-content-hover); }
+.alta-button:not([disabled]):not([aria-disabled="true"]):not([data-static]):active,
+.alta-button[data-state="Pressed"] { --_bg: var(--buttons-primary-background-pressed); --_fg: var(--buttons-primary-content-pressed); }
+.alta-button[data-state="Loading"] { --_bg: var(--buttons-primary-background-loading); --_fg: var(--buttons-primary-content-loading); cursor: progress; }
+.alta-button:disabled { --_bg: var(--buttons-primary-background-disabled); --_fg: var(--buttons-primary-content-disabled); cursor: not-allowed; }
+/* Exact Figma exception: Medium + Disabled + Right = 26 px (node 185100:870). */
+.alta-button[data-size="Medium"][data-icon="Right"]:disabled { height: var(--button-medium-disabled-right-height); }
+.alta-button__label { display: block; }
+.alta-button__icon, .alta-button__spinner { display: block; flex: none; width: var(--_icon-size); height: var(--_icon-size); }
+.alta-button[data-icon="OnlyIcon"] .alta-button__label { display: none; }
+.alta-button .alta-button__spinner { display: none; }
+.alta-button[data-icon="Without"] .alta-button__icon { display: none; }
+.alta-button[data-icon="Right"] .alta-button__label { order: -1; }
+.alta-button[data-state="Loading"] .alta-button__icon { display: none; }
+.alta-button[data-state="Loading"] .alta-button__spinner { display: block; }
+/* Focus uses the browser indicator; it is not an additional Figma variant. */
+.alta-button[data-static] { pointer-events: none; }
+.alta-button__asset { display: block; }
+.alta-button__icon { position: relative; }
+.alta-button__icon img { position: absolute; inset: 0; }
+.alta-button__icon img:not(.is-current) { visibility: hidden; }
+.alta-button__spinner img { display: block; }
+
+/* Light-mode recoloring uses the unmodified original SVG alpha masks.
+   Data URLs keep masks working through file:// as well as HTTP. */
+[data-theme="light"] .alta-button[data-size="Large"] .alta-button__icon { background-color: var(--_fg); mask: url("data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJBbHRhSURFL0ljb25zL0R1bW15Ij4KPHBhdGggZD0iTTAgNEMwIDEuNzkwODYgMS43OTA4NiAwIDQgMEgxNkMxOC4yMDkxIDAgMjAgMS43OTA4NiAyMCA0VjE2QzIwIDE4LjIwOTEgMTguMjA5MSAyMCAxNiAyMEg0QzEuNzkwODYgMjAgMCAxOC4yMDkxIDAgMTZWNFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGlkPSJSZWN0YW5nbGUgMTE5IiBkPSJNMCA0QzAgMS43OTA4NiAxLjc5MDg2IDAgNCAwSDE2QzE4LjIwOTEgMCAyMCAxLjc5MDg2IDIwIDRWMTZDMjAgMTguMjA5MSAxOC4yMDkxIDIwIDE2IDIwSDRDMS43OTA4NiAyMCAwIDE4LjIwOTEgMCAxNlY0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggaWQ9IlJlY3RhbmdsZSAxMTkgKFN0cm9rZSkiIGQ9Ik0xNiAxOVYyMEg0VjE5SDE2Wk0xOSAxNlY0QzE5IDIuMzQzMTUgMTcuNjU2OSAxIDE2IDFINEMyLjM0MzE1IDEgMSAyLjM0MzE1IDEgNFYxNkMxIDE3LjY1NjkgMi4zNDMxNSAxOSA0IDE5VjIwTDMuNzkzOTUgMTkuOTk1MUMxLjY4MDU2IDE5Ljg4NzkgMCAxOC4xNCAwIDE2VjRDMCAxLjc5MDg2IDEuNzkwODYgMCA0IDBIMTZDMTguMjA5MSAwIDIwIDEuNzkwODYgMjAgNFYxNkMyMCAxOC4yMDkxIDE4LjIwOTEgMjAgMTYgMjBWMTlDMTcuNjU2OSAxOSAxOSAxNy42NTY5IDE5IDE2WiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8L3N2Zz4K") center / auto no-repeat; }
+[data-theme="light"] .alta-button[data-size="Large"] .alta-button__spinner { background-color: var(--_fg); mask: url("data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJBbHRhSURFL0ljb25zL1NwaW5lciI+CjxwYXRoIGlkPSJSZWN0YW5nbGUiIG9wYWNpdHk9IjAuNzgiIGQ9Ik0wIDEwQzAgOS4yMTEwMiAwLjYzOTU5MyA4LjU3MTQzIDEuNDI4NTcgOC41NzE0M0g0LjI4NTcxQzUuMDc0NjkgOC41NzE0MyA1LjcxNDI5IDkuMjExMDIgNS43MTQyOSAxMEM1LjcxNDI5IDEwLjc4OSA1LjA3NDY5IDExLjQyODYgNC4yODU3MiAxMS40Mjg2SDEuNDI4NTdDMC42Mzk1OTUgMTEuNDI4NiAwIDEwLjc4OSAwIDEwWiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNDN0M5Q0UiLz4KPHBhdGggaWQ9IlJlY3RhbmdsZV8yIiBvcGFjaXR5PSIwLjYyIiBkPSJNOC41NzE0MyAxNS43MTQzQzguNTcxNDMgMTQuOTI1MyA5LjIxMTAyIDE0LjI4NTcgMTAgMTQuMjg1N0MxMC43ODkgMTQuMjg1NyAxMS40Mjg2IDE0LjkyNTMgMTEuNDI4NiAxNS43MTQzVjE4LjU3MTRDMTEuNDI4NiAxOS4zNjA0IDEwLjc4OSAyMCAxMCAyMEM5LjIxMTAyIDIwIDguNTcxNDMgMTkuMzYwNCA4LjU3MTQzIDE4LjU3MTRWMTUuNzE0M1oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjQzdDOUNFIi8+CjxwYXRoIGlkPSJSZWN0YW5nbGVfMyIgb3BhY2l0eT0iMC4zOCIgZD0iTTE0LjI4NTcgMTBDMTQuMjg1NyA5LjIxMTAyIDE0LjkyNTMgOC41NzE0MyAxNS43MTQzIDguNTcxNDNIMTguNTcxNEMxOS4zNjA0IDguNTcxNDMgMjAgOS4yMTEwMiAyMCAxMEMyMCAxMC43ODkgMTkuMzYwNCAxMS40Mjg2IDE4LjU3MTQgMTEuNDI4NkgxNS43MTQzQzE0LjkyNTMgMTEuNDI4NiAxNC4yODU3IDEwLjc4OSAxNC4yODU3IDEwWiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNDN0M5Q0UiLz4KPHBhdGggaWQ9IlJlY3RhbmdsZV80IiBkPSJNOC41NzE0MyAxLjQyODU3QzguNTcxNDMgMC42Mzk1OTUgOS4yMTEwMiAwIDEwIDBDMTAuNzg5IDAgMTEuNDI4NiAwLjYzOTU5MyAxMS40Mjg2IDEuNDI4NTdWNC4yODU3MUMxMS40Mjg2IDUuMDc0NjkgMTAuNzg5IDUuNzE0MjkgMTAgNS43MTQyOUM5LjIxMTAyIDUuNzE0MjkgOC41NzE0MyA1LjA3NDY5IDguNTcxNDMgNC4yODU3MlYxLjQyODU3WiIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNDN0M5Q0UiLz4KPHBhdGggaWQ9IlJlY3RhbmdsZV81IiBvcGFjaXR5PSIwLjkzIiBkPSJNMi45Mjk1OCAyLjkyODkzQzMuNDg3NDcgMi4zNzEwNCA0LjM5MTk5IDIuMzcxMDQgNC45NDk4OCAyLjkyODkzTDYuOTcwMTkgNC45NDkyM0M3LjUyODA4IDUuNTA3MTIgNy41MjgwOCA2LjQxMTY1IDYuOTcwMTkgNi45Njk1NEM2LjQxMjMgNy41Mjc0MyA1LjUwNzc4IDcuNTI3NDMgNC45NDk4OSA2Ljk2OTU0TDIuOTI5NTggNC45NDkyM0MyLjM3MTY5IDQuMzkxMzQgMi4zNzE2OSAzLjQ4NjgyIDIuOTI5NTggMi45Mjg5M1oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjQzdDOUNFIi8+CjxyZWN0IGlkPSJSZWN0YW5nbGVfNiIgb3BhY2l0eT0iMC42OSIgeD0iNS45NTk4MiIgeT0iMTIuMDIwMyIgd2lkdGg9IjIuODU3MTQiIGhlaWdodD0iNS43MTQyOSIgcng9IjEuNDI4NTciIHRyYW5zZm9ybT0icm90YXRlKDQ1IDUuOTU5ODIgMTIuMDIwMykiIGZpbGw9IiNDN0M5Q0UiLz4KPHBhdGggaWQ9IlJlY3RhbmdsZV83IiBvcGFjaXR5PSIwLjQ4IiBkPSJNMTMuMDMxNCAxMy4wMzA1QzEzLjU4OTMgMTIuNDcyNiAxNC40OTM4IDEyLjQ3MjYgMTUuMDUxNyAxMy4wMzA1TDE3LjA3MiAxNS4wNTA4QzE3LjYyOTkgMTUuNjA4NyAxNy42Mjk5IDE2LjUxMzIgMTcuMDcyIDE3LjA3MTFDMTYuNTE0MSAxNy42MjkgMTUuNjA5NiAxNy42MjkgMTUuMDUxNyAxNy4wNzExTDEzLjAzMTQgMTUuMDUwOEMxMi40NzM1IDE0LjQ5MjkgMTIuNDczNSAxMy41ODg0IDEzLjAzMTQgMTMuMDMwNVoiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjQzdDOUNFIi8+CjxwYXRoIGlkPSJSZWN0YW5nbGVfOCIgb3BhY2l0eT0iMC4zIiBkPSJNMTUuMDUwMSAyLjkyODkzQzE1LjYwOCAyLjM3MTA0IDE2LjUxMjUgMi4zNzEwNCAxNy4wNzA0IDIuOTI4OTNDMTcuNjI4MyAzLjQ4NjgyIDE3LjYyODMgNC4zOTEzNCAxNy4wNzA0IDQuOTQ5MjNMMTUuMDUwMSA2Ljk2OTU0QzE0LjQ5MjIgNy41Mjc0MyAxMy41ODc3IDcuNTI3NDMgMTMuMDI5OCA2Ljk2OTU0QzEyLjQ3MTkgNi40MTE2NSAxMi40NzE5IDUuNTA3MTMgMTMuMDI5OCA0Ljk0OTIzTDE1LjA1MDEgMi45Mjg5M1oiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjQzdDOUNFIi8+CjwvZz4KPC9zdmc+Cg==") center / auto no-repeat; }
+[data-theme="light"] .alta-button[data-size="Medium"] .alta-button__icon { background-color: var(--_fg); mask: url("data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJBbHRhSURFL0ljb25zL0R1bW15Ij4KPHBhdGggZD0iTTAgNEMwIDEuNzkwODYgMS43OTA4NiAwIDQgMEgxMkMxNC4yMDkxIDAgMTYgMS43OTA4NiAxNiA0VjEyQzE2IDE0LjIwOTEgMTQuMjA5MSAxNiAxMiAxNkg0QzEuNzkwODYgMTYgMCAxNC4yMDkxIDAgMTJWNFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGlkPSJSZWN0YW5nbGUgMTE3IiBkPSJNMCA0QzAgMS43OTA4NiAxLjc5MDg2IDAgNCAwSDEyQzE0LjIwOTEgMCAxNiAxLjc5MDg2IDE2IDRWMTJDMTYgMTQuMjA5MSAxNC4yMDkxIDE2IDEyIDE2SDRDMS43OTA4NiAxNiAwIDE0LjIwOTEgMCAxMlY0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggaWQ9IlJlY3RhbmdsZSAxMTcgKFN0cm9rZSkiIGQ9Ik0xMiAxNVYxNkg0VjE1SDEyWk0xNSAxMlY0QzE1IDIuMzQzMTUgMTMuNjU2OSAxIDEyIDFINEMyLjM0MzE1IDEgMSAyLjM0MzE1IDEgNFYxMkMxIDEzLjY1NjkgMi4zNDMxNSAxNSA0IDE1VjE2QzEuNzkwODYgMTYgMCAxNC4yMDkxIDAgMTJWNEMwIDEuNzkwODYgMS43OTA4NiAwIDQgMEgxMkMxNC4yMDkxIDAgMTYgMS43OTA4NiAxNiA0VjEyQzE2IDE0LjIwOTEgMTQuMjA5MSAxNiAxMiAxNlYxNUMxMy42NTY5IDE1IDE1IDEzLjY1NjkgMTUgMTJaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+Cjwvc3ZnPgo=") center / auto no-repeat; }
+[data-theme="light"] .alta-button[data-size="Medium"] .alta-button__spinner { background-color: var(--_fg); mask: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgb3BhY2l0eT0iMC45MyIgeD0iMS4xNDI1OCIgeT0iMi43NTkwOSIgd2lkdGg9IjIuMjg1NzEiIGhlaWdodD0iNC41NzE0MyIgcng9IjEiIHRyYW5zZm9ybT0icm90YXRlKC00NSAxLjE0MjU4IDIuNzU5MDkpIiBmaWxsPSIjQzdDOUNFIi8+CjxyZWN0IG9wYWNpdHk9IjAuNzgiIHk9IjYuODU3MTUiIHdpZHRoPSI0LjU3MTQzIiBoZWlnaHQ9IjIuMjg1NzEiIHJ4PSIxIiBmaWxsPSIjQzdDOUNFIi8+CjxyZWN0IG9wYWNpdHk9IjAuNjkiIHg9IjQuNzc1MzkiIHk9IjkuNjExMzMiIHdpZHRoPSIyLjI4NTcxIiBoZWlnaHQ9IjQuNTcxNDMiIHJ4PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSg0NSA0Ljc3NTM5IDkuNjExMzMpIiBmaWxsPSIjQzdDOUNFIi8+CjxyZWN0IG9wYWNpdHk9IjAuNjIiIHg9IjYuODU3NDIiIHk9IjExLjQyODYiIHdpZHRoPSIyLjI4NTcxIiBoZWlnaHQ9IjQuNTcxNDMiIHJ4PSIxIiBmaWxsPSIjQzdDOUNFIi8+CjxyZWN0IG9wYWNpdHk9IjAuNDgiIHg9IjkuNjExNDUiIHk9IjExLjIyNzciIHdpZHRoPSIyLjI4NTcxIiBoZWlnaHQ9IjQuNTcxNDMiIHJ4PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUgOS42MTE0NSAxMS4yMjc3KSIgZmlsbD0iI0M3QzlDRSIvPgo8cmVjdCBvcGFjaXR5PSIwLjM4IiB4PSIxMS40Mjc3IiB5PSI2Ljg1NzE1IiB3aWR0aD0iNC41NzE0MyIgaGVpZ2h0PSIyLjI4NTcxIiByeD0iMSIgZmlsbD0iI0M3QzlDRSIvPgo8cmVjdCBvcGFjaXR5PSIwLjMiIHg9IjEyLjg0MzkiIHk9IjEuNTQyODUiIHdpZHRoPSIyLjI4NTcxIiBoZWlnaHQ9IjQuNTcxNDMiIHJ4PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSg0NSAxMi44NDM5IDEuNTQyODUpIiBmaWxsPSIjQzdDOUNFIi8+CjxyZWN0IHg9IjYuODU3NDIiIHdpZHRoPSIyLjI4NTcxIiBoZWlnaHQ9IjQuNTcxNDMiIHJ4PSIxIiBmaWxsPSIjQzdDOUNFIi8+Cjwvc3ZnPgo=") center / auto no-repeat; }
+[data-theme="light"] .alta-button__icon img, [data-theme="light"] .alta-button__spinner img { visibility: hidden; }
