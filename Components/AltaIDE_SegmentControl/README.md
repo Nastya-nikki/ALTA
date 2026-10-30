@@ -1,6 +1,6 @@
 # AltaIDE_SegmentControl
 
-Группа переключателей языка программирования.
+Группа переключателей.
 
 Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_SegmentControl/preview.html)  
 Источник: [AltaIDE/SegmentControl, node 185481:14775](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185481-14775).  

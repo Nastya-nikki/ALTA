@@ -1,6 +1,6 @@
 # AltaIDE_CodeSelector
 
-Панель выбора языка программирования.
+Панель выбора из группы переключателей.
 
 Превью: [Открыть демонстрацию](https://nastya-nikki.github.io/ALTA/Components/AltaIDE_CodeSelector/preview.html)  
 Источник: [AltaIDE, node 199323:28240](https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=199323-28240).  
