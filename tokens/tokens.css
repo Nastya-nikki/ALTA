@@ -1321,3 +1321,6 @@
 --dark-red-13:#6e1832;
 --light-red-5:#fdc0ab;
 }
+
+/* Light/Radio → 16px (185240:4025), distinct from the 0-valued token with the same source name. */
+:root { --light-radio-16px:16px; }
