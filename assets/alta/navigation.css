@@ -12,7 +12,7 @@
 .alta-navigation [role=separator]{touch-action:none;cursor:col-resize}
 .alta-navigation [role=separator][aria-orientation=horizontal]{cursor:row-resize}
 .alta-navigation[data-navigation=AltaIDE_Tabs] [role=tab][aria-selected=true]{box-shadow:inset 0 -2px 0 var(--tab-line-active)}
-.alta-navigation[data-navigation=AltaIDE_Tabs] [role=tab][aria-selected=false]{box-shadow:none}
+.alta-navigation[data-navigation=AltaIDE_Tabs] [role=tab][aria-selected=false]{box-shadow:inset 0 -2px 0 var(--tab-line-default)}
 .alta-navigation[data-navigation=AltaIDE_Tabs] [role=tab][aria-selected=false]:hover{box-shadow:inset 0 -2px 0 var(--tab-line-hover)}
 .alta-navigation .alta-component .fn-text{width:max-content!important}
 .alta-navigation .alta-component>.alta-view>.fn{width:max-content!important}
