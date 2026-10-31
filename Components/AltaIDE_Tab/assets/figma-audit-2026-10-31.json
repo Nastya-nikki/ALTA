@@ -1,0 +1,45 @@
+{
+  "readAt": "2026-10-31",
+  "source": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185580-24068",
+  "nodeId": "185580:24068",
+  "properties": {
+    "Badge#186479:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Text#186525:0": {
+      "type": "TEXT",
+      "defaultValue": "dsfdf "
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Active",
+        "Hover"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185580:24066",
+      "name": "State=Default",
+      "width": 115,
+      "height": 40
+    },
+    {
+      "id": "185580:24064",
+      "name": "State=Active",
+      "width": 115,
+      "height": 40
+    },
+    {
+      "id": "185580:24062",
+      "name": "State=Hover",
+      "width": 115,
+      "height": 40
+    }
+  ],
+  "result": "Current visible layout, styles, text, properties and variant composition match the existing implementation source."
+}

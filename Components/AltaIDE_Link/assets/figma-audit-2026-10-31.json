@@ -1,0 +1,89 @@
+{
+  "readAt": "2026-10-31",
+  "source": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185293-1270",
+  "nodeId": "185293:1270",
+  "properties": {
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Hover",
+        "Disable"
+      ]
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Link",
+      "variantOptions": [
+        "Link",
+        "Dropdown",
+        "External"
+      ]
+    },
+    "Theme": {
+      "type": "VARIANT",
+      "defaultValue": "Dark",
+      "variantOptions": [
+        "Dark"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185293:1256",
+      "name": "State=Default, Type=Link, Theme=Dark",
+      "width": 27,
+      "height": 20
+    },
+    {
+      "id": "185293:1268",
+      "name": "State=Default, Type=Dropdown, Theme=Dark",
+      "width": 88,
+      "height": 20
+    },
+    {
+      "id": "185293:1266",
+      "name": "State=Default, Type=External, Theme=Dark",
+      "width": 75,
+      "height": 20
+    },
+    {
+      "id": "185293:1255",
+      "name": "State=Hover, Type=Link, Theme=Dark",
+      "width": 27,
+      "height": 20
+    },
+    {
+      "id": "185293:1254",
+      "name": "State=Hover, Type=Dropdown, Theme=Dark",
+      "width": 88,
+      "height": 20
+    },
+    {
+      "id": "185293:1262",
+      "name": "State=Hover, Type=External, Theme=Dark",
+      "width": 75,
+      "height": 20
+    },
+    {
+      "id": "185293:1253",
+      "name": "State=Disable, Type=Link, Theme=Dark",
+      "width": 27,
+      "height": 20
+    },
+    {
+      "id": "185293:1252",
+      "name": "State=Disable, Type=Dropdown, Theme=Dark",
+      "width": 88,
+      "height": 20
+    },
+    {
+      "id": "185293:1258",
+      "name": "State=Disable, Type=External, Theme=Dark",
+      "width": 75,
+      "height": 20
+    }
+  ],
+  "result": "Current visible layout, styles, text, properties and variant composition match the existing implementation source."
+}

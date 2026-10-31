@@ -1,0 +1,684 @@
+{
+  "readAt": "2026-10-31",
+  "id": "185649:32710",
+  "n": "AltaIDE/Resize",
+  "type": "COMPONENT_SET",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Vertical",
+      "variantOptions": [
+        "Arrows",
+        "Horizontal",
+        "Vertical"
+      ]
+    }
+  },
+  "total": 3,
+  "next": 3,
+  "variants": [
+    {
+      "id": "185649:32708",
+      "n": "Type=Vertical",
+      "t": "COMPONENT",
+      "w": 10,
+      "h": 732,
+      "x": 43,
+      "y": 31,
+      "propRefs": {},
+      "b": {
+        "paddingLeft": "VariableID:181715:124812",
+        "paddingTop": "VariableID:181715:124812",
+        "paddingRight": "VariableID:181715:124812",
+        "paddingBottom": "VariableID:181715:124812",
+        "strokeTopWeight": "VariableID:200959:18558",
+        "strokeBottomWeight": "VariableID:200959:18558",
+        "strokeLeftWeight": "VariableID:200959:18558",
+        "strokeRightWeight": "VariableID:200959:18558"
+      },
+      "layout": "HORIZONTAL",
+      "align": "CENTER",
+      "cross": "CENTER",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "HUG",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 8,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.13333334028720856,
+            "g": 0.13333334028720856,
+            "b": 0.14509804546833038
+          },
+          "a": 1,
+          "b": "VariableID:200959:18484"
+        }
+      ],
+      "stroke": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.18039216101169586,
+            "g": 0.1921568661928177,
+            "b": 0.21176470816135406
+          },
+          "a": 1,
+          "b": "VariableID:200959:18557"
+        }
+      ],
+      "effects": [],
+      "children": [
+        {
+          "id": "185660:485",
+          "n": "AltaIDE/Icons/Resize/Main",
+          "t": "INSTANCE",
+          "w": 10,
+          "h": 10,
+          "x": 0,
+          "y": 361,
+          "propRefs": {},
+          "b": {},
+          "layout": "NONE",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 2,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I185660:485;185660:443",
+              "n": "Rectangle 138",
+              "t": "RECTANGLE",
+              "w": 1,
+              "h": 4,
+              "x": 3,
+              "y": 3,
+              "propRefs": {},
+              "b": {},
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.5803921818733215,
+                    "g": 0.5960784554481506,
+                    "b": 0.6392157077789307
+                  },
+                  "a": 1,
+                  "b": "VariableID:200959:18583"
+                }
+              ],
+              "stroke": [],
+              "effects": []
+            },
+            {
+              "id": "I185660:485;185660:444",
+              "n": "Rectangle 139",
+              "t": "RECTANGLE",
+              "w": 1,
+              "h": 4,
+              "x": 6,
+              "y": 3,
+              "propRefs": {},
+              "b": {},
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.5803921818733215,
+                    "g": 0.5960784554481506,
+                    "b": 0.6392157077789307
+                  },
+                  "a": 1,
+                  "b": "VariableID:200959:18583"
+                }
+              ],
+              "stroke": [],
+              "effects": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "185649:32705",
+      "n": "Type=Arrows",
+      "t": "COMPONENT",
+      "w": 248,
+      "h": 10,
+      "x": 93,
+      "y": 31,
+      "propRefs": {},
+      "b": {
+        "paddingLeft": "VariableID:181715:124812",
+        "paddingTop": "VariableID:181715:124812",
+        "paddingRight": "VariableID:181715:124812",
+        "paddingBottom": "VariableID:181715:124812",
+        "strokeTopWeight": "VariableID:200959:18558",
+        "strokeBottomWeight": "VariableID:200959:18558",
+        "strokeLeftWeight": "VariableID:200959:18558",
+        "strokeRightWeight": "VariableID:200959:18558"
+      },
+      "layout": "HORIZONTAL",
+      "align": "CENTER",
+      "cross": "CENTER",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 0,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.13333334028720856,
+            "g": 0.13333334028720856,
+            "b": 0.14509804546833038
+          },
+          "a": 1,
+          "b": "VariableID:200959:18484"
+        }
+      ],
+      "stroke": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.18039216101169586,
+            "g": 0.1921568661928177,
+            "b": 0.21176470816135406
+          },
+          "a": 1,
+          "b": "VariableID:200959:18557"
+        }
+      ],
+      "effects": [],
+      "children": [
+        {
+          "id": "185660:504",
+          "n": "AltaIDE/Icons/Resize/Main",
+          "t": "INSTANCE",
+          "w": 10,
+          "h": 10,
+          "x": 114,
+          "y": 0,
+          "propRefs": {},
+          "b": {},
+          "layout": "NONE",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "asset": "d3341f6d"
+        },
+        {
+          "id": "185660:505",
+          "n": "AltaIDE/Icons/Resize/Main",
+          "t": "INSTANCE",
+          "w": 10,
+          "h": 10,
+          "x": 124,
+          "y": 0,
+          "propRefs": {},
+          "b": {},
+          "layout": "NONE",
+          "align": "CENTER",
+          "cross": "CENTER",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "asset": "129b15d0"
+        }
+      ]
+    },
+    {
+      "id": "185649:32704",
+      "n": "Type=Horizontal",
+      "t": "COMPONENT",
+      "w": 1108,
+      "h": 10,
+      "x": 93,
+      "y": 62,
+      "propRefs": {},
+      "b": {
+        "paddingLeft": "VariableID:181715:124812",
+        "paddingTop": "VariableID:181715:124812",
+        "paddingRight": "VariableID:181715:124812",
+        "paddingBottom": "VariableID:181715:124812",
+        "strokeTopWeight": "VariableID:200959:18558",
+        "strokeBottomWeight": "VariableID:200959:18558",
+        "strokeLeftWeight": "VariableID:200959:18558",
+        "strokeRightWeight": "VariableID:200959:18558"
+      },
+      "layout": "HORIZONTAL",
+      "align": "SPACE_BETWEEN",
+      "cross": "CENTER",
+      "primarySizing": "FIXED",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "FIXED",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 8,
+      "pt": 0,
+      "pr": 0,
+      "pb": 0,
+      "pl": 0,
+      "rtl": 0,
+      "rtr": 0,
+      "rbl": 0,
+      "rbr": 0,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.13333334028720856,
+            "g": 0.13333334028720856,
+            "b": 0.14509804546833038
+          },
+          "a": 1,
+          "b": "VariableID:200959:18484"
+        }
+      ],
+      "stroke": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.18039216101169586,
+            "g": 0.1921568661928177,
+            "b": 0.21176470816135406
+          },
+          "a": 1,
+          "b": "VariableID:200959:18557"
+        }
+      ],
+      "effects": [],
+      "children": [
+        {
+          "id": "185660:489",
+          "n": "AltaIDE/Icons/Resize/Main",
+          "t": "INSTANCE",
+          "w": 10,
+          "h": 10,
+          "x": 549,
+          "y": 0,
+          "propRefs": {},
+          "b": {},
+          "layout": "NONE",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "FIXED",
+          "counterSizing": "FIXED",
+          "hs": "FIXED",
+          "vs": "FIXED",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 2,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "I185660:489;185660:443",
+              "n": "Rectangle 138",
+              "t": "RECTANGLE",
+              "w": 1,
+              "h": 4,
+              "x": 3,
+              "y": 3,
+              "propRefs": {},
+              "b": {},
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.5803921818733215,
+                    "g": 0.5960784554481506,
+                    "b": 0.6392157077789307
+                  },
+                  "a": 1,
+                  "b": "VariableID:200959:18583"
+                }
+              ],
+              "stroke": [],
+              "effects": []
+            },
+            {
+              "id": "I185660:489;185660:444",
+              "n": "Rectangle 139",
+              "t": "RECTANGLE",
+              "w": 1,
+              "h": 4,
+              "x": 6,
+              "y": 3,
+              "propRefs": {},
+              "b": {},
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.5803921818733215,
+                    "g": 0.5960784554481506,
+                    "b": 0.6392157077789307
+                  },
+                  "a": 1,
+                  "b": "VariableID:200959:18583"
+                }
+              ],
+              "stroke": [],
+              "effects": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "key": "d3341f6d",
+      "id": "185660:504",
+      "n": "AltaIDE/Icons/Resize/Main",
+      "w": 10,
+      "h": 10
+    },
+    {
+      "key": "129b15d0",
+      "id": "185660:505",
+      "n": "AltaIDE/Icons/Resize/Main",
+      "w": 10,
+      "h": 10
+    }
+  ],
+  "refs": [
+    "VariableID:181715:124812",
+    "VariableID:200959:18558",
+    "VariableID:200959:18484",
+    "VariableID:200959:18557",
+    "VariableID:200959:18583"
+  ],
+  "dependencies": [
+    {
+      "id": "185660:485",
+      "main": "185660:442",
+      "variant": "Type=Drob",
+      "owner": "185660:441",
+      "name": "AltaIDE/Icons/Resize/Main"
+    },
+    {
+      "id": "185660:504",
+      "main": "185660:445",
+      "variant": "Type=Top",
+      "owner": "185660:441",
+      "name": "AltaIDE/Icons/Resize/Main"
+    },
+    {
+      "id": "185660:505",
+      "main": "185660:448",
+      "variant": "Type=Down",
+      "owner": "185660:441",
+      "name": "AltaIDE/Icons/Resize/Main"
+    },
+    {
+      "id": "185660:489",
+      "main": "185660:442",
+      "variant": "Type=Drob",
+      "owner": "185660:441",
+      "name": "AltaIDE/Icons/Resize/Main"
+    }
+  ]
+}

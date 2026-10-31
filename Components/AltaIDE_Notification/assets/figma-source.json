@@ -1,0 +1,3920 @@
+{
+  "readAt": "2026-10-31",
+  "id": "188970:39162",
+  "n": "AltaIDE/Notification",
+  "type": "COMPONENT_SET",
+  "properties": {
+    "Head#188970:0": {
+      "type": "TEXT",
+      "defaultValue": "Внимание"
+    },
+    "Checkbox#191768:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Error",
+      "variantOptions": [
+        "Error",
+        "Info",
+        "Warning"
+      ]
+    },
+    "Theme": {
+      "type": "VARIANT",
+      "defaultValue": "Dark",
+      "variantOptions": [
+        "Dark"
+      ]
+    }
+  },
+  "total": 3,
+  "next": 3,
+  "variants": [
+    {
+      "id": "189950:12411",
+      "n": "Type=Error, Theme=Dark",
+      "t": "COMPONENT",
+      "w": 420,
+      "h": 170,
+      "x": 44,
+      "y": 49,
+      "propRefs": {},
+      "b": {
+        "itemSpacing": "VariableID:202274:6534",
+        "paddingLeft": "VariableID:202274:6532",
+        "paddingTop": "VariableID:202274:6532",
+        "paddingRight": "VariableID:202274:6532",
+        "paddingBottom": "VariableID:202274:6533",
+        "topLeftRadius": "VariableID:202274:6531",
+        "topRightRadius": "VariableID:202274:6531",
+        "bottomLeftRadius": "VariableID:202274:6531",
+        "bottomRightRadius": "VariableID:202274:6531"
+      },
+      "layout": "VERTICAL",
+      "align": "MAX",
+      "cross": "MAX",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 16,
+      "pt": 16,
+      "pr": 16,
+      "pb": 10,
+      "pl": 16,
+      "rtl": 8,
+      "rtr": 8,
+      "rbl": 8,
+      "rbr": 8,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.239215686917305,
+            "g": 0.2549019753932953,
+            "b": 0.29411765933036804
+          },
+          "a": 1,
+          "b": "VariableID:201175:11074"
+        }
+      ],
+      "stroke": [],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 20,
+          "boundVariables": {},
+          "color": {
+            "r": 0.07923635095357895,
+            "g": 0.0597824789583683,
+            "b": 0.0597824789583683,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 6
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "children": [
+        {
+          "id": "189950:12412",
+          "n": "Frame 1128",
+          "t": "FRAME",
+          "w": 388,
+          "h": 100,
+          "x": 16,
+          "y": 16,
+          "propRefs": {},
+          "b": {
+            "itemSpacing": "VariableID:202274:6535"
+          },
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "AUTO",
+          "counterSizing": "AUTO",
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "189950:12413",
+              "n": "AltaIDE/Icons/Status",
+              "t": "INSTANCE",
+              "w": 32,
+              "h": 32,
+              "x": 0,
+              "y": 0,
+              "propRefs": {},
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 0.6666666865348816,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 0,
+              "strokeIncluded": false,
+              "sides": [
+                0.6666666865348816,
+                0.6666666865348816,
+                0.6666666865348816,
+                0.6666666865348816
+              ],
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "dd326b15"
+            },
+            {
+              "id": "189950:12414",
+              "n": "Frame 1127",
+              "t": "FRAME",
+              "w": 346,
+              "h": 100,
+              "x": 42,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:202274:6535"
+              },
+              "layout": "VERTICAL",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 10,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 0,
+              "strokeIncluded": false,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "189950:12415",
+                  "n": "Frame 1129",
+                  "t": "FRAME",
+                  "w": 346,
+                  "h": 70,
+                  "x": 0,
+                  "y": 0,
+                  "propRefs": {},
+                  "b": {
+                    "itemSpacing": "VariableID:202274:6536"
+                  },
+                  "layout": "VERTICAL",
+                  "align": "MIN",
+                  "cross": "MIN",
+                  "primarySizing": "AUTO",
+                  "counterSizing": "FIXED",
+                  "hs": "FILL",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "STRETCH",
+                  "pos": "AUTO",
+                  "gap": 4,
+                  "pt": 0,
+                  "pr": 0,
+                  "pb": 0,
+                  "pl": 0,
+                  "rtl": 0,
+                  "rtr": 0,
+                  "rbl": 0,
+                  "rbr": 0,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "clip": false,
+                  "wrap": "NO_WRAP",
+                  "crossGap": 0,
+                  "strokeIncluded": false,
+                  "sides": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "fill": [],
+                  "stroke": [],
+                  "effects": [],
+                  "children": [
+                    {
+                      "id": "189950:12416",
+                      "n": "Внимание",
+                      "t": "TEXT",
+                      "w": 346,
+                      "h": 26,
+                      "x": 0,
+                      "y": 0,
+                      "propRefs": {
+                        "characters": "Head#188970:0"
+                      },
+                      "b": {},
+                      "hs": "FILL",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "STRETCH",
+                      "pos": "AUTO",
+                      "sw": 1,
+                      "sa": "OUTSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "fill": [
+                        {
+                          "type": "SOLID",
+                          "c": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1
+                          },
+                          "a": 1,
+                          "b": "VariableID:201373:4078"
+                        }
+                      ],
+                      "stroke": [],
+                      "effects": [],
+                      "text": "Внимание",
+                      "font": {
+                        "family": "Rubik",
+                        "style": "Medium",
+                        "variationSettings": {
+                          "wght": 500
+                        }
+                      },
+                      "size": 18,
+                      "lh": {
+                        "unit": "PIXELS",
+                        "value": 26
+                      },
+                      "ls": {
+                        "unit": "PIXELS",
+                        "value": 0
+                      },
+                      "textAlign": "LEFT",
+                      "textVertical": "TOP",
+                      "auto": "HEIGHT",
+                      "textStyle": "S:a094f5994abfa4c604cc8d05c95b6e6be76a2875,"
+                    },
+                    {
+                      "id": "189950:12417",
+                      "n": "Удалить объекты Функциональный блок «FB», Папка «Новая папка»?",
+                      "t": "TEXT",
+                      "w": 346,
+                      "h": 40,
+                      "x": 0,
+                      "y": 30,
+                      "propRefs": {},
+                      "b": {},
+                      "hs": "FILL",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "STRETCH",
+                      "pos": "AUTO",
+                      "sw": 1,
+                      "sa": "OUTSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "fill": [
+                        {
+                          "type": "SOLID",
+                          "c": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1
+                          },
+                          "a": 1,
+                          "b": "VariableID:201373:4078"
+                        }
+                      ],
+                      "stroke": [],
+                      "effects": [],
+                      "text": "Удалить объекты Функциональный блок «FB», Папка «Новая папка»? ",
+                      "font": {
+                        "family": "Rubik",
+                        "style": "Regular",
+                        "variationSettings": {
+                          "wght": 400
+                        }
+                      },
+                      "size": 14,
+                      "lh": {
+                        "unit": "PIXELS",
+                        "value": 20
+                      },
+                      "ls": {
+                        "unit": "PIXELS",
+                        "value": 0
+                      },
+                      "textAlign": "LEFT",
+                      "textVertical": "TOP",
+                      "auto": "HEIGHT",
+                      "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                    }
+                  ]
+                },
+                {
+                  "id": "189950:12418",
+                  "n": "Frame 1",
+                  "t": "FRAME",
+                  "w": 214,
+                  "h": 20,
+                  "x": 0,
+                  "y": 80,
+                  "propRefs": {
+                    "visible": "Checkbox#191768:0"
+                  },
+                  "b": {},
+                  "layout": "HORIZONTAL",
+                  "align": "MIN",
+                  "cross": "MIN",
+                  "primarySizing": "AUTO",
+                  "counterSizing": "AUTO",
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "gap": 10,
+                  "pt": 0,
+                  "pr": 0,
+                  "pb": 0,
+                  "pl": 0,
+                  "rtl": 0,
+                  "rtr": 0,
+                  "rbl": 0,
+                  "rbr": 0,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "clip": false,
+                  "wrap": "NO_WRAP",
+                  "crossGap": 0,
+                  "strokeIncluded": false,
+                  "sides": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "fill": [],
+                  "stroke": [],
+                  "effects": [],
+                  "children": [
+                    {
+                      "id": "189950:12419",
+                      "n": "AltaIDE/CheckboxLable",
+                      "t": "INSTANCE",
+                      "w": 184,
+                      "h": 20,
+                      "x": 0,
+                      "y": 0,
+                      "propRefs": {},
+                      "b": {
+                        "itemSpacing": "VariableID:200752:3508"
+                      },
+                      "layout": "HORIZONTAL",
+                      "align": "MIN",
+                      "cross": "MIN",
+                      "primarySizing": "AUTO",
+                      "counterSizing": "AUTO",
+                      "hs": "HUG",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "INHERIT",
+                      "pos": "AUTO",
+                      "gap": 8,
+                      "pt": 0,
+                      "pr": 0,
+                      "pb": 0,
+                      "pl": 0,
+                      "rtl": 0,
+                      "rtr": 0,
+                      "rbl": 0,
+                      "rbr": 0,
+                      "sw": 1,
+                      "sa": "INSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "clip": false,
+                      "wrap": "NO_WRAP",
+                      "crossGap": 0,
+                      "strokeIncluded": false,
+                      "sides": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "fill": [],
+                      "stroke": [],
+                      "effects": [],
+                      "children": [
+                        {
+                          "id": "I189950:12419;185503:26178",
+                          "n": "AltaIDE/Checkbox",
+                          "t": "INSTANCE",
+                          "w": 20,
+                          "h": 20,
+                          "x": 0,
+                          "y": 0,
+                          "propRefs": {},
+                          "b": {
+                            "width": "VariableID:200747:3103",
+                            "topLeftRadius": "VariableID:200747:3100",
+                            "topRightRadius": "VariableID:200747:3100",
+                            "bottomLeftRadius": "VariableID:200747:3100",
+                            "bottomRightRadius": "VariableID:200747:3100"
+                          },
+                          "layout": "NONE",
+                          "align": "MIN",
+                          "cross": "MIN",
+                          "primarySizing": "AUTO",
+                          "counterSizing": "FIXED",
+                          "hs": "FIXED",
+                          "vs": "FIXED",
+                          "grow": 0,
+                          "self": "INHERIT",
+                          "pos": "AUTO",
+                          "gap": 0,
+                          "pt": 0,
+                          "pr": 0,
+                          "pb": 0,
+                          "pl": 0,
+                          "rtl": 4,
+                          "rtr": 4,
+                          "rbl": 4,
+                          "rbr": 4,
+                          "sw": 1,
+                          "sa": "INSIDE",
+                          "opacity": 1,
+                          "rotation": 0,
+                          "clip": false,
+                          "wrap": "NO_WRAP",
+                          "crossGap": 0,
+                          "strokeIncluded": false,
+                          "sides": [
+                            1,
+                            1,
+                            1,
+                            1
+                          ],
+                          "fill": [],
+                          "stroke": [],
+                          "effects": [],
+                          "children": [
+                            {
+                              "id": "I189950:12419;185503:26178;185249:1599",
+                              "n": "Checkbox",
+                              "t": "RECTANGLE",
+                              "w": 20,
+                              "h": 20,
+                              "x": 0,
+                              "y": 0,
+                              "propRefs": {},
+                              "b": {
+                                "width": "VariableID:200747:3103",
+                                "topLeftRadius": "VariableID:200747:3100",
+                                "topRightRadius": "VariableID:200747:3100",
+                                "bottomLeftRadius": "VariableID:200747:3100",
+                                "bottomRightRadius": "VariableID:200747:3100",
+                                "strokeTopWeight": "VariableID:200747:3101",
+                                "strokeBottomWeight": "VariableID:200747:3101",
+                                "strokeLeftWeight": "VariableID:200747:3101",
+                                "strokeRightWeight": "VariableID:200747:3101"
+                              },
+                              "hs": "FIXED",
+                              "vs": "FIXED",
+                              "grow": 0,
+                              "self": "INHERIT",
+                              "pos": "AUTO",
+                              "rtl": 4,
+                              "rtr": 4,
+                              "rbl": 4,
+                              "rbr": 4,
+                              "sw": 1,
+                              "sa": "INSIDE",
+                              "opacity": 1,
+                              "rotation": 0,
+                              "sides": [
+                                1,
+                                1,
+                                1,
+                                1
+                              ],
+                              "fill": [
+                                {
+                                  "type": "SOLID",
+                                  "c": {
+                                    "r": 0.239215686917305,
+                                    "g": 0.2549019753932953,
+                                    "b": 0.29411765933036804
+                                  },
+                                  "a": 1,
+                                  "b": "VariableID:200744:3074"
+                                }
+                              ],
+                              "stroke": [
+                                {
+                                  "type": "SOLID",
+                                  "c": {
+                                    "r": 0.4901960790157318,
+                                    "g": 0.5137255191802979,
+                                    "b": 0.5803921818733215
+                                  },
+                                  "a": 1,
+                                  "b": "VariableID:200747:3090"
+                                }
+                              ],
+                              "effects": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "I189950:12419;185498:25198",
+                          "n": "Text",
+                          "t": "TEXT",
+                          "w": 156,
+                          "h": 20,
+                          "x": 28,
+                          "y": 0,
+                          "propRefs": {
+                            "characters": "Text#185504:119"
+                          },
+                          "b": {},
+                          "hs": "HUG",
+                          "vs": "HUG",
+                          "grow": 0,
+                          "self": "INHERIT",
+                          "pos": "AUTO",
+                          "sw": 1,
+                          "sa": "OUTSIDE",
+                          "opacity": 1,
+                          "rotation": 0,
+                          "fill": [
+                            {
+                              "type": "SOLID",
+                              "c": {
+                                "r": 0.686274528503418,
+                                "g": 0.6980392336845398,
+                                "b": 0.7254902124404907
+                              },
+                              "a": 1,
+                              "b": "VariableID:200752:3105"
+                            }
+                          ],
+                          "stroke": [],
+                          "effects": [],
+                          "text": "Больше не спрашивать",
+                          "font": {
+                            "family": "Rubik",
+                            "style": "Regular",
+                            "variationSettings": {
+                              "wght": 400
+                            }
+                          },
+                          "size": 14,
+                          "lh": {
+                            "unit": "PIXELS",
+                            "value": 20
+                          },
+                          "ls": {
+                            "unit": "PIXELS",
+                            "value": 0
+                          },
+                          "textAlign": "CENTER",
+                          "textVertical": "TOP",
+                          "auto": "WIDTH_AND_HEIGHT",
+                          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "190181:1032",
+                      "n": "AltaIDE/Icons/Help",
+                      "t": "INSTANCE",
+                      "w": 20,
+                      "h": 20,
+                      "x": 194,
+                      "y": 0,
+                      "propRefs": {},
+                      "b": {},
+                      "layout": "NONE",
+                      "align": "MIN",
+                      "cross": "MIN",
+                      "primarySizing": "AUTO",
+                      "counterSizing": "FIXED",
+                      "hs": "FIXED",
+                      "vs": "FIXED",
+                      "grow": 0,
+                      "self": "INHERIT",
+                      "pos": "AUTO",
+                      "gap": 0,
+                      "pt": 0,
+                      "pr": 0,
+                      "pb": 0,
+                      "pl": 0,
+                      "rtl": 0,
+                      "rtr": 0,
+                      "rbl": 0,
+                      "rbr": 0,
+                      "sw": 1,
+                      "sa": "INSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "clip": false,
+                      "wrap": "NO_WRAP",
+                      "crossGap": 0,
+                      "strokeIncluded": false,
+                      "sides": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "fill": [],
+                      "stroke": [],
+                      "effects": [],
+                      "asset": "e8f41d33"
+                    }
+                  ]
+                },
+                {
+                  "id": "196754:1418",
+                  "n": "Frame 1261157134",
+                  "t": "FRAME",
+                  "w": 70,
+                  "h": 20,
+                  "x": 0,
+                  "y": 110,
+                  "hidden": true,
+                  "propRefs": {},
+                  "b": {},
+                  "layout": "VERTICAL",
+                  "align": "MIN",
+                  "cross": "MIN",
+                  "primarySizing": "AUTO",
+                  "counterSizing": "AUTO",
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "gap": 4,
+                  "pt": 0,
+                  "pr": 0,
+                  "pb": 0,
+                  "pl": 0,
+                  "rtl": 0,
+                  "rtr": 0,
+                  "rbl": 0,
+                  "rbr": 0,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "clip": false,
+                  "wrap": "NO_WRAP",
+                  "crossGap": 0,
+                  "strokeIncluded": false,
+                  "sides": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "fill": [],
+                  "stroke": [],
+                  "effects": [],
+                  "children": [
+                    {
+                      "id": "196754:1106",
+                      "n": "AltaIDE/Link",
+                      "t": "INSTANCE",
+                      "w": 27,
+                      "h": 20,
+                      "x": 0,
+                      "y": 0,
+                      "propRefs": {},
+                      "b": {
+                        "itemSpacing": "VariableID:200752:3608",
+                        "paddingLeft": "VariableID:181715:124812",
+                        "paddingRight": "VariableID:181715:124812"
+                      },
+                      "layout": "HORIZONTAL",
+                      "align": "CENTER",
+                      "cross": "CENTER",
+                      "primarySizing": "AUTO",
+                      "counterSizing": "AUTO",
+                      "hs": "HUG",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "INHERIT",
+                      "pos": "AUTO",
+                      "gap": 0,
+                      "pt": 0,
+                      "pr": 0,
+                      "pb": 0,
+                      "pl": 0,
+                      "rtl": 0,
+                      "rtr": 0,
+                      "rbl": 0,
+                      "rbr": 0,
+                      "sw": 1,
+                      "sa": "INSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "clip": false,
+                      "wrap": "NO_WRAP",
+                      "crossGap": 0,
+                      "strokeIncluded": false,
+                      "sides": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "fill": [],
+                      "stroke": [],
+                      "effects": [],
+                      "children": [
+                        {
+                          "id": "I196754:1106;185293:1193",
+                          "n": "Link",
+                          "t": "TEXT",
+                          "w": 27,
+                          "h": 20,
+                          "x": 0,
+                          "y": 0,
+                          "propRefs": {},
+                          "b": {},
+                          "hs": "HUG",
+                          "vs": "HUG",
+                          "grow": 0,
+                          "self": "INHERIT",
+                          "pos": "AUTO",
+                          "sw": 1,
+                          "sa": "OUTSIDE",
+                          "opacity": 1,
+                          "rotation": 0,
+                          "reactions": [
+                            {
+                              "action": null,
+                              "actions": [],
+                              "trigger": {
+                                "type": "ON_CLICK"
+                              }
+                            }
+                          ],
+                          "fill": [
+                            {
+                              "type": "SOLID",
+                              "c": {
+                                "r": 0.33725491166114807,
+                                "g": 0.5176470875740051,
+                                "b": 0.8666666746139526
+                              },
+                              "a": 1,
+                              "b": "VariableID:200752:3589"
+                            }
+                          ],
+                          "stroke": [],
+                          "effects": [],
+                          "text": "Link",
+                          "font": {
+                            "family": "Rubik",
+                            "style": "Regular",
+                            "variationSettings": {
+                              "wght": 400
+                            }
+                          },
+                          "size": 14,
+                          "lh": {
+                            "unit": "PIXELS",
+                            "value": 20
+                          },
+                          "ls": {
+                            "unit": "PIXELS",
+                            "value": 0
+                          },
+                          "textAlign": "CENTER",
+                          "textVertical": "TOP",
+                          "auto": "WIDTH_AND_HEIGHT",
+                          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "196754:1253",
+                      "n": "AltaIDE/Link",
+                      "t": "INSTANCE",
+                      "w": 27,
+                      "h": 20,
+                      "x": 43,
+                      "y": 0,
+                      "propRefs": {},
+                      "b": {
+                        "itemSpacing": "VariableID:200752:3608",
+                        "paddingLeft": "VariableID:181715:124812",
+                        "paddingRight": "VariableID:181715:124812"
+                      },
+                      "layout": "HORIZONTAL",
+                      "align": "CENTER",
+                      "cross": "CENTER",
+                      "primarySizing": "AUTO",
+                      "counterSizing": "AUTO",
+                      "hs": "HUG",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "INHERIT",
+                      "pos": "AUTO",
+                      "gap": 0,
+                      "pt": 0,
+                      "pr": 0,
+                      "pb": 0,
+                      "pl": 0,
+                      "rtl": 0,
+                      "rtr": 0,
+                      "rbl": 0,
+                      "rbr": 0,
+                      "sw": 1,
+                      "sa": "INSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "clip": false,
+                      "wrap": "NO_WRAP",
+                      "crossGap": 0,
+                      "strokeIncluded": false,
+                      "sides": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "fill": [],
+                      "stroke": [],
+                      "effects": [],
+                      "children": [
+                        {
+                          "id": "I196754:1253;185293:1193",
+                          "n": "Link",
+                          "t": "TEXT",
+                          "w": 27,
+                          "h": 20,
+                          "x": 0,
+                          "y": 0,
+                          "propRefs": {},
+                          "b": {},
+                          "hs": "HUG",
+                          "vs": "HUG",
+                          "grow": 0,
+                          "self": "INHERIT",
+                          "pos": "AUTO",
+                          "sw": 1,
+                          "sa": "OUTSIDE",
+                          "opacity": 1,
+                          "rotation": 0,
+                          "reactions": [
+                            {
+                              "action": null,
+                              "actions": [],
+                              "trigger": {
+                                "type": "ON_CLICK"
+                              }
+                            }
+                          ],
+                          "fill": [
+                            {
+                              "type": "SOLID",
+                              "c": {
+                                "r": 0.33725491166114807,
+                                "g": 0.5176470875740051,
+                                "b": 0.8666666746139526
+                              },
+                              "a": 1,
+                              "b": "VariableID:200752:3589"
+                            }
+                          ],
+                          "stroke": [],
+                          "effects": [],
+                          "text": "Link",
+                          "font": {
+                            "family": "Rubik",
+                            "style": "Regular",
+                            "variationSettings": {
+                              "wght": 400
+                            }
+                          },
+                          "size": 14,
+                          "lh": {
+                            "unit": "PIXELS",
+                            "value": 20
+                          },
+                          "ls": {
+                            "unit": "PIXELS",
+                            "value": 0
+                          },
+                          "textAlign": "CENTER",
+                          "textVertical": "TOP",
+                          "auto": "WIDTH_AND_HEIGHT",
+                          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "189950:12421",
+          "n": "Frame 12",
+          "t": "FRAME",
+          "w": 129,
+          "h": 28,
+          "x": 275,
+          "y": 132,
+          "propRefs": {},
+          "b": {
+            "itemSpacing": "VariableID:202274:6535"
+          },
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "AUTO",
+          "counterSizing": "AUTO",
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "189950:12422",
+              "n": "AltaIDE/ButtonSecondary",
+              "t": "INSTANCE",
+              "w": 77,
+              "h": 28,
+              "x": 0,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:200597:2208",
+                "paddingLeft": "VariableID:200597:2205",
+                "paddingTop": "VariableID:200597:2225",
+                "paddingRight": "VariableID:200597:2205",
+                "paddingBottom": "VariableID:200597:2225",
+                "topLeftRadius": "VariableID:200597:2206",
+                "topRightRadius": "VariableID:200597:2206",
+                "bottomLeftRadius": "VariableID:200597:2206",
+                "bottomRightRadius": "VariableID:200597:2206",
+                "strokeTopWeight": "VariableID:200597:2231",
+                "strokeBottomWeight": "VariableID:200597:2231",
+                "strokeLeftWeight": "VariableID:200597:2231",
+                "strokeRightWeight": "VariableID:200597:2231"
+              },
+              "layout": "HORIZONTAL",
+              "align": "CENTER",
+              "cross": "CENTER",
+              "primarySizing": "AUTO",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 4,
+              "pt": 3,
+              "pr": 12,
+              "pb": 3,
+              "pl": 12,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 4,
+              "strokeIncluded": true,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.18039216101169586,
+                    "g": 0.1921568661928177,
+                    "b": 0.21176470816135406
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2217"
+                }
+              ],
+              "stroke": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.3450980484485626,
+                    "g": 0.3686274588108063,
+                    "b": 0.42352941632270813
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2226"
+                }
+              ],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I189950:12422;185104:2277",
+                  "n": "text",
+                  "t": "TEXT",
+                  "w": 51,
+                  "h": 20,
+                  "x": 13,
+                  "y": 4,
+                  "propRefs": {
+                    "characters": "Text#185520:87"
+                  },
+                  "b": {},
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "sw": 1,
+                  "sa": "OUTSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2220"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": [],
+                  "text": "Отмена",
+                  "font": {
+                    "family": "Rubik",
+                    "style": "Regular",
+                    "variationSettings": {
+                      "wght": 400
+                    }
+                  },
+                  "size": 14,
+                  "lh": {
+                    "unit": "PIXELS",
+                    "value": 20
+                  },
+                  "ls": {
+                    "unit": "PIXELS",
+                    "value": 0
+                  },
+                  "textAlign": "CENTER",
+                  "textVertical": "TOP",
+                  "auto": "WIDTH_AND_HEIGHT",
+                  "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                }
+              ]
+            },
+            {
+              "id": "189950:12423",
+              "n": "AltaIDE/ButtonPrimary",
+              "t": "INSTANCE",
+              "w": 42,
+              "h": 28,
+              "x": 87,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:200597:2208",
+                "paddingLeft": "VariableID:200597:2205",
+                "paddingTop": "VariableID:200597:2207",
+                "paddingRight": "VariableID:200597:2205",
+                "paddingBottom": "VariableID:200597:2207",
+                "topLeftRadius": "VariableID:200597:2206",
+                "topRightRadius": "VariableID:200597:2206",
+                "bottomLeftRadius": "VariableID:200597:2206",
+                "bottomRightRadius": "VariableID:200597:2206"
+              },
+              "layout": "HORIZONTAL",
+              "align": "CENTER",
+              "cross": "CENTER",
+              "primarySizing": "AUTO",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 4,
+              "pt": 4,
+              "pr": 12,
+              "pb": 4,
+              "pl": 12,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 0,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": true,
+              "wrap": "NO_WRAP",
+              "crossGap": 4,
+              "strokeIncluded": true,
+              "sides": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.33725491166114807,
+                    "g": 0.5176470875740051,
+                    "b": 0.8666666746139526
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2085"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I189950:12423;185086:2040",
+                  "n": "text",
+                  "t": "TEXT",
+                  "w": 18,
+                  "h": 20,
+                  "x": 12,
+                  "y": 4,
+                  "propRefs": {
+                    "characters": "Text#185520:26"
+                  },
+                  "b": {},
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "sw": 1,
+                  "sa": "OUTSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2212"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": [],
+                  "text": "Да",
+                  "font": {
+                    "family": "Rubik",
+                    "style": "Regular",
+                    "variationSettings": {
+                      "wght": 400
+                    }
+                  },
+                  "size": 14,
+                  "lh": {
+                    "unit": "PIXELS",
+                    "value": 20
+                  },
+                  "ls": {
+                    "unit": "PIXELS",
+                    "value": 0
+                  },
+                  "textAlign": "CENTER",
+                  "textVertical": "TOP",
+                  "auto": "WIDTH_AND_HEIGHT",
+                  "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191515:952",
+      "n": "Type=Info, Theme=Dark",
+      "t": "COMPONENT",
+      "w": 420,
+      "h": 170,
+      "x": 500,
+      "y": 50,
+      "propRefs": {},
+      "b": {
+        "itemSpacing": "VariableID:202274:6534",
+        "paddingLeft": "VariableID:202274:6532",
+        "paddingTop": "VariableID:202274:6532",
+        "paddingRight": "VariableID:202274:6532",
+        "paddingBottom": "VariableID:202274:6533",
+        "topLeftRadius": "VariableID:202274:6531",
+        "topRightRadius": "VariableID:202274:6531",
+        "bottomLeftRadius": "VariableID:202274:6531",
+        "bottomRightRadius": "VariableID:202274:6531"
+      },
+      "layout": "VERTICAL",
+      "align": "MAX",
+      "cross": "MAX",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 16,
+      "pt": 16,
+      "pr": 16,
+      "pb": 10,
+      "pl": 16,
+      "rtl": 8,
+      "rtr": 8,
+      "rbl": 8,
+      "rbr": 8,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.239215686917305,
+            "g": 0.2549019753932953,
+            "b": 0.29411765933036804
+          },
+          "a": 1,
+          "b": "VariableID:201175:11074"
+        }
+      ],
+      "stroke": [],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 20,
+          "boundVariables": {},
+          "color": {
+            "r": 0.07923635095357895,
+            "g": 0.0597824789583683,
+            "b": 0.0597824789583683,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 6
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "children": [
+        {
+          "id": "191515:953",
+          "n": "Frame 1128",
+          "t": "FRAME",
+          "w": 388,
+          "h": 100,
+          "x": 16,
+          "y": 16,
+          "propRefs": {},
+          "b": {
+            "itemSpacing": "VariableID:202274:6535"
+          },
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "AUTO",
+          "counterSizing": "AUTO",
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "191515:954",
+              "n": "AltaIDE/Icons/Status",
+              "t": "INSTANCE",
+              "w": 32,
+              "h": 32,
+              "x": 0,
+              "y": 0,
+              "propRefs": {},
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 0.8333333134651184,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 0,
+              "strokeIncluded": false,
+              "sides": [
+                0.8333333134651184,
+                0.8333333134651184,
+                0.8333333134651184,
+                0.8333333134651184
+              ],
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "6562d869"
+            },
+            {
+              "id": "191515:955",
+              "n": "Frame 1127",
+              "t": "FRAME",
+              "w": 346,
+              "h": 100,
+              "x": 42,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:202274:6535"
+              },
+              "layout": "VERTICAL",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 10,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 0,
+              "strokeIncluded": false,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "191515:956",
+                  "n": "Frame 1129",
+                  "t": "FRAME",
+                  "w": 346,
+                  "h": 70,
+                  "x": 0,
+                  "y": 0,
+                  "propRefs": {},
+                  "b": {
+                    "itemSpacing": "VariableID:202274:6536"
+                  },
+                  "layout": "VERTICAL",
+                  "align": "MIN",
+                  "cross": "MIN",
+                  "primarySizing": "AUTO",
+                  "counterSizing": "FIXED",
+                  "hs": "FILL",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "STRETCH",
+                  "pos": "AUTO",
+                  "gap": 4,
+                  "pt": 0,
+                  "pr": 0,
+                  "pb": 0,
+                  "pl": 0,
+                  "rtl": 0,
+                  "rtr": 0,
+                  "rbl": 0,
+                  "rbr": 0,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "clip": false,
+                  "wrap": "NO_WRAP",
+                  "crossGap": 0,
+                  "strokeIncluded": false,
+                  "sides": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "fill": [],
+                  "stroke": [],
+                  "effects": [],
+                  "children": [
+                    {
+                      "id": "191515:957",
+                      "n": "Внимание",
+                      "t": "TEXT",
+                      "w": 346,
+                      "h": 26,
+                      "x": 0,
+                      "y": 0,
+                      "propRefs": {
+                        "characters": "Head#188970:0"
+                      },
+                      "b": {},
+                      "hs": "FILL",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "STRETCH",
+                      "pos": "AUTO",
+                      "sw": 1,
+                      "sa": "OUTSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "fill": [
+                        {
+                          "type": "SOLID",
+                          "c": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1
+                          },
+                          "a": 1,
+                          "b": "VariableID:201373:4078"
+                        }
+                      ],
+                      "stroke": [],
+                      "effects": [],
+                      "text": "Внимание",
+                      "font": {
+                        "family": "Rubik",
+                        "style": "Medium",
+                        "variationSettings": {
+                          "wght": 500
+                        }
+                      },
+                      "size": 18,
+                      "lh": {
+                        "unit": "PIXELS",
+                        "value": 26
+                      },
+                      "ls": {
+                        "unit": "PIXELS",
+                        "value": 0
+                      },
+                      "textAlign": "LEFT",
+                      "textVertical": "TOP",
+                      "auto": "HEIGHT",
+                      "textStyle": "S:a094f5994abfa4c604cc8d05c95b6e6be76a2875,"
+                    },
+                    {
+                      "id": "191515:958",
+                      "n": "Удалить объекты Функциональный блок «FB», Папка «Новая папка»?",
+                      "t": "TEXT",
+                      "w": 346,
+                      "h": 40,
+                      "x": 0,
+                      "y": 30,
+                      "propRefs": {},
+                      "b": {},
+                      "hs": "FILL",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "STRETCH",
+                      "pos": "AUTO",
+                      "sw": 1,
+                      "sa": "OUTSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "fill": [
+                        {
+                          "type": "SOLID",
+                          "c": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1
+                          },
+                          "a": 1,
+                          "b": "VariableID:201373:4078"
+                        }
+                      ],
+                      "stroke": [],
+                      "effects": [],
+                      "text": "Удалить объекты Функциональный блок «FB», Папка «Новая папка»? ",
+                      "font": {
+                        "family": "Rubik",
+                        "style": "Regular",
+                        "variationSettings": {
+                          "wght": 400
+                        }
+                      },
+                      "size": 14,
+                      "lh": {
+                        "unit": "PIXELS",
+                        "value": 20
+                      },
+                      "ls": {
+                        "unit": "PIXELS",
+                        "value": 0
+                      },
+                      "textAlign": "LEFT",
+                      "textVertical": "TOP",
+                      "auto": "HEIGHT",
+                      "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                    }
+                  ]
+                },
+                {
+                  "id": "191515:959",
+                  "n": "Frame 1",
+                  "t": "FRAME",
+                  "w": 214,
+                  "h": 20,
+                  "x": 0,
+                  "y": 80,
+                  "propRefs": {
+                    "visible": "Checkbox#191768:0"
+                  },
+                  "b": {},
+                  "layout": "HORIZONTAL",
+                  "align": "MIN",
+                  "cross": "MIN",
+                  "primarySizing": "AUTO",
+                  "counterSizing": "AUTO",
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "gap": 10,
+                  "pt": 0,
+                  "pr": 0,
+                  "pb": 0,
+                  "pl": 0,
+                  "rtl": 0,
+                  "rtr": 0,
+                  "rbl": 0,
+                  "rbr": 0,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "clip": false,
+                  "wrap": "NO_WRAP",
+                  "crossGap": 0,
+                  "strokeIncluded": false,
+                  "sides": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "fill": [],
+                  "stroke": [],
+                  "effects": [],
+                  "children": [
+                    {
+                      "id": "191515:960",
+                      "n": "AltaIDE/CheckboxLable",
+                      "t": "INSTANCE",
+                      "w": 184,
+                      "h": 20,
+                      "x": 0,
+                      "y": 0,
+                      "propRefs": {},
+                      "b": {
+                        "itemSpacing": "VariableID:200752:3508"
+                      },
+                      "layout": "HORIZONTAL",
+                      "align": "MIN",
+                      "cross": "MIN",
+                      "primarySizing": "AUTO",
+                      "counterSizing": "AUTO",
+                      "hs": "HUG",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "INHERIT",
+                      "pos": "AUTO",
+                      "gap": 8,
+                      "pt": 0,
+                      "pr": 0,
+                      "pb": 0,
+                      "pl": 0,
+                      "rtl": 0,
+                      "rtr": 0,
+                      "rbl": 0,
+                      "rbr": 0,
+                      "sw": 1,
+                      "sa": "INSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "clip": false,
+                      "wrap": "NO_WRAP",
+                      "crossGap": 0,
+                      "strokeIncluded": false,
+                      "sides": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "fill": [],
+                      "stroke": [],
+                      "effects": [],
+                      "children": [
+                        {
+                          "id": "I191515:960;185503:26178",
+                          "n": "AltaIDE/Checkbox",
+                          "t": "INSTANCE",
+                          "w": 20,
+                          "h": 20,
+                          "x": 0,
+                          "y": 0,
+                          "propRefs": {},
+                          "b": {
+                            "width": "VariableID:200747:3103",
+                            "topLeftRadius": "VariableID:200747:3100",
+                            "topRightRadius": "VariableID:200747:3100",
+                            "bottomLeftRadius": "VariableID:200747:3100",
+                            "bottomRightRadius": "VariableID:200747:3100"
+                          },
+                          "layout": "NONE",
+                          "align": "MIN",
+                          "cross": "MIN",
+                          "primarySizing": "AUTO",
+                          "counterSizing": "FIXED",
+                          "hs": "FIXED",
+                          "vs": "FIXED",
+                          "grow": 0,
+                          "self": "INHERIT",
+                          "pos": "AUTO",
+                          "gap": 0,
+                          "pt": 0,
+                          "pr": 0,
+                          "pb": 0,
+                          "pl": 0,
+                          "rtl": 4,
+                          "rtr": 4,
+                          "rbl": 4,
+                          "rbr": 4,
+                          "sw": 1,
+                          "sa": "INSIDE",
+                          "opacity": 1,
+                          "rotation": 0,
+                          "clip": false,
+                          "wrap": "NO_WRAP",
+                          "crossGap": 0,
+                          "strokeIncluded": false,
+                          "sides": [
+                            1,
+                            1,
+                            1,
+                            1
+                          ],
+                          "fill": [],
+                          "stroke": [],
+                          "effects": [],
+                          "children": [
+                            {
+                              "id": "I191515:960;185503:26178;185249:1599",
+                              "n": "Checkbox",
+                              "t": "RECTANGLE",
+                              "w": 20,
+                              "h": 20,
+                              "x": 0,
+                              "y": 0,
+                              "propRefs": {},
+                              "b": {
+                                "width": "VariableID:200747:3103",
+                                "topLeftRadius": "VariableID:200747:3100",
+                                "topRightRadius": "VariableID:200747:3100",
+                                "bottomLeftRadius": "VariableID:200747:3100",
+                                "bottomRightRadius": "VariableID:200747:3100",
+                                "strokeTopWeight": "VariableID:200747:3101",
+                                "strokeBottomWeight": "VariableID:200747:3101",
+                                "strokeLeftWeight": "VariableID:200747:3101",
+                                "strokeRightWeight": "VariableID:200747:3101"
+                              },
+                              "hs": "FIXED",
+                              "vs": "FIXED",
+                              "grow": 0,
+                              "self": "INHERIT",
+                              "pos": "AUTO",
+                              "rtl": 4,
+                              "rtr": 4,
+                              "rbl": 4,
+                              "rbr": 4,
+                              "sw": 1,
+                              "sa": "INSIDE",
+                              "opacity": 1,
+                              "rotation": 0,
+                              "sides": [
+                                1,
+                                1,
+                                1,
+                                1
+                              ],
+                              "fill": [
+                                {
+                                  "type": "SOLID",
+                                  "c": {
+                                    "r": 0.239215686917305,
+                                    "g": 0.2549019753932953,
+                                    "b": 0.29411765933036804
+                                  },
+                                  "a": 1,
+                                  "b": "VariableID:200744:3074"
+                                }
+                              ],
+                              "stroke": [
+                                {
+                                  "type": "SOLID",
+                                  "c": {
+                                    "r": 0.4901960790157318,
+                                    "g": 0.5137255191802979,
+                                    "b": 0.5803921818733215
+                                  },
+                                  "a": 1,
+                                  "b": "VariableID:200747:3090"
+                                }
+                              ],
+                              "effects": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "I191515:960;185498:25198",
+                          "n": "Text",
+                          "t": "TEXT",
+                          "w": 156,
+                          "h": 20,
+                          "x": 28,
+                          "y": 0,
+                          "propRefs": {
+                            "characters": "Text#185504:119"
+                          },
+                          "b": {},
+                          "hs": "HUG",
+                          "vs": "HUG",
+                          "grow": 0,
+                          "self": "INHERIT",
+                          "pos": "AUTO",
+                          "sw": 1,
+                          "sa": "OUTSIDE",
+                          "opacity": 1,
+                          "rotation": 0,
+                          "fill": [
+                            {
+                              "type": "SOLID",
+                              "c": {
+                                "r": 0.686274528503418,
+                                "g": 0.6980392336845398,
+                                "b": 0.7254902124404907
+                              },
+                              "a": 1,
+                              "b": "VariableID:200752:3105"
+                            }
+                          ],
+                          "stroke": [],
+                          "effects": [],
+                          "text": "Больше не спрашивать",
+                          "font": {
+                            "family": "Rubik",
+                            "style": "Regular",
+                            "variationSettings": {
+                              "wght": 400
+                            }
+                          },
+                          "size": 14,
+                          "lh": {
+                            "unit": "PIXELS",
+                            "value": 20
+                          },
+                          "ls": {
+                            "unit": "PIXELS",
+                            "value": 0
+                          },
+                          "textAlign": "CENTER",
+                          "textVertical": "TOP",
+                          "auto": "WIDTH_AND_HEIGHT",
+                          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "191515:961",
+                      "n": "AltaIDE/Icons/Help",
+                      "t": "INSTANCE",
+                      "w": 20,
+                      "h": 20,
+                      "x": 194,
+                      "y": 0,
+                      "propRefs": {},
+                      "b": {},
+                      "layout": "NONE",
+                      "align": "MIN",
+                      "cross": "MIN",
+                      "primarySizing": "AUTO",
+                      "counterSizing": "FIXED",
+                      "hs": "FIXED",
+                      "vs": "FIXED",
+                      "grow": 0,
+                      "self": "INHERIT",
+                      "pos": "AUTO",
+                      "gap": 0,
+                      "pt": 0,
+                      "pr": 0,
+                      "pb": 0,
+                      "pl": 0,
+                      "rtl": 0,
+                      "rtr": 0,
+                      "rbl": 0,
+                      "rbr": 0,
+                      "sw": 1,
+                      "sa": "INSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "clip": false,
+                      "wrap": "NO_WRAP",
+                      "crossGap": 0,
+                      "strokeIncluded": false,
+                      "sides": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "fill": [],
+                      "stroke": [],
+                      "effects": [],
+                      "asset": "e8f41d33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "191515:962",
+          "n": "Frame 12",
+          "t": "FRAME",
+          "w": 129,
+          "h": 28,
+          "x": 275,
+          "y": 132,
+          "propRefs": {},
+          "b": {
+            "itemSpacing": "VariableID:202274:6535"
+          },
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "AUTO",
+          "counterSizing": "AUTO",
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "191515:963",
+              "n": "AltaIDE/ButtonSecondary",
+              "t": "INSTANCE",
+              "w": 77,
+              "h": 28,
+              "x": 0,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:200597:2208",
+                "paddingLeft": "VariableID:200597:2205",
+                "paddingTop": "VariableID:200597:2225",
+                "paddingRight": "VariableID:200597:2205",
+                "paddingBottom": "VariableID:200597:2225",
+                "topLeftRadius": "VariableID:200597:2206",
+                "topRightRadius": "VariableID:200597:2206",
+                "bottomLeftRadius": "VariableID:200597:2206",
+                "bottomRightRadius": "VariableID:200597:2206",
+                "strokeTopWeight": "VariableID:200597:2231",
+                "strokeBottomWeight": "VariableID:200597:2231",
+                "strokeLeftWeight": "VariableID:200597:2231",
+                "strokeRightWeight": "VariableID:200597:2231"
+              },
+              "layout": "HORIZONTAL",
+              "align": "CENTER",
+              "cross": "CENTER",
+              "primarySizing": "AUTO",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 4,
+              "pt": 3,
+              "pr": 12,
+              "pb": 3,
+              "pl": 12,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 4,
+              "strokeIncluded": true,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.18039216101169586,
+                    "g": 0.1921568661928177,
+                    "b": 0.21176470816135406
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2217"
+                }
+              ],
+              "stroke": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.3450980484485626,
+                    "g": 0.3686274588108063,
+                    "b": 0.42352941632270813
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2226"
+                }
+              ],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I191515:963;185104:2277",
+                  "n": "text",
+                  "t": "TEXT",
+                  "w": 51,
+                  "h": 20,
+                  "x": 13,
+                  "y": 4,
+                  "propRefs": {
+                    "characters": "Text#185520:87"
+                  },
+                  "b": {},
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "sw": 1,
+                  "sa": "OUTSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2220"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": [],
+                  "text": "Отмена",
+                  "font": {
+                    "family": "Rubik",
+                    "style": "Regular",
+                    "variationSettings": {
+                      "wght": 400
+                    }
+                  },
+                  "size": 14,
+                  "lh": {
+                    "unit": "PIXELS",
+                    "value": 20
+                  },
+                  "ls": {
+                    "unit": "PIXELS",
+                    "value": 0
+                  },
+                  "textAlign": "CENTER",
+                  "textVertical": "TOP",
+                  "auto": "WIDTH_AND_HEIGHT",
+                  "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                }
+              ]
+            },
+            {
+              "id": "191768:74234",
+              "n": "AltaIDE/ButtonSecondary",
+              "t": "INSTANCE",
+              "w": 77,
+              "h": 28,
+              "x": 87,
+              "y": 0,
+              "hidden": true,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:200597:2208",
+                "paddingLeft": "VariableID:200597:2205",
+                "paddingTop": "VariableID:200597:2225",
+                "paddingRight": "VariableID:200597:2205",
+                "paddingBottom": "VariableID:200597:2225",
+                "topLeftRadius": "VariableID:200597:2206",
+                "topRightRadius": "VariableID:200597:2206",
+                "bottomLeftRadius": "VariableID:200597:2206",
+                "bottomRightRadius": "VariableID:200597:2206",
+                "strokeTopWeight": "VariableID:200597:2231",
+                "strokeBottomWeight": "VariableID:200597:2231",
+                "strokeLeftWeight": "VariableID:200597:2231",
+                "strokeRightWeight": "VariableID:200597:2231"
+              },
+              "layout": "HORIZONTAL",
+              "align": "CENTER",
+              "cross": "CENTER",
+              "primarySizing": "AUTO",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 4,
+              "pt": 3,
+              "pr": 12,
+              "pb": 3,
+              "pl": 12,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 4,
+              "strokeIncluded": true,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.18039216101169586,
+                    "g": 0.1921568661928177,
+                    "b": 0.21176470816135406
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2217"
+                }
+              ],
+              "stroke": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.3450980484485626,
+                    "g": 0.3686274588108063,
+                    "b": 0.42352941632270813
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2226"
+                }
+              ],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I191768:74234;185104:2277",
+                  "n": "text",
+                  "t": "TEXT",
+                  "w": 25,
+                  "h": 20,
+                  "x": 15,
+                  "y": 4,
+                  "propRefs": {
+                    "characters": "Text#185520:87"
+                  },
+                  "b": {},
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "sw": 1,
+                  "sa": "OUTSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2220"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": [],
+                  "text": "Нет",
+                  "font": {
+                    "family": "Rubik",
+                    "style": "Regular",
+                    "variationSettings": {
+                      "wght": 400
+                    }
+                  },
+                  "size": 14,
+                  "lh": {
+                    "unit": "PIXELS",
+                    "value": 20
+                  },
+                  "ls": {
+                    "unit": "PIXELS",
+                    "value": 0
+                  },
+                  "textAlign": "CENTER",
+                  "textVertical": "TOP",
+                  "auto": "WIDTH_AND_HEIGHT",
+                  "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                }
+              ]
+            },
+            {
+              "id": "191515:964",
+              "n": "AltaIDE/ButtonPrimary",
+              "t": "INSTANCE",
+              "w": 42,
+              "h": 28,
+              "x": 87,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:200597:2208",
+                "paddingLeft": "VariableID:200597:2205",
+                "paddingTop": "VariableID:200597:2207",
+                "paddingRight": "VariableID:200597:2205",
+                "paddingBottom": "VariableID:200597:2207",
+                "topLeftRadius": "VariableID:200597:2206",
+                "topRightRadius": "VariableID:200597:2206",
+                "bottomLeftRadius": "VariableID:200597:2206",
+                "bottomRightRadius": "VariableID:200597:2206"
+              },
+              "layout": "HORIZONTAL",
+              "align": "CENTER",
+              "cross": "CENTER",
+              "primarySizing": "AUTO",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 4,
+              "pt": 4,
+              "pr": 12,
+              "pb": 4,
+              "pl": 12,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 0,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": true,
+              "wrap": "NO_WRAP",
+              "crossGap": 4,
+              "strokeIncluded": true,
+              "sides": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.33725491166114807,
+                    "g": 0.5176470875740051,
+                    "b": 0.8666666746139526
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2085"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I191515:964;185086:2040",
+                  "n": "text",
+                  "t": "TEXT",
+                  "w": 18,
+                  "h": 20,
+                  "x": 12,
+                  "y": 4,
+                  "propRefs": {
+                    "characters": "Text#185520:26"
+                  },
+                  "b": {},
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "sw": 1,
+                  "sa": "OUTSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2212"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": [],
+                  "text": "Да",
+                  "font": {
+                    "family": "Rubik",
+                    "style": "Regular",
+                    "variationSettings": {
+                      "wght": 400
+                    }
+                  },
+                  "size": 14,
+                  "lh": {
+                    "unit": "PIXELS",
+                    "value": 20
+                  },
+                  "ls": {
+                    "unit": "PIXELS",
+                    "value": 0
+                  },
+                  "textAlign": "CENTER",
+                  "textVertical": "TOP",
+                  "auto": "WIDTH_AND_HEIGHT",
+                  "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191515:1007",
+      "n": "Type=Warning, Theme=Dark",
+      "t": "COMPONENT",
+      "w": 420,
+      "h": 170,
+      "x": 956,
+      "y": 51,
+      "propRefs": {},
+      "b": {
+        "itemSpacing": "VariableID:202274:6534",
+        "paddingLeft": "VariableID:202274:6532",
+        "paddingTop": "VariableID:202274:6532",
+        "paddingRight": "VariableID:202274:6532",
+        "paddingBottom": "VariableID:202274:6533",
+        "topLeftRadius": "VariableID:202274:6531",
+        "topRightRadius": "VariableID:202274:6531",
+        "bottomLeftRadius": "VariableID:202274:6531",
+        "bottomRightRadius": "VariableID:202274:6531"
+      },
+      "layout": "VERTICAL",
+      "align": "MAX",
+      "cross": "MAX",
+      "primarySizing": "AUTO",
+      "counterSizing": "FIXED",
+      "hs": "FIXED",
+      "vs": "HUG",
+      "grow": 0,
+      "self": "INHERIT",
+      "pos": "AUTO",
+      "gap": 16,
+      "pt": 16,
+      "pr": 16,
+      "pb": 10,
+      "pl": 16,
+      "rtl": 8,
+      "rtr": 8,
+      "rbl": 8,
+      "rbr": 8,
+      "sw": 1,
+      "sa": "INSIDE",
+      "opacity": 1,
+      "rotation": 0,
+      "clip": false,
+      "wrap": "NO_WRAP",
+      "crossGap": 0,
+      "strokeIncluded": false,
+      "sides": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fill": [
+        {
+          "type": "SOLID",
+          "c": {
+            "r": 0.239215686917305,
+            "g": 0.2549019753932953,
+            "b": 0.29411765933036804
+          },
+          "a": 1,
+          "b": "VariableID:201175:11074"
+        }
+      ],
+      "stroke": [],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 20,
+          "boundVariables": {},
+          "color": {
+            "r": 0.07923635095357895,
+            "g": 0.0597824789583683,
+            "b": 0.0597824789583683,
+            "a": 1
+          },
+          "offset": {
+            "x": 0,
+            "y": 6
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "children": [
+        {
+          "id": "191515:1008",
+          "n": "Frame 1128",
+          "t": "FRAME",
+          "w": 388,
+          "h": 100,
+          "x": 16,
+          "y": 16,
+          "propRefs": {},
+          "b": {
+            "itemSpacing": "VariableID:202274:6535"
+          },
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "AUTO",
+          "counterSizing": "AUTO",
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "STRETCH",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "191515:1009",
+              "n": "AltaIDE/Icons/Status",
+              "t": "INSTANCE",
+              "w": 32,
+              "h": 32,
+              "x": 0,
+              "y": 0,
+              "propRefs": {},
+              "b": {},
+              "layout": "NONE",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FIXED",
+              "vs": "FIXED",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 0,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 0.6666666865348816,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 0,
+              "strokeIncluded": false,
+              "sides": [
+                0.6666666865348816,
+                0.6666666865348816,
+                0.6666666865348816,
+                0.6666666865348816
+              ],
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "asset": "4f56a901"
+            },
+            {
+              "id": "191515:1010",
+              "n": "Frame 1127",
+              "t": "FRAME",
+              "w": 346,
+              "h": 100,
+              "x": 42,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:202274:6535"
+              },
+              "layout": "VERTICAL",
+              "align": "MIN",
+              "cross": "MIN",
+              "primarySizing": "AUTO",
+              "counterSizing": "FIXED",
+              "hs": "FILL",
+              "vs": "HUG",
+              "grow": 1,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 10,
+              "pt": 0,
+              "pr": 0,
+              "pb": 0,
+              "pl": 0,
+              "rtl": 0,
+              "rtr": 0,
+              "rbl": 0,
+              "rbr": 0,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 0,
+              "strokeIncluded": false,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "191515:1011",
+                  "n": "Frame 1129",
+                  "t": "FRAME",
+                  "w": 346,
+                  "h": 70,
+                  "x": 0,
+                  "y": 0,
+                  "propRefs": {},
+                  "b": {
+                    "itemSpacing": "VariableID:202274:6536"
+                  },
+                  "layout": "VERTICAL",
+                  "align": "MIN",
+                  "cross": "MIN",
+                  "primarySizing": "AUTO",
+                  "counterSizing": "FIXED",
+                  "hs": "FILL",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "STRETCH",
+                  "pos": "AUTO",
+                  "gap": 4,
+                  "pt": 0,
+                  "pr": 0,
+                  "pb": 0,
+                  "pl": 0,
+                  "rtl": 0,
+                  "rtr": 0,
+                  "rbl": 0,
+                  "rbr": 0,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "clip": false,
+                  "wrap": "NO_WRAP",
+                  "crossGap": 0,
+                  "strokeIncluded": false,
+                  "sides": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "fill": [],
+                  "stroke": [],
+                  "effects": [],
+                  "children": [
+                    {
+                      "id": "191515:1012",
+                      "n": "Внимание",
+                      "t": "TEXT",
+                      "w": 346,
+                      "h": 26,
+                      "x": 0,
+                      "y": 0,
+                      "propRefs": {
+                        "characters": "Head#188970:0"
+                      },
+                      "b": {},
+                      "hs": "FILL",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "STRETCH",
+                      "pos": "AUTO",
+                      "sw": 1,
+                      "sa": "OUTSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "fill": [
+                        {
+                          "type": "SOLID",
+                          "c": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1
+                          },
+                          "a": 1,
+                          "b": "VariableID:201373:4078"
+                        }
+                      ],
+                      "stroke": [],
+                      "effects": [],
+                      "text": "Внимание",
+                      "font": {
+                        "family": "Rubik",
+                        "style": "Medium",
+                        "variationSettings": {
+                          "wght": 500
+                        }
+                      },
+                      "size": 18,
+                      "lh": {
+                        "unit": "PIXELS",
+                        "value": 26
+                      },
+                      "ls": {
+                        "unit": "PIXELS",
+                        "value": 0
+                      },
+                      "textAlign": "LEFT",
+                      "textVertical": "TOP",
+                      "auto": "HEIGHT",
+                      "textStyle": "S:a094f5994abfa4c604cc8d05c95b6e6be76a2875,"
+                    },
+                    {
+                      "id": "191515:1013",
+                      "n": "Удалить объекты Функциональный блок «FB», Папка «Новая папка»?",
+                      "t": "TEXT",
+                      "w": 346,
+                      "h": 40,
+                      "x": 0,
+                      "y": 30,
+                      "propRefs": {},
+                      "b": {},
+                      "hs": "FILL",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "STRETCH",
+                      "pos": "AUTO",
+                      "sw": 1,
+                      "sa": "OUTSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "fill": [
+                        {
+                          "type": "SOLID",
+                          "c": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1
+                          },
+                          "a": 1,
+                          "b": "VariableID:201373:4078"
+                        }
+                      ],
+                      "stroke": [],
+                      "effects": [],
+                      "text": "Удалить объекты Функциональный блок «FB», Папка «Новая папка»? ",
+                      "font": {
+                        "family": "Rubik",
+                        "style": "Regular",
+                        "variationSettings": {
+                          "wght": 400
+                        }
+                      },
+                      "size": 14,
+                      "lh": {
+                        "unit": "PIXELS",
+                        "value": 20
+                      },
+                      "ls": {
+                        "unit": "PIXELS",
+                        "value": 0
+                      },
+                      "textAlign": "LEFT",
+                      "textVertical": "TOP",
+                      "auto": "HEIGHT",
+                      "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                    }
+                  ]
+                },
+                {
+                  "id": "191515:1014",
+                  "n": "Frame 1",
+                  "t": "FRAME",
+                  "w": 214,
+                  "h": 20,
+                  "x": 0,
+                  "y": 80,
+                  "propRefs": {
+                    "visible": "Checkbox#191768:0"
+                  },
+                  "b": {},
+                  "layout": "HORIZONTAL",
+                  "align": "MIN",
+                  "cross": "MIN",
+                  "primarySizing": "AUTO",
+                  "counterSizing": "AUTO",
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "gap": 10,
+                  "pt": 0,
+                  "pr": 0,
+                  "pb": 0,
+                  "pl": 0,
+                  "rtl": 0,
+                  "rtr": 0,
+                  "rbl": 0,
+                  "rbr": 0,
+                  "sw": 1,
+                  "sa": "INSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "clip": false,
+                  "wrap": "NO_WRAP",
+                  "crossGap": 0,
+                  "strokeIncluded": false,
+                  "sides": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "fill": [],
+                  "stroke": [],
+                  "effects": [],
+                  "children": [
+                    {
+                      "id": "191515:1015",
+                      "n": "AltaIDE/CheckboxLable",
+                      "t": "INSTANCE",
+                      "w": 184,
+                      "h": 20,
+                      "x": 0,
+                      "y": 0,
+                      "propRefs": {},
+                      "b": {
+                        "itemSpacing": "VariableID:200752:3508"
+                      },
+                      "layout": "HORIZONTAL",
+                      "align": "MIN",
+                      "cross": "MIN",
+                      "primarySizing": "AUTO",
+                      "counterSizing": "AUTO",
+                      "hs": "HUG",
+                      "vs": "HUG",
+                      "grow": 0,
+                      "self": "INHERIT",
+                      "pos": "AUTO",
+                      "gap": 8,
+                      "pt": 0,
+                      "pr": 0,
+                      "pb": 0,
+                      "pl": 0,
+                      "rtl": 0,
+                      "rtr": 0,
+                      "rbl": 0,
+                      "rbr": 0,
+                      "sw": 1,
+                      "sa": "INSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "clip": false,
+                      "wrap": "NO_WRAP",
+                      "crossGap": 0,
+                      "strokeIncluded": false,
+                      "sides": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "fill": [],
+                      "stroke": [],
+                      "effects": [],
+                      "children": [
+                        {
+                          "id": "I191515:1015;185503:26178",
+                          "n": "AltaIDE/Checkbox",
+                          "t": "INSTANCE",
+                          "w": 20,
+                          "h": 20,
+                          "x": 0,
+                          "y": 0,
+                          "propRefs": {},
+                          "b": {
+                            "width": "VariableID:200747:3103",
+                            "topLeftRadius": "VariableID:200747:3100",
+                            "topRightRadius": "VariableID:200747:3100",
+                            "bottomLeftRadius": "VariableID:200747:3100",
+                            "bottomRightRadius": "VariableID:200747:3100"
+                          },
+                          "layout": "NONE",
+                          "align": "MIN",
+                          "cross": "MIN",
+                          "primarySizing": "AUTO",
+                          "counterSizing": "FIXED",
+                          "hs": "FIXED",
+                          "vs": "FIXED",
+                          "grow": 0,
+                          "self": "INHERIT",
+                          "pos": "AUTO",
+                          "gap": 0,
+                          "pt": 0,
+                          "pr": 0,
+                          "pb": 0,
+                          "pl": 0,
+                          "rtl": 4,
+                          "rtr": 4,
+                          "rbl": 4,
+                          "rbr": 4,
+                          "sw": 1,
+                          "sa": "INSIDE",
+                          "opacity": 1,
+                          "rotation": 0,
+                          "clip": false,
+                          "wrap": "NO_WRAP",
+                          "crossGap": 0,
+                          "strokeIncluded": false,
+                          "sides": [
+                            1,
+                            1,
+                            1,
+                            1
+                          ],
+                          "fill": [],
+                          "stroke": [],
+                          "effects": [],
+                          "children": [
+                            {
+                              "id": "I191515:1015;185503:26178;185249:1599",
+                              "n": "Checkbox",
+                              "t": "RECTANGLE",
+                              "w": 20,
+                              "h": 20,
+                              "x": 0,
+                              "y": 0,
+                              "propRefs": {},
+                              "b": {
+                                "width": "VariableID:200747:3103",
+                                "topLeftRadius": "VariableID:200747:3100",
+                                "topRightRadius": "VariableID:200747:3100",
+                                "bottomLeftRadius": "VariableID:200747:3100",
+                                "bottomRightRadius": "VariableID:200747:3100",
+                                "strokeTopWeight": "VariableID:200747:3101",
+                                "strokeBottomWeight": "VariableID:200747:3101",
+                                "strokeLeftWeight": "VariableID:200747:3101",
+                                "strokeRightWeight": "VariableID:200747:3101"
+                              },
+                              "hs": "FIXED",
+                              "vs": "FIXED",
+                              "grow": 0,
+                              "self": "INHERIT",
+                              "pos": "AUTO",
+                              "rtl": 4,
+                              "rtr": 4,
+                              "rbl": 4,
+                              "rbr": 4,
+                              "sw": 1,
+                              "sa": "INSIDE",
+                              "opacity": 1,
+                              "rotation": 0,
+                              "sides": [
+                                1,
+                                1,
+                                1,
+                                1
+                              ],
+                              "fill": [
+                                {
+                                  "type": "SOLID",
+                                  "c": {
+                                    "r": 0.239215686917305,
+                                    "g": 0.2549019753932953,
+                                    "b": 0.29411765933036804
+                                  },
+                                  "a": 1,
+                                  "b": "VariableID:200744:3074"
+                                }
+                              ],
+                              "stroke": [
+                                {
+                                  "type": "SOLID",
+                                  "c": {
+                                    "r": 0.4901960790157318,
+                                    "g": 0.5137255191802979,
+                                    "b": 0.5803921818733215
+                                  },
+                                  "a": 1,
+                                  "b": "VariableID:200747:3090"
+                                }
+                              ],
+                              "effects": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "I191515:1015;185498:25198",
+                          "n": "Text",
+                          "t": "TEXT",
+                          "w": 156,
+                          "h": 20,
+                          "x": 28,
+                          "y": 0,
+                          "propRefs": {
+                            "characters": "Text#185504:119"
+                          },
+                          "b": {},
+                          "hs": "HUG",
+                          "vs": "HUG",
+                          "grow": 0,
+                          "self": "INHERIT",
+                          "pos": "AUTO",
+                          "sw": 1,
+                          "sa": "OUTSIDE",
+                          "opacity": 1,
+                          "rotation": 0,
+                          "fill": [
+                            {
+                              "type": "SOLID",
+                              "c": {
+                                "r": 0.686274528503418,
+                                "g": 0.6980392336845398,
+                                "b": 0.7254902124404907
+                              },
+                              "a": 1,
+                              "b": "VariableID:200752:3105"
+                            }
+                          ],
+                          "stroke": [],
+                          "effects": [],
+                          "text": "Больше не спрашивать",
+                          "font": {
+                            "family": "Rubik",
+                            "style": "Regular",
+                            "variationSettings": {
+                              "wght": 400
+                            }
+                          },
+                          "size": 14,
+                          "lh": {
+                            "unit": "PIXELS",
+                            "value": 20
+                          },
+                          "ls": {
+                            "unit": "PIXELS",
+                            "value": 0
+                          },
+                          "textAlign": "CENTER",
+                          "textVertical": "TOP",
+                          "auto": "WIDTH_AND_HEIGHT",
+                          "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "191515:1016",
+                      "n": "AltaIDE/Icons/Help",
+                      "t": "INSTANCE",
+                      "w": 20,
+                      "h": 20,
+                      "x": 194,
+                      "y": 0,
+                      "propRefs": {},
+                      "b": {},
+                      "layout": "NONE",
+                      "align": "MIN",
+                      "cross": "MIN",
+                      "primarySizing": "AUTO",
+                      "counterSizing": "FIXED",
+                      "hs": "FIXED",
+                      "vs": "FIXED",
+                      "grow": 0,
+                      "self": "INHERIT",
+                      "pos": "AUTO",
+                      "gap": 0,
+                      "pt": 0,
+                      "pr": 0,
+                      "pb": 0,
+                      "pl": 0,
+                      "rtl": 0,
+                      "rtr": 0,
+                      "rbl": 0,
+                      "rbr": 0,
+                      "sw": 1,
+                      "sa": "INSIDE",
+                      "opacity": 1,
+                      "rotation": 0,
+                      "clip": false,
+                      "wrap": "NO_WRAP",
+                      "crossGap": 0,
+                      "strokeIncluded": false,
+                      "sides": [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      "fill": [],
+                      "stroke": [],
+                      "effects": [],
+                      "asset": "e8f41d33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "191515:1017",
+          "n": "Frame 12",
+          "t": "FRAME",
+          "w": 129,
+          "h": 28,
+          "x": 275,
+          "y": 132,
+          "propRefs": {},
+          "b": {
+            "itemSpacing": "VariableID:202274:6535"
+          },
+          "layout": "HORIZONTAL",
+          "align": "MIN",
+          "cross": "MIN",
+          "primarySizing": "AUTO",
+          "counterSizing": "AUTO",
+          "hs": "HUG",
+          "vs": "HUG",
+          "grow": 0,
+          "self": "INHERIT",
+          "pos": "AUTO",
+          "gap": 10,
+          "pt": 0,
+          "pr": 0,
+          "pb": 0,
+          "pl": 0,
+          "rtl": 0,
+          "rtr": 0,
+          "rbl": 0,
+          "rbr": 0,
+          "sw": 1,
+          "sa": "INSIDE",
+          "opacity": 1,
+          "rotation": 0,
+          "clip": false,
+          "wrap": "NO_WRAP",
+          "crossGap": 0,
+          "strokeIncluded": false,
+          "sides": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fill": [],
+          "stroke": [],
+          "effects": [],
+          "children": [
+            {
+              "id": "191515:1018",
+              "n": "AltaIDE/ButtonSecondary",
+              "t": "INSTANCE",
+              "w": 77,
+              "h": 28,
+              "x": 0,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:200597:2208",
+                "paddingLeft": "VariableID:200597:2205",
+                "paddingTop": "VariableID:200597:2225",
+                "paddingRight": "VariableID:200597:2205",
+                "paddingBottom": "VariableID:200597:2225",
+                "topLeftRadius": "VariableID:200597:2206",
+                "topRightRadius": "VariableID:200597:2206",
+                "bottomLeftRadius": "VariableID:200597:2206",
+                "bottomRightRadius": "VariableID:200597:2206",
+                "strokeTopWeight": "VariableID:200597:2231",
+                "strokeBottomWeight": "VariableID:200597:2231",
+                "strokeLeftWeight": "VariableID:200597:2231",
+                "strokeRightWeight": "VariableID:200597:2231"
+              },
+              "layout": "HORIZONTAL",
+              "align": "CENTER",
+              "cross": "CENTER",
+              "primarySizing": "AUTO",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 4,
+              "pt": 3,
+              "pr": 12,
+              "pb": 3,
+              "pl": 12,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 4,
+              "strokeIncluded": true,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.18039216101169586,
+                    "g": 0.1921568661928177,
+                    "b": 0.21176470816135406
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2217"
+                }
+              ],
+              "stroke": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.3450980484485626,
+                    "g": 0.3686274588108063,
+                    "b": 0.42352941632270813
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2226"
+                }
+              ],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I191515:1018;185104:2277",
+                  "n": "text",
+                  "t": "TEXT",
+                  "w": 51,
+                  "h": 20,
+                  "x": 13,
+                  "y": 4,
+                  "propRefs": {
+                    "characters": "Text#185520:87"
+                  },
+                  "b": {},
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "sw": 1,
+                  "sa": "OUTSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2220"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": [],
+                  "text": "Отмена",
+                  "font": {
+                    "family": "Rubik",
+                    "style": "Regular",
+                    "variationSettings": {
+                      "wght": 400
+                    }
+                  },
+                  "size": 14,
+                  "lh": {
+                    "unit": "PIXELS",
+                    "value": 20
+                  },
+                  "ls": {
+                    "unit": "PIXELS",
+                    "value": 0
+                  },
+                  "textAlign": "CENTER",
+                  "textVertical": "TOP",
+                  "auto": "WIDTH_AND_HEIGHT",
+                  "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                }
+              ]
+            },
+            {
+              "id": "196757:1968",
+              "n": "AltaIDE/ButtonSecondary",
+              "t": "INSTANCE",
+              "w": 77,
+              "h": 28,
+              "x": 87,
+              "y": 0,
+              "hidden": true,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:200597:2208",
+                "paddingLeft": "VariableID:200597:2205",
+                "paddingTop": "VariableID:200597:2225",
+                "paddingRight": "VariableID:200597:2205",
+                "paddingBottom": "VariableID:200597:2225",
+                "topLeftRadius": "VariableID:200597:2206",
+                "topRightRadius": "VariableID:200597:2206",
+                "bottomLeftRadius": "VariableID:200597:2206",
+                "bottomRightRadius": "VariableID:200597:2206",
+                "strokeTopWeight": "VariableID:200597:2231",
+                "strokeBottomWeight": "VariableID:200597:2231",
+                "strokeLeftWeight": "VariableID:200597:2231",
+                "strokeRightWeight": "VariableID:200597:2231"
+              },
+              "layout": "HORIZONTAL",
+              "align": "CENTER",
+              "cross": "CENTER",
+              "primarySizing": "AUTO",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 4,
+              "pt": 3,
+              "pr": 12,
+              "pb": 3,
+              "pl": 12,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 1,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": false,
+              "wrap": "NO_WRAP",
+              "crossGap": 4,
+              "strokeIncluded": true,
+              "sides": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.18039216101169586,
+                    "g": 0.1921568661928177,
+                    "b": 0.21176470816135406
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2217"
+                }
+              ],
+              "stroke": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.3450980484485626,
+                    "g": 0.3686274588108063,
+                    "b": 0.42352941632270813
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2226"
+                }
+              ],
+              "effects": [],
+              "children": []
+            },
+            {
+              "id": "191515:1019",
+              "n": "AltaIDE/ButtonPrimary",
+              "t": "INSTANCE",
+              "w": 42,
+              "h": 28,
+              "x": 87,
+              "y": 0,
+              "propRefs": {},
+              "b": {
+                "itemSpacing": "VariableID:200597:2208",
+                "paddingLeft": "VariableID:200597:2205",
+                "paddingTop": "VariableID:200597:2207",
+                "paddingRight": "VariableID:200597:2205",
+                "paddingBottom": "VariableID:200597:2207",
+                "topLeftRadius": "VariableID:200597:2206",
+                "topRightRadius": "VariableID:200597:2206",
+                "bottomLeftRadius": "VariableID:200597:2206",
+                "bottomRightRadius": "VariableID:200597:2206"
+              },
+              "layout": "HORIZONTAL",
+              "align": "CENTER",
+              "cross": "CENTER",
+              "primarySizing": "AUTO",
+              "counterSizing": "AUTO",
+              "hs": "HUG",
+              "vs": "HUG",
+              "grow": 0,
+              "self": "INHERIT",
+              "pos": "AUTO",
+              "gap": 4,
+              "pt": 4,
+              "pr": 12,
+              "pb": 4,
+              "pl": 12,
+              "rtl": 4,
+              "rtr": 4,
+              "rbl": 4,
+              "rbr": 4,
+              "sw": 0,
+              "sa": "INSIDE",
+              "opacity": 1,
+              "rotation": 0,
+              "clip": true,
+              "wrap": "NO_WRAP",
+              "crossGap": 4,
+              "strokeIncluded": true,
+              "sides": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "fill": [
+                {
+                  "type": "SOLID",
+                  "c": {
+                    "r": 0.33725491166114807,
+                    "g": 0.5176470875740051,
+                    "b": 0.8666666746139526
+                  },
+                  "a": 1,
+                  "b": "VariableID:200597:2085"
+                }
+              ],
+              "stroke": [],
+              "effects": [],
+              "children": [
+                {
+                  "id": "I191515:1019;185086:2040",
+                  "n": "text",
+                  "t": "TEXT",
+                  "w": 18,
+                  "h": 20,
+                  "x": 12,
+                  "y": 4,
+                  "propRefs": {
+                    "characters": "Text#185520:26"
+                  },
+                  "b": {},
+                  "hs": "HUG",
+                  "vs": "HUG",
+                  "grow": 0,
+                  "self": "INHERIT",
+                  "pos": "AUTO",
+                  "sw": 1,
+                  "sa": "OUTSIDE",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "fill": [
+                    {
+                      "type": "SOLID",
+                      "c": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      },
+                      "a": 1,
+                      "b": "VariableID:200597:2212"
+                    }
+                  ],
+                  "stroke": [],
+                  "effects": [],
+                  "text": "Да",
+                  "font": {
+                    "family": "Rubik",
+                    "style": "Regular",
+                    "variationSettings": {
+                      "wght": 400
+                    }
+                  },
+                  "size": 14,
+                  "lh": {
+                    "unit": "PIXELS",
+                    "value": 20
+                  },
+                  "ls": {
+                    "unit": "PIXELS",
+                    "value": 0
+                  },
+                  "textAlign": "CENTER",
+                  "textVertical": "TOP",
+                  "auto": "WIDTH_AND_HEIGHT",
+                  "textStyle": "S:cff30ae027246c7eba8026628ab78c3694033f82,"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "key": "dd326b15",
+      "id": "189950:12413",
+      "n": "AltaIDE/Icons/Status",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "key": "e8f41d33",
+      "id": "191515:1016",
+      "n": "AltaIDE/Icons/Help",
+      "w": 20,
+      "h": 20
+    },
+    {
+      "key": "6562d869",
+      "id": "191515:954",
+      "n": "AltaIDE/Icons/Status",
+      "w": 32,
+      "h": 32
+    },
+    {
+      "key": "4f56a901",
+      "id": "191515:1009",
+      "n": "AltaIDE/Icons/Status",
+      "w": 32,
+      "h": 32
+    }
+  ],
+  "refs": [
+    "VariableID:202274:6534",
+    "VariableID:202274:6532",
+    "VariableID:202274:6533",
+    "VariableID:202274:6531",
+    "VariableID:201175:11074",
+    "VariableID:202274:6535",
+    "VariableID:200597:2124",
+    "VariableID:200597:2065",
+    "VariableID:202274:6536",
+    "VariableID:201373:4078",
+    "VariableID:200752:3508",
+    "VariableID:200747:3103",
+    "VariableID:200747:3100",
+    "VariableID:200747:3101",
+    "VariableID:200744:3074",
+    "VariableID:200747:3090",
+    "VariableID:200752:3105",
+    "VariableID:201068:7372",
+    "VariableID:201068:7373",
+    "VariableID:200752:3608",
+    "VariableID:181715:124812",
+    "VariableID:200752:3589",
+    "VariableID:200597:2208",
+    "VariableID:200597:2205",
+    "VariableID:200597:2225",
+    "VariableID:200597:2206",
+    "VariableID:200597:2231",
+    "VariableID:200597:2217",
+    "VariableID:200597:2226",
+    "VariableID:200597:2220",
+    "VariableID:200597:2207",
+    "VariableID:200597:2085",
+    "VariableID:200597:2212",
+    "VariableID:200597:2138"
+  ],
+  "dependencies": [
+    {
+      "id": "189950:12413",
+      "main": "183956:110836",
+      "variant": "Type=Error",
+      "owner": "183949:110760",
+      "name": "AltaIDE/Icons/Status"
+    },
+    {
+      "id": "189950:12419",
+      "main": "185498:25196",
+      "variant": "Type=Unchecked, State=Default, Theme=Dark, Property 4=1",
+      "owner": "185504:26421",
+      "name": "AltaIDE/CheckboxLable"
+    },
+    {
+      "id": "I189950:12419;185503:26178",
+      "main": "185249:1639",
+      "variant": "Type=Unchecked, State=Default, Theme=Dark",
+      "owner": "185249:1658",
+      "name": "AltaIDE/Checkbox"
+    },
+    {
+      "id": "190181:1032",
+      "main": "187361:32771",
+      "variant": "State=Default",
+      "owner": "187361:32772",
+      "name": "AltaIDE/Icons/Help"
+    },
+    {
+      "id": "196754:1106",
+      "main": "185293:1256",
+      "variant": "State=Default, Type=Link, Theme=Dark",
+      "owner": "185293:1270",
+      "name": "AltaIDE/Link"
+    },
+    {
+      "id": "196754:1253",
+      "main": "185293:1256",
+      "variant": "State=Default, Type=Link, Theme=Dark",
+      "owner": "185293:1270",
+      "name": "AltaIDE/Link"
+    },
+    {
+      "id": "189950:12422",
+      "main": "185107:1047",
+      "variant": "Size=Large, State=Default, Icon=Without",
+      "owner": "185107:1051",
+      "name": "AltaIDE/ButtonSecondary"
+    },
+    {
+      "id": "189950:12423",
+      "main": "185100:854",
+      "variant": "Size=Large, State=Default, Icon=Without",
+      "owner": "185100:882",
+      "name": "AltaIDE/ButtonPrimary"
+    },
+    {
+      "id": "191515:954",
+      "main": "184831:477",
+      "variant": "Type=Info",
+      "owner": "183949:110760",
+      "name": "AltaIDE/Icons/Status"
+    },
+    {
+      "id": "191515:960",
+      "main": "185498:25196",
+      "variant": "Type=Unchecked, State=Default, Theme=Dark, Property 4=1",
+      "owner": "185504:26421",
+      "name": "AltaIDE/CheckboxLable"
+    },
+    {
+      "id": "I191515:960;185503:26178",
+      "main": "185249:1639",
+      "variant": "Type=Unchecked, State=Default, Theme=Dark",
+      "owner": "185249:1658",
+      "name": "AltaIDE/Checkbox"
+    },
+    {
+      "id": "191515:961",
+      "main": "187361:32771",
+      "variant": "State=Default",
+      "owner": "187361:32772",
+      "name": "AltaIDE/Icons/Help"
+    },
+    {
+      "id": "191515:963",
+      "main": "185107:1047",
+      "variant": "Size=Large, State=Default, Icon=Without",
+      "owner": "185107:1051",
+      "name": "AltaIDE/ButtonSecondary"
+    },
+    {
+      "id": "191768:74234",
+      "main": "185107:1047",
+      "variant": "Size=Large, State=Default, Icon=Without",
+      "owner": "185107:1051",
+      "name": "AltaIDE/ButtonSecondary"
+    },
+    {
+      "id": "191515:964",
+      "main": "185100:854",
+      "variant": "Size=Large, State=Default, Icon=Without",
+      "owner": "185100:882",
+      "name": "AltaIDE/ButtonPrimary"
+    },
+    {
+      "id": "191515:1009",
+      "main": "183956:110831",
+      "variant": "Type=Warning",
+      "owner": "183949:110760",
+      "name": "AltaIDE/Icons/Status"
+    },
+    {
+      "id": "191515:1015",
+      "main": "185498:25196",
+      "variant": "Type=Unchecked, State=Default, Theme=Dark, Property 4=1",
+      "owner": "185504:26421",
+      "name": "AltaIDE/CheckboxLable"
+    },
+    {
+      "id": "I191515:1015;185503:26178",
+      "main": "185249:1639",
+      "variant": "Type=Unchecked, State=Default, Theme=Dark",
+      "owner": "185249:1658",
+      "name": "AltaIDE/Checkbox"
+    },
+    {
+      "id": "191515:1016",
+      "main": "187361:32771",
+      "variant": "State=Default",
+      "owner": "187361:32772",
+      "name": "AltaIDE/Icons/Help"
+    },
+    {
+      "id": "191515:1018",
+      "main": "185107:1047",
+      "variant": "Size=Large, State=Default, Icon=Without",
+      "owner": "185107:1051",
+      "name": "AltaIDE/ButtonSecondary"
+    },
+    {
+      "id": "196757:1968",
+      "main": "185107:1047",
+      "variant": "Size=Large, State=Default, Icon=Without",
+      "owner": "185107:1051",
+      "name": "AltaIDE/ButtonSecondary"
+    },
+    {
+      "id": "191515:1019",
+      "main": "185100:854",
+      "variant": "Size=Large, State=Default, Icon=Without",
+      "owner": "185100:882",
+      "name": "AltaIDE/ButtonPrimary"
+    }
+  ]
+}

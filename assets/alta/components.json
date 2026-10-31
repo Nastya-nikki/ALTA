@@ -544,5 +544,68 @@
     "css": "tooltip-help.css",
     "js": "tooltip-help.js",
     "default": 0
+  },
+  {
+    "name": "Banner",
+    "folder": "Components/AltaIDE_Banner",
+    "kind": "Banner",
+    "variants": 4,
+    "css": "banner.css",
+    "js": "banner.js",
+    "default": 0
+  },
+  {
+    "name": "Tabs",
+    "folder": "Components/AltaIDE_Tabs",
+    "kind": "Tabs",
+    "variants": 1,
+    "css": "tabs.css",
+    "js": "tabs.js",
+    "default": 0
+  },
+  {
+    "name": "TabsVertical",
+    "folder": "Components/AltaIDE_TabsVertical",
+    "kind": "TabsVertical",
+    "variants": 1,
+    "css": "tabs-vertical.css",
+    "js": "tabs-vertical.js",
+    "default": 0
+  },
+  {
+    "name": "Breadcrumbs",
+    "folder": "Components/AltaIDE_Breadcrumbs",
+    "kind": "Breadcrumbs",
+    "variants": 3,
+    "css": "breadcrumbs.css",
+    "js": "breadcrumbs.js",
+    "default": 0
+  },
+  {
+    "name": "Notification",
+    "folder": "Components/AltaIDE_Notification",
+    "kind": "Notification",
+    "variants": 3,
+    "css": "notification.css",
+    "js": "notification.js",
+    "default": 0
+  },
+  {
+    "name": "NotificationPopup",
+    "folder": "Components/AltaIDE_NotificationPopup",
+    "kind": "NotificationPopup",
+    "variants": 5,
+    "css": "notification-popup.css",
+    "js": "notification-popup.js",
+    "default": 2
+  },
+  {
+    "name": "Resize",
+    "folder": "Components/AltaIDE_Resize",
+    "kind": "Resize",
+    "variants": 3,
+    "css": "resize.css",
+    "js": "resize.js",
+    "default": 0
   }
 ]

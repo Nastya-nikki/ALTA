@@ -1,0 +1,54 @@
+{
+  "readAt": "2026-10-31",
+  "source": "https://www.figma.com/design/axdKFZbeqNIfskP18KDs32/?node-id=185705-20560",
+  "nodeId": "185705:20560",
+  "properties": {
+    "Code Text#185707:0": {
+      "type": "TEXT",
+      "defaultValue": "⌘⌥A"
+    },
+    "Background": {
+      "type": "VARIANT",
+      "defaultValue": "Yes",
+      "variantOptions": [
+        "Yes",
+        "No"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Disabled"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185707:20584",
+      "name": "Background=No, State=Default",
+      "width": 34,
+      "height": 20
+    },
+    {
+      "id": "185705:20563",
+      "name": "Background=Yes, State=Default",
+      "width": 42,
+      "height": 20
+    },
+    {
+      "id": "195506:17567",
+      "name": "Background=Yes, State=Disabled",
+      "width": 42,
+      "height": 20
+    },
+    {
+      "id": "195506:17569",
+      "name": "Background=No, State=Disabled",
+      "width": 34,
+      "height": 20
+    }
+  ],
+  "result": "Current visible layout, styles, text, properties and variant composition match the existing implementation source."
+}
