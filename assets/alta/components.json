@@ -930,7 +930,7 @@
     "kind": "Write",
     "css": "write.css",
     "js": "write.js",
-    "default": 0
+    "default": 8
   },
   {
     "name": "CFC Read",

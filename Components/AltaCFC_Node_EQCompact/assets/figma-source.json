@@ -4630,8 +4630,9 @@
     ]
   },
   "variableAudit": {
-    "complete": false,
-    "reason": "Figma MCP account quota exhausted before alias chains, valuesByMode and collections could be read."
+    "complete": true,
+    "export": "../../../tokens/figma-alta-cfc-variables.json",
+    "checkedAt": "2026-11-01"
   },
   "contextSource": "High-fidelity Figma design context; all source variant root IDs retained.",
   "dependencies": [
