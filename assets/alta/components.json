@@ -949,5 +949,175 @@
     "css": "comments.css",
     "js": "comments.js",
     "default": 0
+  },
+  {
+    "name": "CodeEditor DebuggingPoints",
+    "folder": "Components/AltaCodeEditor_DebuggingPoints",
+    "variants": 9,
+    "kind": "Static",
+    "css": "debugging-points.css",
+    "js": "debugging-points.js",
+    "default": 8,
+    "description": "Маркеры состояния отладки."
+  },
+  {
+    "name": "CodeEditor Gaps",
+    "folder": "Components/AltaCodeEditor_Gaps",
+    "variants": 5,
+    "kind": "Static",
+    "css": "gaps.css",
+    "js": "gaps.js",
+    "default": 0,
+    "description": "Отступы и направляющие структуры кода."
+  },
+  {
+    "name": "CodeEditor CodeNumber",
+    "folder": "Components/AltaCodeEditor_CodeNumber",
+    "variants": 6,
+    "kind": "Number",
+    "css": "code-number.css",
+    "js": "code-number.js",
+    "default": 1,
+    "description": "Номер строки и маркеры отладки."
+  },
+  {
+    "name": "CodeEditor BGCodeCanvas",
+    "folder": "Components/AltaCodeEditor_BGCodeCanvas",
+    "variants": 3,
+    "kind": "Background",
+    "css": "bgcode-canvas.css",
+    "js": "bgcode-canvas.js",
+    "default": 0,
+    "description": "Фон строки области кода."
+  },
+  {
+    "name": "CodeEditor ScrollNode88561030",
+    "folder": "Components/AltaCodeEditor_ScrollNode88561030",
+    "variants": 2,
+    "kind": "Scroll",
+    "css": "scroll-node88561030.css",
+    "js": "scroll-node88561030.js",
+    "default": 0,
+    "description": "Элемент вертикальной прокрутки."
+  },
+  {
+    "name": "CodeEditor ScrollNode200783648",
+    "folder": "Components/AltaCodeEditor_ScrollNode200783648",
+    "variants": 2,
+    "kind": "Scroll",
+    "css": "scroll-node200783648.css",
+    "js": "scroll-node200783648.js",
+    "default": 0,
+    "description": "Элемент вертикальной прокрутки."
+  },
+  {
+    "name": "CodeEditor CodeCanvas",
+    "folder": "Components/AltaCodeEditor_CodeCanvas",
+    "variants": 1,
+    "kind": "Canvas",
+    "css": "code-canvas.css",
+    "js": "code-canvas.js",
+    "default": 0,
+    "description": "Строка области кода с номером и направляющими."
+  },
+  {
+    "name": "CodeEditor CodeCanvasContent",
+    "folder": "Components/AltaCodeEditor_CodeCanvasContent",
+    "variants": 1,
+    "kind": "Canvas",
+    "css": "code-canvas-content.css",
+    "js": "code-canvas-content.js",
+    "default": 0,
+    "description": "Область отображения кода."
+  },
+  {
+    "name": "CodeEditor CodeCanvasDebugging",
+    "folder": "Components/AltaCodeEditor_CodeCanvasDebugging",
+    "variants": 1,
+    "kind": "Canvas",
+    "css": "code-canvas-debugging.css",
+    "js": "code-canvas-debugging.js",
+    "default": 0,
+    "description": "Область отображения кода во время отладки."
+  },
+  {
+    "name": "CodeEditor CodeCanvasDouble",
+    "folder": "Components/AltaCodeEditor_CodeCanvasDouble",
+    "variants": 1,
+    "kind": "Canvas",
+    "css": "code-canvas-double.css",
+    "js": "code-canvas-double.js",
+    "default": 0,
+    "description": "Строка области кода с дополнительным уровнем отступа."
+  },
+  {
+    "name": "CodeEditor CodeCanvasEmpty",
+    "folder": "Components/AltaCodeEditor_CodeCanvasEmpty",
+    "variants": 1,
+    "kind": "Canvas",
+    "css": "code-canvas-empty.css",
+    "js": "code-canvas-empty.js",
+    "default": 0,
+    "description": "Пустая область кода с номерами строк."
+  },
+  {
+    "name": "CodeEditor CodeCanvasFull",
+    "folder": "Components/AltaCodeEditor_CodeCanvasFull",
+    "variants": 1,
+    "kind": "Canvas",
+    "css": "code-canvas-full.css",
+    "js": "code-canvas-full.js",
+    "default": 0,
+    "description": "Область отображения многострочного кода."
+  },
+  {
+    "name": "CodeEditor DebuggingPointsStack",
+    "folder": "Components/AltaCodeEditor_DebuggingPointsStack",
+    "variants": 1,
+    "kind": "Static",
+    "css": "debugging-points-stack.css",
+    "js": "debugging-points-stack.js",
+    "default": 0,
+    "description": "Группа маркеров отладки."
+  },
+  {
+    "name": "CodeEditor GutterMarkerNode200783591",
+    "folder": "Components/AltaCodeEditor_GutterMarkerNode200783591",
+    "variants": 7,
+    "kind": "Static",
+    "css": "gutter-marker-node200783591.css",
+    "js": "gutter-marker-node200783591.js",
+    "default": 0,
+    "description": "Маркер сообщения на полосе прокрутки."
+  },
+  {
+    "name": "CodeEditor GutterMarkerNode47646485",
+    "folder": "Components/AltaCodeEditor_GutterMarkerNode47646485",
+    "variants": 7,
+    "kind": "Static",
+    "css": "gutter-marker-node47646485.css",
+    "js": "gutter-marker-node47646485.js",
+    "default": 0,
+    "description": "Маркер сообщения на полосе прокрутки."
+  },
+  {
+    "name": "CodeEditor ScrollGutterMarkers",
+    "folder": "Components/AltaCodeEditor_ScrollGutterMarkers",
+    "variants": 1,
+    "kind": "Canvas",
+    "css": "scroll-gutter-markers.css",
+    "js": "scroll-gutter-markers.js",
+    "default": 0,
+    "description": "Полоса прокрутки с маркерами сообщений."
+  },
+  {
+    "name": "CodeEditor IconFavorite",
+    "folder": "Components/01_Icons/AltaCodeEditor_IconFavorite",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-favorite.css",
+    "js": "icon-favorite.js",
+    "default": 0,
+    "description": "Иконка избранного."
   }
 ]

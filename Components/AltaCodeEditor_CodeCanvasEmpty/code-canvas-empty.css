@@ -1,0 +1,13 @@
+@import url("../AltaCodeEditor_BGCodeCanvas/bgcode-canvas.css");
+@import url("../AltaCodeEditor_CodeCanvas/code-canvas.css");
+@import url("../AltaCodeEditor_CodeCanvasDouble/code-canvas-double.css");
+@import url("../AltaCodeEditor_CodeNumber/code-number.css");
+.ace-component .ace-2f79ebeb171e{background:#26282c;align-content:stretch;display:flex;flex-direction:column;align-items:flex-start;padding-top:8px;padding-bottom:8px;position:relative;width:1108px;height:816px;justify-content:flex-start;gap:0px;padding-right:0px;padding-left:0px;}
+.ace-component .ace-578794d56032{height:20px;position:relative;flex-shrink:0;width:100%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}
+.ace-component .ace-54639362e5ab{position:absolute;align-content:stretch;display:flex;align-items:center;left:0px;top:0px;width:1108px;height:20px;flex-direction:row;justify-content:flex-start;gap:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}
+.ace-component .ace-cdba5812ba05{position:relative;flex-shrink:0;width:77px;display:inline-block;}
+.ace-component .ace-458d5381bd60{position:relative;flex-shrink:0;width:1031px;display:inline-block;}
+.ace-component .ace-66a2ba8c5712{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;border-radius:inherit;box-shadow:inset calc(-1 * 1px) 0 0 var(--ace-codenumber-border-all);}
+.ace-component .ace-2c92294c64f8{background:var(--ace-codenumber-background-nodebugging-default);border-color:transparent;border-right-width:1px;border-style:solid;align-content:stretch;display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0;width:77px;border-width:0;height:20px;flex-direction:row;gap:8px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;isolation:isolate;}
+.ace-component .ace-abb7baf6b7cb{align-content:stretch;display:flex;align-items:center;position:relative;flex-shrink:0;width:16px;height:20px;flex-direction:row;justify-content:flex-start;gap:10px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}
+.ace-component .ace-2a8f224a7332{word-break:break-word;font-family:"JetBrains Mono", sans-serif;font-weight:400;line-height:20px;position:relative;flex-shrink:0;font-size:14px;color:var(--ace-codenumber-content-default);width:17px;height:20px;font-style:normal;text-align:left;letter-spacing:0.0em;}
