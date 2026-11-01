@@ -15,3 +15,7 @@
 @font-face{font-family:"Roboto";font-style:normal;font-weight:100 900;font-stretch:75% 100%;font-display:swap;src:url("./Roboto-Variable.ttf") format("truetype");}
 
 @font-face{font-family:"Rubik";font-style:normal;font-weight:500;font-display:swap;src:url("./Rubik-Variable.ttf") format("truetype");}
+
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:500 800;font-display:swap;src:url("./JetBrainsMono-Variable.ttf") format("truetype");}
+
+@font-face{font-family:"Inter";font-style:italic;font-weight:100 900;font-display:swap;src:url("./Inter-Italic.ttf") format("truetype");}

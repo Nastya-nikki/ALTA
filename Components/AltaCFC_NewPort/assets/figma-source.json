@@ -1,0 +1,181 @@
+{
+  "fileKey": "mH9VH4Aa9UWukg9HWFvT8y",
+  "nodeId": "42:968",
+  "readAt": "2026-11-01",
+  "properties": {},
+  "variants": [
+    {
+      "id": "42:968",
+      "props": {}
+    }
+  ],
+  "apiMetadataComplete": true,
+  "apiMetadata": {
+    "dependencies": [],
+    "id": "42:968",
+    "n": "AltaCFC/NewPort",
+    "type": "COMPONENT",
+    "properties": {},
+    "total": 1,
+    "next": 1,
+    "variants": [
+      {
+        "id": "42:968",
+        "n": "AltaCFC/NewPort",
+        "t": "COMPONENT",
+        "w": 10,
+        "h": 10,
+        "x": 114,
+        "y": 652,
+        "propRefs": {},
+        "b": {},
+        "layout": "NONE",
+        "align": "MIN",
+        "cross": "MIN",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "hs": "FIXED",
+        "vs": "FIXED",
+        "grow": 0,
+        "self": "INHERIT",
+        "pos": "AUTO",
+        "gap": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "pl": 0,
+        "rtl": 0,
+        "rtr": 0,
+        "rbl": 0,
+        "rbr": 0,
+        "sw": 1,
+        "sa": "INSIDE",
+        "opacity": 1,
+        "rotation": 0,
+        "clip": true,
+        "wrap": "NO_WRAP",
+        "crossGap": 0,
+        "strokeIncluded": false,
+        "sides": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            114
+          ],
+          [
+            0,
+            1,
+            652
+          ]
+        ],
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "dash": [],
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": null,
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ],
+        "fill": [],
+        "stroke": [],
+        "effects": [],
+        "children": [
+          {
+            "id": "42:962",
+            "n": "Rectangle 34625389",
+            "t": "RECTANGLE",
+            "w": 5,
+            "h": 5,
+            "x": 2.5,
+            "y": 2.5,
+            "propRefs": {},
+            "b": {},
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "rtl": 8,
+            "rtr": 8,
+            "rbl": 8,
+            "rbr": 8,
+            "sw": 1.5,
+            "sa": "CENTER",
+            "opacity": 1,
+            "rotation": 0,
+            "sides": [
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                2.5
+              ],
+              [
+                0,
+                1,
+                2.5
+              ]
+            ],
+            "constraints": {
+              "horizontal": "CENTER",
+              "vertical": "CENTER"
+            },
+            "dash": [],
+            "fill": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.9055013060569763,
+                  "g": 0.27156195044517517,
+                  "b": 0.8454437255859375
+                },
+                "a": 1
+              }
+            ],
+            "stroke": [],
+            "effects": []
+          }
+        ]
+      }
+    ],
+    "assets": [],
+    "refs": []
+  },
+  "variableAudit": {
+    "complete": false,
+    "reason": "Figma MCP account quota exhausted before alias chains, valuesByMode and collections could be read."
+  },
+  "contextSource": "High-fidelity Figma design context; all source variant root IDs retained.",
+  "dependencies": []
+}

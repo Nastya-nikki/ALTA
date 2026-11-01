@@ -1,0 +1,155 @@
+{
+  "fileKey": "mH9VH4Aa9UWukg9HWFvT8y",
+  "nodeId": "152:729",
+  "readAt": "2026-11-01",
+  "properties": {
+    "Amount": {
+      "type": "VARIANT",
+      "defaultValue": "1",
+      "variantOptions": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Hover",
+        "Selected",
+        "Selected Hover",
+        "Add Variable",
+        "Focused",
+        "Error"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "152:730",
+      "props": {
+        "Amount": "1",
+        "State": "Default"
+      }
+    },
+    {
+      "id": "152:753",
+      "props": {
+        "Amount": "1",
+        "State": "Hover"
+      }
+    },
+    {
+      "id": "152:776",
+      "props": {
+        "Amount": "1",
+        "State": "Selected"
+      }
+    },
+    {
+      "id": "152:799",
+      "props": {
+        "Amount": "1",
+        "State": "Selected Hover"
+      }
+    },
+    {
+      "id": "152:897",
+      "props": {
+        "Amount": "1",
+        "State": "Add Variable"
+      }
+    },
+    {
+      "id": "167:8023",
+      "props": {
+        "Amount": "1",
+        "State": "Focused"
+      }
+    },
+    {
+      "id": "501:1306",
+      "props": {
+        "Amount": "1",
+        "State": "Error"
+      }
+    },
+    {
+      "id": "152:822",
+      "props": {
+        "Amount": "2",
+        "State": "Selected"
+      }
+    },
+    {
+      "id": "167:8035",
+      "props": {
+        "Amount": "2",
+        "State": "Selected Hover"
+      }
+    },
+    {
+      "id": "167:8143",
+      "props": {
+        "Amount": "2",
+        "State": "Focused"
+      }
+    },
+    {
+      "id": "152:845",
+      "props": {
+        "Amount": "3",
+        "State": "Selected"
+      }
+    },
+    {
+      "id": "167:8045",
+      "props": {
+        "Amount": "3",
+        "State": "Selected Hover"
+      }
+    },
+    {
+      "id": "167:8131",
+      "props": {
+        "Amount": "3",
+        "State": "Focused"
+      }
+    },
+    {
+      "id": "152:869",
+      "props": {
+        "Amount": "4",
+        "State": "Selected"
+      }
+    },
+    {
+      "id": "167:8057",
+      "props": {
+        "Amount": "4",
+        "State": "Selected Hover"
+      }
+    },
+    {
+      "id": "167:8117",
+      "props": {
+        "Amount": "4",
+        "State": "Focused"
+      }
+    }
+  ],
+  "apiMetadataComplete": false,
+  "apiMetadata": null,
+  "variableAudit": {
+    "complete": false,
+    "reason": "Figma MCP account quota exhausted before alias chains, valuesByMode and collections could be read."
+  },
+  "contextSource": "High-fidelity Figma design context; all source variant root IDs retained.",
+  "dependencies": [
+    "AltaCFC_Node_Variable",
+    "AltaCFC_Ports"
+  ]
+}

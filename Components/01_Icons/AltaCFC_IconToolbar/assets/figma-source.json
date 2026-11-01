@@ -1,0 +1,320 @@
+{
+  "fileKey": "mH9VH4Aa9UWukg9HWFvT8y",
+  "nodeId": "567:719",
+  "readAt": "2026-11-01",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Read",
+      "variantOptions": [
+        "Comments",
+        "Read",
+        "Write"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "567:716",
+      "props": {
+        "Type": "Read"
+      }
+    },
+    {
+      "id": "567:717",
+      "props": {
+        "Type": "Write"
+      }
+    },
+    {
+      "id": "567:718",
+      "props": {
+        "Type": "Comments"
+      }
+    }
+  ],
+  "apiMetadataComplete": true,
+  "apiMetadata": {
+    "dependencies": [],
+    "id": "567:719",
+    "n": "AltaCFC/Icons/Toolbar",
+    "type": "COMPONENT_SET",
+    "properties": {
+      "Type": {
+        "type": "VARIANT",
+        "defaultValue": "Read",
+        "variantOptions": [
+          "Comments",
+          "Read",
+          "Write"
+        ]
+      }
+    },
+    "total": 3,
+    "next": 3,
+    "variants": [
+      {
+        "id": "567:716",
+        "n": "Type=Read",
+        "t": "COMPONENT",
+        "w": 20,
+        "h": 20,
+        "x": 20,
+        "y": 20,
+        "propRefs": {},
+        "b": {},
+        "layout": "NONE",
+        "align": "MIN",
+        "cross": "MIN",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "hs": "FIXED",
+        "vs": "FIXED",
+        "grow": 0,
+        "self": "INHERIT",
+        "pos": "AUTO",
+        "gap": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "pl": 0,
+        "rtl": 0,
+        "rtr": 0,
+        "rbl": 0,
+        "rbr": 0,
+        "sw": 1,
+        "sa": "INSIDE",
+        "opacity": 1,
+        "rotation": 0,
+        "clip": false,
+        "wrap": "NO_WRAP",
+        "crossGap": 0,
+        "strokeIncluded": false,
+        "sides": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            0,
+            1,
+            20
+          ]
+        ],
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "dash": [],
+        "fill": [],
+        "stroke": [],
+        "effects": [],
+        "asset": "ed436c5c"
+      },
+      {
+        "id": "567:717",
+        "n": "Type=Write",
+        "t": "COMPONENT",
+        "w": 20,
+        "h": 20,
+        "x": 50,
+        "y": 20,
+        "propRefs": {},
+        "b": {},
+        "layout": "NONE",
+        "align": "MIN",
+        "cross": "MIN",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "hs": "FIXED",
+        "vs": "FIXED",
+        "grow": 0,
+        "self": "INHERIT",
+        "pos": "AUTO",
+        "gap": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "pl": 0,
+        "rtl": 0,
+        "rtr": 0,
+        "rbl": 0,
+        "rbr": 0,
+        "sw": 1,
+        "sa": "INSIDE",
+        "opacity": 1,
+        "rotation": 0,
+        "clip": false,
+        "wrap": "NO_WRAP",
+        "crossGap": 0,
+        "strokeIncluded": false,
+        "sides": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            50
+          ],
+          [
+            0,
+            1,
+            20
+          ]
+        ],
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "dash": [],
+        "fill": [],
+        "stroke": [],
+        "effects": [],
+        "asset": "6994d831"
+      },
+      {
+        "id": "567:718",
+        "n": "Type=Comments",
+        "t": "COMPONENT",
+        "w": 20,
+        "h": 20,
+        "x": 80,
+        "y": 20,
+        "propRefs": {},
+        "b": {},
+        "layout": "NONE",
+        "align": "MIN",
+        "cross": "MIN",
+        "primarySizing": "AUTO",
+        "counterSizing": "FIXED",
+        "hs": "FIXED",
+        "vs": "FIXED",
+        "grow": 0,
+        "self": "INHERIT",
+        "pos": "AUTO",
+        "gap": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "pl": 0,
+        "rtl": 0,
+        "rtr": 0,
+        "rbl": 0,
+        "rbr": 0,
+        "sw": 1,
+        "sa": "INSIDE",
+        "opacity": 1,
+        "rotation": 0,
+        "clip": false,
+        "wrap": "NO_WRAP",
+        "crossGap": 0,
+        "strokeIncluded": false,
+        "sides": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            80
+          ],
+          [
+            0,
+            1,
+            20
+          ]
+        ],
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "dash": [],
+        "fill": [],
+        "stroke": [],
+        "effects": [],
+        "children": [
+          {
+            "id": "567:707",
+            "n": "Group 15",
+            "t": "GROUP",
+            "w": 13,
+            "h": 12.499605178833008,
+            "x": 3.5,
+            "y": 4,
+            "propRefs": {},
+            "b": {},
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "opacity": 1,
+            "rotation": 0,
+            "matrix": [
+              [
+                1,
+                0,
+                3.5
+              ],
+              [
+                0,
+                1,
+                4
+              ]
+            ],
+            "effects": [],
+            "asset": "b1846a5d"
+          }
+        ]
+      }
+    ],
+    "assets": [
+      {
+        "key": "ed436c5c",
+        "id": "567:716",
+        "n": "Type=Read",
+        "w": 20,
+        "h": 20
+      },
+      {
+        "key": "6994d831",
+        "id": "567:717",
+        "n": "Type=Write",
+        "w": 20,
+        "h": 20
+      },
+      {
+        "key": "b1846a5d",
+        "id": "567:707",
+        "n": "Group 15",
+        "w": 13,
+        "h": 12.499605178833008
+      }
+    ],
+    "refs": [
+      "VariableID:567:723",
+      "VariableID:567:726",
+      "VariableID:567:725"
+    ]
+  },
+  "variableAudit": {
+    "complete": false,
+    "reason": "Figma MCP account quota exhausted before alias chains, valuesByMode and collections could be read."
+  },
+  "contextSource": "High-fidelity Figma design context; all source variant root IDs retained.",
+  "dependencies": []
+}

@@ -1,0 +1,3465 @@
+{
+  "fileKey": "mH9VH4Aa9UWukg9HWFvT8y",
+  "nodeId": "116:2083",
+  "readAt": "2026-11-01",
+  "properties": {
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Hover",
+        "Focused",
+        "Error"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "116:2084",
+      "props": {
+        "State": "Default"
+      }
+    },
+    {
+      "id": "116:2095",
+      "props": {
+        "State": "Hover"
+      }
+    },
+    {
+      "id": "116:2106",
+      "props": {
+        "State": "Focused"
+      }
+    },
+    {
+      "id": "501:1167",
+      "props": {
+        "State": "Error"
+      }
+    }
+  ],
+  "apiMetadataComplete": true,
+  "apiMetadata": {
+    "dependencies": [
+      {
+        "id": "116:2088",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "116:2089",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "116:2090",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "116:2099",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "116:2100",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "116:2101",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "116:2110",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "116:2111",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "116:2112",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "501:1171",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "501:1172",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      },
+      {
+        "id": "501:1173",
+        "main": "97:31",
+        "name": "AltaCFC/Ports",
+        "variant": "State=Unconnected, Inversia=No, InOut=No, Type=Bool, Error=No",
+        "owner": "97:24"
+      }
+    ],
+    "id": "116:2083",
+    "n": "AltaCFC/Or",
+    "type": "COMPONENT_SET",
+    "properties": {
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Hover",
+          "Focused",
+          "Error"
+        ]
+      }
+    },
+    "total": 4,
+    "next": 4,
+    "variants": [
+      {
+        "id": "116:2084",
+        "n": "State=Default",
+        "t": "COMPONENT",
+        "w": 60,
+        "h": 80,
+        "x": 19,
+        "y": 20,
+        "propRefs": {},
+        "b": {},
+        "layout": "NONE",
+        "align": "MIN",
+        "cross": "MIN",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "hs": "FIXED",
+        "vs": "FIXED",
+        "grow": 0,
+        "self": "INHERIT",
+        "pos": "AUTO",
+        "gap": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "pl": 0,
+        "rtl": 0,
+        "rtr": 0,
+        "rbl": 0,
+        "rbr": 0,
+        "sw": 1,
+        "sa": "INSIDE",
+        "opacity": 1,
+        "rotation": 0,
+        "clip": false,
+        "wrap": "NO_WRAP",
+        "crossGap": 0,
+        "strokeIncluded": false,
+        "sides": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            19
+          ],
+          [
+            0,
+            1,
+            20
+          ]
+        ],
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "dash": [],
+        "fill": [],
+        "stroke": [],
+        "effects": [],
+        "children": [
+          {
+            "id": "116:2085",
+            "n": "Frame 1321316828",
+            "t": "FRAME",
+            "w": 60,
+            "h": 80,
+            "x": 0,
+            "y": 0,
+            "propRefs": {},
+            "b": {
+              "topLeftRadius": "VariableID:112:1738",
+              "topRightRadius": "VariableID:112:1738",
+              "bottomLeftRadius": "VariableID:112:1738",
+              "bottomRightRadius": "VariableID:112:1738"
+            },
+            "layout": "VERTICAL",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 10,
+            "pt": 0,
+            "pr": 1,
+            "pb": 40,
+            "pl": 0,
+            "rtl": 8,
+            "rtr": 8,
+            "rbl": 8,
+            "rbr": 8,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.1764705926179886,
+                  "g": 0,
+                  "b": 0.2666666805744171
+                },
+                "a": 1,
+                "b": "VariableID:112:1731"
+              }
+            ],
+            "stroke": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.5372549295425415,
+                  "g": 0.08235294371843338,
+                  "b": 0.6901960968971252
+                },
+                "a": 1,
+                "b": "VariableID:112:1732"
+              }
+            ],
+            "effects": [],
+            "children": [
+              {
+                "id": "116:2086",
+                "n": "Var_input/AltaIDE/TableCellLevels",
+                "t": "FRAME",
+                "w": 59,
+                "h": 20,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "paddingLeft": "VariableID:112:1743",
+                  "paddingTop": "VariableID:116:2433",
+                  "paddingRight": "VariableID:112:1743",
+                  "paddingBottom": "VariableID:116:2435"
+                },
+                "layout": "HORIZONTAL",
+                "align": "MIN",
+                "cross": "CENTER",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "gap": 0,
+                "pt": 6,
+                "pr": 12,
+                "pb": 4,
+                "pl": 12,
+                "rtl": 0,
+                "rtr": 0,
+                "rbl": 0,
+                "rbr": 0,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "clip": false,
+                "wrap": "NO_WRAP",
+                "crossGap": 0,
+                "strokeIncluded": false,
+                "sides": [
+                  1.5,
+                  1.5,
+                  0,
+                  1.5
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.14901961386203766,
+                      "g": 0.1568627506494522,
+                      "b": 0.1725490242242813
+                    },
+                    "a": 1,
+                    "b": "VariableID:112:1735"
+                  }
+                ],
+                "stroke": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "116:2087",
+                    "n": "OR",
+                    "t": "TEXT",
+                    "w": 35,
+                    "h": 16,
+                    "x": 12,
+                    "y": 3,
+                    "propRefs": {},
+                    "b": {},
+                    "hs": "FILL",
+                    "vs": "HUG",
+                    "grow": 1,
+                    "self": "INHERIT",
+                    "pos": "AUTO",
+                    "sw": 1,
+                    "sa": "OUTSIDE",
+                    "opacity": 1,
+                    "rotation": 0,
+                    "matrix": [
+                      [
+                        1,
+                        0,
+                        12
+                      ],
+                      [
+                        0,
+                        1,
+                        3
+                      ]
+                    ],
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "dash": [],
+                    "fill": [
+                      {
+                        "type": "SOLID",
+                        "c": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "a": 1,
+                        "b": "VariableID:112:1736"
+                      }
+                    ],
+                    "stroke": [],
+                    "effects": [],
+                    "text": "OR",
+                    "font": {
+                      "family": "Rubik",
+                      "style": "Medium",
+                      "variationSettings": {
+                        "wght": 500
+                      }
+                    },
+                    "size": 12,
+                    "lh": {
+                      "unit": "PIXELS",
+                      "value": 16
+                    },
+                    "ls": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "textAlign": "CENTER",
+                    "textVertical": "TOP",
+                    "auto": "HEIGHT",
+                    "textStyle": "S:620c194f914e2395e80ce38cbcdbd395e9f2c5fb,200597:549"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "116:2088",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": -4.5,
+            "y": 35,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                -4.5
+              ],
+              [
+                0,
+                1,
+                35
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2088;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2089",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": 54.5,
+            "y": 35,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                54.5
+              ],
+              [
+                0,
+                1,
+                35
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2089;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2090",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": -4.5,
+            "y": 55,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                -4.5
+              ],
+              [
+                0,
+                1,
+                55
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2090;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2140",
+            "n": "icon",
+            "t": "FRAME",
+            "w": 24,
+            "h": 24,
+            "x": 18,
+            "y": 38,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": false,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                18
+              ],
+              [
+                0,
+                1,
+                38
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "asset": "cc07166a"
+          }
+        ]
+      },
+      {
+        "id": "116:2095",
+        "n": "State=Hover",
+        "t": "COMPONENT",
+        "w": 60,
+        "h": 80,
+        "x": 200,
+        "y": 20,
+        "propRefs": {},
+        "b": {},
+        "layout": "NONE",
+        "align": "MIN",
+        "cross": "MIN",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "hs": "FIXED",
+        "vs": "FIXED",
+        "grow": 0,
+        "self": "INHERIT",
+        "pos": "AUTO",
+        "gap": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "pl": 0,
+        "rtl": 0,
+        "rtr": 0,
+        "rbl": 0,
+        "rbr": 0,
+        "sw": 1,
+        "sa": "INSIDE",
+        "opacity": 1,
+        "rotation": 0,
+        "clip": false,
+        "wrap": "NO_WRAP",
+        "crossGap": 0,
+        "strokeIncluded": false,
+        "sides": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            200
+          ],
+          [
+            0,
+            1,
+            20
+          ]
+        ],
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "dash": [],
+        "fill": [],
+        "stroke": [],
+        "effects": [],
+        "children": [
+          {
+            "id": "116:2096",
+            "n": "Frame 1321316828",
+            "t": "FRAME",
+            "w": 60,
+            "h": 80,
+            "x": 0,
+            "y": 0,
+            "propRefs": {},
+            "b": {
+              "topLeftRadius": "VariableID:112:1738",
+              "topRightRadius": "VariableID:112:1738",
+              "bottomLeftRadius": "VariableID:112:1738",
+              "bottomRightRadius": "VariableID:112:1738",
+              "strokeTopWeight": "VariableID:112:1741",
+              "strokeBottomWeight": "VariableID:112:1741",
+              "strokeLeftWeight": "VariableID:112:1741",
+              "strokeRightWeight": "VariableID:112:1741"
+            },
+            "layout": "VERTICAL",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 10,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 8,
+            "rtr": 8,
+            "rbl": 8,
+            "rbr": 8,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.1764705926179886,
+                  "g": 0,
+                  "b": 0.2666666805744171
+                },
+                "a": 1,
+                "b": "VariableID:112:1731"
+              }
+            ],
+            "stroke": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.9058823585510254,
+                  "g": 0.2705882489681244,
+                  "b": 0.8470588326454163
+                },
+                "a": 1,
+                "b": "VariableID:112:1733"
+              }
+            ],
+            "effects": [],
+            "children": [
+              {
+                "id": "116:2097",
+                "n": "Var_input/AltaIDE/TableCellLevels",
+                "t": "FRAME",
+                "w": 59,
+                "h": 20,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "paddingLeft": "VariableID:112:1743",
+                  "paddingTop": "VariableID:116:2433",
+                  "paddingRight": "VariableID:112:1743",
+                  "paddingBottom": "VariableID:116:2435"
+                },
+                "layout": "HORIZONTAL",
+                "align": "MIN",
+                "cross": "CENTER",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "gap": 0,
+                "pt": 6,
+                "pr": 12,
+                "pb": 4,
+                "pl": 12,
+                "rtl": 0,
+                "rtr": 0,
+                "rbl": 0,
+                "rbr": 0,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "clip": false,
+                "wrap": "NO_WRAP",
+                "crossGap": 0,
+                "strokeIncluded": false,
+                "sides": [
+                  1.5,
+                  1.5,
+                  0,
+                  1.5
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.14901961386203766,
+                      "g": 0.1568627506494522,
+                      "b": 0.1725490242242813
+                    },
+                    "a": 1,
+                    "b": "VariableID:112:1735"
+                  }
+                ],
+                "stroke": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "116:2098",
+                    "n": "OR",
+                    "t": "TEXT",
+                    "w": 35,
+                    "h": 16,
+                    "x": 12,
+                    "y": 3,
+                    "propRefs": {},
+                    "b": {},
+                    "hs": "FILL",
+                    "vs": "HUG",
+                    "grow": 1,
+                    "self": "INHERIT",
+                    "pos": "AUTO",
+                    "sw": 1,
+                    "sa": "OUTSIDE",
+                    "opacity": 1,
+                    "rotation": 0,
+                    "matrix": [
+                      [
+                        1,
+                        0,
+                        12
+                      ],
+                      [
+                        0,
+                        1,
+                        3
+                      ]
+                    ],
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "dash": [],
+                    "fill": [
+                      {
+                        "type": "SOLID",
+                        "c": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "a": 1,
+                        "b": "VariableID:112:1736"
+                      }
+                    ],
+                    "stroke": [],
+                    "effects": [],
+                    "text": "OR",
+                    "font": {
+                      "family": "Rubik",
+                      "style": "Medium",
+                      "variationSettings": {
+                        "wght": 500
+                      }
+                    },
+                    "size": 12,
+                    "lh": {
+                      "unit": "PIXELS",
+                      "value": 16
+                    },
+                    "ls": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "textAlign": "CENTER",
+                    "textVertical": "TOP",
+                    "auto": "HEIGHT",
+                    "textStyle": "S:620c194f914e2395e80ce38cbcdbd395e9f2c5fb,200597:549"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "116:2099",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": -4.5,
+            "y": 35,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                -4.5
+              ],
+              [
+                0,
+                1,
+                35
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2099;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2100",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": 54.5,
+            "y": 35,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                54.5
+              ],
+              [
+                0,
+                1,
+                35
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2100;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2101",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": -4.5,
+            "y": 55,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                -4.5
+              ],
+              [
+                0,
+                1,
+                55
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2101;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2161",
+            "n": "icon",
+            "t": "FRAME",
+            "w": 24,
+            "h": 24,
+            "x": 18,
+            "y": 38,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": false,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                18
+              ],
+              [
+                0,
+                1,
+                38
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "asset": "cc07166a"
+          }
+        ]
+      },
+      {
+        "id": "116:2106",
+        "n": "State=Focused",
+        "t": "COMPONENT",
+        "w": 60,
+        "h": 80,
+        "x": 380,
+        "y": 20,
+        "propRefs": {},
+        "b": {},
+        "layout": "NONE",
+        "align": "MIN",
+        "cross": "MIN",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "hs": "FIXED",
+        "vs": "FIXED",
+        "grow": 0,
+        "self": "INHERIT",
+        "pos": "AUTO",
+        "gap": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "pl": 0,
+        "rtl": 0,
+        "rtr": 0,
+        "rbl": 0,
+        "rbr": 0,
+        "sw": 1,
+        "sa": "INSIDE",
+        "opacity": 1,
+        "rotation": 0,
+        "clip": false,
+        "wrap": "NO_WRAP",
+        "crossGap": 0,
+        "strokeIncluded": false,
+        "sides": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            380
+          ],
+          [
+            0,
+            1,
+            20
+          ]
+        ],
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "dash": [],
+        "fill": [],
+        "stroke": [],
+        "effects": [],
+        "children": [
+          {
+            "id": "116:2107",
+            "n": "Frame 1321316828",
+            "t": "FRAME",
+            "w": 60,
+            "h": 80,
+            "x": 0,
+            "y": 0,
+            "propRefs": {},
+            "b": {
+              "topLeftRadius": "VariableID:112:1738",
+              "topRightRadius": "VariableID:112:1738",
+              "bottomLeftRadius": "VariableID:112:1738",
+              "bottomRightRadius": "VariableID:112:1738"
+            },
+            "layout": "VERTICAL",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 10,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 8,
+            "rtr": 8,
+            "rbl": 8,
+            "rbr": 8,
+            "sw": 1.5,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.1764705926179886,
+                  "g": 0,
+                  "b": 0.2666666805744171
+                },
+                "a": 1,
+                "b": "VariableID:112:1731"
+              }
+            ],
+            "stroke": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.9058823585510254,
+                  "g": 0.2705882489681244,
+                  "b": 0.8470588326454163
+                },
+                "a": 1,
+                "b": "VariableID:112:1734"
+              }
+            ],
+            "effects": [],
+            "children": [
+              {
+                "id": "116:2108",
+                "n": "Var_input/AltaIDE/TableCellLevels",
+                "t": "FRAME",
+                "w": 59,
+                "h": 20,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "paddingLeft": "VariableID:112:1743",
+                  "paddingTop": "VariableID:116:2433",
+                  "paddingRight": "VariableID:112:1743",
+                  "paddingBottom": "VariableID:116:2435"
+                },
+                "layout": "HORIZONTAL",
+                "align": "MIN",
+                "cross": "CENTER",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "gap": 0,
+                "pt": 6,
+                "pr": 12,
+                "pb": 4,
+                "pl": 12,
+                "rtl": 0,
+                "rtr": 0,
+                "rbl": 0,
+                "rbr": 0,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "clip": false,
+                "wrap": "NO_WRAP",
+                "crossGap": 0,
+                "strokeIncluded": false,
+                "sides": [
+                  1.5,
+                  1.5,
+                  0,
+                  1.5
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.14901961386203766,
+                      "g": 0.1568627506494522,
+                      "b": 0.1725490242242813
+                    },
+                    "a": 1,
+                    "b": "VariableID:112:1735"
+                  }
+                ],
+                "stroke": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "116:2109",
+                    "n": "OR",
+                    "t": "TEXT",
+                    "w": 35,
+                    "h": 16,
+                    "x": 12,
+                    "y": 3,
+                    "propRefs": {},
+                    "b": {},
+                    "hs": "FILL",
+                    "vs": "HUG",
+                    "grow": 1,
+                    "self": "INHERIT",
+                    "pos": "AUTO",
+                    "sw": 1,
+                    "sa": "OUTSIDE",
+                    "opacity": 1,
+                    "rotation": 0,
+                    "matrix": [
+                      [
+                        1,
+                        0,
+                        12
+                      ],
+                      [
+                        0,
+                        1,
+                        3
+                      ]
+                    ],
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "dash": [],
+                    "fill": [
+                      {
+                        "type": "SOLID",
+                        "c": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "a": 1,
+                        "b": "VariableID:112:1736"
+                      }
+                    ],
+                    "stroke": [],
+                    "effects": [],
+                    "text": "OR",
+                    "font": {
+                      "family": "Rubik",
+                      "style": "Medium",
+                      "variationSettings": {
+                        "wght": 500
+                      }
+                    },
+                    "size": 12,
+                    "lh": {
+                      "unit": "PIXELS",
+                      "value": 16
+                    },
+                    "ls": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "textAlign": "CENTER",
+                    "textVertical": "TOP",
+                    "auto": "HEIGHT",
+                    "textStyle": "S:620c194f914e2395e80ce38cbcdbd395e9f2c5fb,200597:549"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "116:2110",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": -4.5,
+            "y": 35,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                -4.5
+              ],
+              [
+                0,
+                1,
+                35
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2110;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2111",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": 54.5,
+            "y": 35,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                54.5
+              ],
+              [
+                0,
+                1,
+                35
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2111;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2112",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": -4.5,
+            "y": 55,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                -4.5
+              ],
+              [
+                0,
+                1,
+                55
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I116:2112;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "116:2168",
+            "n": "icon",
+            "t": "FRAME",
+            "w": 24,
+            "h": 24,
+            "x": 18,
+            "y": 38,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": false,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                18
+              ],
+              [
+                0,
+                1,
+                38
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "asset": "cc07166a"
+          }
+        ]
+      },
+      {
+        "id": "501:1167",
+        "n": "State=Error",
+        "t": "COMPONENT",
+        "w": 60,
+        "h": 80,
+        "x": 528,
+        "y": 20,
+        "propRefs": {},
+        "b": {},
+        "layout": "NONE",
+        "align": "MIN",
+        "cross": "MIN",
+        "primarySizing": "FIXED",
+        "counterSizing": "FIXED",
+        "hs": "FIXED",
+        "vs": "FIXED",
+        "grow": 0,
+        "self": "INHERIT",
+        "pos": "AUTO",
+        "gap": 0,
+        "pt": 0,
+        "pr": 0,
+        "pb": 0,
+        "pl": 0,
+        "rtl": 0,
+        "rtr": 0,
+        "rbl": 0,
+        "rbr": 0,
+        "sw": 1,
+        "sa": "INSIDE",
+        "opacity": 1,
+        "rotation": 0,
+        "clip": false,
+        "wrap": "NO_WRAP",
+        "crossGap": 0,
+        "strokeIncluded": false,
+        "sides": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            528
+          ],
+          [
+            0,
+            1,
+            20
+          ]
+        ],
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "dash": [],
+        "fill": [],
+        "stroke": [],
+        "effects": [],
+        "children": [
+          {
+            "id": "501:1168",
+            "n": "Frame 1321316828",
+            "t": "FRAME",
+            "w": 60,
+            "h": 80,
+            "x": 0,
+            "y": 0,
+            "propRefs": {},
+            "b": {
+              "topLeftRadius": "VariableID:112:1738",
+              "topRightRadius": "VariableID:112:1738",
+              "bottomLeftRadius": "VariableID:112:1738",
+              "bottomRightRadius": "VariableID:112:1738"
+            },
+            "layout": "VERTICAL",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "FIXED",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 10,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 8,
+            "rtr": 8,
+            "rbl": 8,
+            "rbr": 8,
+            "sw": 1.5,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1.5,
+              1.5,
+              1.5,
+              1.5
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.21050556004047394,
+                  "g": 0.032713595777750015,
+                  "b": 0.08605118095874786
+                },
+                "a": 1,
+                "b": "VariableID:525:1114"
+              }
+            ],
+            "stroke": [
+              {
+                "type": "SOLID",
+                "c": {
+                  "r": 0.95686274766922,
+                  "g": 0.1764705926179886,
+                  "b": 0.1764705926179886
+                },
+                "a": 1,
+                "b": "VariableID:499:669"
+              }
+            ],
+            "effects": [],
+            "children": [
+              {
+                "id": "501:1169",
+                "n": "Var_input/AltaIDE/TableCellLevels",
+                "t": "FRAME",
+                "w": 59,
+                "h": 20,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "paddingLeft": "VariableID:112:1743",
+                  "paddingTop": "VariableID:116:2433",
+                  "paddingRight": "VariableID:112:1743",
+                  "paddingBottom": "VariableID:116:2435"
+                },
+                "layout": "HORIZONTAL",
+                "align": "MIN",
+                "cross": "CENTER",
+                "primarySizing": "FIXED",
+                "counterSizing": "FIXED",
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "gap": 0,
+                "pt": 6,
+                "pr": 12,
+                "pb": 4,
+                "pl": 12,
+                "rtl": 0,
+                "rtr": 0,
+                "rbl": 0,
+                "rbr": 0,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "clip": false,
+                "wrap": "NO_WRAP",
+                "crossGap": 0,
+                "strokeIncluded": false,
+                "sides": [
+                  1.5,
+                  1.5,
+                  0,
+                  1.5
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.40392157435417175,
+                      "g": 0.027450980618596077,
+                      "b": 0.0313725508749485
+                    },
+                    "a": 1,
+                    "b": "VariableID:525:1115"
+                  }
+                ],
+                "stroke": [],
+                "effects": [],
+                "children": [
+                  {
+                    "id": "501:1170",
+                    "n": "OR",
+                    "t": "TEXT",
+                    "w": 35,
+                    "h": 16,
+                    "x": 12,
+                    "y": 3,
+                    "propRefs": {},
+                    "b": {},
+                    "hs": "FILL",
+                    "vs": "HUG",
+                    "grow": 1,
+                    "self": "INHERIT",
+                    "pos": "AUTO",
+                    "sw": 1,
+                    "sa": "OUTSIDE",
+                    "opacity": 1,
+                    "rotation": 0,
+                    "matrix": [
+                      [
+                        1,
+                        0,
+                        12
+                      ],
+                      [
+                        0,
+                        1,
+                        3
+                      ]
+                    ],
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "dash": [],
+                    "fill": [
+                      {
+                        "type": "SOLID",
+                        "c": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "a": 1,
+                        "b": "VariableID:112:1736"
+                      }
+                    ],
+                    "stroke": [],
+                    "effects": [],
+                    "text": "OR",
+                    "font": {
+                      "family": "Rubik",
+                      "style": "Medium",
+                      "variationSettings": {
+                        "wght": 500
+                      }
+                    },
+                    "size": 12,
+                    "lh": {
+                      "unit": "PIXELS",
+                      "value": 16
+                    },
+                    "ls": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "textAlign": "CENTER",
+                    "textVertical": "TOP",
+                    "auto": "HEIGHT",
+                    "textStyle": "S:620c194f914e2395e80ce38cbcdbd395e9f2c5fb,200597:549"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "501:1171",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": -4.5,
+            "y": 35,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                -4.5
+              ],
+              [
+                0,
+                1,
+                35
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I501:1171;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "501:1172",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": 54.5,
+            "y": 35,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                54.5
+              ],
+              [
+                0,
+                1,
+                35
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I501:1172;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "501:1173",
+            "n": "AltaCFC/Ports",
+            "t": "INSTANCE",
+            "w": 10,
+            "h": 10,
+            "x": -4.5,
+            "y": 55,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": true,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                -4.5
+              ],
+              [
+                0,
+                1,
+                55
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "children": [
+              {
+                "id": "I501:1173;97:32",
+                "n": "Rectangle 34625389",
+                "t": "RECTANGLE",
+                "w": 10,
+                "h": 10,
+                "x": 0,
+                "y": 0,
+                "propRefs": {},
+                "b": {
+                  "topLeftRadius": "VariableID:114:33",
+                  "topRightRadius": "VariableID:114:33",
+                  "bottomLeftRadius": "VariableID:114:33",
+                  "bottomRightRadius": "VariableID:114:33",
+                  "strokeTopWeight": "VariableID:114:37",
+                  "strokeBottomWeight": "VariableID:114:37",
+                  "strokeLeftWeight": "VariableID:114:37",
+                  "strokeRightWeight": "VariableID:114:37"
+                },
+                "hs": "FIXED",
+                "vs": "FIXED",
+                "grow": 0,
+                "self": "INHERIT",
+                "pos": "AUTO",
+                "rtl": 2,
+                "rtr": 2,
+                "rbl": 2,
+                "rbr": 2,
+                "sw": 2,
+                "sa": "INSIDE",
+                "opacity": 1,
+                "rotation": 0,
+                "sides": [
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "constraints": {
+                  "horizontal": "CENTER",
+                  "vertical": "CENTER"
+                },
+                "dash": [],
+                "fill": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.08235294371843338,
+                      "g": 0.18431372940540314,
+                      "b": 0.08235294371843338
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:6"
+                  }
+                ],
+                "stroke": [
+                  {
+                    "type": "SOLID",
+                    "c": {
+                      "r": 0.364705890417099,
+                      "g": 0.6392157077789307,
+                      "b": 0.35686275362968445
+                    },
+                    "a": 1,
+                    "b": "VariableID:114:7"
+                  }
+                ],
+                "effects": []
+              }
+            ]
+          },
+          {
+            "id": "501:1174",
+            "n": "icon",
+            "t": "FRAME",
+            "w": 24,
+            "h": 24,
+            "x": 18,
+            "y": 38,
+            "propRefs": {},
+            "b": {},
+            "layout": "NONE",
+            "align": "MIN",
+            "cross": "MIN",
+            "primarySizing": "AUTO",
+            "counterSizing": "FIXED",
+            "hs": "FIXED",
+            "vs": "FIXED",
+            "grow": 0,
+            "self": "INHERIT",
+            "pos": "AUTO",
+            "gap": 0,
+            "pt": 0,
+            "pr": 0,
+            "pb": 0,
+            "pl": 0,
+            "rtl": 0,
+            "rtr": 0,
+            "rbl": 0,
+            "rbr": 0,
+            "sw": 1,
+            "sa": "INSIDE",
+            "opacity": 1,
+            "rotation": 0,
+            "clip": false,
+            "wrap": "NO_WRAP",
+            "crossGap": 0,
+            "strokeIncluded": false,
+            "sides": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                18
+              ],
+              [
+                0,
+                1,
+                38
+              ]
+            ],
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "dash": [],
+            "fill": [],
+            "stroke": [],
+            "effects": [],
+            "asset": "cc07166a"
+          }
+        ]
+      }
+    ],
+    "assets": [
+      {
+        "key": "cc07166a",
+        "id": "501:1174",
+        "n": "icon",
+        "w": 24,
+        "h": 24
+      }
+    ],
+    "refs": [
+      "VariableID:112:1738",
+      "VariableID:112:1731",
+      "VariableID:112:1732",
+      "VariableID:112:1743",
+      "VariableID:116:2433",
+      "VariableID:116:2435",
+      "VariableID:112:1735",
+      "VariableID:112:1736",
+      "VariableID:114:33",
+      "VariableID:114:37",
+      "VariableID:114:6",
+      "VariableID:114:7",
+      "VariableID:116:2082",
+      "VariableID:112:1741",
+      "VariableID:112:1733",
+      "VariableID:112:1734",
+      "VariableID:525:1114",
+      "VariableID:499:669",
+      "VariableID:525:1115"
+    ]
+  },
+  "variableAudit": {
+    "complete": false,
+    "reason": "Figma MCP account quota exhausted before alias chains, valuesByMode and collections could be read."
+  },
+  "contextSource": "High-fidelity Figma design context; all source variant root IDs retained.",
+  "dependencies": [
+    "AltaCFC_Ports"
+  ]
+}

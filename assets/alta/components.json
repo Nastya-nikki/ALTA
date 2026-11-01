@@ -607,5 +607,347 @@
     "css": "resize.css",
     "js": "resize.js",
     "default": 0
+  },
+  {
+    "name": "CFC Ports",
+    "folder": "Components/AltaCFC_Ports",
+    "variants": 24,
+    "kind": "Ports",
+    "css": "ports.css",
+    "js": "ports.js",
+    "default": 20
+  },
+  {
+    "name": "CFC Variable",
+    "folder": "Components/AltaCFC_Node_Variable",
+    "variants": 5,
+    "kind": "Variable",
+    "css": "variable.css",
+    "js": "variable.js",
+    "default": 3
+  },
+  {
+    "name": "CFC IconToolbar",
+    "folder": "Components/01_Icons/AltaCFC_IconToolbar",
+    "variants": 3,
+    "kind": "IconToolbar",
+    "css": "icon-toolbar.css",
+    "js": "icon-toolbar.js",
+    "default": 0
+  },
+  {
+    "name": "CFC NewPort",
+    "folder": "Components/AltaCFC_NewPort",
+    "variants": 1,
+    "kind": "NewPort",
+    "css": "new-port.css",
+    "js": "new-port.js",
+    "default": 0
+  },
+  {
+    "name": "CFC PortsInout",
+    "folder": "Components/AltaCFC_PortsInout",
+    "variants": 1,
+    "kind": "PortsInout",
+    "css": "ports-inout.css",
+    "js": "ports-inout.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Grid10",
+    "folder": "Components/AltaCFC_Grid10",
+    "variants": 1,
+    "kind": "Grid",
+    "css": "grid10.css",
+    "js": "grid10.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Grid20",
+    "folder": "Components/AltaCFC_Grid20",
+    "variants": 1,
+    "kind": "Grid",
+    "css": "grid20.css",
+    "js": "grid20.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Toolbar",
+    "folder": "Components/AltaCFC_Toolbar",
+    "variants": 1,
+    "kind": "Toolbar",
+    "css": "toolbar.css",
+    "js": "toolbar.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Add",
+    "folder": "Components/AltaCFC_Node_Add",
+    "variants": 4,
+    "kind": "Node",
+    "css": "add.css",
+    "js": "add.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Mul",
+    "folder": "Components/AltaCFC_Node_Mul",
+    "variants": 4,
+    "kind": "Node",
+    "css": "mul.css",
+    "js": "mul.js",
+    "default": 0
+  },
+  {
+    "name": "CFC AddCompact",
+    "folder": "Components/AltaCFC_Node_AddCompact",
+    "variants": 6,
+    "kind": "Node",
+    "css": "add-compact.css",
+    "js": "add-compact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC SubCompact",
+    "folder": "Components/AltaCFC_Node_SubCompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "sub-compact.css",
+    "js": "sub-compact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC MulCompact",
+    "folder": "Components/AltaCFC_Node_MulCompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "mul-compact.css",
+    "js": "mul-compact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC DivCompact",
+    "folder": "Components/AltaCFC_Node_DivCompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "div-compact.css",
+    "js": "div-compact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Sub",
+    "folder": "Components/AltaCFC_Node_Sub",
+    "variants": 4,
+    "kind": "Node",
+    "css": "sub.css",
+    "js": "sub.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Div",
+    "folder": "Components/AltaCFC_Node_Div",
+    "variants": 4,
+    "kind": "Node",
+    "css": "div.css",
+    "js": "div.js",
+    "default": 0
+  },
+  {
+    "name": "CFC EQ",
+    "folder": "Components/AltaCFC_Node_EQ",
+    "variants": 4,
+    "kind": "Node",
+    "css": "eq.css",
+    "js": "eq.js",
+    "default": 0
+  },
+  {
+    "name": "CFC NE",
+    "folder": "Components/AltaCFC_Node_NE",
+    "variants": 4,
+    "kind": "Node",
+    "css": "ne.css",
+    "js": "ne.js",
+    "default": 0
+  },
+  {
+    "name": "CFC EQCompact",
+    "folder": "Components/AltaCFC_Node_EQCompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "eqcompact.css",
+    "js": "eqcompact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC NECompact",
+    "folder": "Components/AltaCFC_Node_NECompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "necompact.css",
+    "js": "necompact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC GTCompact",
+    "folder": "Components/AltaCFC_Node_GTCompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "gtcompact.css",
+    "js": "gtcompact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC LTCompact",
+    "folder": "Components/AltaCFC_Node_LTCompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "ltcompact.css",
+    "js": "ltcompact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC GECompact",
+    "folder": "Components/AltaCFC_Node_GECompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "gecompact.css",
+    "js": "gecompact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC LECompact",
+    "folder": "Components/AltaCFC_Node_LECompact",
+    "variants": 5,
+    "kind": "Node",
+    "css": "lecompact.css",
+    "js": "lecompact.js",
+    "default": 0
+  },
+  {
+    "name": "CFC GT",
+    "folder": "Components/AltaCFC_Node_GT",
+    "variants": 4,
+    "kind": "Node",
+    "css": "gt.css",
+    "js": "gt.js",
+    "default": 0
+  },
+  {
+    "name": "CFC LT",
+    "folder": "Components/AltaCFC_Node_LT",
+    "variants": 4,
+    "kind": "Node",
+    "css": "lt.css",
+    "js": "lt.js",
+    "default": 0
+  },
+  {
+    "name": "CFC GE",
+    "folder": "Components/AltaCFC_Node_GE",
+    "variants": 4,
+    "kind": "Node",
+    "css": "ge.css",
+    "js": "ge.js",
+    "default": 0
+  },
+  {
+    "name": "CFC LE",
+    "folder": "Components/AltaCFC_Node_LE",
+    "variants": 4,
+    "kind": "Node",
+    "css": "le.css",
+    "js": "le.js",
+    "default": 0
+  },
+  {
+    "name": "CFC AND",
+    "folder": "Components/AltaCFC_Node_AND",
+    "variants": 4,
+    "kind": "Node",
+    "css": "and.css",
+    "js": "and.js",
+    "default": 0
+  },
+  {
+    "name": "CFC OR",
+    "folder": "Components/AltaCFC_Node_OR",
+    "variants": 4,
+    "kind": "Node",
+    "css": "or.css",
+    "js": "or.js",
+    "default": 0
+  },
+  {
+    "name": "CFC XOR",
+    "folder": "Components/AltaCFC_Node_XOR",
+    "variants": 4,
+    "kind": "Node",
+    "css": "xor.css",
+    "js": "xor.js",
+    "default": 0
+  },
+  {
+    "name": "CFC NOT",
+    "folder": "Components/AltaCFC_Node_NOT",
+    "variants": 4,
+    "kind": "Node",
+    "css": "not.css",
+    "js": "not.js",
+    "default": 0
+  },
+  {
+    "name": "CFC FUN",
+    "folder": "Components/AltaCFC_Node_FUN",
+    "variants": 5,
+    "kind": "Node",
+    "css": "fun.css",
+    "js": "fun.js",
+    "default": 0
+  },
+  {
+    "name": "CFC FB",
+    "folder": "Components/AltaCFC_Node_FB",
+    "variants": 5,
+    "kind": "Node",
+    "css": "fb.css",
+    "js": "fb.js",
+    "default": 0
+  },
+  {
+    "name": "CFC PRG",
+    "folder": "Components/AltaCFC_Node_PRG",
+    "variants": 5,
+    "kind": "Node",
+    "css": "prg.css",
+    "js": "prg.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Write",
+    "folder": "Components/AltaCFC_Node_Write",
+    "variants": 16,
+    "kind": "Write",
+    "css": "write.css",
+    "js": "write.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Read",
+    "folder": "Components/AltaCFC_Node_Read",
+    "variants": 16,
+    "kind": "Read",
+    "css": "read.css",
+    "js": "read.js",
+    "default": 0
+  },
+  {
+    "name": "CFC Comments",
+    "folder": "Components/AltaCFC_Node_Comments",
+    "variants": 6,
+    "kind": "Comments",
+    "css": "comments.css",
+    "js": "comments.js",
+    "default": 0
   }
 ]

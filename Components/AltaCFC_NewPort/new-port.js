@@ -1,0 +1,1 @@
+AltaCFC.register({"name":"AltaCFC_NewPort","kind":"NewPort","label":"Маркер нового порта","properties":{},"defaultIndex":0,"variants":[{"id":"42:968","props":{},"html":"<div class=\"cfc-node cfc-3a92c8caf233\" data-source-node=\"42:968\" data-part=\"AltaCFC/NewPort\"><div class=\"cfc-node cfc-d8c40667bb9a\" data-source-node=\"42:962\"></div></div>"}]});

@@ -1,0 +1,1 @@
+AltaCFC.register({"name":"AltaCFC_Grid20","kind":"Grid","label":"Элемент сетки размером 20 × 20","properties":{},"defaultIndex":0,"variants":[{"id":"2:4957","props":{},"html":"<div class=\"cfc-node cfc-50c66e0ff04b\" data-source-node=\"2:4957\" data-part=\"AltaCFC/Grid/20\"><div class=\"cfc-node cfc-8ae8706ada29\" data-source-node=\"2:4954\"></div></div>"}]});

@@ -1,0 +1,16 @@
+/* Browser mechanics only. Visual values come from the current Figma contexts. */
+.cfc-component{position:relative;display:inline-block;flex:none;vertical-align:middle;line-height:0;max-width:none;box-sizing:border-box;text-align:left}
+.cfc-component .cfc-node{position:relative;display:block;box-sizing:border-box;flex-shrink:0;min-width:0;margin:0;padding:0;border:0 solid transparent;white-space:pre-wrap;appearance:none;text-decoration:none}
+button.cfc-component,.cfc-component button.cfc-node{appearance:none;margin:0;padding:0;border:0;background:transparent;color:inherit;font:inherit;line-height:0;text-align:initial;cursor:pointer}
+.cfc-component img{display:block;max-width:none;flex:none}
+.cfc-component [hidden],.cfc-component[hidden]{display:none!important}
+.cfc-component[data-static]{pointer-events:none}
+.cfc-component:focus-visible{outline:2px solid #93b1ff;outline-offset:4px}
+.cfc-component[data-source-focus=true]:focus-visible{outline:none}
+.cfc-component .cfc-field{appearance:none;display:block;resize:none;border:0;outline:0;margin:0;padding:0;background:transparent;min-width:0;box-sizing:border-box;letter-spacing:inherit}
+.cfc-component .cfc-field::placeholder{color:inherit;opacity:1}
+.cfc-component .cfc-field::selection{background:var(--cfc-operators-inputbg);color:inherit}
+.cfc-component textarea.cfc-field{white-space:pre-wrap;width:100%;height:100%;flex:1;overflow:auto}
+.cfc-component button.cfc-node{cursor:pointer}
+.cfc-component [data-toolbar-action]:focus-visible,.cfc-component [data-add-variable]:focus-visible{outline:2px solid #93b1ff;outline-offset:3px}
+body:has(.cfc-component) h1{overflow-wrap:anywhere;min-width:0}
