@@ -1489,5 +1489,55 @@
     "js": "toolbar-vertical.js",
     "default": 0,
     "description": "Вертикальная панель инструментов."
+  },
+  {
+    "name": "InputName",
+    "folder": "Components/AltaIDE_InputName",
+    "variants": 5,
+    "kind": "Edit",
+    "css": "input-name.css",
+    "js": "input-name.js",
+    "default": 3,
+    "description": "Поле имени."
+  },
+  {
+    "name": "FunctionType",
+    "folder": "Components/AltaIDE_FunctionType",
+    "variants": 3,
+    "kind": "Edit",
+    "css": "function-type.css",
+    "js": "function-type.js",
+    "default": 0,
+    "description": "Поле выбора типа."
+  },
+  {
+    "name": "StatusBarControl",
+    "folder": "Components/AltaIDE_StatusBarControl",
+    "variants": 2,
+    "kind": "Item",
+    "css": "status-bar-control.css",
+    "js": "status-bar-control.js",
+    "default": 0,
+    "description": "Элемент строки состояния."
+  },
+  {
+    "name": "NameBar",
+    "folder": "Components/AltaIDE_NameBar",
+    "variants": 2,
+    "kind": "Toolbar",
+    "css": "name-bar.css",
+    "js": "name-bar.js",
+    "default": 0,
+    "description": "Панель имени и типа."
+  },
+  {
+    "name": "StatusBar",
+    "folder": "Components/AltaIDE_StatusBar",
+    "variants": 3,
+    "kind": "Toolbar",
+    "css": "status-bar.css",
+    "js": "status-bar.js",
+    "default": 0,
+    "description": "Строка состояния."
   }
 ]

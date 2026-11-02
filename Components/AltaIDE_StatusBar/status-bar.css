@@ -1,0 +1,22 @@
+@import url("../AltaIDE_ProgressBar/progress-bar.css");
+.shell-component .shell-d8b6ed510783{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;border-radius:inherit;box-shadow:inset 0 var(--shell-statusbar-borderwidth) 0 var(--shell-statusbar-border);}
+.shell-component .shell-93a3716e9ffe{background:var(--shell-statusbar-background);border-color:transparent;border-style:solid;border-top-width:var(--shell-statusbar-borderwidth);align-content:stretch;display:flex;height:32px;align-items:center;padding-right:var(--shell-statusbar-hpadding);padding-left:var(--shell-statusbar-hpadding);padding-top:var(--shell-statusbar-vpadding);padding-bottom:var(--shell-statusbar-vpadding);position:relative;width:1366px;justify-content:space-between;border-width:0;isolation:isolate;}
+.shell-component .shell-712ef85b033c{align-content:stretch;display:flex;gap:12px;align-items:center;position:relative;flex-shrink:0;}
+.shell-component .shell-d2d3c5c7cbf5{align-content:stretch;display:flex;gap:4px;align-items:center;padding-top:var(--shell-var-0);padding-bottom:var(--shell-var-0);position:relative;flex-shrink:0;}
+.shell-component .shell-c2df4ac84abe{position:relative;flex-shrink:0;width:20px;height:20px;}
+.shell-component .shell-45553a3fbe7d{position:absolute;display:block;left:0px;right:0px;top:0px;bottom:0px;max-width:none;}
+.shell-component .shell-cd8dcc9a18a0{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:400;line-height:20px;position:relative;flex-shrink:0;font-size:14px;color:var(--shell-statusbar-status);white-space:nowrap;}
+.shell-component .shell-ef5d9e1cfba1{align-content:stretch;display:flex;gap:var(--shell-statusbar-betweenpadding);align-items:center;justify-content:flex-end;position:relative;flex-shrink:0;}
+.shell-component .shell-a7db2fa884ef{align-content:stretch;display:flex;gap:var(--shell-statusbar-betweeniconslinks);align-items:center;position:relative;flex-shrink:0;}
+.shell-component .shell-2b2a80ead794{align-content:stretch;display:flex;gap:var(--shell-link-between);align-items:center;justify-content:center;padding-right:var(--shell-var-0);padding-left:var(--shell-var-0);position:relative;flex-shrink:0;}
+.shell-component .shell-6f5d24d6dd2e{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:400;line-height:20px;position:relative;flex-shrink:0;font-size:14px;color:var(--shell-link-content-default);text-align:center;white-space:nowrap;}
+.shell-component .shell-94e877487ea3{align-content:stretch;display:flex;gap:8px;align-items:center;position:relative;flex-shrink:0;}
+.shell-component .shell-025e772f4ca8{align-content:stretch;display:flex;flex-direction:column;align-items:flex-start;position:relative;flex-shrink:0;width:105px;}
+.shell-component .shell-0b2617cbc48a{align-content:stretch;display:flex;gap:var(--shell-breadcrumbs-between);align-items:flex-start;position:relative;flex-shrink:0;width:100%;}
+.shell-component .shell-6e4321d971ee{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:400;line-height:20px;position:relative;flex-shrink:0;font-size:14px;color:var(--shell-breadcrumbs-content-default);white-space:nowrap;}
+.shell-component .shell-e9db337788a7{align-content:stretch;display:flex;gap:var(--shell-breadcrumbs-between);align-items:flex-start;position:relative;flex-shrink:0;}
+.shell-component .shell-55fb2d7e5e08{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:400;line-height:20px;position:relative;flex-shrink:0;font-size:14px;color:var(--shell-breadcrumbs-content-active);white-space:nowrap;}
+.shell-component .shell-20d7a3d871e6{background:var(--shell-statusbar-background);border-color:transparent;border-style:solid;border-top-width:var(--shell-statusbar-borderwidth);align-content:stretch;display:flex;height:32px;align-items:center;padding-right:var(--shell-statusbar-hpadding);padding-left:var(--shell-statusbar-hpadding);padding-top:var(--shell-statusbar-vpadding);padding-bottom:var(--shell-statusbar-vpadding);position:relative;width:1366px;justify-content:flex-end;border-width:0;isolation:isolate;}
+.shell-component .shell-c0d375a69df4{position:relative;flex-shrink:0;}
+.shell-component .shell-7ba2baedbe5a{align-content:stretch;display:flex;gap:var(--shell-statusbar-betweeniconslinks);align-items:flex-start;position:relative;flex-shrink:0;}
+

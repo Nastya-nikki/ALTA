@@ -1,0 +1,76 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "190214:12539",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text#190214:0": {
+      "type": "TEXT",
+      "defaultValue": "Text"
+    },
+    "Text Edited#190214:4": {
+      "type": "TEXT",
+      "defaultValue": "Text|"
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Focused",
+        "Invalid",
+        "FocusedBlue",
+        "Hover"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "190214:24848",
+      "props": {
+        "State": "Invalid"
+      },
+      "width": 35,
+      "height": 20
+    },
+    {
+      "id": "190214:24850",
+      "props": {
+        "State": "Focused"
+      },
+      "width": 35,
+      "height": 20
+    },
+    {
+      "id": "204142:43408",
+      "props": {
+        "State": "Hover"
+      },
+      "width": 32,
+      "height": 20
+    },
+    {
+      "id": "190214:24852",
+      "props": {
+        "State": "Default"
+      },
+      "width": 32,
+      "height": 20
+    },
+    {
+      "id": "190663:16",
+      "props": {
+        "State": "FocusedBlue"
+      },
+      "width": 32,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

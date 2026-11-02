@@ -1,0 +1,138 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185569:1489",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text 1#186525:9": {
+      "type": "TEXT",
+      "defaultValue": "Text"
+    },
+    "Text 2#186525:19": {
+      "type": "TEXT",
+      "defaultValue": "Text"
+    },
+    "Text 3#186525:24": {
+      "type": "TEXT",
+      "defaultValue": "Text"
+    },
+    "Text 4#186525:29": {
+      "type": "TEXT",
+      "defaultValue": "Text"
+    },
+    "Text 5#186525:34": {
+      "type": "TEXT",
+      "defaultValue": "Text"
+    },
+    "Show Text 1#186525:39": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Text 2#186525:44": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Text 3#186525:49": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Text 4#186525:54": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Text 5#186525:59": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Breadcrumb 1#186525:64": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Breadcrumb 2#186525:69": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Breadcrumb 3#186525:74": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Breadcrumb 4#186525:79": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Breadcrumb 5#186525:84": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Link#191912:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Show Icon#191912:7": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show Progress#191912:14": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Show IP+Status#192598:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Status",
+      "variantOptions": [
+        "Status",
+        "Breadcrumb",
+        "None"
+      ]
+    },
+    "Theme": {
+      "type": "VARIANT",
+      "defaultValue": "Dark",
+      "variantOptions": [
+        "Dark"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185569:1485",
+      "props": {
+        "Type": "Status",
+        "Theme": "Dark"
+      },
+      "width": 1366,
+      "height": 32
+    },
+    {
+      "id": "185569:1486",
+      "props": {
+        "Type": "Breadcrumb",
+        "Theme": "Dark"
+      },
+      "width": 1366,
+      "height": 32
+    },
+    {
+      "id": "191912:3584",
+      "props": {
+        "Type": "None",
+        "Theme": "Dark"
+      },
+      "width": 1366,
+      "height": 32
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_ProgressBar"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

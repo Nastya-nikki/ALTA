@@ -1,0 +1,7 @@
+@import url("../AltaIDE_InputName/input-name.css");
+.shell-component .shell-66353d53db28{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;border-radius:inherit;box-shadow:inset 0 calc(-1 * var(--shell-namebar-borderwidth)) 0 var(--shell-namebar-border);}
+.shell-component .shell-85b4a7f5d9e7{background:var(--shell-namebar-background);border-color:transparent;border-bottom-width:var(--shell-namebar-borderwidth);border-style:solid;align-content:stretch;display:flex;gap:var(--shell-namebar-between);height:40px;align-items:center;padding-right:var(--shell-namebar-hpadding);padding-left:var(--shell-namebar-hpadding);padding-top:var(--shell-namebar-vpadding);padding-bottom:var(--shell-namebar-vpadding);position:relative;width:1108px;border-width:0;isolation:isolate;}
+.shell-component .shell-a61ea5c7d11d{align-content:stretch;display:flex;gap:var(--shell-namebar-betweenname);align-items:center;position:relative;flex-shrink:0;}
+.shell-component .shell-123cb758e6a0{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:600;line-height:20px;position:relative;flex-shrink:0;font-size:14px;color:var(--shell-namebar-label);white-space:nowrap;}
+.shell-component .shell-124d86a58f9a{position:relative;flex-shrink:0;display:inline-block;}
+
