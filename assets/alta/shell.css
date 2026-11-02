@@ -6,8 +6,8 @@
 .shell-component img{display:block;max-width:none;flex:none}
 .shell-component [hidden],.shell-component[hidden]{display:none!important}
 .shell-component[data-static]{pointer-events:none}
-.shell-node>.shell-component{width:100%}
-.shell-node>.shell-component>.shell-node{width:100%!important}
+.shell-node>.shell-component{width:100%;height:100%}
+.shell-node>.shell-component>.shell-node{width:100%!important;height:100%!important}
 .shell-component .alta-button{width:100%;height:100%}
 .shell-component .shell-input{appearance:none;border:0;outline:0;background:transparent;font:inherit;color:inherit;margin:0;padding:0;box-sizing:border-box;min-width:0}
 .shell-component input[data-shell-field]::placeholder{font:inherit;color:inherit;opacity:1}
@@ -18,3 +18,5 @@
 body:has(.shell-component) h1{overflow-wrap:anywhere;min-width:0}
 .states-vertical .shell-component{max-width:100%;min-width:0}
 .states-vertical .shell-component>.shell-node{max-width:100%}
+
+.shell-component .alta-navigation[data-navigation="AltaIDE_Tabs"] .alta-widget>.fn:first-child{width:100%!important;height:100%!important}

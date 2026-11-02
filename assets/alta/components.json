@@ -1109,5 +1109,35 @@
     "js": "context-menu-light-l.js",
     "default": 0,
     "description": "Контекстное меню."
+  },
+  {
+    "name": "ContentTab",
+    "folder": "Components/AltaIDE_ContentTab",
+    "variants": 1,
+    "kind": "Toolbar",
+    "css": "content-tab.css",
+    "js": "content-tab.js",
+    "default": 0,
+    "description": "Область с вкладками."
+  },
+  {
+    "name": "BottomBar",
+    "folder": "Components/AltaIDE_BottomBar",
+    "variants": 1,
+    "kind": "Static",
+    "css": "bottom-bar.css",
+    "js": "bottom-bar.js",
+    "default": 0,
+    "description": "Панель вывода сообщений."
+  },
+  {
+    "name": "MessageWindow",
+    "folder": "Components/AltaIDE_MessageWindow",
+    "variants": 1,
+    "kind": "Toolbar",
+    "css": "message-window.css",
+    "js": "message-window.js",
+    "default": 0,
+    "description": "Область сообщений с вкладками."
   }
 ]

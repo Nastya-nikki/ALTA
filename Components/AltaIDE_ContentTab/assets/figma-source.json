@@ -1,0 +1,34 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185595:10174",
+  "readAt": "2026-11-02",
+  "properties": {
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185595:10172",
+      "props": {
+        "State": "Default"
+      },
+      "width": 1367,
+      "height": 40
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_Tabs"
+  ],
+  "contextSource": "Current nested ContentTab design context in MessageWindow, with owner properties and dimensions verified through Figma API."
+}

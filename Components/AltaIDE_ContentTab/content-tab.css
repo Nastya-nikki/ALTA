@@ -1,0 +1,5 @@
+@import url("../AltaIDE_Tabs/tabs.css");
+.shell-component .shell-9c50cbf0d4d4{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;border-radius:inherit;box-shadow:inset 0 calc(-1 * length:var(--shell-tabscontent-linewidth)) 0 var(--shell-tabscontent-line);}
+.shell-component .shell-e58a27a2247a{background:var(--shell-tabscontent-background);border-color:transparent;border-bottom-width:length:var(--shell-tabscontent-linewidth);border-style:solid;align-content:stretch;display:flex;align-items:center;padding-right:12px;position:relative;width:1367px;border-width:0;height:40px;isolation:isolate;}
+.shell-component .shell-e49dc4c45162{flex:1 0 0;min-width:1px;position:relative;}
+

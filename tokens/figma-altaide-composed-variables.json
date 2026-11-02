@@ -3632,6 +3632,10 @@
     "--shell-menulink-vpadding": "VariableID:201099:6901",
     "--shell-menulink-default": "VariableID:201099:6855",
     "--shell-toolbar-background": "VariableID:201093:7342",
+    "--shell-tabscontent-background": "VariableID:200999:26702",
+    "--shell-tabscontent-line": "VariableID:200999:26703",
+    "--shell-tabscontent-linewidth": "VariableID:200999:26704",
+    "--shell-tabs-between": "VariableID:200999:25934",
     "--shell-contextmenu-background": "VariableID:200977:22870",
     "--shell-contextmenu-bordercolor": "VariableID:200977:22872",
     "--shell-contextmenu-between": "VariableID:200977:22873",
@@ -3652,9 +3656,6 @@
     "--shell-bottombar-vpadding": "VariableID:201024:33081",
     "--shell-bottombar-content": "VariableID:201024:33079",
     "--shell-messagewindow-between": "VariableID:201024:36195",
-    "--shell-tabscontent-background": "VariableID:200999:26702",
-    "--shell-tabscontent-line": "VariableID:200999:26703",
-    "--shell-tabscontent-linewidth": "VariableID:200999:26704",
     "--shell-modal-background": "VariableID:202456:2557",
     "--shell-modal-border": "VariableID:202456:2558",
     "--shell-modal-betweenpadding": "VariableID:202456:2563",
@@ -8536,6 +8537,16 @@
         "VariableCollectionId:200597:1981": "200597:9",
         "VariableCollectionId:200597:1979": "200597:7",
         "VariableCollectionId:183842:112006": "183842:0",
+        "VariableCollectionId:181601:143663": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_ContentTab",
+      "id": "185595:10172",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:200597:1979": "200597:7",
         "VariableCollectionId:181601:143663": "181601:1"
       }
     },
