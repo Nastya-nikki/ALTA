@@ -1,0 +1,322 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "182606:102364",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Badge#197862:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Top",
+      "variantOptions": [
+        "Down",
+        "Rigth",
+        "Left",
+        "Top",
+        "No",
+        "No2",
+        "Double Left",
+        "Double Rigth",
+        "Level"
+      ]
+    },
+    "Size": {
+      "type": "VARIANT",
+      "defaultValue": "20",
+      "variantOptions": [
+        "16",
+        "20"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Disabled"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "184266:43354",
+      "props": {
+        "Type": "Down",
+        "Size": "16",
+        "State": "Default"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "184266:43356",
+      "props": {
+        "Type": "Rigth",
+        "Size": "16",
+        "State": "Default"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "184266:43358",
+      "props": {
+        "Type": "Top",
+        "Size": "16",
+        "State": "Default"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "184266:43360",
+      "props": {
+        "Type": "Left",
+        "Size": "16",
+        "State": "Default"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "184266:43362",
+      "props": {
+        "Type": "Down",
+        "Size": "20",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184266:43364",
+      "props": {
+        "Type": "Rigth",
+        "Size": "20",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184266:43366",
+      "props": {
+        "Type": "Top",
+        "Size": "20",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184266:43368",
+      "props": {
+        "Type": "Left",
+        "Size": "20",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184266:43370",
+      "props": {
+        "Type": "No",
+        "Size": "20",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "195506:66931",
+      "props": {
+        "Type": "Top",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "195506:66933",
+      "props": {
+        "Type": "Down",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "195506:66935",
+      "props": {
+        "Type": "Left",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "195506:66937",
+      "props": {
+        "Type": "Rigth",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "195506:66939",
+      "props": {
+        "Type": "Top",
+        "Size": "16",
+        "State": "Disabled"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "195506:66941",
+      "props": {
+        "Type": "Down",
+        "Size": "16",
+        "State": "Disabled"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "195506:66943",
+      "props": {
+        "Type": "Left",
+        "Size": "16",
+        "State": "Disabled"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "195506:66945",
+      "props": {
+        "Type": "Rigth",
+        "Size": "16",
+        "State": "Disabled"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "195506:66947",
+      "props": {
+        "Type": "No",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "195984:2088",
+      "props": {
+        "Type": "No2",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200082:3047",
+      "props": {
+        "Type": "Double Left",
+        "Size": "20",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200082:3049",
+      "props": {
+        "Type": "Double Rigth",
+        "Size": "20",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200082:39041",
+      "props": {
+        "Type": "Double Left",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200082:39044",
+      "props": {
+        "Type": "Double Rigth",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184178:107469",
+      "props": {
+        "Type": "Level",
+        "Size": "20",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196994:64071",
+      "props": {
+        "Type": "Level",
+        "Size": "20",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202630:1731",
+      "props": {
+        "Type": "Level",
+        "Size": "16",
+        "State": "Default"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "202630:1733",
+      "props": {
+        "Type": "Level",
+        "Size": "16",
+        "State": "Disabled"
+      },
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

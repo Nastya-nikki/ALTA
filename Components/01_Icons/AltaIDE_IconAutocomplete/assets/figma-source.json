@@ -1,0 +1,194 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "202316:1735",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Kind": {
+      "type": "VARIANT",
+      "defaultValue": "Var",
+      "variantOptions": [
+        "GlobalVar",
+        "Function",
+        "Var",
+        "user_Structure",
+        "GvLs",
+        "Program",
+        "Enum",
+        "FieldStruct",
+        "EnumMember",
+        "Keywords",
+        "Construction",
+        "user_Types",
+        "VarInputOutput",
+        "VarOutput",
+        "VarInput",
+        "FunctionalBlock",
+        "user_Union",
+        "user_Enum",
+        "VarTemp"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "202316:1736",
+      "props": {
+        "Kind": "Var"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1741",
+      "props": {
+        "Kind": "Program"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1750",
+      "props": {
+        "Kind": "Function"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1759",
+      "props": {
+        "Kind": "GlobalVar"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1764",
+      "props": {
+        "Kind": "GvLs"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1770",
+      "props": {
+        "Kind": "Enum"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1776",
+      "props": {
+        "Kind": "user_Structure"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1782",
+      "props": {
+        "Kind": "EnumMember"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1787",
+      "props": {
+        "Kind": "FieldStruct"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1792",
+      "props": {
+        "Kind": "Construction"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1801",
+      "props": {
+        "Kind": "Keywords"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1812",
+      "props": {
+        "Kind": "user_Types"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1821",
+      "props": {
+        "Kind": "VarInput"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1828",
+      "props": {
+        "Kind": "VarOutput"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203586:3008",
+      "props": {
+        "Kind": "VarTemp"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1835",
+      "props": {
+        "Kind": "VarInputOutput"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1843",
+      "props": {
+        "Kind": "FunctionalBlock"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1854",
+      "props": {
+        "Kind": "user_Union"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202316:1860",
+      "props": {
+        "Kind": "user_Enum"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

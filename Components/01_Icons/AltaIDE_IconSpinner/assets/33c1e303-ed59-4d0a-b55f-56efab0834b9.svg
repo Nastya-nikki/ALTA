@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="AltaIDE/Icons/Spiner">
+<path id="Rectangle" opacity="0.78" d="M0 14C0 12.8954 0.895431 12 2 12H6C7.10457 12 8 12.8954 8 14C8 15.1046 7.10457 16 6 16H2C0.895431 16 0 15.1046 0 14Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+<path id="Rectangle_2" opacity="0.62" d="M12 22C12 20.8954 12.8954 20 14 20C15.1046 20 16 20.8954 16 22V26C16 27.1046 15.1046 28 14 28C12.8954 28 12 27.1046 12 26V22Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+<path id="Rectangle_3" opacity="0.38" d="M20 14C20 12.8954 20.8954 12 22 12H26C27.1046 12 28 12.8954 28 14C28 15.1046 27.1046 16 26 16H22C20.8954 16 20 15.1046 20 14Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+<path id="Rectangle_4" d="M12 2C12 0.895431 12.8954 0 14 0C15.1046 0 16 0.895431 16 2V6C16 7.10457 15.1046 8 14 8C12.8954 8 12 7.10457 12 6V2Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+<path id="Rectangle_5" opacity="0.93" d="M4.10141 4.1005C4.88246 3.31945 6.14879 3.31945 6.92984 4.1005L9.75827 6.92893C10.5393 7.70998 10.5393 8.97631 9.75827 9.75735C8.97722 10.5384 7.71089 10.5384 6.92984 9.75735L4.10141 6.92893C3.32036 6.14788 3.32036 4.88155 4.10141 4.1005Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+<rect id="Rectangle_6" opacity="0.69" x="8.34375" y="16.8285" width="4" height="8" rx="2" transform="rotate(45 8.34375 16.8285)" fill="white"/>
+<path id="Rectangle_7" opacity="0.48" d="M18.244 18.2427C19.025 17.4616 20.2914 17.4616 21.0724 18.2427L23.9008 21.0711C24.6819 21.8521 24.6819 23.1185 23.9008 23.8995C23.1198 24.6806 21.8535 24.6806 21.0724 23.8995L18.244 21.0711C17.4629 20.29 17.4629 19.0237 18.244 18.2427Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+<path id="Rectangle_8" opacity="0.3" d="M21.0702 4.1005C21.8512 3.31945 23.1175 3.31945 23.8986 4.1005C24.6796 4.88155 24.6796 6.14788 23.8986 6.92893L21.0702 9.75735C20.2891 10.5384 19.0228 10.5384 18.2417 9.75735C17.4607 8.97631 17.4607 7.70998 18.2417 6.92893L21.0702 4.1005Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+</g>
+</svg>

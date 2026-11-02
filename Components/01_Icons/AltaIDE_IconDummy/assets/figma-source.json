@@ -1,0 +1,77 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "182433:148251",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Property 1": {
+      "type": "VARIANT",
+      "defaultValue": "16",
+      "variantOptions": [
+        "16",
+        "18",
+        "20",
+        "22",
+        "24",
+        "26"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "184438:81801",
+      "props": {
+        "Property 1": "16"
+      },
+      "width": 16,
+      "height": 16
+    },
+    {
+      "id": "184438:81804",
+      "props": {
+        "Property 1": "18"
+      },
+      "width": 18,
+      "height": 18
+    },
+    {
+      "id": "184438:81807",
+      "props": {
+        "Property 1": "20"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184438:81810",
+      "props": {
+        "Property 1": "22"
+      },
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "184438:81813",
+      "props": {
+        "Property 1": "24"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "184438:81816",
+      "props": {
+        "Property 1": "26"
+      },
+      "width": 26,
+      "height": 26
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

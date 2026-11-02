@@ -1,0 +1,12 @@
+@import url("../../AltaIDE_Shortcut/shortcut.css");
+.shell-component .shell-a7a2c6ff6baa{position:relative;width:20px;height:20px;}
+.shell-component .shell-45553a3fbe7d{position:absolute;display:block;left:0px;right:0px;top:0px;bottom:0px;max-width:none;}
+.shell-component .shell-e87186132c48{position:relative;align-content:stretch;display:flex;flex-direction:column;gap:8px;align-items:flex-start;width:251px;height:190px;}
+.shell-component .shell-c2df4ac84abe{position:relative;flex-shrink:0;width:20px;height:20px;}
+.shell-component .shell-00a6bcc98a85{background:var(--shell-tooltiphelp-background);align-content:stretch;filter:drop-shadow(0px 6px 10px #140f0f);display:flex;flex-direction:column;gap:var(--shell-tooltiphelp-between);align-items:flex-start;padding-right:var(--shell-tooltiphelp-hpadding);padding-left:var(--shell-tooltiphelp-hpadding);padding-top:var(--shell-tooltiphelp-vpadding);padding-bottom:var(--shell-tooltiphelp-vpadding);position:relative;border-radius:var(--shell-tooltiphelp-radius);flex-shrink:0;width:251px;}
+.shell-component .shell-fe58982c72d9{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:500;line-height:20px;min-width:100%;position:relative;flex-shrink:0;font-size:14px;color:var(--shell-tooltiphelp-head);width:min-content;}
+.shell-component .shell-7f4f8070813d{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:400;line-height:20px;min-width:100%;position:relative;flex-shrink:0;font-size:14px;color:var(--shell-tooltiphelp-text);width:min-content;}
+.shell-component .shell-c0d375a69df4{position:relative;flex-shrink:0;}
+.shell-component .shell-7c1caafdc8f7{align-content:stretch;display:flex;gap:var(--shell-link-between);align-items:center;position:relative;flex-shrink:0;}
+.shell-component .shell-6f5d24d6dd2e{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:400;line-height:20px;position:relative;flex-shrink:0;font-size:14px;color:var(--shell-link-content-default);text-align:center;white-space:nowrap;}
+

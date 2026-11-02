@@ -1,0 +1,86 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "203852:17390",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Layers",
+      "variantOptions": [
+        "Layers",
+        "VerticalMirror",
+        "HorizontalMirror",
+        "NewEvent",
+        "Event",
+        "More",
+        "DeleteEvent"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "203852:17362",
+      "props": {
+        "Type": "Layers"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203852:17389",
+      "props": {
+        "Type": "VerticalMirror"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203852:17420",
+      "props": {
+        "Type": "HorizontalMirror"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203852:17426",
+      "props": {
+        "Type": "NewEvent"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203852:17445",
+      "props": {
+        "Type": "Event"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203869:10591",
+      "props": {
+        "Type": "DeleteEvent"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203867:1799",
+      "props": {
+        "Type": "More"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

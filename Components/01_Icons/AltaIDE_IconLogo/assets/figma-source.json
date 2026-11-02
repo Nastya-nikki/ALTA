@@ -1,0 +1,41 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185688:1439",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "A_Logo",
+      "variantOptions": [
+        "A_Logo",
+        "Logo"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185688:1438",
+      "props": {
+        "Type": "A_Logo"
+      },
+      "width": 43,
+      "height": 40
+    },
+    {
+      "id": "185688:1437",
+      "props": {
+        "Type": "Logo"
+      },
+      "width": 108.6153793334961,
+      "height": 40
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

@@ -1,0 +1,68 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185660:441",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Drob",
+      "variantOptions": [
+        "Drob",
+        "Top",
+        "Down",
+        "Left",
+        "Rigth"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185660:442",
+      "props": {
+        "Type": "Drob"
+      },
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "185660:445",
+      "props": {
+        "Type": "Top"
+      },
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "185660:448",
+      "props": {
+        "Type": "Down"
+      },
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "200185:991",
+      "props": {
+        "Type": "Left"
+      },
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "200189:1100",
+      "props": {
+        "Type": "Rigth"
+      },
+      "width": 10,
+      "height": 10
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

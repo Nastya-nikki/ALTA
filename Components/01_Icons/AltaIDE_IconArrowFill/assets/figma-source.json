@@ -1,0 +1,107 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185267:1557",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Up",
+      "variantOptions": [
+        "Right",
+        "Up",
+        "Left",
+        "Down"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Active"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "190214:25409",
+      "props": {
+        "Type": "Down",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "190214:25411",
+      "props": {
+        "Type": "Right",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "190214:25413",
+      "props": {
+        "Type": "Up",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "190214:25415",
+      "props": {
+        "Type": "Left",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "190214:29166",
+      "props": {
+        "Type": "Left",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "190214:29174",
+      "props": {
+        "Type": "Down",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "190214:29176",
+      "props": {
+        "Type": "Right",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "190214:29178",
+      "props": {
+        "Type": "Up",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

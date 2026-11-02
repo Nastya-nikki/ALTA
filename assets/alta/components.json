@@ -1639,5 +1639,265 @@
     "js": "table.js",
     "default": 0,
     "description": "Таблица параметров."
+  },
+  {
+    "name": "IconArrowFill",
+    "folder": "Components/01_Icons/AltaIDE_IconArrowFill",
+    "variants": 8,
+    "kind": "Static",
+    "css": "icon-arrow-fill.css",
+    "js": "icon-arrow-fill.js",
+    "default": 2,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconArrowStroke",
+    "folder": "Components/01_Icons/AltaIDE_IconArrowStroke",
+    "variants": 27,
+    "kind": "Static",
+    "css": "icon-arrow-stroke.css",
+    "js": "icon-arrow-stroke.js",
+    "default": 6,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconAutocomplete",
+    "folder": "Components/01_Icons/AltaIDE_IconAutocomplete",
+    "variants": 19,
+    "kind": "Static",
+    "css": "icon-autocomplete.css",
+    "js": "icon-autocomplete.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconBar",
+    "folder": "Components/01_Icons/AltaIDE_IconBar",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-bar.css",
+    "js": "icon-bar.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconClose",
+    "folder": "Components/01_Icons/AltaIDE_IconClose",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-close.css",
+    "js": "icon-close.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconConnection",
+    "folder": "Components/01_Icons/AltaIDE_IconConnection",
+    "variants": 4,
+    "kind": "Static",
+    "css": "icon-connection.css",
+    "js": "icon-connection.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconDummy",
+    "folder": "Components/01_Icons/AltaIDE_IconDummy",
+    "variants": 6,
+    "kind": "Static",
+    "css": "icon-dummy.css",
+    "js": "icon-dummy.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconExternal",
+    "folder": "Components/01_Icons/AltaIDE_IconExternal",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-external.css",
+    "js": "icon-external.js",
+    "default": 1,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconHelp",
+    "folder": "Components/01_Icons/AltaIDE_IconHelp",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-help.css",
+    "js": "icon-help.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconLogo",
+    "folder": "Components/01_Icons/AltaIDE_IconLogo",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-logo.css",
+    "js": "icon-logo.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconMoreMenu",
+    "folder": "Components/01_Icons/AltaIDE_IconMoreMenu",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-more-menu.css",
+    "js": "icon-more-menu.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconNoLinkProgram",
+    "folder": "Components/01_Icons/AltaIDE_IconNoLinkProgram",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-no-link-program.css",
+    "js": "icon-no-link-program.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconPlus",
+    "folder": "Components/01_Icons/AltaIDE_IconPlus",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-plus.css",
+    "js": "icon-plus.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconResizeInput",
+    "folder": "Components/01_Icons/AltaIDE_IconResizeInput",
+    "variants": 3,
+    "kind": "Static",
+    "css": "icon-resize-input.css",
+    "js": "icon-resize-input.js",
+    "default": 2,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconResizeMain",
+    "folder": "Components/01_Icons/AltaIDE_IconResizeMain",
+    "variants": 5,
+    "kind": "Static",
+    "css": "icon-resize-main.css",
+    "js": "icon-resize-main.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconSpinner",
+    "folder": "Components/01_Icons/AltaIDE_IconSpinner",
+    "variants": 4,
+    "kind": "Static",
+    "css": "icon-spinner.css",
+    "js": "icon-spinner.js",
+    "default": 1,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconStatus",
+    "folder": "Components/01_Icons/AltaIDE_IconStatus",
+    "variants": 5,
+    "kind": "Static",
+    "css": "icon-status.css",
+    "js": "icon-status.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconStop",
+    "folder": "Components/01_Icons/AltaIDE_IconStop",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-stop.css",
+    "js": "icon-stop.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTableAccess",
+    "folder": "Components/01_Icons/AltaIDE_IconTableAccess",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-table-access.css",
+    "js": "icon-table-access.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTableArrowMore",
+    "folder": "Components/01_Icons/AltaIDE_IconTableArrowMore",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-table-arrow-more.css",
+    "js": "icon-table-arrow-more.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTableLinkedPrograms",
+    "folder": "Components/01_Icons/AltaIDE_IconTableLinkedPrograms",
+    "variants": 6,
+    "kind": "Static",
+    "css": "icon-table-linked-programs.css",
+    "js": "icon-table-linked-programs.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTableSort",
+    "folder": "Components/01_Icons/AltaIDE_IconTableSort",
+    "variants": 5,
+    "kind": "Static",
+    "css": "icon-table-sort.css",
+    "js": "icon-table-sort.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconUpdates",
+    "folder": "Components/01_Icons/AltaIDE_IconUpdates",
+    "variants": 3,
+    "kind": "Static",
+    "css": "icon-updates.css",
+    "js": "icon-updates.js",
+    "default": 2,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconUpload",
+    "folder": "Components/01_Icons/AltaIDE_IconUpload",
+    "variants": 2,
+    "kind": "Static",
+    "css": "icon-upload.css",
+    "js": "icon-upload.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconVis",
+    "folder": "Components/01_Icons/AltaIDE_IconVis",
+    "variants": 7,
+    "kind": "Static",
+    "css": "icon-vis.css",
+    "js": "icon-vis.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconVisibility",
+    "folder": "Components/01_Icons/AltaIDE_IconVisibility",
+    "variants": 4,
+    "kind": "Static",
+    "css": "icon-visibility.css",
+    "js": "icon-visibility.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
   }
 ]
