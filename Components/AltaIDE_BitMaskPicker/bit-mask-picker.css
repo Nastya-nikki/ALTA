@@ -1,9 +1,10 @@
+@import url("../../assets/alta/component-marker.css");
 @import url("../AltaIDE_BitsGroup/bits-group.css");
 @import url("../AltaIDE_ButtonPrimary/button.css");
 @import url("../AltaIDE_ButtonSecondary/button-secondary.css");
 @import url("../AltaIDE_Link/link.css");
 /* Figma 200029:1467: original 384 × 172 panel and source variable bindings. */
-.alta-bit-mask-picker{box-sizing:border-box;display:flex;flex-direction:column;gap:var(--bitmaskpicker-between);width:384px;height:172px;flex-shrink:0;background:var(--bitmaskpicker-background);border-radius:var(--bitmaskpicker-radius);overflow:hidden;box-shadow:0 6px 20px #140f0f;font:400 14px/20px "Rubik",sans-serif;color:var(--bitmaskpicker-content)}
+.alta-bit-mask-picker{box-sizing:border-box;display:flex;flex-direction:column;gap:var(--bitmaskpicker-between);width:384px;height:172px;flex-shrink:0;background:var(--bitmaskpicker-background);border-radius:var(--bitmaskpicker-radius);overflow:visible;box-shadow:0 6px 20px #140f0f;font:400 14px/20px "Rubik",sans-serif;color:var(--bitmaskpicker-content)}
 .alta-bit-mask-main{display:flex;flex-direction:column;align-items:flex-start;gap:var(--bitmaskpicker-betweencontent);padding:var(--bitmaskpicker-padding) 0}
 .alta-bit-mask-heading,.alta-bit-mask-help{box-sizing:border-box;width:384px;padding:0 var(--bitmaskpicker-padding);height:20px;white-space:nowrap}
 .alta-bit-mask-groups{box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:flex-start;column-gap:0;row-gap:4px;width:384px;height:28px;padding:0 var(--bitmaskpicker-hpaddingbit);overflow:hidden}
@@ -13,3 +14,7 @@
 .alta-bit-mask-help .alta-widget{line-height:20px}
 
 .alta-bit-mask-picker{text-align:left}
+
+/* Anchor the shared 1px component mark without changing layout. */
+.alta-bit-mask-picker{position:relative}
+/* Keep the corner mark outside the rounded content clip. Child groups retain their own clipping. */

@@ -1,3 +1,4 @@
+@import url("./component-marker.css");
 /* Shared browser mechanics. Variant geometry, paint and typography come from Figma. */
 .alta-control{position:relative;display:inline-block;vertical-align:middle;line-height:0;flex-shrink:0;max-width:none;box-sizing:border-box}
 button.alta-control{appearance:none;background:none;border:0;border-radius:0;padding:0;margin:0;color:inherit;font:inherit;line-height:0;text-align:initial;cursor:pointer}
