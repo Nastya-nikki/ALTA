@@ -1,0 +1,140 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185634:4277",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Line 1#186867:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 2#186867:3": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 3#186867:6": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 4#186867:9": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 5#186867:12": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 6#186867:15": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 7#186867:18": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 8#186867:21": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 9#186867:24": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 10#186867:27": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 11#186867:30": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 12#186867:33": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 13#186867:36": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Separator 1#186867:39": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Separator 2#186867:42": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Separator 3#186867:45": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Separator 4#186867:48": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Separator 5#186867:51": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 14#189825:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Separator 6#192511:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 15#197054:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 16#197054:5": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 17#197054:10": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Separator 7#197056:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Size": {
+      "type": "VARIANT",
+      "defaultValue": "L",
+      "variantOptions": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185634:5398",
+      "props": {
+        "Size": "L"
+      },
+      "width": 342,
+      "height": 396
+    },
+    {
+      "id": "185638:6517",
+      "props": {
+        "Size": "M"
+      },
+      "width": 248,
+      "height": 396
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_ContextMenuItem",
+    "AltaIDE_Separator"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

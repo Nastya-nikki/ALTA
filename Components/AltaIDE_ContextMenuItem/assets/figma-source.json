@@ -1,0 +1,494 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185634:1154",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text#185634:0": {
+      "type": "TEXT",
+      "defaultValue": "Lable"
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Lable_icon",
+      "variantOptions": [
+        "Lable",
+        "Lable_Key",
+        "Lable_icon",
+        "Lable_icon2",
+        "Lable_icon_key",
+        "Lable_icon_arrow",
+        "Lable_Arrow"
+      ]
+    },
+    "Size": {
+      "type": "VARIANT",
+      "defaultValue": "L",
+      "variantOptions": [
+        "L",
+        "M"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Active",
+        "Default",
+        "Disabled",
+        "Hover"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185634:1153",
+      "props": {
+        "Type": "Lable_icon",
+        "Size": "L",
+        "State": "Default"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "185634:1139",
+      "props": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Default"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "185634:1147",
+      "props": {
+        "Type": "Lable_icon_arrow",
+        "Size": "L",
+        "State": "Default"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "185634:1145",
+      "props": {
+        "Type": "Lable_Key",
+        "Size": "L",
+        "State": "Default"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "185634:1144",
+      "props": {
+        "Type": "Lable_icon",
+        "Size": "M",
+        "State": "Default"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185634:1130",
+      "props": {
+        "Type": "Lable",
+        "Size": "M",
+        "State": "Default"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185634:1138",
+      "props": {
+        "Type": "Lable_icon2",
+        "Size": "M",
+        "State": "Default"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185634:1136",
+      "props": {
+        "Type": "Lable_Key",
+        "Size": "M",
+        "State": "Default"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185634:1132",
+      "props": {
+        "Type": "Lable_icon",
+        "Size": "L",
+        "State": "Active"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "185634:1152",
+      "props": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Active"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "185634:1131",
+      "props": {
+        "Type": "Lable_icon_arrow",
+        "Size": "L",
+        "State": "Active"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "185634:1129",
+      "props": {
+        "Type": "Lable_Key",
+        "Size": "L",
+        "State": "Active"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "185634:1128",
+      "props": {
+        "Type": "Lable_icon",
+        "Size": "M",
+        "State": "Active"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185634:1126",
+      "props": {
+        "Type": "Lable",
+        "Size": "M",
+        "State": "Active"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185634:1123",
+      "props": {
+        "Type": "Lable_icon_arrow",
+        "Size": "M",
+        "State": "Active"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185634:1122",
+      "props": {
+        "Type": "Lable_Key",
+        "Size": "M",
+        "State": "Active"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "191525:940",
+      "props": {
+        "Type": "Lable_icon_key",
+        "Size": "M",
+        "State": "Default"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "191525:946",
+      "props": {
+        "Type": "Lable_icon_key",
+        "Size": "M",
+        "State": "Active"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "191999:83742",
+      "props": {
+        "Type": "Lable_Arrow",
+        "Size": "M",
+        "State": "Active"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "191999:83763",
+      "props": {
+        "Type": "Lable_Arrow",
+        "Size": "L",
+        "State": "Active"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "191999:83784",
+      "props": {
+        "Type": "Lable_Arrow",
+        "Size": "L",
+        "State": "Default"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "191999:83825",
+      "props": {
+        "Type": "Lable_Arrow",
+        "Size": "M",
+        "State": "Default"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195506:16882",
+      "props": {
+        "Type": "Lable_icon",
+        "Size": "L",
+        "State": "Disabled"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "195506:16890",
+      "props": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Disabled"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "195506:16896",
+      "props": {
+        "Type": "Lable_icon_arrow",
+        "Size": "L",
+        "State": "Disabled"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "195506:16903",
+      "props": {
+        "Type": "Lable_Arrow",
+        "Size": "L",
+        "State": "Disabled"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "195506:16909",
+      "props": {
+        "Type": "Lable_Key",
+        "Size": "L",
+        "State": "Disabled"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "195506:16915",
+      "props": {
+        "Type": "Lable_icon",
+        "Size": "M",
+        "State": "Disabled"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195506:16920",
+      "props": {
+        "Type": "Lable",
+        "Size": "M",
+        "State": "Disabled"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195506:16926",
+      "props": {
+        "Type": "Lable_icon2",
+        "Size": "M",
+        "State": "Disabled"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195506:16933",
+      "props": {
+        "Type": "Lable_Key",
+        "Size": "M",
+        "State": "Disabled"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195506:16940",
+      "props": {
+        "Type": "Lable_icon_key",
+        "Size": "M",
+        "State": "Disabled"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195506:16947",
+      "props": {
+        "Type": "Lable_Arrow",
+        "Size": "M",
+        "State": "Disabled"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "198521:2094",
+      "props": {
+        "Type": "Lable_icon",
+        "Size": "L",
+        "State": "Hover"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "198521:2102",
+      "props": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Hover"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "198521:2108",
+      "props": {
+        "Type": "Lable_icon_arrow",
+        "Size": "L",
+        "State": "Hover"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "198521:2115",
+      "props": {
+        "Type": "Lable_Arrow",
+        "Size": "L",
+        "State": "Hover"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "198521:2121",
+      "props": {
+        "Type": "Lable_Key",
+        "Size": "L",
+        "State": "Hover"
+      },
+      "width": 334,
+      "height": 32
+    },
+    {
+      "id": "198521:2127",
+      "props": {
+        "Type": "Lable_icon",
+        "Size": "M",
+        "State": "Hover"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "198521:2132",
+      "props": {
+        "Type": "Lable",
+        "Size": "M",
+        "State": "Hover"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "198521:2138",
+      "props": {
+        "Type": "Lable_icon2",
+        "Size": "M",
+        "State": "Hover"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "198521:2145",
+      "props": {
+        "Type": "Lable_Key",
+        "Size": "M",
+        "State": "Hover"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "198521:2152",
+      "props": {
+        "Type": "Lable_icon_key",
+        "Size": "M",
+        "State": "Hover"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "198521:2159",
+      "props": {
+        "Type": "Lable_Arrow",
+        "Size": "M",
+        "State": "Hover"
+      },
+      "width": 248,
+      "height": 32
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_Shortcut"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}
