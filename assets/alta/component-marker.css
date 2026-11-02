@@ -1,4 +1,4 @@
-/* One CSS-pixel identification mark per component, including nested instances.
+/* 2×2 CSS-pixel identification mark per component, including nested instances.
    Paint only: no layout space, accessible content, or pointer target. */
 .alta-component::after,
 .alta-widget::after,
@@ -14,8 +14,8 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 1px;
-  height: 1px;
+  width: 2px;
+  height: 2px;
   background: #FE01FC;
   pointer-events: none;
   z-index: 1;
