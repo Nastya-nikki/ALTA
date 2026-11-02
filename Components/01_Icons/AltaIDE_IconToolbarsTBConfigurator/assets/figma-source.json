@@ -1,0 +1,228 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "199606:876",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Property 1": {
+      "type": "VARIANT",
+      "defaultValue": "Read",
+      "variantOptions": [
+        "BackToSettings",
+        "Enter",
+        "Read",
+        "Restart",
+        "UpdateTree",
+        "Write",
+        "Delete Value"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Active",
+        "Disabled"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "199606:877",
+      "props": {
+        "Property 1": "Read",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200464:974",
+      "props": {
+        "Property 1": "Read",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:882",
+      "props": {
+        "Property 1": "Read",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:889",
+      "props": {
+        "Property 1": "Write",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:893",
+      "props": {
+        "Property 1": "Write",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:897",
+      "props": {
+        "Property 1": "Write",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:901",
+      "props": {
+        "Property 1": "Enter",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:913",
+      "props": {
+        "Property 1": "Enter",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:925",
+      "props": {
+        "Property 1": "UpdateTree",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:931",
+      "props": {
+        "Property 1": "UpdateTree",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:937",
+      "props": {
+        "Property 1": "BackToSettings",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:948",
+      "props": {
+        "Property 1": "BackToSettings",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200464:1066",
+      "props": {
+        "Property 1": "BackToSettings",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:959",
+      "props": {
+        "Property 1": "Restart",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:965",
+      "props": {
+        "Property 1": "Restart",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200464:1083",
+      "props": {
+        "Property 1": "Restart",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:971",
+      "props": {
+        "Property 1": "Delete Value",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199606:985",
+      "props": {
+        "Property 1": "Delete Value",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200464:1104",
+      "props": {
+        "Property 1": "Delete Value",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200521:5113",
+      "props": {
+        "Property 1": "Enter",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200521:5121",
+      "props": {
+        "Property 1": "UpdateTree",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

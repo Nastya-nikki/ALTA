@@ -1,0 +1,401 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "198241:5304",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Kind": {
+      "type": "VARIANT",
+      "defaultValue": "UnConnect",
+      "variantOptions": [
+        "Connect",
+        "UnConnect",
+        "GlobalVariable",
+        "Folder",
+        "AddFolder",
+        "TimeFolder",
+        "Play",
+        "Stop",
+        "Load",
+        "UnLoad",
+        "AutoStart",
+        "Settings",
+        "StepIntside",
+        "StepOutside",
+        "StepOver",
+        "StopPoint",
+        "Write",
+        "Fixed",
+        "Unfixed",
+        "StopPointDefault",
+        "StopPointActive",
+        "StopPointDelete",
+        "ContinueRun",
+        "PLK",
+        "Code",
+        "Function",
+        "FunctionBlock",
+        "Cycletask",
+        "EventTask",
+        "Modbus",
+        "DUT",
+        "Updates",
+        "Question",
+        "StopPointIcon",
+        "Massage",
+        "Compiller",
+        "BringToFront",
+        "SendToBack",
+        "BringForward",
+        "SendBackward",
+        "Ungroup",
+        "Group"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "198241:5156",
+      "props": {
+        "Kind": "UnConnect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5158",
+      "props": {
+        "Kind": "Connect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5160",
+      "props": {
+        "Kind": "Play"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5162",
+      "props": {
+        "Kind": "Stop"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5164",
+      "props": {
+        "Kind": "Load"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5166",
+      "props": {
+        "Kind": "UnLoad"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5168",
+      "props": {
+        "Kind": "AutoStart"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5170",
+      "props": {
+        "Kind": "Settings"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5172",
+      "props": {
+        "Kind": "StepIntside"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5174",
+      "props": {
+        "Kind": "StepOutside"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5176",
+      "props": {
+        "Kind": "StepOver"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5178",
+      "props": {
+        "Kind": "StopPoint"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5180",
+      "props": {
+        "Kind": "Write"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5182",
+      "props": {
+        "Kind": "Fixed"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5184",
+      "props": {
+        "Kind": "Unfixed"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5186",
+      "props": {
+        "Kind": "StopPointDefault"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5188",
+      "props": {
+        "Kind": "StopPointActive"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5190",
+      "props": {
+        "Kind": "StopPointDelete"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5192",
+      "props": {
+        "Kind": "ContinueRun"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5194",
+      "props": {
+        "Kind": "GlobalVariable"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5196",
+      "props": {
+        "Kind": "Folder"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5198",
+      "props": {
+        "Kind": "AddFolder"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198241:5200",
+      "props": {
+        "Kind": "TimeFolder"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198260:66754",
+      "props": {
+        "Kind": "PLK"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198269:85583",
+      "props": {
+        "Kind": "Code"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198269:85603",
+      "props": {
+        "Kind": "Function"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198269:85623",
+      "props": {
+        "Kind": "FunctionBlock"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198269:85658",
+      "props": {
+        "Kind": "Cycletask"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198269:85664",
+      "props": {
+        "Kind": "EventTask"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198274:85686",
+      "props": {
+        "Kind": "Modbus"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199139:935",
+      "props": {
+        "Kind": "DUT"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199708:2719",
+      "props": {
+        "Kind": "Updates"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "200032:2763",
+      "props": {
+        "Kind": "Question"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "201580:1721",
+      "props": {
+        "Kind": "StopPointIcon"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202615:2851",
+      "props": {
+        "Kind": "Massage"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202707:2042",
+      "props": {
+        "Kind": "Compiller"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203742:2751",
+      "props": {
+        "Kind": "Group"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203742:2649",
+      "props": {
+        "Kind": "Ungroup"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203742:2651",
+      "props": {
+        "Kind": "SendBackward"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203742:2658",
+      "props": {
+        "Kind": "BringForward"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203742:2660",
+      "props": {
+        "Kind": "SendToBack"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203742:2662",
+      "props": {
+        "Kind": "BringToFront"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

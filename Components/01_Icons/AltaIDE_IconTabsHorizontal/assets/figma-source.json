@@ -1,0 +1,284 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "198278:4178",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Kind": {
+      "type": "VARIANT",
+      "defaultValue": "Code",
+      "variantOptions": [
+        "Code",
+        "CodeLink",
+        "Function",
+        "FunctionBlock",
+        "DUT",
+        "GlobalVar",
+        "Var",
+        "TaskEvent",
+        "TaskCycle",
+        "Info",
+        "InfoDisable",
+        "Error",
+        "ErrorDisable",
+        "Warning",
+        "WarningDisable",
+        "StopPoint",
+        "TaskManager",
+        "Console",
+        "ConsoleWarnng",
+        "Modbus",
+        "COM",
+        "TCP",
+        "SlaveDevice",
+        "Connect",
+        "PLK",
+        "Library",
+        "VariableSheet",
+        "Screen",
+        "Visualisation"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "198278:4177",
+      "props": {
+        "Kind": "Info"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4176",
+      "props": {
+        "Kind": "InfoDisable"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4175",
+      "props": {
+        "Kind": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4174",
+      "props": {
+        "Kind": "ErrorDisable"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4173",
+      "props": {
+        "Kind": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4172",
+      "props": {
+        "Kind": "WarningDisable"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4171",
+      "props": {
+        "Kind": "StopPoint"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4179",
+      "props": {
+        "Kind": "Code"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4185",
+      "props": {
+        "Kind": "CodeLink"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4191",
+      "props": {
+        "Kind": "Function"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4197",
+      "props": {
+        "Kind": "GlobalVar"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4199",
+      "props": {
+        "Kind": "DUT"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4201",
+      "props": {
+        "Kind": "FunctionBlock"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4213",
+      "props": {
+        "Kind": "TaskEvent"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198296:4199",
+      "props": {
+        "Kind": "TaskManager"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198297:81848",
+      "props": {
+        "Kind": "Console"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198302:4372",
+      "props": {
+        "Kind": "Modbus"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198302:4390",
+      "props": {
+        "Kind": "COM"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198302:4401",
+      "props": {
+        "Kind": "TCP"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198337:3893",
+      "props": {
+        "Kind": "SlaveDevice"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198342:80776",
+      "props": {
+        "Kind": "Connect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198343:80791",
+      "props": {
+        "Kind": "PLK"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198297:81862",
+      "props": {
+        "Kind": "ConsoleWarnng"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4215",
+      "props": {
+        "Kind": "TaskCycle"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198278:4217",
+      "props": {
+        "Kind": "Var"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199764:39949",
+      "props": {
+        "Kind": "Library"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "201678:7128",
+      "props": {
+        "Kind": "VariableSheet"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203431:39585",
+      "props": {
+        "Kind": "Screen"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203842:6874",
+      "props": {
+        "Kind": "Visualisation"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

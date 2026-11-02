@@ -1,0 +1,59 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "194513:7630",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "On",
+      "variantOptions": [
+        "Error",
+        "On",
+        "Off",
+        "Pause"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "194513:7629",
+      "props": {
+        "Type": "On"
+      },
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "194513:7628",
+      "props": {
+        "Type": "Off"
+      },
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "194513:7627",
+      "props": {
+        "Type": "Error"
+      },
+      "width": 10,
+      "height": 10
+    },
+    {
+      "id": "195006:96928",
+      "props": {
+        "Type": "Pause"
+      },
+      "width": 10,
+      "height": 10
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

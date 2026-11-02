@@ -1,0 +1,248 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "184178:107770",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Filtr",
+      "variantOptions": [
+        "Search",
+        "Filtr",
+        "Settings",
+        "Table",
+        "Info",
+        "CodeEdit",
+        "More",
+        "LineDown",
+        "LineUP"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Disabled",
+        "Active"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "184178:109039",
+      "props": {
+        "Type": "Settings",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184178:109041",
+      "props": {
+        "Type": "Search",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184178:109045",
+      "props": {
+        "Type": "Filtr",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "189162:29008",
+      "props": {
+        "Type": "Table",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "189162:29012",
+      "props": {
+        "Type": "Info",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "189162:29021",
+      "props": {
+        "Type": "CodeEdit",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196959:1413",
+      "props": {
+        "Type": "More",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197338:1791",
+      "props": {
+        "Type": "More",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198487:104244",
+      "props": {
+        "Type": "Info",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198487:104255",
+      "props": {
+        "Type": "Search",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198487:104265",
+      "props": {
+        "Type": "Settings",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198487:104272",
+      "props": {
+        "Type": "Filtr",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198487:104217",
+      "props": {
+        "Type": "LineDown",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198487:104230",
+      "props": {
+        "Type": "LineUP",
+        "State": "Active"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196959:10729",
+      "props": {
+        "Type": "LineDown",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196961:10787",
+      "props": {
+        "Type": "LineUP",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196964:11153",
+      "props": {
+        "Type": "Filtr",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196964:11155",
+      "props": {
+        "Type": "Settings",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196964:11157",
+      "props": {
+        "Type": "Search",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196964:11161",
+      "props": {
+        "Type": "Info",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196964:11166",
+      "props": {
+        "Type": "More",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196964:11171",
+      "props": {
+        "Type": "LineDown",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "196964:11182",
+      "props": {
+        "Type": "LineUP",
+        "State": "Disabled"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

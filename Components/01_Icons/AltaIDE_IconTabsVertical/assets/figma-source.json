@@ -1,0 +1,144 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "202598:7050",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Log",
+      "variantOptions": [
+        "Message",
+        "Log",
+        "VariableList",
+        "Compiller"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Disabled",
+        "HoverandActive",
+        "Default"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "201320:1723",
+      "props": {
+        "Type": "Message",
+        "State": "Default"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "202705:2002",
+      "props": {
+        "Type": "Compiller",
+        "State": "Default"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "202598:7068",
+      "props": {
+        "Type": "Message",
+        "State": "HoverandActive"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "202705:2010",
+      "props": {
+        "Type": "Compiller",
+        "State": "HoverandActive"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "201320:1735",
+      "props": {
+        "Type": "Message",
+        "State": "Disabled"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "202705:2017",
+      "props": {
+        "Type": "Compiller",
+        "State": "Disabled"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "201319:1729",
+      "props": {
+        "Type": "Log",
+        "State": "Default"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "201319:1734",
+      "props": {
+        "Type": "Log",
+        "State": "HoverandActive"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "201319:1744",
+      "props": {
+        "Type": "Log",
+        "State": "Disabled"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "202598:7140",
+      "props": {
+        "Type": "VariableList",
+        "State": "Default"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "202598:7149",
+      "props": {
+        "Type": "VariableList",
+        "State": "Disabled"
+      },
+      "width": 36,
+      "height": 36
+    },
+    {
+      "id": "202598:7142",
+      "props": {
+        "Type": "VariableList",
+        "State": "HoverandActive"
+      },
+      "width": 36,
+      "height": 36
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

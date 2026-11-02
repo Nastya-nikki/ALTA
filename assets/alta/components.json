@@ -1899,5 +1899,1415 @@
     "js": "icon-visibility.js",
     "default": 0,
     "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconToolbarsTBConfigurator",
+    "folder": "Components/01_Icons/AltaIDE_IconToolbarsTBConfigurator",
+    "variants": 21,
+    "kind": "Static",
+    "css": "icon-toolbars-tbconfigurator.css",
+    "js": "icon-toolbars-tbconfigurator.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconToolbarsTBFill",
+    "folder": "Components/01_Icons/AltaIDE_IconToolbarsTBFill",
+    "variants": 6,
+    "kind": "Static",
+    "css": "icon-toolbars-tbfill.css",
+    "js": "icon-toolbars-tbfill.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconToolbarsTBSidebar",
+    "folder": "Components/01_Icons/AltaIDE_IconToolbarsTBSidebar",
+    "variants": 12,
+    "kind": "Static",
+    "css": "icon-toolbars-tbsidebar.css",
+    "js": "icon-toolbars-tbsidebar.js",
+    "default": 3,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconToolbarsTBTop",
+    "folder": "Components/01_Icons/AltaIDE_IconToolbarsTBTop",
+    "variants": 91,
+    "kind": "Static",
+    "css": "icon-toolbars-tbtop.css",
+    "js": "icon-toolbars-tbtop.js",
+    "default": 69,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconToolbarsTBVertical",
+    "folder": "Components/01_Icons/AltaIDE_IconToolbarsTBVertical",
+    "variants": 23,
+    "kind": "Static",
+    "css": "icon-toolbars-tbvertical.css",
+    "js": "icon-toolbars-tbvertical.js",
+    "default": 2,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconToolbarsTBVis",
+    "folder": "Components/01_Icons/AltaIDE_IconToolbarsTBVis",
+    "variants": 18,
+    "kind": "Static",
+    "css": "icon-toolbars-tbvis.css",
+    "js": "icon-toolbars-tbvis.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconContextMenu",
+    "folder": "Components/01_Icons/AltaIDE_IconContextMenu",
+    "variants": 42,
+    "kind": "Static",
+    "css": "icon-context-menu.css",
+    "js": "icon-context-menu.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTabsHorizontal",
+    "folder": "Components/01_Icons/AltaIDE_IconTabsHorizontal",
+    "variants": 29,
+    "kind": "Static",
+    "css": "icon-tabs-horizontal.css",
+    "js": "icon-tabs-horizontal.js",
+    "default": 7,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTabsMore",
+    "folder": "Components/01_Icons/AltaIDE_IconTabsMore",
+    "variants": 4,
+    "kind": "Static",
+    "css": "icon-tabs-more.css",
+    "js": "icon-tabs-more.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTabsVertical",
+    "folder": "Components/01_Icons/AltaIDE_IconTabsVertical",
+    "variants": 12,
+    "kind": "Static",
+    "css": "icon-tabs-vertical.css",
+    "js": "icon-tabs-vertical.js",
+    "default": 6,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTreeLayersCodeCfc2Default",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersCodeCfc2Default",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-code-cfc2default.css",
+    "js": "icon-tree-layers-code-cfc2default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersCodeCfc2LinkDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersCodeCfc2LinkDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-code-cfc2link-default.css",
+    "js": "icon-tree-layers-code-cfc2link-default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersCodeSt2Default",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersCodeSt2Default",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-code-st2default.css",
+    "js": "icon-tree-layers-code-st2default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersCodeSt2LinlDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersCodeSt2LinlDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-code-st2linl-default.css",
+    "js": "icon-tree-layers-code-st2linl-default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersFBLinkDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersFBLinkDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-fblink-default.css",
+    "js": "icon-tree-layers-fblink-default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersFBDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersFBDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-fbdefault.css",
+    "js": "icon-tree-layers-fbdefault.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersFnLinkDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersFnLinkDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-fn-link-default.css",
+    "js": "icon-tree-layers-fn-link-default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersFnDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersFnDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-fn-default.css",
+    "js": "icon-tree-layers-fn-default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersPRGLinkDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersPRGLinkDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-prglink-default.css",
+    "js": "icon-tree-layers-prglink-default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayersPRGDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayersPRGDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-layers-prgdefault.css",
+    "js": "icon-tree-layers-prgdefault.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeState",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeState",
+    "variants": 4,
+    "kind": "Static",
+    "css": "icon-tree-state.css",
+    "js": "icon-tree-state.js",
+    "default": 0,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTreeStatus",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeStatus",
+    "variants": 3,
+    "kind": "Static",
+    "css": "icon-tree-status.css",
+    "js": "icon-tree-status.js",
+    "default": 1,
+    "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconInternalAutoStart",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalAutoStart",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-auto-start.css",
+    "js": "icon-internal-auto-start.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalBringForward",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalBringForward",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-bring-forward.css",
+    "js": "icon-internal-bring-forward.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalBringToFront",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalBringToFront",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-bring-to-front.css",
+    "js": "icon-internal-bring-to-front.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalCode",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalCode",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-code.css",
+    "js": "icon-internal-code.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalCodeDone",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalCodeDone",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-code-done.css",
+    "js": "icon-internal-code-done.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalCodeError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalCodeError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-code-error.css",
+    "js": "icon-internal-code-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalCodeInfo",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalCodeInfo",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-code-info.css",
+    "js": "icon-internal-code-info.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalCodeLink",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalCodeLink",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-code-link.css",
+    "js": "icon-internal-code-link.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalCodeWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalCodeWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-code-warning.css",
+    "js": "icon-internal-code-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalCom",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalCom",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-com.css",
+    "js": "icon-internal-com.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalComError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalComError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-com-error.css",
+    "js": "icon-internal-com-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalComWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalComWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-com-warning.css",
+    "js": "icon-internal-com-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-connect.css",
+    "js": "icon-internal-connect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalConsole",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalConsole",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-console.css",
+    "js": "icon-internal-console.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalConsoleError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalConsoleError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-console-error.css",
+    "js": "icon-internal-console-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalConsoleWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalConsoleWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-console-warning.css",
+    "js": "icon-internal-console-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalContinue",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalContinue",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-continue.css",
+    "js": "icon-internal-continue.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalDut",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalDut",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-dut.css",
+    "js": "icon-internal-dut.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFavorite",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFavorite",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-favorite.css",
+    "js": "icon-internal-favorite.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFixed",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFixed",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-fixed.css",
+    "js": "icon-internal-fixed.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolder",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolder",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder.css",
+    "js": "icon-internal-folder.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolderAdd",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolderAdd",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder-add.css",
+    "js": "icon-internal-folder-add.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolderCommunication",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolderCommunication",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder-communication.css",
+    "js": "icon-internal-folder-communication.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolderLibrary",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolderLibrary",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder-library.css",
+    "js": "icon-internal-folder-library.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolderPOU",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolderPOU",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder-pou.css",
+    "js": "icon-internal-folder-pou.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolderTaskManager",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolderTaskManager",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder-task-manager.css",
+    "js": "icon-internal-folder-task-manager.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolderTime",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolderTime",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder-time.css",
+    "js": "icon-internal-folder-time.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolderUserType",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolderUserType",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder-user-type.css",
+    "js": "icon-internal-folder-user-type.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFolderVariable",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFolderVariable",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-folder-variable.css",
+    "js": "icon-internal-folder-variable.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFunction",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFunction",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-function.css",
+    "js": "icon-internal-function.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFunctionalBlock",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFunctionalBlock",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-functional-block.css",
+    "js": "icon-internal-functional-block.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFunctionalBlockWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFunctionalBlockWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-functional-block-warning.css",
+    "js": "icon-internal-functional-block-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalFunctionWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalFunctionWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-function-warning.css",
+    "js": "icon-internal-function-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalGlobalVar",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalGlobalVar",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-global-var.css",
+    "js": "icon-internal-global-var.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalGlobalVarError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalGlobalVarError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-global-var-error.css",
+    "js": "icon-internal-global-var-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalGlobalVarWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalGlobalVarWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-global-var-warning.css",
+    "js": "icon-internal-global-var-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalGroup",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalGroup",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-group.css",
+    "js": "icon-internal-group.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalHome",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalHome",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-home.css",
+    "js": "icon-internal-home.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalInfo",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalInfo",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-info.css",
+    "js": "icon-internal-info.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalInfoDisable",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalInfoDisable",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-info-disable.css",
+    "js": "icon-internal-info-disable.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalLink",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalLink",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-link.css",
+    "js": "icon-internal-link.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalLinkError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalLinkError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-link-error.css",
+    "js": "icon-internal-link-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalLinkNOTConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalLinkNOTConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-link-notconnect.css",
+    "js": "icon-internal-link-notconnect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalLinkWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalLinkWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-link-warning.css",
+    "js": "icon-internal-link-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalLoading",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalLoading",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-loading.css",
+    "js": "icon-internal-loading.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalModbus",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalModbus",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-modbus.css",
+    "js": "icon-internal-modbus.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalModbusError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalModbusError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-modbus-error.css",
+    "js": "icon-internal-modbus-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalModbusLink",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalModbusLink",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-modbus-link.css",
+    "js": "icon-internal-modbus-link.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalModbusWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalModbusWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-modbus-warning.css",
+    "js": "icon-internal-modbus-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalNOTAvailiable",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalNOTAvailiable",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-notavailiable.css",
+    "js": "icon-internal-notavailiable.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPlay",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPlay",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-play.css",
+    "js": "icon-internal-play.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLK",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLK",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plk.css",
+    "js": "icon-internal-plk.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLKDone",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLKDone",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plkdone.css",
+    "js": "icon-internal-plkdone.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLKError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLKError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plkerror.css",
+    "js": "icon-internal-plkerror.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLKErrorLink",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLKErrorLink",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plkerror-link.css",
+    "js": "icon-internal-plkerror-link.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLKInProgress",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLKInProgress",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plkin-progress.css",
+    "js": "icon-internal-plkin-progress.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLKLink",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLKLink",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plklink.css",
+    "js": "icon-internal-plklink.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLKUnconnect",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLKUnconnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plkunconnect.css",
+    "js": "icon-internal-plkunconnect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLKWaningLink",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLKWaningLink",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plkwaning-link.css",
+    "js": "icon-internal-plkwaning-link.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalPLKWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalPLKWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-plkwarning.css",
+    "js": "icon-internal-plkwarning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalQuestion",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalQuestion",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-question.css",
+    "js": "icon-internal-question.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSendBackward",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSendBackward",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-send-backward.css",
+    "js": "icon-internal-send-backward.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSendToBack",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSendToBack",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-send-to-back.css",
+    "js": "icon-internal-send-to-back.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSettings",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSettings",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-settings.css",
+    "js": "icon-internal-settings.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSettingsTree",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSettingsTree",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-settings-tree.css",
+    "js": "icon-internal-settings-tree.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSlaveDevice",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSlaveDevice",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-slave-device.css",
+    "js": "icon-internal-slave-device.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSlaveDeviceError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSlaveDeviceError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-slave-device-error.css",
+    "js": "icon-internal-slave-device-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSlaveDeviceLink",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSlaveDeviceLink",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-slave-device-link.css",
+    "js": "icon-internal-slave-device-link.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSlaveDeviceLinkError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSlaveDeviceLinkError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-slave-device-link-error.css",
+    "js": "icon-internal-slave-device-link-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSlaveDeviceLinkWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSlaveDeviceLinkWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-slave-device-link-warning.css",
+    "js": "icon-internal-slave-device-link-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalSlaveDeviceWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalSlaveDeviceWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-slave-device-warning.css",
+    "js": "icon-internal-slave-device-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStepInside",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStepInside",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-step-inside.css",
+    "js": "icon-internal-step-inside.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStepOutside",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStepOutside",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-step-outside.css",
+    "js": "icon-internal-step-outside.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStepOver",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStepOver",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-step-over.css",
+    "js": "icon-internal-step-over.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStop",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStop",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-stop.css",
+    "js": "icon-internal-stop.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStopPoint",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStopPoint",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-stop-point.css",
+    "js": "icon-internal-stop-point.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStopPointActive",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStopPointActive",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-stop-point-active.css",
+    "js": "icon-internal-stop-point-active.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStopPointDefault",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStopPointDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-stop-point-default.css",
+    "js": "icon-internal-stop-point-default.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStopPointDelete",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStopPointDelete",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-stop-point-delete.css",
+    "js": "icon-internal-stop-point-delete.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalStopPointLine",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalStopPointLine",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-stop-point-line.css",
+    "js": "icon-internal-stop-point-line.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTask",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTask",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task.css",
+    "js": "icon-internal-task.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTaskCycle",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTaskCycle",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task-cycle.css",
+    "js": "icon-internal-task-cycle.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTaskCycleError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTaskCycleError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task-cycle-error.css",
+    "js": "icon-internal-task-cycle-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTaskCycleWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTaskCycleWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task-cycle-warning.css",
+    "js": "icon-internal-task-cycle-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTaskError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTaskError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task-error.css",
+    "js": "icon-internal-task-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTaskEvent",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTaskEvent",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task-event.css",
+    "js": "icon-internal-task-event.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTaskEventError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTaskEventError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task-event-error.css",
+    "js": "icon-internal-task-event-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTaskEventWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTaskEventWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task-event-warning.css",
+    "js": "icon-internal-task-event-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTaskWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTaskWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-task-warning.css",
+    "js": "icon-internal-task-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTcp",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTcp",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-tcp.css",
+    "js": "icon-internal-tcp.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTcpError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTcpError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-tcp-error.css",
+    "js": "icon-internal-tcp-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTcpWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTcpWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-tcp-warning.css",
+    "js": "icon-internal-tcp-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalTree",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalTree",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-tree.css",
+    "js": "icon-internal-tree.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalUnConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalUnConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-un-connect.css",
+    "js": "icon-internal-un-connect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalUnFixed",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalUnFixed",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-un-fixed.css",
+    "js": "icon-internal-un-fixed.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalUngroup",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalUngroup",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-ungroup.css",
+    "js": "icon-internal-ungroup.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalUnknown",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalUnknown",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-unknown.css",
+    "js": "icon-internal-unknown.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalUnLoading",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalUnLoading",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-un-loading.css",
+    "js": "icon-internal-un-loading.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalUpdates",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalUpdates",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-updates.css",
+    "js": "icon-internal-updates.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalVar",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalVar",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-var.css",
+    "js": "icon-internal-var.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalVariableSheet",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalVariableSheet",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-variable-sheet.css",
+    "js": "icon-internal-variable-sheet.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalVarWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalVarWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-var-warning.css",
+    "js": "icon-internal-var-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-warning.css",
+    "js": "icon-internal-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalWarningDisable",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalWarningDisable",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-warning-disable.css",
+    "js": "icon-internal-warning-disable.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalWrite",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalWrite",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-write.css",
+    "js": "icon-internal-write.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconScreen",
+    "folder": "Components/01_Icons/AltaIDE_IconScreen",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-screen.css",
+    "js": "icon-screen.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconScreens",
+    "folder": "Components/01_Icons/AltaIDE_IconScreens",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-screens.css",
+    "js": "icon-screens.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeCFCConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeCFCConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-cfcconnect.css",
+    "js": "icon-tree-cfcconnect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeCFCError",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeCFCError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-cfcerror.css",
+    "js": "icon-tree-cfcerror.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeCFCErrorConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeCFCErrorConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-cfcerror-connect.css",
+    "js": "icon-tree-cfcerror-connect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeCFCProgress",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeCFCProgress",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-cfcprogress.css",
+    "js": "icon-tree-cfcprogress.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeCFCQuestion",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeCFCQuestion",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-cfcquestion.css",
+    "js": "icon-tree-cfcquestion.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeCFCWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeCFCWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-cfcwarning.css",
+    "js": "icon-tree-cfcwarning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeFBDConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeFBDConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-fbdconnect.css",
+    "js": "icon-tree-fbdconnect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeFBDError",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeFBDError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-fbderror.css",
+    "js": "icon-tree-fbderror.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeFBDErrorConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeFBDErrorConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-fbderror-connect.css",
+    "js": "icon-tree-fbderror-connect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeFBDProgress",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeFBDProgress",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-fbdprogress.css",
+    "js": "icon-tree-fbdprogress.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeSTError",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeSTError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-sterror.css",
+    "js": "icon-tree-sterror.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconVisInside",
+    "folder": "Components/01_Icons/AltaIDE_IconVisInside",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-vis-inside.css",
+    "js": "icon-vis-inside.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
   }
 ]

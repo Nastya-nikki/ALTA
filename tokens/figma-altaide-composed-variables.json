@@ -17421,6 +17421,804 @@
       }
     },
     {
+      "key": "AltaIDE_IconInternalFolderCommunication",
+      "id": "198064:93101",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFolderLibrary",
+      "id": "199763:947",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFolderPOU",
+      "id": "198064:92848",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFolderTaskManager",
+      "id": "198064:92853",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFolderTime",
+      "id": "198064:93094",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:181601:143663": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFolderUserType",
+      "id": "198064:92861",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFolderVariable",
+      "id": "198064:92857",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFunction",
+      "id": "198064:93007",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFunctionalBlock",
+      "id": "198064:93021",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFunctionalBlockWarning",
+      "id": "198064:93016",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalFunctionWarning",
+      "id": "198064:93011",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalGlobalVar",
+      "id": "198064:93076",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalGlobalVarError",
+      "id": "203966:41108",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalGlobalVarWarning",
+      "id": "198064:93079",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalGroup",
+      "id": "203742:1873",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:181601:143663": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalHome",
+      "id": "204362:4533",
+      "modes": {
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalInfo",
+      "id": "198064:93280",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalInfoDisable",
+      "id": "198064:93285",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalLink",
+      "id": "198064:92865",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalLinkError",
+      "id": "198064:92908",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalLinkNOTConnect",
+      "id": "198064:92903",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalLinkWarning",
+      "id": "198064:92868",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalLoading",
+      "id": "198064:93331",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalModbus",
+      "id": "198064:93167",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalModbusError",
+      "id": "203966:41068",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalModbusLink",
+      "id": "198064:93181",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalModbusWarning",
+      "id": "198064:93174",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalNOTAvailiable",
+      "id": "198064:92958",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPlay",
+      "id": "198064:93323",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLK",
+      "id": "198064:92872",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLKDone",
+      "id": "198064:92931",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLKError",
+      "id": "203966:41022",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLKErrorLink",
+      "id": "203966:41665",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLKInProgress",
+      "id": "198064:92953",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLKLink",
+      "id": "198064:92920",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLKUnconnect",
+      "id": "198064:92936",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLKWaningLink",
+      "id": "198064:92941",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalPLKWarning",
+      "id": "198064:92878",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalQuestion",
+      "id": "200032:977",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSendBackward",
+      "id": "203742:1874",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:181601:143663": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSendToBack",
+      "id": "203742:1876",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:181601:143663": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSettings",
+      "id": "198064:93342",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSettingsTree",
+      "id": "185620:26683",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSlaveDevice",
+      "id": "198064:92884",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSlaveDeviceError",
+      "id": "203966:41088",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSlaveDeviceLink",
+      "id": "198064:92912",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSlaveDeviceLinkError",
+      "id": "203966:41451",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSlaveDeviceLinkWarning",
+      "id": "203966:41433",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalSlaveDeviceWarning",
+      "id": "203966:41405",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStepInside",
+      "id": "198064:93346",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStepOutside",
+      "id": "198064:93354",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStepOver",
+      "id": "198064:93363",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStop",
+      "id": "198064:93327",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStopPoint",
+      "id": "198064:93310",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStopPointActive",
+      "id": "198064:93405",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStopPointDefault",
+      "id": "198064:93403",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStopPointDelete",
+      "id": "198064:93407",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalStopPointLine",
+      "id": "198064:93370",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTask",
+      "id": "198064:93003",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTaskCycle",
+      "id": "198064:93054",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTaskCycleError",
+      "id": "203966:41144",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTaskCycleWarning",
+      "id": "198064:93059",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTaskError",
+      "id": "203966:41124",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTaskEvent",
+      "id": "198064:93065",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTaskEventError",
+      "id": "203966:41166",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTaskEventWarning",
+      "id": "198064:93070",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTaskWarning",
+      "id": "198064:92998",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTcp",
+      "id": "198064:93111",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTcpError",
+      "id": "203966:41044",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTcpWarning",
+      "id": "198064:93118",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalTree",
+      "id": "201271:1759",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalUnConnect",
+      "id": "198064:93415",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalUnFixed",
+      "id": "198064:93396",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalUngroup",
+      "id": "203742:1872",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:181601:143663": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalUnknown",
+      "id": "203927:1816",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalUnLoading",
+      "id": "198064:93334",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalUpdates",
+      "id": "199708:938",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalVar",
+      "id": "198064:93037",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalVariableSheet",
+      "id": "198064:93025",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:8c70c1614cefecb812a85ec35eb2f50bbbeef07e/184345:545": "181601:1"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalVarWarning",
+      "id": "198064:93032",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalWarning",
+      "id": "198064:93300",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalWarningDisable",
+      "id": "198064:93305",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconInternalWrite",
+      "id": "198064:93375",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconScreen",
+      "id": "203430:39557",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconScreens",
+      "id": "203427:1758",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeCFCConnect",
+      "id": "203966:40684",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeCFCError",
+      "id": "203961:40363",
+      "modes": {
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:200597:1980": "200597:8"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeCFCErrorConnect",
+      "id": "203966:40854",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeCFCProgress",
+      "id": "203966:40607",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeCFCQuestion",
+      "id": "203927:1815",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeCFCWarning",
+      "id": "203966:40472",
+      "modes": {
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:200597:1980": "200597:8"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeFBDConnect",
+      "id": "203966:40682",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeFBDError",
+      "id": "203966:40421",
+      "modes": {
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:200597:1980": "200597:8"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeFBDErrorConnect",
+      "id": "203966:40856",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeFBDProgress",
+      "id": "203966:40605",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
+      "key": "AltaIDE_IconTreeSTError",
+      "id": "203961:40367",
+      "modes": {
+        "VariableCollectionId:200597:1981": "200597:9",
+        "VariableCollectionId:200597:1980": "200597:8"
+      }
+    },
+    {
+      "key": "AltaIDE_IconVisInside",
+      "id": "203432:39728",
+      "modes": {
+        "VariableCollectionId:200597:1980": "200597:8",
+        "VariableCollectionId:200597:1981": "200597:9"
+      }
+    },
+    {
       "key": "AltaIDE_MenuLink",
       "id": "185669:9666",
       "modes": {

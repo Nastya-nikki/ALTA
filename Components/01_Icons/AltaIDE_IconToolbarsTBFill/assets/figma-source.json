@@ -1,0 +1,77 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185625:44642",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Filtr",
+      "variantOptions": [
+        "Filtr",
+        "Info",
+        "More",
+        "Search",
+        "Sort",
+        "Update"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185625:44630",
+      "props": {
+        "Type": "Filtr"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "185625:44609",
+      "props": {
+        "Type": "More"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "185625:44619",
+      "props": {
+        "Type": "Sort"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "189860:19862",
+      "props": {
+        "Type": "Info"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197240:1460",
+      "props": {
+        "Type": "Search"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199750:924",
+      "props": {
+        "Type": "Update"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

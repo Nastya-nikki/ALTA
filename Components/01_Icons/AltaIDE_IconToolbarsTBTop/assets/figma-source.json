@@ -1,0 +1,879 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "182543:10622",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "CreateProject",
+      "variantOptions": [
+        "Debug",
+        "Run",
+        "Connect",
+        "CreateProject",
+        "OpenProject",
+        "Compilation_2",
+        "Stop",
+        "SaveProject_2",
+        "Loading",
+        "LoadingStop",
+        "StepOver",
+        "StepOutside",
+        "StepInside",
+        "StopPlace",
+        "Prepare",
+        "Write",
+        "Fix",
+        "Unfixed",
+        "StopPointDefault",
+        "StopPointActive",
+        "StopPointDisabled",
+        "Continue Run",
+        "BreakСonnect",
+        "AddDevice",
+        "DebugOn",
+        "Autoformatting",
+        "Visualisation"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "HoverAndPressed",
+        "Active",
+        "Disabled"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "192061:87185",
+      "props": {
+        "Type": "Continue Run",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5195",
+      "props": {
+        "Type": "StepOutside",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5196",
+      "props": {
+        "Type": "StepInside",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5197",
+      "props": {
+        "Type": "StepOver",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5198",
+      "props": {
+        "Type": "StopPlace",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5199",
+      "props": {
+        "Type": "Prepare",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5200",
+      "props": {
+        "Type": "Write",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5201",
+      "props": {
+        "Type": "Fix",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5202",
+      "props": {
+        "Type": "Unfixed",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5203",
+      "props": {
+        "Type": "StopPointDefault",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5204",
+      "props": {
+        "Type": "StopPointActive",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:5205",
+      "props": {
+        "Type": "StopPointDisabled",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88443",
+      "props": {
+        "Type": "StepOutside",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88451",
+      "props": {
+        "Type": "StepInside",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88457",
+      "props": {
+        "Type": "StepOver",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88463",
+      "props": {
+        "Type": "StopPlace",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88466",
+      "props": {
+        "Type": "Prepare",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88473",
+      "props": {
+        "Type": "Write",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88482",
+      "props": {
+        "Type": "Fix",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88491",
+      "props": {
+        "Type": "Unfixed",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88521",
+      "props": {
+        "Type": "StepOutside",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88529",
+      "props": {
+        "Type": "StepInside",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88535",
+      "props": {
+        "Type": "StepOver",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88541",
+      "props": {
+        "Type": "StopPlace",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88544",
+      "props": {
+        "Type": "Prepare",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88551",
+      "props": {
+        "Type": "Write",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88560",
+      "props": {
+        "Type": "Fix",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88569",
+      "props": {
+        "Type": "Unfixed",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88573",
+      "props": {
+        "Type": "StopPointDefault",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88575",
+      "props": {
+        "Type": "StopPointActive",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88577",
+      "props": {
+        "Type": "StopPointDisabled",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88579",
+      "props": {
+        "Type": "Continue Run",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88586",
+      "props": {
+        "Type": "Continue Run",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "184238:35690",
+      "props": {
+        "Type": "Debug",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30686",
+      "props": {
+        "Type": "Debug",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "198479:33944",
+      "props": {
+        "Type": "DebugOn",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30738",
+      "props": {
+        "Type": "Debug",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30790",
+      "props": {
+        "Type": "Debug",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192030:106487",
+      "props": {
+        "Type": "DebugOn",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30682",
+      "props": {
+        "Type": "Run",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30684",
+      "props": {
+        "Type": "Stop",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30734",
+      "props": {
+        "Type": "Run",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30786",
+      "props": {
+        "Type": "Run",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "190920:1466",
+      "props": {
+        "Type": "Run",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "190920:1468",
+      "props": {
+        "Type": "Stop",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185167:9500",
+      "props": {
+        "Type": "Loading",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30700",
+      "props": {
+        "Type": "Loading",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30752",
+      "props": {
+        "Type": "Loading",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30804",
+      "props": {
+        "Type": "Loading",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192026:15464",
+      "props": {
+        "Type": "LoadingStop",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192069:88508",
+      "props": {
+        "Type": "LoadingStop",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "184238:35702",
+      "props": {
+        "Type": "Connect",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30696",
+      "props": {
+        "Type": "Connect",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30748",
+      "props": {
+        "Type": "Connect",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30800",
+      "props": {
+        "Type": "Connect",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192625:3258",
+      "props": {
+        "Type": "BreakСonnect",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "192625:3261",
+      "props": {
+        "Type": "BreakСonnect",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185167:9519",
+      "props": {
+        "Type": "Compilation_2",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30721",
+      "props": {
+        "Type": "Compilation_2",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30773",
+      "props": {
+        "Type": "Compilation_2",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30825",
+      "props": {
+        "Type": "Compilation_2",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185167:9515",
+      "props": {
+        "Type": "OpenProject",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30719",
+      "props": {
+        "Type": "OpenProject",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30771",
+      "props": {
+        "Type": "OpenProject",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30823",
+      "props": {
+        "Type": "OpenProject",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185833:11709",
+      "props": {
+        "Type": "SaveProject_2",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185833:11735",
+      "props": {
+        "Type": "SaveProject_2",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185833:11729",
+      "props": {
+        "Type": "SaveProject_2",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185833:11719",
+      "props": {
+        "Type": "SaveProject_2",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185167:9507",
+      "props": {
+        "Type": "CreateProject",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "197891:4325",
+      "props": {
+        "Type": "AddDevice",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "197891:14059",
+      "props": {
+        "Type": "AddDevice",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "197891:14065",
+      "props": {
+        "Type": "AddDevice",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "197891:14053",
+      "props": {
+        "Type": "AddDevice",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30706",
+      "props": {
+        "Type": "CreateProject",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30758",
+      "props": {
+        "Type": "CreateProject",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "185646:30810",
+      "props": {
+        "Type": "CreateProject",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "198479:33955",
+      "props": {
+        "Type": "StopPointDefault",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "198479:33957",
+      "props": {
+        "Type": "StopPointActive",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "198479:33959",
+      "props": {
+        "Type": "StopPointDisabled",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "199386:872",
+      "props": {
+        "Type": "Prepare",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "199386:885",
+      "props": {
+        "Type": "Write",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "199386:894",
+      "props": {
+        "Type": "Fix",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "199386:903",
+      "props": {
+        "Type": "Unfixed",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "204084:6643",
+      "props": {
+        "Type": "Autoformatting",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "204084:8754",
+      "props": {
+        "Type": "Autoformatting",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "204084:8763",
+      "props": {
+        "Type": "Autoformatting",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "204337:2488",
+      "props": {
+        "Type": "Visualisation",
+        "State": "Default"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "204337:2490",
+      "props": {
+        "Type": "Visualisation",
+        "State": "HoverAndPressed"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "204337:2492",
+      "props": {
+        "Type": "Visualisation",
+        "State": "Active"
+      },
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "204337:2494",
+      "props": {
+        "Type": "Visualisation",
+        "State": "Disabled"
+      },
+      "width": 40,
+      "height": 40
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

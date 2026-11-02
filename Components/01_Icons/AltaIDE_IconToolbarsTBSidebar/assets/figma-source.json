@@ -1,0 +1,131 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "188814:9392",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Settings",
+      "variantOptions": [
+        "Settings",
+        "OpenedFile",
+        "Expand",
+        "Collapse",
+        "Options",
+        "Search",
+        "Hide",
+        "Plus",
+        "Pin",
+        "collapse",
+        "Unpin",
+        "Close"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "188814:9389",
+      "props": {
+        "Type": "OpenedFile"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "188814:9385",
+      "props": {
+        "Type": "Expand"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "188814:9382",
+      "props": {
+        "Type": "Collapse"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "188814:9380",
+      "props": {
+        "Type": "Settings"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "188814:9386",
+      "props": {
+        "Type": "Search"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "188814:9390",
+      "props": {
+        "Type": "Hide"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "188814:9378",
+      "props": {
+        "Type": "Options"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197038:15541",
+      "props": {
+        "Type": "Plus"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "201582:2099",
+      "props": {
+        "Type": "Unpin"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "201582:2106",
+      "props": {
+        "Type": "Pin"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202691:17125",
+      "props": {
+        "Type": "collapse"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202692:17128",
+      "props": {
+        "Type": "Close"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

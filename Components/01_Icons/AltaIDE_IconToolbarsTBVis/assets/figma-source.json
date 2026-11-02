@@ -1,0 +1,202 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "203767:1956",
+  "readAt": "2026-11-02",
+  "properties": {
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Disabled",
+        "Hover",
+        "HoverDisabled"
+      ]
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Grid",
+      "variantOptions": [
+        "Attached",
+        "Grid",
+        "100%",
+        "Plus",
+        "Minus",
+        "More",
+        "Scale"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "203767:1955",
+      "props": {
+        "State": "Default",
+        "Type": "Grid"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203767:1953",
+      "props": {
+        "State": "Default",
+        "Type": "Attached"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:1863",
+      "props": {
+        "State": "Default",
+        "Type": "100%"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:1880",
+      "props": {
+        "State": "Default",
+        "Type": "Plus"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:1902",
+      "props": {
+        "State": "Default",
+        "Type": "Minus"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:1913",
+      "props": {
+        "State": "Default",
+        "Type": "More"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203767:1952",
+      "props": {
+        "State": "Disabled",
+        "Type": "Grid"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203767:1954",
+      "props": {
+        "State": "Disabled",
+        "Type": "Attached"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:1989",
+      "props": {
+        "State": "Hover",
+        "Type": "Grid"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:1994",
+      "props": {
+        "State": "Hover",
+        "Type": "Attached"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:2003",
+      "props": {
+        "State": "Hover",
+        "Type": "100%"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:2008",
+      "props": {
+        "State": "Hover",
+        "Type": "Plus"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:2012",
+      "props": {
+        "State": "Hover",
+        "Type": "Minus"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:2015",
+      "props": {
+        "State": "Hover",
+        "Type": "More"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:2020",
+      "props": {
+        "State": "HoverDisabled",
+        "Type": "Grid"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203832:2025",
+      "props": {
+        "State": "HoverDisabled",
+        "Type": "Attached"
+      },
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "203894:1810",
+      "props": {
+        "State": "Default",
+        "Type": "Scale"
+      },
+      "width": 46,
+      "height": 28
+    },
+    {
+      "id": "203894:1811",
+      "props": {
+        "State": "Hover",
+        "Type": "Scale"
+      },
+      "width": 46,
+      "height": 28
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}
