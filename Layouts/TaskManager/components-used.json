@@ -683,6 +683,118 @@
         "State": "Default"
       },
       "source": "I10342:833591;185828:3292"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832733"
+    },
+    {
+      "component": "AltaIDE_Separator",
+      "variant": {
+        "Size": "L"
+      },
+      "source": "I10342:833522;10342:832738"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832734"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832735"
+    },
+    {
+      "component": "AltaIDE_Separator",
+      "variant": {
+        "Size": "L"
+      },
+      "source": "I10342:833522;10342:832831"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832736"
+    },
+    {
+      "component": "AltaIDE_Separator",
+      "variant": {
+        "Size": "L"
+      },
+      "source": "I10342:833522;10342:832833"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable_Key",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832737"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832739"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable_Key",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832741"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832742"
+    },
+    {
+      "component": "AltaIDE_ContextMenuItem",
+      "variant": {
+        "Type": "Lable",
+        "Size": "L",
+        "State": "Default"
+      },
+      "source": "I10342:833522;10342:832744"
+    },
+    {
+      "component": "AltaIDE_Shortcut",
+      "variant": {},
+      "source": "I10342:833522;10342:832737;185707:20662"
+    },
+    {
+      "component": "AltaIDE_Shortcut",
+      "variant": {},
+      "source": "I10342:833522;10342:832741;185707:20662"
     }
   ]
 }
