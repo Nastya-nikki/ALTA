@@ -1,0 +1,54 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185702:18326",
+  "readAt": "2026-11-02",
+  "properties": {
+    "System bar": {
+      "type": "VARIANT",
+      "defaultValue": "Yes",
+      "variantOptions": [
+        "Yes",
+        "No",
+        "System bar Configurator"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185702:18324",
+      "props": {
+        "System bar": "Yes"
+      },
+      "width": 1366,
+      "height": 112
+    },
+    {
+      "id": "185769:12698",
+      "props": {
+        "System bar": "No"
+      },
+      "width": 1366,
+      "height": 80
+    },
+    {
+      "id": "204288:36154",
+      "props": {
+        "System bar": "System bar Configurator"
+      },
+      "width": 1366,
+      "height": 80
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_MenuBar",
+    "AltaIDE_SystemTop",
+    "AltaIDE_Toolbar"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

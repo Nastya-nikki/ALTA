@@ -1,0 +1,18 @@
+@import url("../AltaIDE_MenuBar/menu-bar.css");
+@import url("../AltaIDE_SystemTop/system-top.css");
+@import url("../AltaIDE_Toolbar/toolbar.css");
+.shell-component .shell-d451d844ab68{align-content:stretch;display:flex;flex-direction:column;align-items:flex-start;position:relative;width:1366px;height:112px;}
+.shell-component .shell-dfefd0247db8{height:32px;position:relative;flex-shrink:0;width:100%;display:inline-block;}
+.shell-component .shell-727ab015f904{position:relative;flex-shrink:0;width:100%;display:inline-block;}
+.shell-component .shell-0fc1e000e0da{align-content:stretch;display:flex;flex-direction:column;align-items:flex-start;position:relative;width:1366px;height:80px;}
+.shell-component .shell-dece3520772a{align-content:stretch;display:flex;gap:24px;height:40px;align-items:center;padding-right:16px;padding-left:16px;padding-top:8px;padding-bottom:8px;position:relative;flex-shrink:0;width:100%;background-image:linear-gradient(23.543035348575287deg, rgba(1, 43, 87, 0) 5.4613%, rgb(20, 47, 80) 75.221%), url("assets/background-540c6b1cc441.svg");}
+.shell-component .shell-935a13c248bf{height:14.045px;position:relative;flex-shrink:0;width:168.801px;}
+.shell-component .shell-45553a3fbe7d{position:absolute;display:block;left:0px;right:0px;top:0px;bottom:0px;max-width:none;}
+.shell-component .shell-4cda12a36ec3{align-content:stretch;display:flex;align-items:center;justify-content:center;padding-right:var(--shell-menulink-hpadding);padding-left:var(--shell-menulink-hpadding);padding-top:var(--shell-menulink-vpadding);padding-bottom:var(--shell-menulink-vpadding);position:relative;flex-shrink:0;}
+.shell-component .shell-93459babdd39{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:400;line-height:20px;position:relative;flex-shrink:0;font-size:14px;text-align:center;color:#fff;white-space:nowrap;}
+.shell-component .shell-bbaf5ba0e842{word-break:break-word;font-family:"Rubik",sans-serif;font-weight:400;line-height:0;position:relative;flex-shrink:0;font-size:0px;text-align:center;color:#fff;white-space:nowrap;}
+.shell-component .shell-c62129540f2c{line-height:20px;font-size:14px;}
+.shell-component .shell-b55819f80db9{background:var(--shell-toolbar-background);align-content:stretch;display:flex;gap:var(--shell-var-4);align-items:flex-start;position:relative;flex-shrink:0;width:100%;}
+.shell-component .shell-dc182b506616{align-content:stretch;display:flex;gap:10px;align-items:center;padding-right:12px;padding-left:12px;position:relative;flex-shrink:0;}
+.shell-component .shell-ba0c8ccc1b53{position:relative;flex-shrink:0;width:40px;height:40px;}
+

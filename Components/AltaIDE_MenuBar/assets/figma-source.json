@@ -1,0 +1,59 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185669:9561",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Logo": {
+      "type": "VARIANT",
+      "defaultValue": "Configurator",
+      "variantOptions": [
+        "Alta",
+        "Configurator"
+      ]
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Close",
+      "variantOptions": [
+        "Close"
+      ]
+    },
+    "Theme": {
+      "type": "VARIANT",
+      "defaultValue": "Dark",
+      "variantOptions": [
+        "Dark"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185669:9557",
+      "props": {
+        "Logo": "Alta",
+        "Type": "Close",
+        "Theme": "Dark"
+      },
+      "width": 1366,
+      "height": 40
+    },
+    {
+      "id": "204282:795",
+      "props": {
+        "Logo": "Configurator",
+        "Type": "Close",
+        "Theme": "Dark"
+      },
+      "width": 1366,
+      "height": 40
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Nested high-fidelity MenuBar definition in the current TopBar context; cached owner ID and variant names match both rendered source IDs."
+}

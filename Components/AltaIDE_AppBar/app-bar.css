@@ -1,0 +1,6 @@
+@import url("../AltaIDE_TitleBarClose/title-bar-close.css");
+@import url("../AltaIDE_TitleBarMaximize/title-bar-maximize.css");
+@import url("../AltaIDE_TitleBarMinimize/title-bar-minimize.css");
+.shell-component .shell-d00e1c63bdd6{align-content:stretch;display:flex;gap:12px;align-items:center;position:relative;width:120px;height:32px;}
+.shell-component .shell-1abac04dd834{position:relative;flex-shrink:0;width:32px;height:32px;display:inline-block;}
+

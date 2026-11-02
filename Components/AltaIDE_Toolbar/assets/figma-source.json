@@ -1,0 +1,47 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185700:11258",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Debug#192026:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Property 1": {
+      "type": "VARIANT",
+      "defaultValue": "Alta_ToolBar",
+      "variantOptions": [
+        "Alta_ToolBar",
+        "Conf_ToolBar"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185700:11256",
+      "props": {
+        "Property 1": "Alta_ToolBar"
+      },
+      "width": 1366,
+      "height": 40
+    },
+    {
+      "id": "204310:2185",
+      "props": {
+        "Property 1": "Conf_ToolBar"
+      },
+      "width": 1366,
+      "height": 40
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_ToolbarTopParts"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

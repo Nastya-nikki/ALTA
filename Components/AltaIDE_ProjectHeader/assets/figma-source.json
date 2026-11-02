@@ -1,0 +1,64 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185621:40604",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text#185621:282": {
+      "type": "TEXT",
+      "defaultValue": "Новый проект"
+    },
+    "Theme": {
+      "type": "VARIANT",
+      "defaultValue": "Dark",
+      "variantOptions": [
+        "Dark"
+      ]
+    },
+    "Property 2": {
+      "type": "VARIANT",
+      "defaultValue": "Alta_Design",
+      "variantOptions": [
+        "Alta_Develope",
+        "Alta_Design",
+        "Alta_Conf"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185621:40602",
+      "props": {
+        "Theme": "Dark",
+        "Property 2": "Alta_Design"
+      },
+      "width": 248,
+      "height": 40
+    },
+    {
+      "id": "204310:14561",
+      "props": {
+        "Theme": "Dark",
+        "Property 2": "Alta_Conf"
+      },
+      "width": 248,
+      "height": 40
+    },
+    {
+      "id": "201582:2108",
+      "props": {
+        "Theme": "Dark",
+        "Property 2": "Alta_Develope"
+      },
+      "width": 248,
+      "height": 40
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

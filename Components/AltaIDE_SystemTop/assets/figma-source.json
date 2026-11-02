@@ -1,0 +1,69 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "183496:67694",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Kind": {
+      "type": "VARIANT",
+      "defaultValue": "Window",
+      "variantOptions": [
+        "Mac",
+        "Window"
+      ]
+    },
+    "Size": {
+      "type": "VARIANT",
+      "defaultValue": "L",
+      "variantOptions": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "182580:40910",
+      "props": {
+        "Kind": "Window",
+        "Size": "L"
+      },
+      "width": 1366,
+      "height": 32
+    },
+    {
+      "id": "182486:42481",
+      "props": {
+        "Kind": "Mac",
+        "Size": "L"
+      },
+      "width": 1366,
+      "height": 32
+    },
+    {
+      "id": "183512:71303",
+      "props": {
+        "Kind": "Window",
+        "Size": "M"
+      },
+      "width": 850,
+      "height": 32
+    },
+    {
+      "id": "183512:71315",
+      "props": {
+        "Kind": "Mac",
+        "Size": "M"
+      },
+      "width": 850,
+      "height": 32
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

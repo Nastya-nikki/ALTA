@@ -1139,5 +1139,125 @@
     "js": "message-window.js",
     "default": 0,
     "description": "Область сообщений с вкладками."
+  },
+  {
+    "name": "ToolbarTopParts",
+    "folder": "Components/AltaIDE_ToolbarTopParts",
+    "variants": 1,
+    "kind": "Static",
+    "css": "toolbar-top-parts.css",
+    "js": "toolbar-top-parts.js",
+    "default": 0,
+    "description": "Разделитель панели инструментов."
+  },
+  {
+    "name": "TitleBarMinimize",
+    "folder": "Components/AltaIDE_TitleBarMinimize",
+    "variants": 1,
+    "kind": "Action",
+    "css": "title-bar-minimize.css",
+    "js": "title-bar-minimize.js",
+    "default": 0,
+    "description": "Кнопка сворачивания окна."
+  },
+  {
+    "name": "TitleBarMaximize",
+    "folder": "Components/AltaIDE_TitleBarMaximize",
+    "variants": 1,
+    "kind": "Action",
+    "css": "title-bar-maximize.css",
+    "js": "title-bar-maximize.js",
+    "default": 0,
+    "description": "Кнопка разворачивания окна."
+  },
+  {
+    "name": "TitleBarClose",
+    "folder": "Components/AltaIDE_TitleBarClose",
+    "variants": 1,
+    "kind": "Action",
+    "css": "title-bar-close.css",
+    "js": "title-bar-close.js",
+    "default": 0,
+    "description": "Кнопка закрытия окна."
+  },
+  {
+    "name": "SystemTop",
+    "folder": "Components/AltaIDE_SystemTop",
+    "variants": 4,
+    "kind": "Toolbar",
+    "css": "system-top.css",
+    "js": "system-top.js",
+    "default": 0,
+    "description": "Системная панель заголовка окна."
+  },
+  {
+    "name": "MenuBar",
+    "folder": "Components/AltaIDE_MenuBar",
+    "variants": 2,
+    "kind": "Toolbar",
+    "css": "menu-bar.css",
+    "js": "menu-bar.js",
+    "default": 1,
+    "description": "Главное меню приложения."
+  },
+  {
+    "name": "Toolbar",
+    "folder": "Components/AltaIDE_Toolbar",
+    "variants": 2,
+    "kind": "Toolbar",
+    "css": "toolbar.css",
+    "js": "toolbar.js",
+    "default": 0,
+    "description": "Панель инструментов."
+  },
+  {
+    "name": "ProjectHeader",
+    "folder": "Components/AltaIDE_ProjectHeader",
+    "variants": 3,
+    "kind": "Toolbar",
+    "css": "project-header.css",
+    "js": "project-header.js",
+    "default": 0,
+    "description": "Заголовок панели проекта."
+  },
+  {
+    "name": "TopBar",
+    "folder": "Components/AltaIDE_TopBar",
+    "variants": 3,
+    "kind": "Toolbar",
+    "css": "top-bar.css",
+    "js": "top-bar.js",
+    "default": 0,
+    "description": "Верхняя панель приложения."
+  },
+  {
+    "name": "PartsTitleBarIconTitleGroup",
+    "folder": "Components/AltaIDE_PartsTitleBarIconTitleGroup",
+    "variants": 1,
+    "kind": "Static",
+    "css": "parts-title-bar-icon-title-group.css",
+    "js": "parts-title-bar-icon-title-group.js",
+    "default": 0,
+    "description": "Заголовок окна и кнопка возврата."
+  },
+  {
+    "name": "AppBar",
+    "folder": "Components/AltaIDE_AppBar",
+    "variants": 1,
+    "kind": "Toolbar",
+    "css": "app-bar.css",
+    "js": "app-bar.js",
+    "default": 0,
+    "description": "Группа кнопок управления окном."
+  },
+  {
+    "name": "PartsTitleBarBackButton",
+    "folder": "Components/AltaIDE_PartsTitleBarBackButton",
+    "variants": 1,
+    "kind": "Action",
+    "css": "parts-title-bar-back-button.css",
+    "js": "parts-title-bar-back-button.js",
+    "default": 0,
+    "description": "Кнопка возврата."
   }
 ]
