@@ -1439,5 +1439,55 @@
     "js": "sidebar-device-settings.js",
     "default": 0,
     "description": "Боковая панель настроек устройства."
+  },
+  {
+    "name": "MenuLink",
+    "folder": "Components/AltaIDE_MenuLink",
+    "variants": 4,
+    "kind": "Item",
+    "css": "menu-link.css",
+    "js": "menu-link.js",
+    "default": 0,
+    "description": "Пункт главного меню."
+  },
+  {
+    "name": "PLK",
+    "folder": "Components/AltaIDE_PLK",
+    "variants": 4,
+    "kind": "Static",
+    "css": "plk.css",
+    "js": "plk.js",
+    "default": 0,
+    "description": "Индикатор состояния контроллера."
+  },
+  {
+    "name": "ScrollHorizontal",
+    "folder": "Components/AltaIDE_ScrollHorizontal",
+    "variants": 3,
+    "kind": "Scroll",
+    "css": "scroll-horizontal.css",
+    "js": "scroll-horizontal.js",
+    "default": 0,
+    "description": "Горизонтальная полоса прокрутки."
+  },
+  {
+    "name": "Subtitle",
+    "folder": "Components/AltaIDE_Subtitle",
+    "variants": 6,
+    "kind": "Static",
+    "css": "subtitle.css",
+    "js": "subtitle.js",
+    "default": 3,
+    "description": "Подзаголовок раздела."
+  },
+  {
+    "name": "ToolbarVertical",
+    "folder": "Components/AltaIDE_ToolbarVertical",
+    "variants": 1,
+    "kind": "Toolbar",
+    "css": "toolbar-vertical.css",
+    "js": "toolbar-vertical.js",
+    "default": 0,
+    "description": "Вертикальная панель инструментов."
   }
 ]

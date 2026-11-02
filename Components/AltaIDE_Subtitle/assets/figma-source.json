@@ -1,0 +1,81 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "187274:9749",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text#187360:0": {
+      "type": "TEXT",
+      "defaultValue": "Настройка задачи"
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Title",
+      "variantOptions": [
+        "NoBG",
+        "Title",
+        "Line",
+        "Arrow",
+        "TitleArrow",
+        "LineAccent"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "190920:1313",
+      "props": {
+        "Type": "NoBG"
+      },
+      "width": 1108,
+      "height": 28
+    },
+    {
+      "id": "189860:14438",
+      "props": {
+        "Type": "Line"
+      },
+      "width": 1108,
+      "height": 28
+    },
+    {
+      "id": "202281:1087",
+      "props": {
+        "Type": "LineAccent"
+      },
+      "width": 1108,
+      "height": 28
+    },
+    {
+      "id": "189860:17474",
+      "props": {
+        "Type": "Title"
+      },
+      "width": 1108,
+      "height": 28
+    },
+    {
+      "id": "195650:5187",
+      "props": {
+        "Type": "TitleArrow"
+      },
+      "width": 1108,
+      "height": 28
+    },
+    {
+      "id": "191443:11419",
+      "props": {
+        "Type": "Arrow"
+      },
+      "width": 1108,
+      "height": 28
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}
