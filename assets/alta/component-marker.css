@@ -1,0 +1,22 @@
+/* One CSS-pixel identification mark per component, including nested instances.
+   Paint only: no layout space, accessible content, or pointer target. */
+.alta-component::after,
+.alta-widget::after,
+.alta-control::after,
+.alta-navigation::after,
+.cfc-component::after,
+.ace-component::after,
+.alta-button::after,
+.alta-bit::after,
+.alta-bits-group::after,
+.alta-bit-mask-picker::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 1px;
+  background: #FE01FC;
+  pointer-events: none;
+  z-index: 1;
+}
