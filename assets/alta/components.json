@@ -1399,5 +1399,15 @@
     "js": "head-modal-alta-idehead-modal-light-head-no-title.js",
     "default": 0,
     "description": "Заголовок модального окна без названия."
+  },
+  {
+    "name": "TreeLevels",
+    "folder": "Components/AltaIDE_TreeLevels",
+    "variants": 177,
+    "kind": "Item",
+    "css": "tree-levels.css",
+    "js": "tree-levels.js",
+    "default": 0,
+    "description": "Элемент дерева."
   }
 ]

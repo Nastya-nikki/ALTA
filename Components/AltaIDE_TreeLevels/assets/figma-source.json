@@ -1,0 +1,1865 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185599:20925",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text#185619:0": {
+      "type": "TEXT",
+      "defaultValue": "text"
+    },
+    "Instance#186483:8": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "InstanceName#186483:151": {
+      "type": "TEXT",
+      "defaultValue": "PRG"
+    },
+    "TextFocused#189702:0": {
+      "type": "TEXT",
+      "defaultValue": "text|"
+    },
+    "Debugging Point#195107:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Text Error#198253:0": {
+      "type": "TEXT",
+      "defaultValue": "text"
+    },
+    "Text Warning#198560:355": {
+      "type": "TEXT",
+      "defaultValue": "text"
+    },
+    "Icon 1#203879:133": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Icon 2#203879:311": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Hover",
+        "Pressed",
+        "Active",
+        "NoCompilation",
+        "FocusedBlue",
+        "FocusedInvalid",
+        "DragAndDropFolder",
+        "DragAndDropBetween",
+        "Error",
+        "NotAvailable",
+        "Focused",
+        "ErrorActive",
+        "Warning",
+        "WarningActive"
+      ]
+    },
+    "Level": {
+      "type": "VARIANT",
+      "defaultValue": "1",
+      "variantOptions": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "With Arrow",
+      "variantOptions": [
+        "With Arrow",
+        "Without Arrow"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185620:26838",
+      "props": {
+        "State": "Default",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189231:14626",
+      "props": {
+        "State": "DragAndDropFolder",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189231:14639",
+      "props": {
+        "State": "DragAndDropBetween",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26842",
+      "props": {
+        "State": "Hover",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26846",
+      "props": {
+        "State": "Pressed",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26850",
+      "props": {
+        "State": "Active",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26854",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26858",
+      "props": {
+        "State": "Default",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26861",
+      "props": {
+        "State": "Hover",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26864",
+      "props": {
+        "State": "Pressed",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26867",
+      "props": {
+        "State": "Active",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26870",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26874",
+      "props": {
+        "State": "Default",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26878",
+      "props": {
+        "State": "Hover",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26882",
+      "props": {
+        "State": "Pressed",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26886",
+      "props": {
+        "State": "Active",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26890",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26894",
+      "props": {
+        "State": "Default",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26897",
+      "props": {
+        "State": "Hover",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26900",
+      "props": {
+        "State": "Pressed",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26903",
+      "props": {
+        "State": "Active",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26906",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26909",
+      "props": {
+        "State": "Default",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26913",
+      "props": {
+        "State": "Hover",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26917",
+      "props": {
+        "State": "Pressed",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26921",
+      "props": {
+        "State": "Active",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26925",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26929",
+      "props": {
+        "State": "Default",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26932",
+      "props": {
+        "State": "Hover",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26935",
+      "props": {
+        "State": "Pressed",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26938",
+      "props": {
+        "State": "Active",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26941",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26944",
+      "props": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26948",
+      "props": {
+        "State": "Hover",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26952",
+      "props": {
+        "State": "Pressed",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26956",
+      "props": {
+        "State": "Active",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26960",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26964",
+      "props": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26967",
+      "props": {
+        "State": "Hover",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26970",
+      "props": {
+        "State": "Pressed",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26973",
+      "props": {
+        "State": "Active",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26976",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26979",
+      "props": {
+        "State": "Default",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26983",
+      "props": {
+        "State": "Hover",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26987",
+      "props": {
+        "State": "Pressed",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26991",
+      "props": {
+        "State": "Active",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26995",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:26999",
+      "props": {
+        "State": "Default",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27002",
+      "props": {
+        "State": "Hover",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27005",
+      "props": {
+        "State": "Pressed",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27008",
+      "props": {
+        "State": "Active",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27011",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27014",
+      "props": {
+        "State": "Default",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27018",
+      "props": {
+        "State": "Hover",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27022",
+      "props": {
+        "State": "Pressed",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27026",
+      "props": {
+        "State": "Active",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27030",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27034",
+      "props": {
+        "State": "Default",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27037",
+      "props": {
+        "State": "Hover",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27040",
+      "props": {
+        "State": "Pressed",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27043",
+      "props": {
+        "State": "Active",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27046",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27049",
+      "props": {
+        "State": "Default",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27053",
+      "props": {
+        "State": "Hover",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27057",
+      "props": {
+        "State": "Pressed",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27061",
+      "props": {
+        "State": "Active",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27065",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27069",
+      "props": {
+        "State": "Default",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27072",
+      "props": {
+        "State": "Hover",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27075",
+      "props": {
+        "State": "Pressed",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27078",
+      "props": {
+        "State": "Active",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185620:27081",
+      "props": {
+        "State": "NoCompilation",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34799",
+      "props": {
+        "State": "Error",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34804",
+      "props": {
+        "State": "Error",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34810",
+      "props": {
+        "State": "Error",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34816",
+      "props": {
+        "State": "Error",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34821",
+      "props": {
+        "State": "Error",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34827",
+      "props": {
+        "State": "Error",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34832",
+      "props": {
+        "State": "Error",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34838",
+      "props": {
+        "State": "Error",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34843",
+      "props": {
+        "State": "Error",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34849",
+      "props": {
+        "State": "Error",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34854",
+      "props": {
+        "State": "Error",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34860",
+      "props": {
+        "State": "Error",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34865",
+      "props": {
+        "State": "Error",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "189689:34871",
+      "props": {
+        "State": "Error",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190386:69570",
+      "props": {
+        "State": "NotAvailable",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190386:69613",
+      "props": {
+        "State": "NotAvailable",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190386:69630",
+      "props": {
+        "State": "NotAvailable",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190386:69647",
+      "props": {
+        "State": "NotAvailable",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190386:69663",
+      "props": {
+        "State": "NotAvailable",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190386:69681",
+      "props": {
+        "State": "NotAvailable",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190386:69704",
+      "props": {
+        "State": "NotAvailable",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11407",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11414",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11420",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11427",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11433",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11440",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11446",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11453",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11459",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11466",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11472",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11479",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11485",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190577:11492",
+      "props": {
+        "State": "FocusedBlue",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20546",
+      "props": {
+        "State": "Focused",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20553",
+      "props": {
+        "State": "Focused",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20562",
+      "props": {
+        "State": "Focused",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20569",
+      "props": {
+        "State": "Focused",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20578",
+      "props": {
+        "State": "Focused",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20585",
+      "props": {
+        "State": "Focused",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20594",
+      "props": {
+        "State": "Focused",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20601",
+      "props": {
+        "State": "Focused",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20610",
+      "props": {
+        "State": "Focused",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20617",
+      "props": {
+        "State": "Focused",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20626",
+      "props": {
+        "State": "Focused",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20633",
+      "props": {
+        "State": "Focused",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20642",
+      "props": {
+        "State": "Focused",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190660:20649",
+      "props": {
+        "State": "Focused",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12390",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12396",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12403",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12409",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12416",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12422",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12429",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12435",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12442",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12448",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12455",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12461",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12468",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "190664:12474",
+      "props": {
+        "State": "FocusedInvalid",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14610",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14615",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14621",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14626",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14632",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14637",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14643",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14648",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14654",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14659",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14666",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14671",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14677",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14682",
+      "props": {
+        "State": "ErrorActive",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14924",
+      "props": {
+        "State": "Warning",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14929",
+      "props": {
+        "State": "Warning",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14935",
+      "props": {
+        "State": "Warning",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14940",
+      "props": {
+        "State": "Warning",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14946",
+      "props": {
+        "State": "Warning",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14951",
+      "props": {
+        "State": "Warning",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14957",
+      "props": {
+        "State": "Warning",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14962",
+      "props": {
+        "State": "Warning",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14968",
+      "props": {
+        "State": "Warning",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14973",
+      "props": {
+        "State": "Warning",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14980",
+      "props": {
+        "State": "Warning",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14985",
+      "props": {
+        "State": "Warning",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14991",
+      "props": {
+        "State": "Warning",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:14996",
+      "props": {
+        "State": "Warning",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15238",
+      "props": {
+        "State": "WarningActive",
+        "Level": "7",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15243",
+      "props": {
+        "State": "WarningActive",
+        "Level": "7",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15249",
+      "props": {
+        "State": "WarningActive",
+        "Level": "6",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15254",
+      "props": {
+        "State": "WarningActive",
+        "Level": "6",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15260",
+      "props": {
+        "State": "WarningActive",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15265",
+      "props": {
+        "State": "WarningActive",
+        "Level": "5",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15271",
+      "props": {
+        "State": "WarningActive",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15276",
+      "props": {
+        "State": "WarningActive",
+        "Level": "4",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15282",
+      "props": {
+        "State": "WarningActive",
+        "Level": "3",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15287",
+      "props": {
+        "State": "WarningActive",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15294",
+      "props": {
+        "State": "WarningActive",
+        "Level": "2",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15299",
+      "props": {
+        "State": "WarningActive",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15305",
+      "props": {
+        "State": "WarningActive",
+        "Level": "1",
+        "Type": "Without Arrow"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:15310",
+      "props": {
+        "State": "WarningActive",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "width": 248,
+      "height": 32
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}
