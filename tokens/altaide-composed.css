@@ -293,6 +293,12 @@
 --shell-192:192px;
 --shell-dark-blue-9:#1e4898;
 --shell-light-blue-5:#bfd0ff;
+--shell-scroll-background:var(--shell-dark-gray-12);
+--shell-scroll-element-default:var(--shell-dark-gray-10);
+--shell-scroll-element-hover:var(--shell-dark-gray-8-9e84c5);
+--shell-sidebardevicesettings-between:var(--shell-0);
+--shell-sidebardevicesettings-border:var(--shell-dark-gray-15);
+--shell-sidebardevicesettings-border-width:var(--shell-border-border-1px);
 }
 :root{
 --shell-var-4--mode-183844-2:4px;
@@ -506,4 +512,10 @@
 --shell-treelevelsdevice-background-focused--mode-200709-14:var(--shell-light-blue-4);
 --shell-treelevelsdevice-background-notavailable--mode-200709-14:var(--shell-light-gray-2);
 --shell-treelevelsdevice-content-nocompilation--mode-200709-14:var(--shell-light-gray-8);
+--shell-scroll-background--mode-200709-14:var(--shell-light-gray-3);
+--shell-scroll-element-default--mode-200709-14:var(--shell-light-gray-6);
+--shell-scroll-element-hover--mode-200709-14:var(--shell-light-gray-9);
+--shell-sidebardevicesettings-between--mode-200709-14:var(--shell-0);
+--shell-sidebardevicesettings-border--mode-200709-14:var(--shell-light-gray-4);
+--shell-sidebardevicesettings-border-width--mode-200709-14:var(--shell-border-border-1px);
 }

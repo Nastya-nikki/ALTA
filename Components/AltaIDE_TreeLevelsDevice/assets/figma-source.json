@@ -1,0 +1,1520 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185627:14174",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text#185619:0": {
+      "type": "TEXT",
+      "defaultValue": "text"
+    },
+    "Right Icon#185627:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Arrow#185664:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Left icon#185664:71": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Text Error#198589:0": {
+      "type": "TEXT",
+      "defaultValue": "text"
+    },
+    "TextWarning#198589:261": {
+      "type": "TEXT",
+      "defaultValue": "text"
+    },
+    "Radio#203869:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Hover",
+        "Pressed",
+        "Active",
+        "Disabled",
+        "Focused",
+        "FocusedInvalid",
+        "ErrorActive",
+        "Error",
+        "Warning",
+        "WarningActive"
+      ]
+    },
+    "Theme": {
+      "type": "VARIANT",
+      "defaultValue": "Dark",
+      "variantOptions": [
+        "Dark"
+      ]
+    },
+    "Level": {
+      "type": "VARIANT",
+      "defaultValue": "1",
+      "variantOptions": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "With icons",
+      "variantOptions": [
+        "With icons",
+        "Without icons"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185627:14421",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14425",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14429",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14433",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14437",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14457",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14461",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14465",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14469",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14473",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14492",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14496",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14500",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14504",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14508",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14527",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14531",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14535",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14539",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14543",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14562",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14566",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14570",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14574",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14578",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14597",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14601",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14605",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14609",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14613",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14632",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14636",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14640",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14644",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185627:14648",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23186",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23361",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23366",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23371",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23376",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23381",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23386",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23391",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23396",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23401",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23406",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23411",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23416",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23421",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23426",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23431",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23436",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23441",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23446",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23451",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23456",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23461",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23466",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23471",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23476",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23481",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23486",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23491",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23496",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23501",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23506",
+      "props": {
+        "State": "Disabled",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23511",
+      "props": {
+        "State": "Default",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23516",
+      "props": {
+        "State": "Hover",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23521",
+      "props": {
+        "State": "Pressed",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "185664:23526",
+      "props": {
+        "State": "Active",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "186494:13054",
+      "props": {
+        "State": "Focused",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "186494:13059",
+      "props": {
+        "State": "Focused",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "186877:11750",
+      "props": {
+        "State": "FocusedInvalid",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "186877:11757",
+      "props": {
+        "State": "FocusedInvalid",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81126",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81129",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81134",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81137",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81142",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81145",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81150",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81153",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81158",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81161",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81166",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81169",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81174",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81177",
+      "props": {
+        "State": "Error",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81309",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81312",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81317",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81320",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81325",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81328",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81333",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81336",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81341",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81344",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81349",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81352",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81357",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81360",
+      "props": {
+        "State": "ErrorActive",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81764",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81767",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81772",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81775",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81780",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81783",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81788",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81791",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81796",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81799",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81804",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81807",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81812",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:81815",
+      "props": {
+        "State": "Warning",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82076",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82079",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "7",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82084",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82087",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "6",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82092",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82095",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "5",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82100",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82103",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "4",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82108",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82111",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "3",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82116",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82119",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "2",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82124",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "Without icons"
+      },
+      "width": 248,
+      "height": 32
+    },
+    {
+      "id": "195336:82127",
+      "props": {
+        "State": "WarningActive",
+        "Theme": "Dark",
+        "Level": "1",
+        "Type": "With icons"
+      },
+      "width": 248,
+      "height": 32
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

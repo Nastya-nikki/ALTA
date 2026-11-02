@@ -1,0 +1,47 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185625:44020",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Show Scrollbar#185625:288": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Size": {
+      "type": "VARIANT",
+      "defaultValue": "3column",
+      "variantOptions": [
+        "3column",
+        "4column"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185625:44016",
+      "props": {
+        "Size": "4column"
+      },
+      "width": 334,
+      "height": 752
+    },
+    {
+      "id": "185625:44018",
+      "props": {
+        "Size": "3column"
+      },
+      "width": 248,
+      "height": 752
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_TreeLevels"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

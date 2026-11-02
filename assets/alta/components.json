@@ -1409,5 +1409,35 @@
     "js": "tree-levels.js",
     "default": 0,
     "description": "Элемент дерева."
+  },
+  {
+    "name": "TreeLevelsDevice",
+    "folder": "Components/AltaIDE_TreeLevelsDevice",
+    "variants": 130,
+    "kind": "Item",
+    "css": "tree-levels-device.css",
+    "js": "tree-levels-device.js",
+    "default": 0,
+    "description": "Элемент дерева настроек устройства."
+  },
+  {
+    "name": "Sidebar",
+    "folder": "Components/AltaIDE_Sidebar",
+    "variants": 2,
+    "kind": "TreePanel",
+    "css": "sidebar.css",
+    "js": "sidebar.js",
+    "default": 1,
+    "description": "Боковая панель проекта."
+  },
+  {
+    "name": "SidebarDeviceSettings",
+    "folder": "Components/AltaIDE_SidebarDeviceSettings",
+    "variants": 3,
+    "kind": "TreePanel",
+    "css": "sidebar-device-settings.css",
+    "js": "sidebar-device-settings.js",
+    "default": 0,
+    "description": "Боковая панель настроек устройства."
   }
 ]
