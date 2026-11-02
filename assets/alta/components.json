@@ -3309,5 +3309,145 @@
     "js": "icon-vis-inside.js",
     "default": 0,
     "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalCodeWarningLink",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalCodeWarningLink",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-code-warning-link.css",
+    "js": "icon-internal-code-warning-link.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalDutError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalDutError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-dut-error.css",
+    "js": "icon-internal-dut-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalDutWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalDutWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-dut-warning.css",
+    "js": "icon-internal-dut-warning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalError",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalError",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-error.css",
+    "js": "icon-internal-error.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconInternalErrorDisable",
+    "folder": "Components/01_Icons/AltaIDE_IconInternalErrorDisable",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-internal-error-disable.css",
+    "js": "icon-internal-error-disable.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeFBDQuestion",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeFBDQuestion",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-fbdquestion.css",
+    "js": "icon-tree-fbdquestion.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeFBDWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeFBDWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-fbdwarning.css",
+    "js": "icon-tree-fbdwarning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeSTConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeSTConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-stconnect.css",
+    "js": "icon-tree-stconnect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeSTErrorConnect",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeSTErrorConnect",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-sterror-connect.css",
+    "js": "icon-tree-sterror-connect.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeSTProgress",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeSTProgress",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-stprogress.css",
+    "js": "icon-tree-stprogress.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeSTQuestion",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeSTQuestion",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-stquestion.css",
+    "js": "icon-tree-stquestion.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeSTWarning",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeSTWarning",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-tree-stwarning.css",
+    "js": "icon-tree-stwarning.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconVisWeb",
+    "folder": "Components/01_Icons/AltaIDE_IconVisWeb",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-vis-web.css",
+    "js": "icon-vis-web.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconVisualisation",
+    "folder": "Components/01_Icons/AltaIDE_IconVisualisation",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-visualisation.css",
+    "js": "icon-visualisation.js",
+    "default": 0,
+    "description": "Иконка интерфейса."
   }
 ]
