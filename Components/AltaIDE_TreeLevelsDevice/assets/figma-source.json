@@ -1516,5 +1516,8 @@
     "export": "../../../tokens/figma-altaide-composed-variables.json"
   },
   "dependencies": [],
-  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02",
+  "nestedSourceComponents": [
+    "AltaIDE_Radio"
+  ]
 }
