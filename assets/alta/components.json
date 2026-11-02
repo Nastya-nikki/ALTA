@@ -1389,5 +1389,15 @@
     "js": "head-modal-alta-idehead-modal-light-head-title.js",
     "default": 0,
     "description": "Заголовок модального окна."
+  },
+  {
+    "name": "HeadModalAltaIDEHeadModalLightHeadNoTitle",
+    "folder": "Components/AltaIDE_HeadModalAltaIDEHeadModalLightHeadNoTitle",
+    "variants": 1,
+    "kind": "Static",
+    "css": "head-modal-alta-idehead-modal-light-head-no-title.css",
+    "js": "head-modal-alta-idehead-modal-light-head-no-title.js",
+    "default": 0,
+    "description": "Заголовок модального окна без названия."
   }
 ]

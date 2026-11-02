@@ -8512,6 +8512,11 @@
       }
     },
     {
+      "key": "AltaIDE_HeadModalAltaIDEHeadModalLightHeadNoTitle",
+      "id": "190175:2188",
+      "modes": {}
+    },
+    {
       "key": "AltaIDE_ProjectHeader",
       "id": "185621:40602",
       "modes": {
