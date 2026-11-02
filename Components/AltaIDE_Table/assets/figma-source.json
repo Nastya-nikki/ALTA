@@ -1,0 +1,115 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185828:3369",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Line 1#185828:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 2#185828:3": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 3#185828:6": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 4#185828:9": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 5#185828:12": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 6#185828:15": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 7#185828:18": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 8#185828:21": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 9#185828:24": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 10#185828:27": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 11#185831:0": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 12#185831:3": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 13#185831:6": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Line 14#185869:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 15#185869:3": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 16#185869:6": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 17#185869:9": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 18#185869:12": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 19#185869:15": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Line 20#185869:18": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Kind": {
+      "type": "VARIANT",
+      "defaultValue": "doble parametr",
+      "variantOptions": [
+        "doble parametr"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185828:3367",
+      "props": {
+        "Kind": "doble parametr"
+      },
+      "width": 172,
+      "height": 392
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_TableCell",
+    "AltaIDE_TableHeader"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

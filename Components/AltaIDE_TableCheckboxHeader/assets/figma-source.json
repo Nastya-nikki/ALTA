@@ -1,0 +1,24 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "201633:755",
+  "readAt": "2026-11-02",
+  "properties": {},
+  "variants": [
+    {
+      "id": "201633:755",
+      "props": {},
+      "width": 48,
+      "height": 28
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_Checkbox"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

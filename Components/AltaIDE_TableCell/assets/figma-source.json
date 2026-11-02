@@ -1,0 +1,496 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185823:3331",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text#185826:0": {
+      "type": "TEXT",
+      "defaultValue": "0"
+    },
+    "Icon#189950:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Link#189950:43": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Dropdown",
+      "variantOptions": [
+        "Arrow 1",
+        "Arrow 2",
+        "Without Arrow",
+        "Dropdown",
+        "Plus"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Active",
+        "Focused",
+        "Invalid",
+        "Selection",
+        "Warning",
+        "Disabled",
+        "FocusedBlue",
+        "DisabledActive",
+        "InvalidFoxused",
+        "InvalidFoxusedBlue",
+        "Empty",
+        "ActiveEmpty",
+        "FocusedEmpty",
+        "ActiveChanges",
+        "DefaultChanges",
+        "Hover",
+        "HoverEmpty"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185823:3328",
+      "props": {
+        "Type": "Arrow 1",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185823:3326",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "197697:3134",
+      "props": {
+        "Type": "Plus",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "197697:60864",
+      "props": {
+        "Type": "Plus",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185823:3325",
+      "props": {
+        "Type": "Arrow 2",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185864:3700",
+      "props": {
+        "Type": "Arrow 1",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185864:3705",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185864:3710",
+      "props": {
+        "Type": "Arrow 2",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185864:3728",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Focused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196976:3067",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "FocusedBlue"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185982:3915",
+      "props": {
+        "Type": "Arrow 1",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185982:3920",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "185982:3925",
+      "props": {
+        "Type": "Arrow 2",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "186546:13477",
+      "props": {
+        "Type": "Arrow 1",
+        "State": "Selection"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "186546:13482",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Selection"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "186546:13487",
+      "props": {
+        "Type": "Arrow 2",
+        "State": "Selection"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "194091:146716",
+      "props": {
+        "Type": "Dropdown",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "194463:61501",
+      "props": {
+        "Type": "Dropdown",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "194463:61525",
+      "props": {
+        "Type": "Dropdown",
+        "State": "Focused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "195013:2925",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Disabled"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "195335:3174",
+      "props": {
+        "Type": "Arrow 1",
+        "State": "Warning"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "195335:3181",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Warning"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "195335:3188",
+      "props": {
+        "Type": "Arrow 2",
+        "State": "Warning"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196989:3017",
+      "props": {
+        "Type": "Dropdown",
+        "State": "Disabled"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196989:3021",
+      "props": {
+        "Type": "Arrow 1",
+        "State": "Disabled"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196989:3025",
+      "props": {
+        "Type": "Arrow 2",
+        "State": "Disabled"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196993:3032",
+      "props": {
+        "Type": "Dropdown",
+        "State": "DisabledActive"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196993:3036",
+      "props": {
+        "Type": "Arrow 1",
+        "State": "DisabledActive"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196993:3040",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "DisabledActive"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196993:3043",
+      "props": {
+        "Type": "Arrow 2",
+        "State": "DisabledActive"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "199466:22408",
+      "props": {
+        "Type": "Dropdown",
+        "State": "InvalidFoxused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "199469:1502",
+      "props": {
+        "Type": "Dropdown",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "199466:22412",
+      "props": {
+        "Type": "Arrow 1",
+        "State": "InvalidFoxused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "199466:22416",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "InvalidFoxused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "199466:22419",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "InvalidFoxusedBlue"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "199466:22423",
+      "props": {
+        "Type": "Arrow 2",
+        "State": "InvalidFoxused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "200326:1508",
+      "props": {
+        "Type": "Dropdown",
+        "State": "Empty"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "200326:1512",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Empty"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "200326:20493",
+      "props": {
+        "Type": "Dropdown",
+        "State": "ActiveEmpty"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "200326:20497",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "ActiveEmpty"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "200326:20502",
+      "props": {
+        "Type": "Dropdown",
+        "State": "FocusedEmpty"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "200326:20506",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "FocusedEmpty"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "200327:20537",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "DefaultChanges"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "200327:20540",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "ActiveChanges"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "202022:9768",
+      "props": {
+        "Type": "Dropdown",
+        "State": "Hover"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "202022:9772",
+      "props": {
+        "Type": "Dropdown",
+        "State": "HoverEmpty"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "202022:9776",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "Hover"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "202022:9783",
+      "props": {
+        "Type": "Without Arrow",
+        "State": "HoverEmpty"
+      },
+      "width": 172,
+      "height": 28
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

@@ -1,0 +1,293 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "196706:2767",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Text#196706:0": {
+      "type": "TEXT",
+      "defaultValue": "0"
+    },
+    "Lock#196710:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Level": {
+      "type": "VARIANT",
+      "defaultValue": "1",
+      "variantOptions": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Without Arrow",
+      "variantOptions": [
+        "Arrow",
+        "Without Arrow"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Active",
+        "Default",
+        "Focused",
+        "Invalid"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "196706:2644",
+      "props": {
+        "Level": "1",
+        "Type": "Arrow",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2651",
+      "props": {
+        "Level": "2",
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2658",
+      "props": {
+        "Level": "1",
+        "Type": "Arrow",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2665",
+      "props": {
+        "Level": "2",
+        "Type": "Without Arrow",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2672",
+      "props": {
+        "Level": "1",
+        "Type": "Arrow",
+        "State": "Focused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2679",
+      "props": {
+        "Level": "2",
+        "Type": "Without Arrow",
+        "State": "Focused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2686",
+      "props": {
+        "Level": "1",
+        "Type": "Arrow",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2693",
+      "props": {
+        "Level": "2",
+        "Type": "Without Arrow",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2774",
+      "props": {
+        "Level": "2",
+        "Type": "Arrow",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2781",
+      "props": {
+        "Level": "3",
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:2811",
+      "props": {
+        "Level": "4",
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4525",
+      "props": {
+        "Level": "2",
+        "Type": "Arrow",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4532",
+      "props": {
+        "Level": "3",
+        "Type": "Without Arrow",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4554",
+      "props": {
+        "Level": "4",
+        "Type": "Without Arrow",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4566",
+      "props": {
+        "Level": "2",
+        "Type": "Arrow",
+        "State": "Focused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4573",
+      "props": {
+        "Level": "3",
+        "Type": "Without Arrow",
+        "State": "Focused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4595",
+      "props": {
+        "Level": "4",
+        "Type": "Without Arrow",
+        "State": "Focused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4607",
+      "props": {
+        "Level": "2",
+        "Type": "Arrow",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4614",
+      "props": {
+        "Level": "3",
+        "Type": "Without Arrow",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196706:4636",
+      "props": {
+        "Level": "4",
+        "Type": "Without Arrow",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196710:4685",
+      "props": {
+        "Level": "1",
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196710:4691",
+      "props": {
+        "Level": "1",
+        "Type": "Without Arrow",
+        "State": "Active"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196710:4697",
+      "props": {
+        "Level": "1",
+        "Type": "Without Arrow",
+        "State": "Focused"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "196710:4703",
+      "props": {
+        "Level": "1",
+        "Type": "Without Arrow",
+        "State": "Invalid"
+      },
+      "width": 172,
+      "height": 28
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

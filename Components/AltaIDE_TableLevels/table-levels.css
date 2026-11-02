@@ -1,0 +1,5 @@
+@import url("../AltaIDE_TableCellLevels/table-cell-levels.css");
+@import url("../AltaIDE_TableHeader/table-header.css");
+.shell-component .shell-80352ae6e558{align-content:stretch;display:flex;flex-direction:column;gap:var(--shell-tablelevels-between);align-items:flex-start;position:relative;width:172px;height:448px;}
+.shell-component .shell-0715348c61c5{height:28px;position:relative;flex-shrink:0;width:100%;display:inline-block;}
+

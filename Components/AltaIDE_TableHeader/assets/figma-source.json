@@ -1,0 +1,88 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "185489:22771",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Show Sorting#185481:21": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Text#185521:200": {
+      "type": "TEXT",
+      "defaultValue": "Column"
+    },
+    "Sorting": {
+      "type": "VARIANT",
+      "defaultValue": "Nosorting",
+      "variantOptions": [
+        "Nosorting",
+        "desc",
+        "asc"
+      ]
+    },
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Write",
+        "Read"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "185489:22775",
+      "props": {
+        "Sorting": "Nosorting",
+        "Type": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "197771:4703",
+      "props": {
+        "Sorting": "asc",
+        "Type": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "197771:4710",
+      "props": {
+        "Sorting": "desc",
+        "Type": "Default"
+      },
+      "width": 172,
+      "height": 28
+    },
+    {
+      "id": "193360:3008",
+      "props": {
+        "Sorting": "Nosorting",
+        "Type": "Write"
+      },
+      "width": 178,
+      "height": 28
+    },
+    {
+      "id": "192570:12035",
+      "props": {
+        "Sorting": "Nosorting",
+        "Type": "Read"
+      },
+      "width": 178,
+      "height": 28
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

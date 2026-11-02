@@ -1539,5 +1539,105 @@
     "js": "status-bar.js",
     "default": 0,
     "description": "Строка состояния."
+  },
+  {
+    "name": "TableCheckboxContent",
+    "folder": "Components/AltaIDE_TableCheckboxContent",
+    "variants": 1,
+    "kind": "Check",
+    "css": "table-checkbox-content.css",
+    "js": "table-checkbox-content.js",
+    "default": 0,
+    "description": "Ячейка выбора строки таблицы."
+  },
+  {
+    "name": "TableCheckboxHeader",
+    "folder": "Components/AltaIDE_TableCheckboxHeader",
+    "variants": 1,
+    "kind": "Check",
+    "css": "table-checkbox-header.css",
+    "js": "table-checkbox-header.js",
+    "default": 0,
+    "description": "Ячейка выбора строк в заголовке таблицы."
+  },
+  {
+    "name": "TableCell",
+    "folder": "Components/AltaIDE_TableCell",
+    "variants": 48,
+    "kind": "Edit",
+    "css": "table-cell.css",
+    "js": "table-cell.js",
+    "default": 16,
+    "description": "Ячейка таблицы."
+  },
+  {
+    "name": "TableCellLevels",
+    "folder": "Components/AltaIDE_TableCellLevels",
+    "variants": 24,
+    "kind": "Edit",
+    "css": "table-cell-levels.css",
+    "js": "table-cell-levels.js",
+    "default": 20,
+    "description": "Ячейка иерархической таблицы."
+  },
+  {
+    "name": "TableHeader",
+    "folder": "Components/AltaIDE_TableHeader",
+    "variants": 5,
+    "kind": "Header",
+    "css": "table-header.css",
+    "js": "table-header.js",
+    "default": 0,
+    "description": "Заголовок столбца таблицы."
+  },
+  {
+    "name": "TableTopLightNosortingDefault",
+    "folder": "Components/AltaIDE_TableTopLightNosortingDefault",
+    "variants": 1,
+    "kind": "Static",
+    "css": "table-top-light-nosorting-default.css",
+    "js": "table-top-light-nosorting-default.js",
+    "default": 0,
+    "description": "Светлый заголовок столбца таблицы."
+  },
+  {
+    "name": "TableRow",
+    "folder": "Components/AltaIDE_TableRow",
+    "variants": 2,
+    "kind": "Static",
+    "css": "table-row.css",
+    "js": "table-row.js",
+    "default": 1,
+    "description": "Строка раздела таблицы."
+  },
+  {
+    "name": "StrOfTableAltaIDEStrOfTableDarkSectionAltaIDE",
+    "folder": "Components/AltaIDE_StrOfTableAltaIDEStrOfTableDarkSectionAltaIDE",
+    "variants": 1,
+    "kind": "Static",
+    "css": "str-of-table-alta-idestr-of-table-dark-section-alta-ide.css",
+    "js": "str-of-table-alta-idestr-of-table-dark-section-alta-ide.js",
+    "default": 0,
+    "description": "Строка раздела таблицы."
+  },
+  {
+    "name": "TableLevels",
+    "folder": "Components/AltaIDE_TableLevels",
+    "variants": 1,
+    "kind": "Table",
+    "css": "table-levels.css",
+    "js": "table-levels.js",
+    "default": 0,
+    "description": "Иерархическая таблица."
+  },
+  {
+    "name": "Table",
+    "folder": "Components/AltaIDE_Table",
+    "variants": 1,
+    "kind": "Table",
+    "css": "table.css",
+    "js": "table.js",
+    "default": 0,
+    "description": "Таблица параметров."
   }
 ]
