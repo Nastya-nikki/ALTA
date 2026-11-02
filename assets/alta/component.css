@@ -17,3 +17,6 @@
 .alta-component [hidden]{display:none!important}
 .alta-component[data-component="AltaIDE_DropdownOpen"] [data-option].is-active{background:var(--combobox-background-active)}
 .alta-component[data-component="AltaIDE_Autocomplete"] [data-option].is-active{background:var(--autocompleteitem-bg-active)}
+
+/* Figma autocomplete argument labels stay on one line, including nested instances. */
+.alta-component .fn-text[data-node$="202319:8196"]{white-space:pre}

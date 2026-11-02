@@ -1,0 +1,9 @@
+/* State tables preserve full examples; horizontal scrolling is never used here. */
+.panel.states-panel,.states-panel{overflow:clip;max-width:100%}
+.states-panel.states-vertical table{width:100%;max-width:100%;min-width:0;table-layout:fixed}
+.states-vertical th[scope="row"]{width:20%;white-space:normal;overflow-wrap:anywhere;vertical-align:middle;border-bottom:1px solid #363a43}
+.states-vertical .sample{min-width:0;max-width:100%;overflow:hidden;justify-content:center}
+.states-vertical .alta-component,.states-vertical .alta-view,.states-vertical .ace-component,.states-vertical .cfc-component{max-width:100%;min-width:0}
+.states-vertical .ace-component>.ace-node,.states-vertical .cfc-component>.cfc-node{max-width:100%}
+@media(max-width:600px){.states-vertical table,.states-vertical tbody,.states-vertical tr,.states-vertical td,.states-vertical th[scope="row"]{display:block;width:auto;max-width:100%}.states-vertical thead{display:none}.states-vertical th[scope="row"]{padding:16px 16px 0;text-align:left;border:0}.states-vertical td{padding:16px}.states-vertical tr{border-bottom:1px solid #363a43}.states-vertical tr:last-child{border-bottom:0}}
+.states-vertical thead th:first-child{width:20%}
