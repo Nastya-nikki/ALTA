@@ -1,0 +1,59 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "190191:3256",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Error#190191:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Theme": {
+      "type": "VARIANT",
+      "defaultValue": "Dark",
+      "variantOptions": [
+        "Dark"
+      ]
+    },
+    "Scroll": {
+      "type": "VARIANT",
+      "defaultValue": "Off",
+      "variantOptions": [
+        "On",
+        "Off"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "190191:3254",
+      "props": {
+        "Theme": "Dark",
+        "Scroll": "Off"
+      },
+      "width": 678,
+      "height": 584
+    },
+    {
+      "id": "190191:3252",
+      "props": {
+        "Theme": "Dark",
+        "Scroll": "On"
+      },
+      "width": 678,
+      "height": 584
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_ButtonPrimary",
+    "AltaIDE_ButtonSecondary",
+    "AltaIDE_LinkedProgram",
+    "AltaIDE_LinkedProgramTop"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

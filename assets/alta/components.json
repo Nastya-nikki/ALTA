@@ -1259,5 +1259,135 @@
     "js": "parts-title-bar-back-button.js",
     "default": 0,
     "description": "Кнопка возврата."
+  },
+  {
+    "name": "LinkedProgramTop",
+    "folder": "Components/AltaIDE_LinkedProgramTop",
+    "variants": 1,
+    "kind": "Static",
+    "css": "linked-program-top.css",
+    "js": "linked-program-top.js",
+    "default": 0,
+    "description": "Заголовок списка привязок."
+  },
+  {
+    "name": "LinkedProgram",
+    "folder": "Components/AltaIDE_LinkedProgram",
+    "variants": 4,
+    "kind": "Item",
+    "css": "linked-program.css",
+    "js": "linked-program.js",
+    "default": 2,
+    "description": "Строка привязки программы к задаче."
+  },
+  {
+    "name": "ModalEventsItem",
+    "folder": "Components/AltaIDE_ModalEventsItem",
+    "variants": 3,
+    "kind": "Item",
+    "css": "modal-events-item.css",
+    "js": "modal-events-item.js",
+    "default": 1,
+    "description": "Пункт выбора действия."
+  },
+  {
+    "name": "SidebarDeviceSettingsCloseLight",
+    "folder": "Components/AltaIDE_SidebarDeviceSettingsCloseLight",
+    "variants": 1,
+    "kind": "Tree",
+    "css": "sidebar-device-settings-close-light.css",
+    "js": "sidebar-device-settings-close-light.js",
+    "default": 0,
+    "description": "Панель настроек устройства."
+  },
+  {
+    "name": "SidebarDeviceSettings1xABLight",
+    "folder": "Components/AltaIDE_SidebarDeviceSettings1xABLight",
+    "variants": 1,
+    "kind": "Tree",
+    "css": "sidebar-device-settings1x-ablight.css",
+    "js": "sidebar-device-settings1x-ablight.js",
+    "default": 0,
+    "description": "Панель настроек устройства с раскрытой группой."
+  },
+  {
+    "name": "SidebarDeviceSettingsFDILight",
+    "folder": "Components/AltaIDE_SidebarDeviceSettingsFDILight",
+    "variants": 1,
+    "kind": "Tree",
+    "css": "sidebar-device-settings-fdilight.css",
+    "js": "sidebar-device-settings-fdilight.js",
+    "default": 0,
+    "description": "Панель настроек устройства с раскрытой группой."
+  },
+  {
+    "name": "ModalLinkedProgram",
+    "folder": "Components/AltaIDE_ModalLinkedProgram",
+    "variants": 2,
+    "kind": "Modal",
+    "css": "modal-linked-program.css",
+    "js": "modal-linked-program.js",
+    "default": 0,
+    "description": "Окно выбора программы для привязки."
+  },
+  {
+    "name": "ModalEvents",
+    "folder": "Components/AltaIDE_ModalEvents",
+    "variants": 2,
+    "kind": "Modal",
+    "css": "modal-events.css",
+    "js": "modal-events.js",
+    "default": 1,
+    "description": "Окно настройки действия."
+  },
+  {
+    "name": "StartScreen",
+    "folder": "Components/AltaIDE_StartScreen",
+    "variants": 1,
+    "kind": "Modal",
+    "css": "start-screen.css",
+    "js": "start-screen.js",
+    "default": 0,
+    "description": "Окно выбора стартового экрана."
+  },
+  {
+    "name": "ModalHeader",
+    "folder": "Components/AltaIDE_ModalHeader",
+    "variants": 2,
+    "kind": "Static",
+    "css": "modal-header.css",
+    "js": "modal-header.js",
+    "default": 1,
+    "description": "Заголовок модального окна."
+  },
+  {
+    "name": "ModalFooter",
+    "folder": "Components/AltaIDE_ModalFooter",
+    "variants": 1,
+    "kind": "Action",
+    "css": "modal-footer.css",
+    "js": "modal-footer.js",
+    "default": 0,
+    "description": "Панель действий модального окна."
+  },
+  {
+    "name": "HeadModalAltaIDEBottomModalLight",
+    "folder": "Components/AltaIDE_HeadModalAltaIDEBottomModalLight",
+    "variants": 1,
+    "kind": "Action",
+    "css": "head-modal-alta-idebottom-modal-light.css",
+    "js": "head-modal-alta-idebottom-modal-light.js",
+    "default": 0,
+    "description": "Панель действий модального окна."
+  },
+  {
+    "name": "HeadModalAltaIDEHeadModalLightHeadTitle",
+    "folder": "Components/AltaIDE_HeadModalAltaIDEHeadModalLightHeadTitle",
+    "variants": 1,
+    "kind": "Static",
+    "css": "head-modal-alta-idehead-modal-light-head-title.css",
+    "js": "head-modal-alta-idehead-modal-light-head-title.js",
+    "default": 0,
+    "description": "Заголовок модального окна."
   }
 ]

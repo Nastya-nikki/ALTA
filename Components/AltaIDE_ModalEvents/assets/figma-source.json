@@ -1,0 +1,46 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "203869:11007",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Type": {
+      "type": "VARIANT",
+      "defaultValue": "Var",
+      "variantOptions": [
+        "Screens",
+        "Var"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "203869:10628",
+      "props": {
+        "Type": "Screens"
+      },
+      "width": 678,
+      "height": 584
+    },
+    {
+      "id": "203869:11006",
+      "props": {
+        "Type": "Var"
+      },
+      "width": 678,
+      "height": 584
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_ButtonPrimary",
+    "AltaIDE_ButtonSecondary",
+    "AltaIDE_ModalEventsItem",
+    "AltaIDE_Radio"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

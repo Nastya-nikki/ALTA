@@ -1,0 +1,26 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "203874:11408",
+  "readAt": "2026-11-02",
+  "properties": {},
+  "variants": [
+    {
+      "id": "203874:11408",
+      "props": {},
+      "width": 678,
+      "height": 552
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [
+    "AltaIDE_ButtonPrimary",
+    "AltaIDE_ButtonSecondary",
+    "AltaIDE_Radio"
+  ],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}

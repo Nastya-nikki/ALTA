@@ -20,3 +20,5 @@ body:has(.shell-component) h1{overflow-wrap:anywhere;min-width:0}
 .states-vertical .shell-component>.shell-node{max-width:100%}
 
 .shell-component .alta-navigation[data-navigation="AltaIDE_Tabs"] .alta-widget>.fn:first-child{width:100%!important;height:100%!important}
+
+.shell-component .shell-secondary-slot{display:inline-flex;align-items:center;justify-content:center}.shell-component [data-reused-secondary],.shell-component [data-reused-secondary]>.alta-view,.shell-component [data-reused-secondary]>.alta-view>.fn{width:100%;height:100%}.shell-component [data-reused-secondary] .fn-asset{display:flex;align-items:center;justify-content:center}

@@ -1,0 +1,71 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "190175:7727",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Link off#3455:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Link#3455:4": {
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    "Error#3455:12": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Active",
+        "Default",
+        "Hover",
+        "Empty"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "201490:771",
+      "props": {
+        "State": "Active"
+      },
+      "width": 670,
+      "height": 32
+    },
+    {
+      "id": "190175:7749",
+      "props": {
+        "State": "Hover"
+      },
+      "width": 670,
+      "height": 32
+    },
+    {
+      "id": "190175:7758",
+      "props": {
+        "State": "Default"
+      },
+      "width": 670,
+      "height": 32
+    },
+    {
+      "id": "190175:7767",
+      "props": {
+        "State": "Empty"
+      },
+      "width": 670,
+      "height": 32
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}
