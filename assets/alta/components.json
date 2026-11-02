@@ -3449,5 +3449,15 @@
     "js": "icon-visualisation.js",
     "default": 0,
     "description": "Иконка интерфейса."
+  },
+  {
+    "name": "IconTreeLayers",
+    "folder": "Components/01_Icons/AltaIDE_IconTreeLayers",
+    "variants": 99,
+    "kind": "Static",
+    "css": "icon-tree-layers.css",
+    "js": "icon-tree-layers.js",
+    "default": 20,
+    "description": "Набор иконок интерфейса."
   }
 ]

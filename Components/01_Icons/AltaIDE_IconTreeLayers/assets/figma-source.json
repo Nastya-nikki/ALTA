@@ -1,0 +1,971 @@
+{
+  "fileKey": "axdKFZbeqNIfskP18KDs32",
+  "nodeId": "182594:98263",
+  "readAt": "2026-11-02",
+  "properties": {
+    "Kind": {
+      "type": "VARIANT",
+      "defaultValue": "Folder",
+      "variantOptions": [
+        "Variable",
+        "Function",
+        "Task",
+        "Code",
+        "Folder",
+        "Add_Folder",
+        "PLK",
+        "Time_Folder",
+        "POU",
+        "TaskManager",
+        "VariableList",
+        "UserType",
+        "Link",
+        "TaskCycle",
+        "TaskEvent",
+        "FunctionalBlock",
+        "GlobalVariable",
+        "NotAvailable",
+        "Communication",
+        "TCP",
+        "COM",
+        "Protocol",
+        "DUT",
+        "Protocol link",
+        "Device",
+        "LinkError",
+        "LinkNotConnect",
+        "PLK_Link",
+        "Code_Link",
+        "Device_Link",
+        "LinkWarning",
+        "Code_ST",
+        "Library",
+        "Code_FBD",
+        "SettingsTree",
+        "Screens",
+        "Visualisation",
+        "Screen",
+        "Vis_inside",
+        "Vis_web",
+        "Unknow",
+        "Code_CFC"
+      ]
+    },
+    "State": {
+      "type": "VARIANT",
+      "defaultValue": "Default",
+      "variantOptions": [
+        "Default",
+        "Warning",
+        "Error",
+        "Connect",
+        "Progress",
+        "ErrorConnect",
+        "Question",
+        "Link",
+        "Unconnect"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "184970:18594",
+      "props": {
+        "Kind": "PLK",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "195622:2099",
+      "props": {
+        "Kind": "PLK_Link",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "185391:18541",
+      "props": {
+        "Kind": "TaskManager",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "185391:18839",
+      "props": {
+        "Kind": "UserType",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "185391:18561",
+      "props": {
+        "Kind": "VariableList",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "185391:18523",
+      "props": {
+        "Kind": "POU",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184970:18574",
+      "props": {
+        "Kind": "Code",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199022:71153",
+      "props": {
+        "Kind": "Code_CFC",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203959:40248",
+      "props": {
+        "Kind": "Code_CFC",
+        "State": "Question"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203961:40321",
+      "props": {
+        "Kind": "Code_CFC",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202550:1755",
+      "props": {
+        "Kind": "Code_FBD",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40410",
+      "props": {
+        "Kind": "Code_FBD",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199051:1228",
+      "props": {
+        "Kind": "Code_CFC",
+        "State": "Link"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202550:1758",
+      "props": {
+        "Kind": "Code_FBD",
+        "State": "Link"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199025:71718",
+      "props": {
+        "Kind": "Code_ST",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40399",
+      "props": {
+        "Kind": "Code_ST",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199051:1234",
+      "props": {
+        "Kind": "Code_ST",
+        "State": "Link"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198234:89069",
+      "props": {
+        "Kind": "Code",
+        "State": "ErrorConnect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198234:89082",
+      "props": {
+        "Kind": "Code",
+        "State": "Connect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "198234:89090",
+      "props": {
+        "Kind": "Code",
+        "State": "Progress"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184970:18584",
+      "props": {
+        "Kind": "Folder",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "202692:20796",
+      "props": {
+        "Kind": "SettingsTree",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184970:18589",
+      "props": {
+        "Kind": "Add_Folder",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184970:18604",
+      "props": {
+        "Kind": "Time_Folder",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184970:18657",
+      "props": {
+        "Kind": "Variable",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5787",
+      "props": {
+        "Kind": "Variable",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "184970:18664",
+      "props": {
+        "Kind": "Task",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "186515:29931",
+      "props": {
+        "Kind": "Link",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "186114:27645",
+      "props": {
+        "Kind": "Code_Link",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "186682:557",
+      "props": {
+        "Kind": "TaskCycle",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "186702:29934",
+      "props": {
+        "Kind": "TaskEvent",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "186703:613",
+      "props": {
+        "Kind": "LinkNotConnect",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "189169:25104",
+      "props": {
+        "Kind": "FunctionalBlock",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "189169:42011",
+      "props": {
+        "Kind": "GlobalVariable",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "190386:42832",
+      "props": {
+        "Kind": "NotAvailable",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "191515:37307",
+      "props": {
+        "Kind": "PLK",
+        "State": "Connect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "191515:37332",
+      "props": {
+        "Kind": "PLK",
+        "State": "Unconnect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "191515:37357",
+      "props": {
+        "Kind": "PLK",
+        "State": "Progress"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "192869:6078",
+      "props": {
+        "Kind": "COM",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "192872:104539",
+      "props": {
+        "Kind": "Protocol",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203427:1908",
+      "props": {
+        "Kind": "Screens",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203430:39566",
+      "props": {
+        "Kind": "Screen",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203427:1918",
+      "props": {
+        "Kind": "Visualisation",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197883:4327",
+      "props": {
+        "Kind": "Protocol link",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "192869:6088",
+      "props": {
+        "Kind": "TCP",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5887",
+      "props": {
+        "Kind": "TCP",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41286",
+      "props": {
+        "Kind": "TCP",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "192869:6094",
+      "props": {
+        "Kind": "Communication",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197567:90679",
+      "props": {
+        "Kind": "DUT",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197958:94388",
+      "props": {
+        "Kind": "Device",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41370",
+      "props": {
+        "Kind": "Device",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41350",
+      "props": {
+        "Kind": "Device",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197958:94390",
+      "props": {
+        "Kind": "Device_Link",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41483",
+      "props": {
+        "Kind": "Device_Link",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41505",
+      "props": {
+        "Kind": "Device_Link",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5746",
+      "props": {
+        "Kind": "PLK",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41330",
+      "props": {
+        "Kind": "PLK",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5767",
+      "props": {
+        "Kind": "PLK_Link",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41683",
+      "props": {
+        "Kind": "PLK_Link",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197160:6717",
+      "props": {
+        "Kind": "Code",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203959:2146",
+      "props": {
+        "Kind": "Code",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:4855",
+      "props": {
+        "Kind": "Function",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203920:30231",
+      "props": {
+        "Kind": "Function",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:4016",
+      "props": {
+        "Kind": "Task",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5937",
+      "props": {
+        "Kind": "LinkWarning",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5802",
+      "props": {
+        "Kind": "Code_Link",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5825",
+      "props": {
+        "Kind": "TaskCycle",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5830",
+      "props": {
+        "Kind": "TaskEvent",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:4867",
+      "props": {
+        "Kind": "FunctionalBlock",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5835",
+      "props": {
+        "Kind": "GlobalVariable",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "189687:11394",
+      "props": {
+        "Kind": "LinkError",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5874",
+      "props": {
+        "Kind": "COM",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "195573:2419",
+      "props": {
+        "Kind": "COM",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197453:5908",
+      "props": {
+        "Kind": "Protocol",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41307",
+      "props": {
+        "Kind": "Protocol",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "197567:90677",
+      "props": {
+        "Kind": "DUT",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41565",
+      "props": {
+        "Kind": "DUT",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "199764:1038",
+      "props": {
+        "Kind": "Library",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203432:39730",
+      "props": {
+        "Kind": "Vis_inside",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203432:39732",
+      "props": {
+        "Kind": "Vis_web",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40498",
+      "props": {
+        "Kind": "Code_FBD",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40500",
+      "props": {
+        "Kind": "Code_CFC",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40502",
+      "props": {
+        "Kind": "Code_ST",
+        "State": "Warning"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40555",
+      "props": {
+        "Kind": "Code_FBD",
+        "State": "Progress"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40558",
+      "props": {
+        "Kind": "Code_CFC",
+        "State": "Progress"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40561",
+      "props": {
+        "Kind": "Code_ST",
+        "State": "Progress"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40743",
+      "props": {
+        "Kind": "Code_FBD",
+        "State": "Connect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40745",
+      "props": {
+        "Kind": "Code_CFC",
+        "State": "Connect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40747",
+      "props": {
+        "Kind": "Code_ST",
+        "State": "Connect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40786",
+      "props": {
+        "Kind": "Code_FBD",
+        "State": "ErrorConnect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40788",
+      "props": {
+        "Kind": "Code_CFC",
+        "State": "ErrorConnect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40790",
+      "props": {
+        "Kind": "Code_ST",
+        "State": "ErrorConnect"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40968",
+      "props": {
+        "Kind": "Code_FBD",
+        "State": "Question"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:40970",
+      "props": {
+        "Kind": "Code_ST",
+        "State": "Question"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41189",
+      "props": {
+        "Kind": "Task",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41191",
+      "props": {
+        "Kind": "TaskCycle",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41193",
+      "props": {
+        "Kind": "TaskEvent",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "203966:41195",
+      "props": {
+        "Kind": "GlobalVariable",
+        "State": "Error"
+      },
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "204097:2100",
+      "props": {
+        "Kind": "Unknow",
+        "State": "Default"
+      },
+      "width": 20,
+      "height": 20
+    }
+  ],
+  "metadataScope": "Current component owner and real variant roots; rendering from current high-fidelity get_design_context.",
+  "variableAudit": {
+    "complete": true,
+    "checkedAt": "2026-11-02",
+    "export": "../../../../tokens/figma-altaide-composed-variables.json"
+  },
+  "dependencies": [],
+  "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
+}
