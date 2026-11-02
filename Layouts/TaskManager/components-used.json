@@ -1,0 +1,688 @@
+{
+  "figma": "https://www.figma.com/design/rMHVuI6H3bD8Kb7h940cIl/?node-id=10342-833579",
+  "instances": [
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485710"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485711"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485712"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485713"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485714"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485715"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485716"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485717"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485718"
+    },
+    {
+      "component": "AltaIDE_MenuLink",
+      "variant": {
+        "State": "Default",
+        "Theme": "Dark"
+      },
+      "source": "21247:485719"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBTop",
+      "variant": {
+        "Type": "CreateProject",
+        "State": "Default"
+      },
+      "source": "node-22743_1560082"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBTop",
+      "variant": {
+        "Type": "OpenProject",
+        "State": "Default"
+      },
+      "source": "node-22743_1560074"
+    },
+    {
+      "component": "AltaIDE_ToolbarTopParts",
+      "variant": {
+        "Property 1": "Default"
+      },
+      "source": "19295:903033"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBTop",
+      "variant": {
+        "Type": "AddDevice",
+        "State": "Default"
+      },
+      "source": "node-22743_1560083"
+    },
+    {
+      "component": "AltaIDE_ToolbarTopParts",
+      "variant": {
+        "Property 1": "Default"
+      },
+      "source": "19295:903033"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBTop",
+      "variant": {
+        "Type": "Compilation_2",
+        "State": "Default"
+      },
+      "source": "node-22743_1560070"
+    },
+    {
+      "component": "AltaIDE_ToolbarTopParts",
+      "variant": {
+        "Property 1": "Default"
+      },
+      "source": "19295:903033"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBTop",
+      "variant": {
+        "Type": "Connect",
+        "State": "Default"
+      },
+      "source": "node-22743_1560064"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBTop",
+      "variant": {
+        "Type": "Loading",
+        "State": "Default"
+      },
+      "source": "node-22743_1560058"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBTop",
+      "variant": {
+        "Type": "Run",
+        "State": "Default"
+      },
+      "source": "node-22743_1560056"
+    },
+    {
+      "component": "AltaIDE_ToolbarTopParts",
+      "variant": {
+        "Property 1": "Default"
+      },
+      "source": "19295:903033"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBTop",
+      "variant": {
+        "Type": "Debug",
+        "State": "Default"
+      },
+      "source": "node-22743_1560046"
+    },
+    {
+      "component": "AltaIDE_ToolbarTopParts",
+      "variant": {
+        "Property 1": "Default"
+      },
+      "source": "19295:903033"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBSidebar",
+      "variant": {
+        "Type": "Settings"
+      },
+      "source": "I10342:833583;189202:24702;188888:21193"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBSidebar",
+      "variant": {
+        "Type": "Expand"
+      },
+      "source": "I10342:833583;189202:24702;188829:21116"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBSidebar",
+      "variant": {
+        "Type": "Collapse"
+      },
+      "source": "I10342:833583;189202:24702;188829:21117"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBSidebar",
+      "variant": {
+        "Type": "Search"
+      },
+      "source": "I10342:833583;189202:24702;188829:21118"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "PLK",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24704;185620:26840"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "1",
+        "Type": "With Arrow"
+      },
+      "source": "I10342:833583;189202:24704"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "POU",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24705;185620:27478"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "source": "I10342:833583;189202:24705"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "Folder",
+        "State": "Default"
+      },
+      "source": "node-22852_1191063"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "3",
+        "Type": "With Arrow"
+      },
+      "source": "I10342:833583;189202:24709"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "Code",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24710;185620:27813"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "5",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24710"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "FunctionalBlock",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24712;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24712"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24713"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "TaskManager",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24714;189236:11148"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Active",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "source": "I10342:833583;189202:24714"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "TaskCycle",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24716;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24716"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "TaskCycle",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24717;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24717"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "TaskEvent",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24719;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24719"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "VariableList",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24722;185620:27478"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "source": "I10342:833583;189202:24722"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "GlobalVariable",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24723;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24723"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "GlobalVariable",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24724;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24724"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "GlobalVariable",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24725;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24725"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "GlobalVariable",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24726;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24726"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "GlobalVariable",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24727;185620:27806"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24727"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "UserType",
+        "State": "Default"
+      },
+      "source": "I10342:833583;189202:24728;185620:27478"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "2",
+        "Type": "With Arrow"
+      },
+      "source": "I10342:833583;189202:24728"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24729"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24730"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24731"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24732"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24734"
+    },
+    {
+      "component": "AltaIDE_TreeLevels",
+      "variant": {
+        "State": "Default",
+        "Level": "4",
+        "Type": "Without Arrow"
+      },
+      "source": "I10342:833583;189202:24735"
+    },
+    {
+      "component": "AltaIDE_IconTabsHorizontal",
+      "variant": {
+        "Kind": "TaskManager"
+      },
+      "source": "I13288:221988;185583:26309;185583:24743;186525:15154"
+    },
+    {
+      "component": "AltaIDE_IconClose",
+      "variant": {
+        "Property 1": "M"
+      },
+      "source": "I13288:221988;185583:26309;185583:24743;185582:24647"
+    },
+    {
+      "component": "AltaIDE_IconToolbarsTBFill",
+      "variant": {
+        "Type": "Sort"
+      },
+      "source": "node-21350_743296"
+    },
+    {
+      "component": "AltaIDE_TableHeader",
+      "variant": {
+        "Sorting": "Nosorting",
+        "Type": "Default"
+      },
+      "source": "I10342:833589;185828:3289"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "TaskCycle",
+        "State": "Default"
+      },
+      "source": "node-22852_1191072"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Arrow 1",
+        "State": "Default"
+      },
+      "source": "I10342:833589;185828:3290"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "TaskCycle",
+        "State": "Default"
+      },
+      "source": "node-22852_1191072"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Arrow 1",
+        "State": "Default"
+      },
+      "source": "I10342:833589;185828:3291"
+    },
+    {
+      "component": "AltaIDE_IconTreeLayers",
+      "variant": {
+        "Kind": "TaskEvent",
+        "State": "Default"
+      },
+      "source": "I10342:833589;185828:3292;189950:13751"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Arrow 1",
+        "State": "Default"
+      },
+      "source": "I10342:833589;185828:3292"
+    },
+    {
+      "component": "AltaIDE_TableHeader",
+      "variant": {
+        "Sorting": "Nosorting",
+        "Type": "Default"
+      },
+      "source": "I10342:833590;185828:3289"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "source": "I10342:833590;185828:3290"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "source": "I10342:833590;185828:3291"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "source": "I10342:833590;185828:3292"
+    },
+    {
+      "component": "AltaIDE_TableHeader",
+      "variant": {
+        "Sorting": "Nosorting",
+        "Type": "Default"
+      },
+      "source": "I10342:833591;185828:3289"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "source": "I10342:833591;185828:3290"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "source": "I10342:833591;185828:3291"
+    },
+    {
+      "component": "AltaIDE_TableCell",
+      "variant": {
+        "Type": "Without Arrow",
+        "State": "Default"
+      },
+      "source": "I10342:833591;185828:3292"
+    }
+  ]
+}
