@@ -1502,16 +1502,6 @@
     "description": "Поле выбора типа."
   },
   {
-    "name": "StatusBarControl",
-    "folder": "Components/AltaIDE_StatusBarControl",
-    "variants": 2,
-    "kind": "Item",
-    "css": "status-bar-control.css",
-    "js": "status-bar-control.js",
-    "default": 0,
-    "description": "Элемент строки состояния."
-  },
-  {
     "name": "NameBar",
     "folder": "Components/AltaIDE_NameBar",
     "variants": 2,
