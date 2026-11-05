@@ -1,6 +1,0 @@
-@import url("../AltaIDE_ButtonPrimary/button.css");
-@import url("../AltaIDE_ButtonSecondary/button-secondary.css");
-.shell-component .shell-d3102856fcaf{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;border-radius:inherit;box-shadow:inset 0 1px 0 var(--shell-light-gray-5), inset calc(-1 * 1px) 0 0 var(--shell-light-gray-5), inset 0 calc(-1 * 1px) 0 var(--shell-light-gray-5), inset 1px 0 0 var(--shell-light-gray-5);}
-.shell-component .shell-6e156a5265f6{background:#f3f4f7;border-width:0;border-color:transparent;border-style:solid;align-content:stretch;display:flex;gap:12px;align-items:center;justify-content:flex-end;padding-right:16px;padding-left:16px;padding-top:8px;padding-bottom:8px;position:relative;border-bottom-left-radius:12px;border-bottom-right-radius:12px;width:678px;height:40px;isolation:isolate;}
-.shell-component .shell-c0d375a69df4{position:relative;flex-shrink:0;}
-

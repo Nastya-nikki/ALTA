@@ -1282,16 +1282,6 @@
     "description": "Пункт выбора действия."
   },
   {
-    "name": "SidebarDeviceSettingsFDILight",
-    "folder": "Components/AltaIDE_SidebarDeviceSettingsFDILight",
-    "variants": 1,
-    "kind": "Tree",
-    "css": "sidebar-device-settings-fdilight.css",
-    "js": "sidebar-device-settings-fdilight.js",
-    "default": 0,
-    "description": "Панель настроек устройства с раскрытой группой."
-  },
-  {
     "name": "ModalLinkedProgram",
     "folder": "Components/AltaIDE_ModalLinkedProgram",
     "variants": 2,
@@ -1340,36 +1330,6 @@
     "js": "modal-footer.js",
     "default": 0,
     "description": "Панель действий модального окна."
-  },
-  {
-    "name": "HeadModalAltaIDEBottomModalLight",
-    "folder": "Components/AltaIDE_HeadModalAltaIDEBottomModalLight",
-    "variants": 1,
-    "kind": "Action",
-    "css": "head-modal-alta-idebottom-modal-light.css",
-    "js": "head-modal-alta-idebottom-modal-light.js",
-    "default": 0,
-    "description": "Панель действий модального окна."
-  },
-  {
-    "name": "HeadModalAltaIDEHeadModalLightHeadTitle",
-    "folder": "Components/AltaIDE_HeadModalAltaIDEHeadModalLightHeadTitle",
-    "variants": 1,
-    "kind": "Static",
-    "css": "head-modal-alta-idehead-modal-light-head-title.css",
-    "js": "head-modal-alta-idehead-modal-light-head-title.js",
-    "default": 0,
-    "description": "Заголовок модального окна."
-  },
-  {
-    "name": "HeadModalAltaIDEHeadModalLightHeadNoTitle",
-    "folder": "Components/AltaIDE_HeadModalAltaIDEHeadModalLightHeadNoTitle",
-    "variants": 1,
-    "kind": "Static",
-    "css": "head-modal-alta-idehead-modal-light-head-no-title.css",
-    "js": "head-modal-alta-idehead-modal-light-head-no-title.js",
-    "default": 0,
-    "description": "Заголовок модального окна без названия."
   },
   {
     "name": "TreeLevels",
