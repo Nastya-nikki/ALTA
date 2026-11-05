@@ -1404,16 +1404,6 @@
     "description": "Вертикальная панель инструментов."
   },
   {
-    "name": "InputName",
-    "folder": "Components/AltaIDE_InputName",
-    "variants": 5,
-    "kind": "Edit",
-    "css": "input-name.css",
-    "js": "input-name.js",
-    "default": 3,
-    "description": "Поле имени."
-  },
-  {
     "name": "FunctionType",
     "folder": "Components/AltaIDE_FunctionType",
     "variants": 3,
