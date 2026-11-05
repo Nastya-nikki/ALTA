@@ -41,7 +41,7 @@
     "export": "../../../tokens/figma-altaide-composed-variables.json"
   },
   "dependencies": [
-    "AltaIDE_ToolbarTopParts"
+    "AltaIDE_IconTopParts"
   ],
   "contextSource": "Current high-fidelity get_design_context, 2026-11-02"
 }

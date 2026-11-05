@@ -98,7 +98,7 @@
       "source": "node-22743_1560074"
     },
     {
-      "component": "AltaIDE_ToolbarTopParts",
+      "component": "AltaIDE_IconTopParts",
       "variant": {
         "Property 1": "Default"
       },
@@ -113,7 +113,7 @@
       "source": "node-22743_1560083"
     },
     {
-      "component": "AltaIDE_ToolbarTopParts",
+      "component": "AltaIDE_IconTopParts",
       "variant": {
         "Property 1": "Default"
       },
@@ -128,7 +128,7 @@
       "source": "node-22743_1560070"
     },
     {
-      "component": "AltaIDE_ToolbarTopParts",
+      "component": "AltaIDE_IconTopParts",
       "variant": {
         "Property 1": "Default"
       },
@@ -159,7 +159,7 @@
       "source": "node-22743_1560056"
     },
     {
-      "component": "AltaIDE_ToolbarTopParts",
+      "component": "AltaIDE_IconTopParts",
       "variant": {
         "Property 1": "Default"
       },
@@ -174,7 +174,7 @@
       "source": "node-22743_1560046"
     },
     {
-      "component": "AltaIDE_ToolbarTopParts",
+      "component": "AltaIDE_IconTopParts",
       "variant": {
         "Property 1": "Default"
       },

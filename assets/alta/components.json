@@ -1114,16 +1114,6 @@
     "description": "Область сообщений с вкладками."
   },
   {
-    "name": "ToolbarTopParts",
-    "folder": "Components/AltaIDE_ToolbarTopParts",
-    "variants": 1,
-    "kind": "Static",
-    "css": "toolbar-top-parts.css",
-    "js": "toolbar-top-parts.js",
-    "default": 0,
-    "description": "Разделитель панели инструментов."
-  },
-  {
     "name": "TitleBarMinimize",
     "folder": "Components/AltaIDE_TitleBarMinimize",
     "variants": 1,
@@ -1752,6 +1742,16 @@
     "js": "icon-table-sort.js",
     "default": 0,
     "description": "Набор иконок интерфейса."
+  },
+  {
+    "name": "IconTopParts",
+    "folder": "Components/01_Icons/AltaIDE_IconTopParts",
+    "variants": 1,
+    "kind": "Static",
+    "css": "icon-top-parts.css",
+    "js": "icon-top-parts.js",
+    "default": 0,
+    "description": "Разделитель панели инструментов."
   },
   {
     "name": "IconUpdates",
