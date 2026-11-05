@@ -315,11 +315,11 @@
     "default": 0
   },
   {
-    "name": "SegmentedControl",
-    "folder": "Components/AltaIDE_SegmentedControl",
+    "name": "SegmentControl2",
+    "folder": "Components/AltaIDE_SegmentControl2",
     "variants": 4,
-    "css": "segmented-control.css",
-    "js": "segmented-control.js",
+    "css": "segment-control2.css",
+    "js": "segment-control2.js",
     "kind": "SegmentedControl",
     "default": 3
   },
