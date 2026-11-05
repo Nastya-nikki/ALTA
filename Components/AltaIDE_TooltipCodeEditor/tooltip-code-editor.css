@@ -70,3 +70,7 @@
 .alta-control .n-b6fe50e3bcfc{width:16px;height:16px;display:inline-flex;align-items:center;justify-content:center;}
 .alta-control .n-5c1ca5ca6454{width:345px;height:max-content;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start;gap:10px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}
 .alta-control .n-a42ec31e0455{width:344px;height:100px;color:var(--tooltipeditor-content);font-family:"Rubik", sans-serif;font-size:14px;font-weight:400;font-style:normal;text-align:left;line-height:20px;letter-spacing:0px;}
+/* Стрелка подсказки: цвет фона и рамки из токенов темы; рамка стрелки стыкуется с рамкой подсказки */
+.ac-asset:has(>img[src$="d0f35303.svg"]){position:relative;z-index:1;overflow:visible}
+.ac-asset:has(>img[src$="d0f35303.svg"])>img{visibility:hidden}
+.ac-asset:has(>img[src$="d0f35303.svg"])::before{content:"";position:absolute;left:2.5px;top:2px;width:12px;height:12px;background:var(--tooltipeditor-background);box-shadow:inset .5px 0 0 var(--tooltipeditor-border),inset 0 -.5px 0 var(--tooltipeditor-border);transform:rotate(45deg)}
