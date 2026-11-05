@@ -261,30 +261,12 @@
     "default": 0
   },
   {
-    "name": "DateANDTimePicker2",
-    "folder": "Components/AltaIDE_DateANDTimePicker2",
-    "variants": 1,
-    "css": "date-andtime-picker2.css",
-    "js": "date-andtime-picker2.js",
-    "kind": "DateANDTimePicker2",
-    "default": 0
-  },
-  {
     "name": "TimePicker",
     "folder": "Components/AltaIDE_TimePicker",
     "variants": 1,
     "css": "time-picker.css",
     "js": "time-picker.js",
     "kind": "TimePicker",
-    "default": 0
-  },
-  {
-    "name": "TimePicker2",
-    "folder": "Components/AltaIDE_TimePicker2",
-    "variants": 1,
-    "css": "time-picker2.css",
-    "js": "time-picker2.js",
-    "kind": "TimePicker2",
     "default": 0
   },
   {
