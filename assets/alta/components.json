@@ -315,15 +315,6 @@
     "default": 0
   },
   {
-    "name": "CodeSelector",
-    "folder": "Components/AltaIDE_CodeSelector",
-    "variants": 2,
-    "css": "code-selector.css",
-    "js": "code-selector.js",
-    "kind": "CodeSelector",
-    "default": 0
-  },
-  {
     "name": "SegmentedControl",
     "folder": "Components/AltaIDE_SegmentedControl",
     "variants": 4,
