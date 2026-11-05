@@ -1282,26 +1282,6 @@
     "description": "Пункт выбора действия."
   },
   {
-    "name": "SidebarDeviceSettingsCloseLight",
-    "folder": "Components/AltaIDE_SidebarDeviceSettingsCloseLight",
-    "variants": 1,
-    "kind": "Tree",
-    "css": "sidebar-device-settings-close-light.css",
-    "js": "sidebar-device-settings-close-light.js",
-    "default": 0,
-    "description": "Панель настроек устройства."
-  },
-  {
-    "name": "SidebarDeviceSettings1xABLight",
-    "folder": "Components/AltaIDE_SidebarDeviceSettings1xABLight",
-    "variants": 1,
-    "kind": "Tree",
-    "css": "sidebar-device-settings1x-ablight.css",
-    "js": "sidebar-device-settings1x-ablight.js",
-    "default": 0,
-    "description": "Панель настроек устройства с раскрытой группой."
-  },
-  {
     "name": "SidebarDeviceSettingsFDILight",
     "folder": "Components/AltaIDE_SidebarDeviceSettingsFDILight",
     "variants": 1,
