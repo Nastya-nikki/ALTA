@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="AltaIDE/Icons/Tree/Status">
+<path id="bg" d="M8 4C8 6.20914 6.20914 8 4 8C1.79086 8 0 6.20914 0 4C0 1.79086 1.79086 0 4 0C6.20914 0 8 1.79086 8 4Z" fill="#f42d2d"/>
+<path id="Union" d="M4 1.5C3.58579 1.5 3.25 1.83803 3.25 2.25501V3.99351C3.25 4.41049 3.58579 4.74851 4 4.74851C4.41421 4.74851 4.75 4.41049 4.75 3.99351L4.75 2.25501C4.75 1.83803 4.41421 1.5 4 1.5ZM4.00022 5.14231C3.62779 5.14231 3.32588 5.44624 3.32588 5.82116C3.32588 6.19607 3.62779 6.5 4.00022 6.5C4.37265 6.5 4.67456 6.19607 4.67456 5.82116C4.67456 5.44624 4.37265 5.14231 4.00022 5.14231Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+</g>
+</svg>
