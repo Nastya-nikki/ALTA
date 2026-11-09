@@ -1,0 +1,27 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1366" height="32" viewBox="0 0 1366 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="AltaIDE/System_Top">
+<path d="M8 0.5H1358C1362.14 0.5 1365.5 3.85786 1365.5 8V31.5H0.5V8C0.5 3.85786 3.85786 0.5 8 0.5Z" fill="#ebecef"/>
+<path d="M8 0.5H1358C1362.14 0.5 1365.5 3.85786 1365.5 8V31.5H0.5V8C0.5 3.85786 3.85786 0.5 8 0.5Z" stroke="#e2e4eb"/>
+<g id="Oval 1">
+<path d="M22 22C25.3137 22 28 19.3137 28 16C28 12.6863 25.3137 10 22 10C18.6863 10 16 12.6863 16 16C16 19.3137 18.6863 22 22 22Z" fill-rule="evenodd" clip-rule="evenodd" fill="#f86d60"/>
+<mask id="stroke0_0_84" fill="white">
+<path d="M22 22C25.3137 22 28 19.3137 28 16C28 12.6863 25.3137 10 22 10C18.6863 10 16 12.6863 16 16C16 19.3137 18.6863 22 22 22Z" fill-rule="evenodd" clip-rule="evenodd"/>
+</mask>
+<path d="M22 22C25.3137 22 28 19.3137 28 16C28 12.6863 25.3137 10 22 10C18.6863 10 16 12.6863 16 16C16 19.3137 18.6863 22 22 22Z" stroke-width="2" stroke="#f42d2d" mask="url(#stroke0_0_84)"/>
+</g>
+<g id="Oval 1 Copy">
+<path d="M42 22C45.3137 22 48 19.3137 48 16C48 12.6863 45.3137 10 42 10C38.6863 10 36 12.6863 36 16C36 19.3137 38.6863 22 42 22Z" fill-rule="evenodd" clip-rule="evenodd" fill="#ffda62"/>
+<mask id="stroke1_0_84" fill="white">
+<path d="M42 22C45.3137 22 48 19.3137 48 16C48 12.6863 45.3137 10 42 10C38.6863 10 36 12.6863 36 16C36 19.3137 38.6863 22 42 22Z" fill-rule="evenodd" clip-rule="evenodd"/>
+</mask>
+<path d="M42 22C45.3137 22 48 19.3137 48 16C48 12.6863 45.3137 10 42 10C38.6863 10 36 12.6863 36 16C36 19.3137 38.6863 22 42 22Z" stroke-width="2" stroke="#f9c92b" mask="url(#stroke1_0_84)"/>
+</g>
+<g id="Oval 1 Copy 2">
+<path d="M62 22C65.3137 22 68 19.3137 68 16C68 12.6863 65.3137 10 62 10C58.6863 10 56 12.6863 56 16C56 19.3137 58.6863 22 62 22Z" fill-rule="evenodd" clip-rule="evenodd" fill="#66c95b"/>
+<mask id="stroke2_0_84" fill="white">
+<path d="M62 22C65.3137 22 68 19.3137 68 16C68 12.6863 65.3137 10 62 10C58.6863 10 56 12.6863 56 16C56 19.3137 58.6863 22 62 22Z" fill-rule="evenodd" clip-rule="evenodd"/>
+</mask>
+<path d="M62 22C65.3137 22 68 19.3137 68 16C68 12.6863 65.3137 10 62 10C58.6863 10 56 12.6863 56 16C56 19.3137 58.6863 22 62 22Z" stroke-width="2" stroke="#2fa52d" mask="url(#stroke2_0_84)"/>
+</g>
+</g>
+</svg>
