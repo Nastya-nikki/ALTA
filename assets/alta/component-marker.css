@@ -21,3 +21,10 @@
   pointer-events: none;
   z-index: 1;
 }
+
+/* Marks must not merge into lines. Code tokens inside the editor are nested
+   components that sit edge to edge: only the outer editor component is marked. */
+.ace-component .ace-component::after { display: none; }
+/* Where two marks would touch, the inner one moves to the top-left corner. */
+[data-shell="AltaIDE_Separator"]::after,
+[data-shell="AltaIDE_ModalEventsItem"] [data-component="AltaIDE_ButtonSecondary"]::after { right: auto; left: 0; }
