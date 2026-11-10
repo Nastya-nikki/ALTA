@@ -168,7 +168,7 @@
     },
     {
       "id": "VariableID:148:6",
-      "name": "Variable/BG Hover",
+      "name": "Variable/BGHover",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -180,7 +180,7 @@
     },
     {
       "id": "VariableID:148:7",
-      "name": "Variable/BG Error",
+      "name": "Variable/BGError",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -192,7 +192,7 @@
     },
     {
       "id": "VariableID:148:8",
-      "name": "Variable/Text Placeholder",
+      "name": "Variable/TextPlaceholder",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -204,7 +204,7 @@
     },
     {
       "id": "VariableID:148:9",
-      "name": "Variable/Text Selected",
+      "name": "Variable/TextSelected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -301,7 +301,7 @@
     },
     {
       "id": "VariableID:525:1113",
-      "name": "FunFbPrg/BG Error",
+      "name": "FunFbPrg/BGError",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -313,7 +313,7 @@
     },
     {
       "id": "VariableID:525:1114",
-      "name": "Operators/BG Error",
+      "name": "Operators/BGError",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -325,7 +325,7 @@
     },
     {
       "id": "VariableID:525:1115",
-      "name": "Operators/BG Title Error",
+      "name": "Operators/BGTitleError",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -597,7 +597,7 @@
     },
     {
       "id": "VariableID:150:324",
-      "name": "ReadWrite/Add Icon",
+      "name": "ReadWrite/AddIcon",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -711,7 +711,7 @@
     },
     {
       "id": "VariableID:525:1112",
-      "name": "ReadWrite/BG/Main Error",
+      "name": "ReadWrite/BG/MainError",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -726,7 +726,7 @@
     },
     {
       "id": "VariableID:525:1118",
-      "name": "ReadWrite/BG/Title Error",
+      "name": "ReadWrite/BG/TitleError",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -789,7 +789,7 @@
     },
     {
       "id": "VariableID:114:14",
-      "name": "Ports/Floating/BG",
+      "name": "Ports/Float/BG",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -801,7 +801,7 @@
     },
     {
       "id": "VariableID:114:15",
-      "name": "Ports/Floating/BG Unconnected",
+      "name": "Ports/Float/BGUnconnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -813,7 +813,7 @@
     },
     {
       "id": "VariableID:114:16",
-      "name": "Ports/Floating/Border",
+      "name": "Ports/Float/Border",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -825,7 +825,7 @@
     },
     {
       "id": "VariableID:114:17",
-      "name": "Ports/Times/BG",
+      "name": "Ports/Time/BG",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -837,7 +837,7 @@
     },
     {
       "id": "VariableID:114:18",
-      "name": "Ports/Times/BG Unconnected",
+      "name": "Ports/Time/BGUnconnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -849,7 +849,7 @@
     },
     {
       "id": "VariableID:114:19",
-      "name": "Ports/Times/Border",
+      "name": "Ports/Time/Border",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -873,7 +873,7 @@
     },
     {
       "id": "VariableID:114:21",
-      "name": "Ports/Composite/BG Unconnected",
+      "name": "Ports/Composite/BGUnconnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -897,7 +897,7 @@
     },
     {
       "id": "VariableID:114:24",
-      "name": "Ports/Untyped/BG Unconnected",
+      "name": "Ports/Untyped/BGUnconnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -993,7 +993,7 @@
     },
     {
       "id": "VariableID:114:6",
-      "name": "Ports/Bool/BG Unconnected",
+      "name": "Ports/Bool/BGUnconnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1017,7 +1017,7 @@
     },
     {
       "id": "VariableID:114:8",
-      "name": "Ports/Integers/BG",
+      "name": "Ports/Integer/BG",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1029,7 +1029,7 @@
     },
     {
       "id": "VariableID:114:9",
-      "name": "Ports/Integers/BG Unconnected",
+      "name": "Ports/Integer/BGUnconnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1137,7 +1137,7 @@
     },
     {
       "id": "VariableID:131:1096",
-      "name": "FunFbPrg/BG Title",
+      "name": "FunFbPrg/BGTitle",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1191,7 +1191,7 @@
     },
     {
       "id": "VariableID:3d2f8e8bb9e1c7ddec857ee1cd5237789091def6/200701:317",
-      "name": "Dark/Cian/8",
+      "name": "Dark/Cyan/8",
       "type": "COLOR",
       "collection": "VariableCollectionId:db3e7b1551a22dca98f45775b6599521d8e87722/200701:210",
       "values": {
@@ -1205,7 +1205,7 @@
     },
     {
       "id": "VariableID:79e3360027ae88fcb6c3f0efe7e06aaa4e72a060/200701:321",
-      "name": "Dark/Cian/12",
+      "name": "Dark/Cyan/12",
       "type": "COLOR",
       "collection": "VariableCollectionId:db3e7b1551a22dca98f45775b6599521d8e87722/200701:210",
       "values": {
@@ -1219,7 +1219,7 @@
     },
     {
       "id": "VariableID:5e498a5aaa67be1e7f4ff0a90aa430eeab5cca8c/200701:315",
-      "name": "Dark/Cian/6",
+      "name": "Dark/Cyan/6",
       "type": "COLOR",
       "collection": "VariableCollectionId:db3e7b1551a22dca98f45775b6599521d8e87722/200701:210",
       "values": {
@@ -1480,7 +1480,7 @@
     },
     {
       "id": "VariableID:112:1735",
-      "name": "Operators/BG Title",
+      "name": "Operators/BGTitle",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1564,7 +1564,7 @@
     },
     {
       "id": "VariableID:114:10",
-      "name": "Ports/Integers/Border",
+      "name": "Ports/Integer/Border",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1588,7 +1588,7 @@
     },
     {
       "id": "VariableID:114:12",
-      "name": "Ports/String/BG Unconnected",
+      "name": "Ports/String/BGUnconnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1723,7 +1723,7 @@
     },
     {
       "id": "VariableID:525:1117",
-      "name": "FunFbPrg/BG Title Error",
+      "name": "FunFbPrg/BGTitleError",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1735,7 +1735,7 @@
     },
     {
       "id": "VariableID:562:757",
-      "name": "Ports/Untyped/BG Connected",
+      "name": "Ports/Untyped/BGConnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1771,7 +1771,7 @@
     },
     {
       "id": "VariableID:567:12",
-      "name": "Ports/Error/BG Unconnected",
+      "name": "Ports/Error/BGUnconnected",
       "type": "COLOR",
       "collection": "VariableCollectionId:112:1730",
       "values": {
@@ -1911,7 +1911,7 @@
     },
     {
       "id": "VariableID:89e0837d809695e700d4f111148c84f51ab2f6c3/1946:72",
-      "name": "BG_CodeCanvas/Default",
+      "name": "BGCodeCanvas/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:968abe1a233b58f77e52b3f79f2519352cc6e377/1946:48",
       "values": {
@@ -2163,12 +2163,12 @@
     "VariableID:cabe897e0b08285f8b15bb4633079e7df0bbaafb/203686:3": "--cfc-dark-purple-14",
     "VariableID:220779f7357a9a516aacd710532153db3bc72f20/200701:304": "--cfc-dark-gray-14",
     "VariableID:c1ebd353ddfd8b1407db1d40e0fdb8373e7df431/200701:243": "--cfc-dark-purple-6",
-    "VariableID:114:14": "--cfc-ports-floating-bg",
-    "VariableID:114:15": "--cfc-ports-floating-bg-unconnected",
-    "VariableID:114:16": "--cfc-ports-floating-border",
-    "VariableID:114:17": "--cfc-ports-times-bg",
-    "VariableID:114:18": "--cfc-ports-times-bg-unconnected",
-    "VariableID:114:19": "--cfc-ports-times-border",
+    "VariableID:114:14": "--cfc-ports-float-bg",
+    "VariableID:114:15": "--cfc-ports-float-bg-unconnected",
+    "VariableID:114:16": "--cfc-ports-float-border",
+    "VariableID:114:17": "--cfc-ports-time-bg",
+    "VariableID:114:18": "--cfc-ports-time-bg-unconnected",
+    "VariableID:114:19": "--cfc-ports-time-border",
     "VariableID:114:20": "--cfc-ports-composite-bg",
     "VariableID:114:21": "--cfc-ports-composite-bg-unconnected",
     "VariableID:114:22": "--cfc-ports-composite-border",
@@ -2182,8 +2182,8 @@
     "VariableID:114:37": "--cfc-ports-main-width",
     "VariableID:114:6": "--cfc-ports-bool-bg-unconnected",
     "VariableID:114:7": "--cfc-ports-bool-border",
-    "VariableID:114:8": "--cfc-ports-integers-bg",
-    "VariableID:114:9": "--cfc-ports-integers-bg-unconnected",
+    "VariableID:114:8": "--cfc-ports-integer-bg",
+    "VariableID:114:9": "--cfc-ports-integer-bg-unconnected",
     "VariableID:116:1876": "--cfc-ports-main-inversia",
     "VariableID:116:1899": "--cfc-ports-main-radiuscircle",
     "VariableID:116:2082": "--cfc-operators-iconbg",
@@ -2196,9 +2196,9 @@
     "VariableID:93c9faf68f02b944754bac4e9f2edc08e4905753/200701:286": "--cfc-dark-yellow-10",
     "VariableID:0fbf4f46997167cabd6a93022f319c4476dcfff2/200701:307": "--cfc-dark-yellow-14",
     "VariableID:61a087611f87a574aa62454da03afcaa6fb068b4/200701:282": "--cfc-dark-yellow-6",
-    "VariableID:3d2f8e8bb9e1c7ddec857ee1cd5237789091def6/200701:317": "--cfc-dark-cian-8",
-    "VariableID:79e3360027ae88fcb6c3f0efe7e06aaa4e72a060/200701:321": "--cfc-dark-cian-12",
-    "VariableID:5e498a5aaa67be1e7f4ff0a90aa430eeab5cca8c/200701:315": "--cfc-dark-cian-6",
+    "VariableID:3d2f8e8bb9e1c7ddec857ee1cd5237789091def6/200701:317": "--cfc-dark-cyan-8",
+    "VariableID:79e3360027ae88fcb6c3f0efe7e06aaa4e72a060/200701:321": "--cfc-dark-cyan-12",
+    "VariableID:5e498a5aaa67be1e7f4ff0a90aa430eeab5cca8c/200701:315": "--cfc-dark-cyan-6",
     "VariableID:61bbd12d3b5e312fe97f7fe180e03415824f6981/203476:33": "--cfc-dark-orange-8",
     "VariableID:46f392498b7604f51ad571025359015f5aea1538/203476:60": "--cfc-dark-orange-14",
     "VariableID:9be36cffc2029a508fd540b76194cf9e31ad7bc5/203476:36": "--cfc-dark-orange-5",
@@ -2226,7 +2226,7 @@
     "VariableID:112:1741": "--cfc-operators-border-borderwidth",
     "VariableID:112:1743": "--cfc-operators-hpadding",
     "VariableID:112:1872": "--cfc-ports-bool-bg",
-    "VariableID:114:10": "--cfc-ports-integers-border",
+    "VariableID:114:10": "--cfc-ports-integer-border",
     "VariableID:114:11": "--cfc-ports-string-bg",
     "VariableID:114:12": "--cfc-ports-string-bg-unconnected",
     "VariableID:114:13": "--cfc-ports-string-border",
