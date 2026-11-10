@@ -34,7 +34,7 @@
     },
     {
       "id": "VariableID:183897:34085",
-      "name": "icons/Close",
+      "name": "Icons/Close",
       "type": "COLOR",
       "collection": "VariableCollectionId:181601:143663",
       "values": {
@@ -347,7 +347,7 @@
     },
     {
       "id": "VariableID:200747:3101",
-      "name": "Checkbox/Border_1",
+      "name": "Checkbox/Border1",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -379,7 +379,7 @@
     },
     {
       "id": "VariableID:200752:3105",
-      "name": "CheckboxLable/Content/Default",
+      "name": "CheckboxLabel/Content/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -395,7 +395,7 @@
     },
     {
       "id": "VariableID:200752:3508",
-      "name": "CheckboxLable/Between",
+      "name": "CheckboxLabel/Between",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1586,7 +1586,7 @@
     },
     {
       "id": "VariableID:200769:3472",
-      "name": "Light/Fuchisa/8",
+      "name": "Light/Fuchsia/8",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1980",
       "values": {
@@ -2154,8 +2154,8 @@
     "VariableID:200747:3100": "--checkbox-radius",
     "VariableID:200747:3101": "--checkbox-border-1",
     "VariableID:200747:3103": "--checkbox-checkboxsize",
-    "VariableID:200752:3105": "--checkboxlable-content-default",
-    "VariableID:200752:3508": "--checkboxlable-between",
+    "VariableID:200752:3105": "--checkboxlabel-content-default",
+    "VariableID:200752:3508": "--checkboxlabel-between",
     "VariableID:200752:3589": "--link-content-default",
     "VariableID:200752:3608": "--link-between",
     "VariableID:200768:1959": "--tab-line-default",
@@ -2235,7 +2235,7 @@
     "VariableID:200701:4524": "--light-blue-8",
     "VariableID:200597:1984": "--source-0",
     "VariableID:200597:2152": "--dark-fuchsia-9",
-    "VariableID:200769:3472": "--light-fuchisa-8",
+    "VariableID:200769:3472": "--light-fuchsia-8",
     "VariableID:200597:2069": "--dark-gray-4",
     "VariableID:200597:2158": "--dark-gray-14",
     "VariableID:200597:1993": "--source-14",

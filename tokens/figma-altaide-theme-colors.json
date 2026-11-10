@@ -97,7 +97,7 @@
   ],
   [
    "202319:2618",
-   "Icons/Autocomplite/Var",
+   "Icons/Autocomplete/Var",
    "",
    "#a59a57",
    "",
@@ -105,7 +105,7 @@
   ],
   [
    "202319:2622",
-   "Icons/Autocomplite/Type Enum",
+   "Icons/Autocomplete/TypeEnum",
    "",
    "#8e6bc6",
    "",
@@ -113,7 +113,7 @@
   ],
   [
    "202319:2619",
-   "Icons/Autocomplite/Type Struct",
+   "Icons/Autocomplete/TypeStruct",
    "",
    "#63945f",
    "",
@@ -121,7 +121,7 @@
   ],
   [
    "202319:2621",
-   "Icons/Autocomplite/Global var",
+   "Icons/Autocomplete/GlobalVar",
    "",
    "#d25a5a",
    "",
@@ -129,7 +129,7 @@
   ],
   [
    "202319:2620",
-   "Icons/Autocomplite/POU",
+   "Icons/Autocomplete/POU",
    "",
    "#4778d1",
    "",
@@ -137,7 +137,7 @@
   ],
   [
    "202319:2617",
-   "Icons/Autocomplite/Construction",
+   "Icons/Autocomplete/Construction",
    "",
    "#7cacba",
    "",
@@ -145,7 +145,7 @@
   ],
   [
    "202319:2623",
-   "Icons/Autocomplite/BG",
+   "Icons/Autocomplete/BG",
    "Dark/Gray/13",
    "#2e3136",
    "Light/Gray/1",
@@ -153,7 +153,7 @@
   ],
   [
    "201064:57954",
-   "Icons/Spiner/Default",
+   "Icons/Spinner/Default",
    "Dark/White",
    "#ffffff",
    "Light/Gray/8",
@@ -161,7 +161,7 @@
   ],
   [
    "201077:47549",
-   "Icons/Conf_CommandBar/Border/Default",
+   "Icons/ConfCommandBar/Border/Default",
    "Dark/Gray/7",
    "#c7c9ce",
    "Light/Gray/10",
@@ -169,7 +169,7 @@
   ],
   [
    "201068:9896",
-   "Icons/MainIcons/Gray Default",
+   "Icons/MainIcons/GrayDefault",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/10",
@@ -193,7 +193,7 @@
   ],
   [
    "201077:47550",
-   "Icons/Conf_CommandBar/Background",
+   "Icons/ConfCommandBar/Background",
    "Dark/Gray/13",
    "#2e3136",
    "Light/Gray/3",
@@ -201,7 +201,7 @@
   ],
   [
    "201077:47551",
-   "Icons/Conf_CommandBar/Border/Green",
+   "Icons/ConfCommandBar/Border/Green",
    "Dark/Green/7",
    "#6cbc6a",
    "Light/Green/7",
@@ -209,7 +209,7 @@
   ],
   [
    "201077:47553",
-   "Icons/Conf_CommandBar/Border/Blue",
+   "Icons/ConfCommandBar/Border/Blue",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -217,7 +217,7 @@
   ],
   [
    "201077:47554",
-   "Icons/Conf_CommandBar/Border/Disabled",
+   "Icons/ConfCommandBar/Border/Disabled",
    "Dark/Gray/11",
    "#585e6c",
    "Light/Gray/7",
@@ -225,7 +225,7 @@
   ],
   [
    "201068:9902",
-   "Icons/MainIcons/Gray Disabled",
+   "Icons/MainIcons/GrayDisabled",
    "Dark/Gray/11",
    "#585e6c",
    "Light/Gray/7",
@@ -233,7 +233,7 @@
   ],
   [
    "201068:9898",
-   "Icons/MainIcons/Red Default",
+   "Icons/MainIcons/RedDefault",
    "Dark/Red/7",
    "#ee5580",
    "Light/Red/8",
@@ -241,7 +241,7 @@
   ],
   [
    "201068:9903",
-   "Icons/MainIcons/Red Disabled",
+   "Icons/MainIcons/RedDisabled",
    "Dark/Red/11",
    "#96263c",
    "Light/Red/6",
@@ -249,7 +249,7 @@
   ],
   [
    "201068:9899",
-   "Icons/MainIcons/Green Default",
+   "Icons/MainIcons/GreenDefault",
    "Dark/Green/7",
    "#6cbc6a",
    "Light/Green/8",
@@ -257,7 +257,7 @@
   ],
   [
    "201068:9900",
-   "Icons/MainIcons/Yellow Default",
+   "Icons/MainIcons/YellowDefault",
    "Dark/Yellow/9",
    "#c6a435",
    "Light/Yellow/8",
@@ -265,7 +265,7 @@
   ],
   [
    "201068:9904",
-   "Icons/MainIcons/Yellow Dark",
+   "Icons/MainIcons/YellowDark",
    "Dark/Yellow/13",
    "#6f5a15",
    "Light/Yellow/5",
@@ -273,7 +273,7 @@
   ],
   [
    "201068:9901",
-   "Icons/MainIcons/Blue Default",
+   "Icons/MainIcons/BlueDefault",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -281,7 +281,7 @@
   ],
   [
    "201068:9905",
-   "Icons/MainIcons/Blue Dark",
+   "Icons/MainIcons/BlueDark",
    "Dark/Blue/9",
    "#1e4898",
    "Light/Blue/6",
@@ -1145,7 +1145,7 @@
   ],
   [
    "200744:3078",
-   "Checkbox/Unchecked/Background/Invald",
+   "Checkbox/Unchecked/Background/Invalid",
    "Dark/Gray/12",
    "#3d414b",
    "Light/White",
@@ -1185,7 +1185,7 @@
   ],
   [
    "200747:3093",
-   "Checkbox/Unchecked/Border/Invald",
+   "Checkbox/Unchecked/Border/Invalid",
    "Dark/Red/7",
    "#ee5580",
    "Light/Red/8",
@@ -1321,7 +1321,7 @@
   ],
   [
    "200752:3105",
-   "CheckboxLable/Content/Default",
+   "CheckboxLabel/Content/Default",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/12",
@@ -1329,7 +1329,7 @@
   ],
   [
    "200752:3488",
-   "CheckboxLable/Content/Hover",
+   "CheckboxLabel/Content/Hover",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/12",
@@ -1361,7 +1361,7 @@
   ],
   [
    "200765:711",
-   "Radio/Unchecked/Background/Invald",
+   "Radio/Unchecked/Background/Invalid",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -1401,7 +1401,7 @@
   ],
   [
    "200765:716",
-   "Radio/Unchecked/Border/Invald",
+   "Radio/Unchecked/Border/Invalid",
    "Dark/Red/7",
    "#ee5580",
    "Light/Red/8",
@@ -1465,7 +1465,7 @@
   ],
   [
    "200765:2638",
-   "Radio/Checked/Border IN/Default",
+   "Radio/Checked/BorderIn/Default",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -1473,7 +1473,7 @@
   ],
   [
    "200765:2639",
-   "Radio/Checked/Border IN/Hover",
+   "Radio/Checked/BorderIn/Hover",
    "Dark/Blue/9",
    "#1e4898",
    "Light/Blue/11",
@@ -1481,7 +1481,7 @@
   ],
   [
    "200765:2640",
-   "Radio/Checked/Border IN/Pressed",
+   "Radio/Checked/BorderIn/Pressed",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -1489,7 +1489,7 @@
   ],
   [
    "200765:2641",
-   "Radio/Checked/Border IN/Invalid",
+   "Radio/Checked/BorderIn/Invalid",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -1497,7 +1497,7 @@
   ],
   [
    "200765:2642",
-   "Radio/Checked/Border IN/Disabled",
+   "Radio/Checked/BorderIn/Disabled",
    "Dark/Gray/11",
    "#585e6c",
    "Light/Gray/3",
@@ -1577,7 +1577,7 @@
   ],
   [
    "200765:2643",
-   "RadioLable/Content/Default",
+   "RadioLabel/Content/Default",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/12",
@@ -1585,7 +1585,7 @@
   ],
   [
    "200765:2649",
-   "RadioLable/Content/Hover",
+   "RadioLabel/Content/Hover",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/12",
@@ -1593,7 +1593,7 @@
   ],
   [
    "200765:2650",
-   "RadioLable/Content/Focused",
+   "RadioLabel/Content/Focused",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/12",
@@ -1601,7 +1601,7 @@
   ],
   [
    "200765:2651",
-   "RadioLable/Content/Invalid",
+   "RadioLabel/Content/Invalid",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/12",
@@ -1609,7 +1609,7 @@
   ],
   [
    "200765:2652",
-   "RadioLable/Content/Disabled",
+   "RadioLabel/Content/Disabled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/8",
@@ -1649,7 +1649,7 @@
   ],
   [
    "200768:24",
-   "ToggleLable/Content/Default",
+   "ToggleLabel/Content/Default",
    "Dark/Gray/6",
    "#c8cbd1",
    "Light/Gray/12",
@@ -1657,7 +1657,7 @@
   ],
   [
    "200768:25",
-   "ToggleLable/Content/Hover",
+   "ToggleLabel/Content/Hover",
    "Dark/Gray/6",
    "#c8cbd1",
    "Light/Gray/12",
@@ -1665,7 +1665,7 @@
   ],
   [
    "200768:26",
-   "ToggleLable/Content/Focused",
+   "ToggleLabel/Content/Focused",
    "Dark/Gray/6",
    "#c8cbd1",
    "Light/Gray/12",
@@ -1673,7 +1673,7 @@
   ],
   [
    "200768:27",
-   "ToggleLable/Content/Invalid",
+   "ToggleLabel/Content/Invalid",
    "Dark/Gray/6",
    "#c8cbd1",
    "Light/Gray/12",
@@ -1681,7 +1681,7 @@
   ],
   [
    "200768:28",
-   "ToggleLable/Content/Disabled",
+   "ToggleLabel/Content/Disabled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/8",
@@ -1705,7 +1705,7 @@
   ],
   [
    "200758:1802",
-   "Search/Icons/Default_Filled",
+   "Search/Icons/DefaultFilled",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/10",
@@ -1729,7 +1729,7 @@
   ],
   [
    "200756:1775",
-   "Search/Background/Default_Filled",
+   "Search/Background/DefaultFilled",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -1761,7 +1761,7 @@
   ],
   [
    "200756:1781",
-   "Search/Content/Default_Filled",
+   "Search/Content/DefaultFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -1793,7 +1793,7 @@
   ],
   [
    "200756:1794",
-   "Search/Border/Default_Filled",
+   "Search/Border/DefaultFilled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -1817,7 +1817,7 @@
   ],
   [
    "200752:3489",
-   "CheckboxLable/Content/Focused",
+   "CheckboxLabel/Content/Focused",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/12",
@@ -1849,7 +1849,7 @@
   ],
   [
    "200752:3490",
-   "CheckboxLable/Content/Invalid",
+   "CheckboxLabel/Content/Invalid",
    "Dark/Gray/8",
    "#afb2b9",
    "Light/Gray/12",
@@ -1857,7 +1857,7 @@
   ],
   [
    "200752:3491",
-   "CheckboxLable/Content/Disabled",
+   "CheckboxLabel/Content/Disabled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/8",
@@ -2009,7 +2009,7 @@
   ],
   [
    "200712:11980",
-   "Input/Background/Default_Filled",
+   "Input/Background/DefaultFilled",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2025,7 +2025,7 @@
   ],
   [
    "202030:4326",
-   "Input/Background/Hover_Filled",
+   "Input/Background/HoverFilled",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2073,7 +2073,7 @@
   ],
   [
    "200712:11987",
-   "Input/Content/Default_Filled",
+   "Input/Content/DefaultFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2089,7 +2089,7 @@
   ],
   [
    "202030:4330",
-   "Input/Content/Hover_Filled",
+   "Input/Content/HoverFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2153,7 +2153,7 @@
   ],
   [
    "200729:1788",
-   "Input/Border/Default_Filled",
+   "Input/Border/DefaultFilled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -2169,7 +2169,7 @@
   ],
   [
    "202030:4328",
-   "Input/Border/Hover_Filled",
+   "Input/Border/HoverFilled",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -2209,7 +2209,7 @@
   ],
   [
    "200712:13730",
-   "Input Number/Background/Default",
+   "InputNumber/Background/Default",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2217,7 +2217,7 @@
   ],
   [
    "200712:13810",
-   "Input Number/Border/Default",
+   "InputNumber/Border/Default",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -2225,7 +2225,7 @@
   ],
   [
    "200712:13811",
-   "Input Number/Border/None",
+   "InputNumber/Border/None",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -2233,7 +2233,7 @@
   ],
   [
    "202030:4496",
-   "Input Number/Border/Hover",
+   "InputNumber/Border/Hover",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -2241,7 +2241,7 @@
   ],
   [
    "200712:13812",
-   "Input Number/Border/Focused",
+   "InputNumber/Border/Focused",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -2249,7 +2249,7 @@
   ],
   [
    "200712:13813",
-   "Input Number/Border/FocusedBlue",
+   "InputNumber/Border/FocusedBlue",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -2257,7 +2257,7 @@
   ],
   [
    "200712:13814",
-   "Input Number/Border/Invalid",
+   "InputNumber/Border/Invalid",
    "Dark/Red/11",
    "#96263c",
    "Light/Red/8",
@@ -2265,7 +2265,7 @@
   ],
   [
    "200712:13815",
-   "Input Number/Border/Disabled",
+   "InputNumber/Border/Disabled",
    "Dark/Gray/12",
    "#3d414b",
    "Light/Gray/4",
@@ -2273,7 +2273,7 @@
   ],
   [
    "200712:13731",
-   "Input Number/Background/None",
+   "InputNumber/Background/None",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2281,7 +2281,7 @@
   ],
   [
    "202030:4495",
-   "Input Number/Background/Hover",
+   "InputNumber/Background/Hover",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2289,7 +2289,7 @@
   ],
   [
    "200712:13732",
-   "Input Number/Background/Focused",
+   "InputNumber/Background/Focused",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2297,7 +2297,7 @@
   ],
   [
    "200712:13733",
-   "Input Number/Background/FocusedBlue",
+   "InputNumber/Background/FocusedBlue",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2305,7 +2305,7 @@
   ],
   [
    "200712:13734",
-   "Input Number/Background/Invalid",
+   "InputNumber/Background/Invalid",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2313,7 +2313,7 @@
   ],
   [
    "200712:13735",
-   "Input Number/Background/Disabled",
+   "InputNumber/Background/Disabled",
    "Dark/Gray/12",
    "#3d414b",
    "Light/Gray/4",
@@ -2321,7 +2321,7 @@
   ],
   [
    "200712:13736",
-   "Input Number/Content/Default",
+   "InputNumber/Content/Default",
    "Dark/White",
    "#ffffff",
    "Light/Gray/7",
@@ -2329,7 +2329,7 @@
   ],
   [
    "202030:4497",
-   "Input Number/Content/Hover",
+   "InputNumber/Content/Hover",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2337,7 +2337,7 @@
   ],
   [
    "200712:13738",
-   "Input Number/Content/Focused",
+   "InputNumber/Content/Focused",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2345,7 +2345,7 @@
   ],
   [
    "200712:13739",
-   "Input Number/Content/FocusedBlue",
+   "InputNumber/Content/FocusedBlue",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2353,7 +2353,7 @@
   ],
   [
    "200712:13740",
-   "Input Number/Content/Invalid",
+   "InputNumber/Content/Invalid",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2361,7 +2361,7 @@
   ],
   [
    "200712:13742",
-   "Input Number/ContentBG",
+   "InputNumber/ContentBG",
    "Dark/Blue/9",
    "#1e4898",
    "Light/Blue/6",
@@ -2369,7 +2369,7 @@
   ],
   [
    "200712:13749",
-   "Input Number/Content/Disabled",
+   "InputNumber/Content/Disabled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/7",
@@ -2377,7 +2377,7 @@
   ],
   [
    "200712:13807",
-   "Input Number/Arrows/Border",
+   "InputNumber/Arrows/Border",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -2385,7 +2385,7 @@
   ],
   [
    "200712:13808",
-   "Input Number/Arrows/DefaultArrow",
+   "InputNumber/Arrows/DefaultArrow",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -2393,7 +2393,7 @@
   ],
   [
    "200712:13809",
-   "Input Number/Arrows/HoverArrow",
+   "InputNumber/Arrows/HoverArrow",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -2401,7 +2401,7 @@
   ],
   [
    "200720:13899",
-   "Input Icons/Background/Default",
+   "InputIcons/Background/Default",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2409,7 +2409,7 @@
   ],
   [
    "200720:13900",
-   "Input Icons/Background/Default_Filled",
+   "InputIcons/Background/DefaultFilled",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2417,7 +2417,7 @@
   ],
   [
    "202030:4334",
-   "Input Icons/Background/Hover",
+   "InputIcons/Background/Hover",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2425,7 +2425,7 @@
   ],
   [
    "202030:4333",
-   "Input Icons/Background/Hover_Filled",
+   "InputIcons/Background/HoverFilled",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2433,7 +2433,7 @@
   ],
   [
    "200720:13901",
-   "Input Icons/Background/Focused",
+   "InputIcons/Background/Focused",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2441,7 +2441,7 @@
   ],
   [
    "200720:13902",
-   "Input Icons/Background/FocusedBlue",
+   "InputIcons/Background/FocusedBlue",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2449,7 +2449,7 @@
   ],
   [
    "200720:13903",
-   "Input Icons/Background/Invalid",
+   "InputIcons/Background/Invalid",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2457,7 +2457,7 @@
   ],
   [
    "200720:13904",
-   "Input Icons/Background/Disabled",
+   "InputIcons/Background/Disabled",
    "Dark/Gray/12",
    "#3d414b",
    "Light/Gray/4",
@@ -2465,7 +2465,7 @@
   ],
   [
    "200720:13905",
-   "Input Icons/Content/Default",
+   "InputIcons/Content/Default",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/7",
@@ -2473,7 +2473,7 @@
   ],
   [
    "200720:13906",
-   "Input Icons/Content/Default_Filled",
+   "InputIcons/Content/DefaultFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2481,7 +2481,7 @@
   ],
   [
    "202030:4335",
-   "Input Icons/Content/Hover",
+   "InputIcons/Content/Hover",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/7",
@@ -2489,7 +2489,7 @@
   ],
   [
    "202030:4336",
-   "Input Icons/Content/Hover_Filled",
+   "InputIcons/Content/HoverFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2497,7 +2497,7 @@
   ],
   [
    "200720:13907",
-   "Input Icons/Content/Focused",
+   "InputIcons/Content/Focused",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2505,7 +2505,7 @@
   ],
   [
    "200720:13908",
-   "Input Icons/Content/FocusedBlue",
+   "InputIcons/Content/FocusedBlue",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2513,7 +2513,7 @@
   ],
   [
    "200720:13909",
-   "Input Icons/Content/Invalid",
+   "InputIcons/Content/Invalid",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2521,7 +2521,7 @@
   ],
   [
    "200720:13910",
-   "Input Icons/Hint",
+   "InputIcons/Hint",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/8",
@@ -2545,7 +2545,7 @@
   ],
   [
    "200720:13911",
-   "Input Icons/ContentBG",
+   "InputIcons/ContentBG",
    "Dark/Blue/9",
    "#1e4898",
    "Light/Blue/6",
@@ -2553,7 +2553,7 @@
   ],
   [
    "200720:13918",
-   "Input Icons/Content/Disabled",
+   "InputIcons/Content/Disabled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/7",
@@ -2561,7 +2561,7 @@
   ],
   [
    "200721:13919",
-   "Input Icons/Icon/Default",
+   "InputIcons/Icon/Default",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/10",
@@ -2569,7 +2569,7 @@
   ],
   [
    "200721:13921",
-   "Input Icons/Icon/Default_Filled",
+   "InputIcons/Icon/DefaultFilled",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/10",
@@ -2577,7 +2577,7 @@
   ],
   [
    "202030:4337",
-   "Input Icons/Icon/Hover",
+   "InputIcons/Icon/Hover",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/10",
@@ -2585,7 +2585,7 @@
   ],
   [
    "202030:4338",
-   "Input Icons/Icon/Hover_Filled",
+   "InputIcons/Icon/HoverFilled",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/10",
@@ -2593,7 +2593,7 @@
   ],
   [
    "200721:13922",
-   "Input Icons/Icon/Focused",
+   "InputIcons/Icon/Focused",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/10",
@@ -2601,7 +2601,7 @@
   ],
   [
    "200721:13923",
-   "Input Icons/Icon/FocusedBlue",
+   "InputIcons/Icon/FocusedBlue",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/10",
@@ -2609,7 +2609,7 @@
   ],
   [
    "200721:13924",
-   "Input Icons/Icon/Invalid",
+   "InputIcons/Icon/Invalid",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/10",
@@ -2617,7 +2617,7 @@
   ],
   [
    "200721:13925",
-   "Input Icons/Icon/Disabled",
+   "InputIcons/Icon/Disabled",
    "Dark/Gray/11",
    "#585e6c",
    "Light/Gray/7",
@@ -2633,7 +2633,7 @@
   ],
   [
    "200729:1354",
-   "Comments/Background/Default_Filled",
+   "Comments/Background/DefaultFilled",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2649,7 +2649,7 @@
   ],
   [
    "202030:4614",
-   "Comments/Background/Hover_Filled",
+   "Comments/Background/HoverFilled",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2689,7 +2689,7 @@
   ],
   [
    "200729:1360",
-   "Comments/Content/Default_Filled",
+   "Comments/Content/DefaultFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2705,7 +2705,7 @@
   ],
   [
    "202030:4616",
-   "Comments/Content/Hover_Filled",
+   "Comments/Content/HoverFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2745,7 +2745,7 @@
   ],
   [
    "200729:1374",
-   "Comments/Border/Default_Filled",
+   "Comments/Border/DefaultFilled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -2769,7 +2769,7 @@
   ],
   [
    "202030:4618",
-   "Comments/Border/Hover_Filled",
+   "Comments/Border/HoverFilled",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -2809,7 +2809,7 @@
   ],
   [
    "200729:1685",
-   "Dropdown/Background/Default_Filled",
+   "Dropdown/Background/DefaultFilled",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -2881,7 +2881,7 @@
   ],
   [
    "200729:1691",
-   "Dropdown/Content/Default_Filled",
+   "Dropdown/Content/DefaultFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2897,7 +2897,7 @@
   ],
   [
    "202032:5199",
-   "Dropdown/Content/Hover_Filled",
+   "Dropdown/Content/HoverFilled",
    "Dark/White",
    "#ffffff",
    "Light/Gray/12",
@@ -2985,7 +2985,7 @@
   ],
   [
    "200729:1778",
-   "Dropdown/Border/Default_Filled",
+   "Dropdown/Border/DefaultFilled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -3057,7 +3057,7 @@
   ],
   [
    "200729:1793",
-   "Input Icons/Border/Default",
+   "InputIcons/Border/Default",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -3065,7 +3065,7 @@
   ],
   [
    "200729:1794",
-   "Input Icons/Border/DefaultFilled",
+   "InputIcons/Border/DefaultFilled",
    "Dark/Gray/10",
    "#7d8394",
    "Light/Gray/6",
@@ -3073,7 +3073,7 @@
   ],
   [
    "202030:4431",
-   "Input Icons/Border/Hover",
+   "InputIcons/Border/Hover",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -3081,7 +3081,7 @@
   ],
   [
    "202030:4432",
-   "Input Icons/Border/HoverFilled",
+   "InputIcons/Border/HoverFilled",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -3089,7 +3089,7 @@
   ],
   [
    "200729:1795",
-   "Input Icons/Border/Focused",
+   "InputIcons/Border/Focused",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -3097,7 +3097,7 @@
   ],
   [
    "200729:1796",
-   "Input Icons/Border/FocusedBlue",
+   "InputIcons/Border/FocusedBlue",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
@@ -3105,7 +3105,7 @@
   ],
   [
    "200729:1797",
-   "Input Icons/Border/Invalid",
+   "InputIcons/Border/Invalid",
    "Dark/Red/11",
    "#96263c",
    "Light/Red/8",
@@ -3113,7 +3113,7 @@
   ],
   [
    "200729:1798",
-   "Input Icons/Border/Disabled",
+   "InputIcons/Border/Disabled",
    "Dark/Gray/12",
    "#3d414b",
    "Light/Gray/4",
@@ -3145,7 +3145,7 @@
   ],
   [
    "204591:25386",
-   "Combobox/Background/Changing Focus",
+   "Combobox/Background/ChangingFocus",
    "Dark/Gray/12",
    "#3d414b",
    "Light/Gray/3",
@@ -3260,7 +3260,7 @@
    "Tab/Line/Active",
    "Dark/Fuchsia/9",
    "#cc1bdb",
-   "Light/Fuchisa/8",
+   "Light/Fuchsia/8",
    "#fe01fc"
   ],
   [
@@ -3329,7 +3329,7 @@
   ],
   [
    "200794:44474",
-   "Segment/Background/Active Alternative",
+   "Segment/Background/ActiveAlternative",
    "Dark/Blue/10",
    "#1e3e7a",
    "Light/Blue/4",
@@ -3345,7 +3345,7 @@
   ],
   [
    "200803:46805",
-   "Dropdown/Icon/Default_Filled",
+   "Dropdown/Icon/DefaultFilled",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/9",
@@ -3361,7 +3361,7 @@
   ],
   [
    "202032:5203",
-   "Dropdown/Icon/Hover_Filled",
+   "Dropdown/Icon/HoverFilled",
    "Dark/Gray/9",
    "#9498a3",
    "Light/Gray/9",
@@ -3761,7 +3761,7 @@
   ],
   [
    "201014:5795",
-   "TableCell/Background/Defaul",
+   "TableCell/Background/Default",
    "Dark/Gray/14",
    "#26282c",
    "Light/White",
@@ -3993,7 +3993,7 @@
   ],
   [
    "201014:24779",
-   "TableCell/Border/Defaul",
+   "TableCell/Border/Default",
    "Dark/Gray/12",
    "#3d414b",
    "Light/Gray/4",
@@ -4036,7 +4036,7 @@
    "TableCell/Border/Selection",
    "Dark/Fuchsia/9",
    "#cc1bdb",
-   "Light/Fuchisa/9",
+   "Light/Fuchsia/9",
    "#c900da"
   ],
   [
@@ -4073,7 +4073,7 @@
   ],
   [
    "201014:24794",
-   "TableCell/Content/Defaul",
+   "TableCell/Content/Default",
    "Dark/Gray/7",
    "#c7c9ce",
    "Light/Gray/12",
@@ -4236,7 +4236,7 @@
    "TreeLevels/BorderDragAndDrop",
    "Dark/Fuchsia/9",
    "#cc1bdb",
-   "Light/Fuchisa/8",
+   "Light/Fuchsia/8",
    "#fe01fc"
   ],
   [
@@ -4396,7 +4396,7 @@
    "TreeLevelsDevice/BorderDragAndDrop",
    "Dark/Fuchsia/9",
    "#cc1bdb",
-   "Light/Fuchisa/8",
+   "Light/Fuchsia/8",
    "#fe01fc"
   ],
   [
@@ -4913,7 +4913,7 @@
   ],
   [
    "202283:4917",
-   "Canvas/Modal 2",
+   "Canvas/Modal2",
    "Dark/Gray/15",
    "#222225",
    "Light/White",
@@ -5145,7 +5145,7 @@
   ],
   [
    "202348:3356",
-   "CommentsBar/Border Active",
+   "CommentsBar/BorderActive",
    "Dark/Blue/7",
    "#5684dd",
    "Light/Blue/8",
