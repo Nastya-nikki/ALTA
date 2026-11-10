@@ -1020,7 +1020,7 @@
     },
     {
       "id": "VariableID:200712:11980",
-      "name": "Input/Background/Default_Filled",
+      "name": "Input/Background/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1036,7 +1036,7 @@
     },
     {
       "id": "VariableID:200729:1788",
-      "name": "Input/Border/Default_Filled",
+      "name": "Input/Border/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1052,7 +1052,7 @@
     },
     {
       "id": "VariableID:200712:11987",
-      "name": "Input/Content/Default_Filled",
+      "name": "Input/Content/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1350,7 +1350,7 @@
     },
     {
       "id": "VariableID:202030:4326",
-      "name": "Input/Background/Hover_Filled",
+      "name": "Input/Background/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1366,7 +1366,7 @@
     },
     {
       "id": "VariableID:202030:4328",
-      "name": "Input/Border/Hover_Filled",
+      "name": "Input/Border/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1382,7 +1382,7 @@
     },
     {
       "id": "VariableID:202030:4330",
-      "name": "Input/Content/Hover_Filled",
+      "name": "Input/Content/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1398,7 +1398,7 @@
     },
     {
       "id": "VariableID:200720:13917",
-      "name": "Input Icons/vBetween",
+      "name": "InputIcons/vBetween",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1414,7 +1414,7 @@
     },
     {
       "id": "VariableID:200720:13916",
-      "name": "Input Icons/hBetween",
+      "name": "InputIcons/hBetween",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1430,7 +1430,7 @@
     },
     {
       "id": "VariableID:200720:13913",
-      "name": "Input Icons/hPadding",
+      "name": "InputIcons/hPadding",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1446,7 +1446,7 @@
     },
     {
       "id": "VariableID:200720:13912",
-      "name": "Input Icons/vPadding",
+      "name": "InputIcons/vPadding",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1462,7 +1462,7 @@
     },
     {
       "id": "VariableID:200720:13914",
-      "name": "Input Icons/Radius",
+      "name": "InputIcons/Radius",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1478,7 +1478,7 @@
     },
     {
       "id": "VariableID:200720:13915",
-      "name": "Input Icons/Border",
+      "name": "InputIcons/Border",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1494,7 +1494,7 @@
     },
     {
       "id": "VariableID:200720:13899",
-      "name": "Input Icons/Background/Default",
+      "name": "InputIcons/Background/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1510,7 +1510,7 @@
     },
     {
       "id": "VariableID:200729:1793",
-      "name": "Input Icons/Border/Default",
+      "name": "InputIcons/Border/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1526,7 +1526,7 @@
     },
     {
       "id": "VariableID:200721:13919",
-      "name": "Input Icons/Icon/Default",
+      "name": "InputIcons/Icon/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1542,7 +1542,7 @@
     },
     {
       "id": "VariableID:200720:13905",
-      "name": "Input Icons/Content/Default",
+      "name": "InputIcons/Content/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1558,7 +1558,7 @@
     },
     {
       "id": "VariableID:200720:13910",
-      "name": "Input Icons/Hint",
+      "name": "InputIcons/Hint",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1574,7 +1574,7 @@
     },
     {
       "id": "VariableID:200720:13900",
-      "name": "Input Icons/Background/Default_Filled",
+      "name": "InputIcons/Background/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1590,7 +1590,7 @@
     },
     {
       "id": "VariableID:200729:1794",
-      "name": "Input Icons/Border/DefaultFilled",
+      "name": "InputIcons/Border/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1606,7 +1606,7 @@
     },
     {
       "id": "VariableID:200721:13921",
-      "name": "Input Icons/Icon/Default_Filled",
+      "name": "InputIcons/Icon/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1622,7 +1622,7 @@
     },
     {
       "id": "VariableID:200720:13906",
-      "name": "Input Icons/Content/Default_Filled",
+      "name": "InputIcons/Content/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1638,7 +1638,7 @@
     },
     {
       "id": "VariableID:200720:13901",
-      "name": "Input Icons/Background/Focused",
+      "name": "InputIcons/Background/Focused",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1654,7 +1654,7 @@
     },
     {
       "id": "VariableID:200729:1795",
-      "name": "Input Icons/Border/Focused",
+      "name": "InputIcons/Border/Focused",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1670,7 +1670,7 @@
     },
     {
       "id": "VariableID:200721:13922",
-      "name": "Input Icons/Icon/Focused",
+      "name": "InputIcons/Icon/Focused",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1686,7 +1686,7 @@
     },
     {
       "id": "VariableID:202030:4336",
-      "name": "Input Icons/Content/Hover_Filled",
+      "name": "InputIcons/Content/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1702,7 +1702,7 @@
     },
     {
       "id": "VariableID:200720:13903",
-      "name": "Input Icons/Background/Invalid",
+      "name": "InputIcons/Background/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "VariableID:200729:1797",
-      "name": "Input Icons/Border/Invalid",
+      "name": "InputIcons/Border/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1748,7 +1748,7 @@
     },
     {
       "id": "VariableID:200720:13909",
-      "name": "Input Icons/Content/Invalid",
+      "name": "InputIcons/Content/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1764,7 +1764,7 @@
     },
     {
       "id": "VariableID:200720:13904",
-      "name": "Input Icons/Background/Disabled",
+      "name": "InputIcons/Background/Disabled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1780,7 +1780,7 @@
     },
     {
       "id": "VariableID:200721:13925",
-      "name": "Input Icons/Icon/Disabled",
+      "name": "InputIcons/Icon/Disabled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1796,7 +1796,7 @@
     },
     {
       "id": "VariableID:200720:13918",
-      "name": "Input Icons/Content/Disabled",
+      "name": "InputIcons/Content/Disabled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1812,7 +1812,7 @@
     },
     {
       "id": "VariableID:202030:4334",
-      "name": "Input Icons/Background/Hover",
+      "name": "InputIcons/Background/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1828,7 +1828,7 @@
     },
     {
       "id": "VariableID:202030:4431",
-      "name": "Input Icons/Border/Hover",
+      "name": "InputIcons/Border/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "VariableID:202030:4337",
-      "name": "Input Icons/Icon/Hover",
+      "name": "InputIcons/Icon/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1860,7 +1860,7 @@
     },
     {
       "id": "VariableID:202030:4335",
-      "name": "Input Icons/Content/Hover",
+      "name": "InputIcons/Content/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1876,7 +1876,7 @@
     },
     {
       "id": "VariableID:202030:4333",
-      "name": "Input Icons/Background/Hover_Filled",
+      "name": "InputIcons/Background/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1892,7 +1892,7 @@
     },
     {
       "id": "VariableID:202030:4432",
-      "name": "Input Icons/Border/HoverFilled",
+      "name": "InputIcons/Border/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1908,7 +1908,7 @@
     },
     {
       "id": "VariableID:202030:4338",
-      "name": "Input Icons/Icon/Hover_Filled",
+      "name": "InputIcons/Icon/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1972,7 +1972,7 @@
     },
     {
       "id": "VariableID:200712:13743",
-      "name": "Input Number/leftPadding",
+      "name": "InputNumber/leftPadding",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "VariableID:200799:46092",
-      "name": "Input Number/vPadding",
+      "name": "InputNumber/vPadding",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2004,7 +2004,7 @@
     },
     {
       "id": "VariableID:200712:13744",
-      "name": "Input Number/rightPadding",
+      "name": "InputNumber/rightPadding",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2029,7 +2029,7 @@
     },
     {
       "id": "VariableID:200712:13731",
-      "name": "Input Number/Background/None",
+      "name": "InputNumber/Background/None",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2045,7 +2045,7 @@
     },
     {
       "id": "VariableID:200712:13811",
-      "name": "Input Number/Border/None",
+      "name": "InputNumber/Border/None",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2061,7 +2061,7 @@
     },
     {
       "id": "VariableID:200712:13730",
-      "name": "Input Number/Background/Default",
+      "name": "InputNumber/Background/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2077,7 +2077,7 @@
     },
     {
       "id": "VariableID:200712:13810",
-      "name": "Input Number/Border/Default",
+      "name": "InputNumber/Border/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2093,7 +2093,7 @@
     },
     {
       "id": "VariableID:200712:13736",
-      "name": "Input Number/Content/Default",
+      "name": "InputNumber/Content/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2109,7 +2109,7 @@
     },
     {
       "id": "VariableID:200799:46093",
-      "name": "Input Number/Padding_arrow",
+      "name": "InputNumber/Padding_arrow",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2134,7 +2134,7 @@
     },
     {
       "id": "VariableID:200712:13732",
-      "name": "Input Number/Background/Focused",
+      "name": "InputNumber/Background/Focused",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "VariableID:200712:13812",
-      "name": "Input Number/Border/Focused",
+      "name": "InputNumber/Border/Focused",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2166,7 +2166,7 @@
     },
     {
       "id": "VariableID:200712:13738",
-      "name": "Input Number/Content/Focused",
+      "name": "InputNumber/Content/Focused",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2182,7 +2182,7 @@
     },
     {
       "id": "VariableID:200712:13807",
-      "name": "Input Number/Arrows/Border",
+      "name": "InputNumber/Arrows/Border",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2198,7 +2198,7 @@
     },
     {
       "id": "VariableID:200712:13808",
-      "name": "Input Number/Arrows/DefaultArrow",
+      "name": "InputNumber/Arrows/DefaultArrow",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2214,7 +2214,7 @@
     },
     {
       "id": "VariableID:202030:4495",
-      "name": "Input Number/Background/Hover",
+      "name": "InputNumber/Background/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2230,7 +2230,7 @@
     },
     {
       "id": "VariableID:202030:4496",
-      "name": "Input Number/Border/Hover",
+      "name": "InputNumber/Border/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2246,7 +2246,7 @@
     },
     {
       "id": "VariableID:202030:4497",
-      "name": "Input Number/Content/Hover",
+      "name": "InputNumber/Content/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2262,7 +2262,7 @@
     },
     {
       "id": "VariableID:200712:13735",
-      "name": "Input Number/Background/Disabled",
+      "name": "InputNumber/Background/Disabled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2278,7 +2278,7 @@
     },
     {
       "id": "VariableID:200712:13815",
-      "name": "Input Number/Border/Disabled",
+      "name": "InputNumber/Border/Disabled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2294,7 +2294,7 @@
     },
     {
       "id": "VariableID:200712:13749",
-      "name": "Input Number/Content/Disabled",
+      "name": "InputNumber/Content/Disabled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2310,7 +2310,7 @@
     },
     {
       "id": "VariableID:200712:13734",
-      "name": "Input Number/Background/Invalid",
+      "name": "InputNumber/Background/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2326,7 +2326,7 @@
     },
     {
       "id": "VariableID:200712:13814",
-      "name": "Input Number/Border/Invalid",
+      "name": "InputNumber/Border/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2342,7 +2342,7 @@
     },
     {
       "id": "VariableID:200712:13740",
-      "name": "Input Number/Content/Invalid",
+      "name": "InputNumber/Content/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2358,7 +2358,7 @@
     },
     {
       "id": "VariableID:200712:13733",
-      "name": "Input Number/Background/FocusedBlue",
+      "name": "InputNumber/Background/FocusedBlue",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2374,7 +2374,7 @@
     },
     {
       "id": "VariableID:200712:13813",
-      "name": "Input Number/Border/FocusedBlue",
+      "name": "InputNumber/Border/FocusedBlue",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2390,7 +2390,7 @@
     },
     {
       "id": "VariableID:200712:13742",
-      "name": "Input Number/ContentBG",
+      "name": "InputNumber/ContentBG",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2406,7 +2406,7 @@
     },
     {
       "id": "VariableID:200712:13739",
-      "name": "Input Number/Content/FocusedBlue",
+      "name": "InputNumber/Content/FocusedBlue",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2422,7 +2422,7 @@
     },
     {
       "id": "VariableID:200729:1273",
-      "name": "Input Number Double/Between",
+      "name": "InputNumberDouble/Between",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2543,7 +2543,7 @@
     },
     {
       "id": "VariableID:200729:1685",
-      "name": "Dropdown/Background/Default_Filled",
+      "name": "Dropdown/Background/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2559,7 +2559,7 @@
     },
     {
       "id": "VariableID:200729:1778",
-      "name": "Dropdown/Border/Default_Filled",
+      "name": "Dropdown/Border/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2575,7 +2575,7 @@
     },
     {
       "id": "VariableID:200729:1691",
-      "name": "Dropdown/Content/Default_Filled",
+      "name": "Dropdown/Content/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2591,7 +2591,7 @@
     },
     {
       "id": "VariableID:200803:46805",
-      "name": "Dropdown/Icon/Default_Filled",
+      "name": "Dropdown/Icon/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2724,7 +2724,7 @@
     },
     {
       "id": "VariableID:200729:1354",
-      "name": "Comments/Background/Default_Filled",
+      "name": "Comments/Background/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2740,7 +2740,7 @@
     },
     {
       "id": "VariableID:200729:1374",
-      "name": "Comments/Border/Default_Filled",
+      "name": "Comments/Border/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2756,7 +2756,7 @@
     },
     {
       "id": "VariableID:200729:1360",
-      "name": "Comments/Content/Default_Filled",
+      "name": "Comments/Content/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2868,7 +2868,7 @@
     },
     {
       "id": "VariableID:202030:4616",
-      "name": "Comments/Content/Hover_Filled",
+      "name": "Comments/Content/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -3053,7 +3053,7 @@
     },
     {
       "id": "VariableID:202030:4614",
-      "name": "Comments/Background/Hover_Filled",
+      "name": "Comments/Background/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -3069,7 +3069,7 @@
     },
     {
       "id": "VariableID:202030:4618",
-      "name": "Comments/Border/Hover_Filled",
+      "name": "Comments/Border/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -3296,7 +3296,7 @@
     },
     {
       "id": "VariableID:202348:3356",
-      "name": "CommentsBar/Border Active",
+      "name": "CommentsBar/BorderActive",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -4152,7 +4152,7 @@
     },
     {
       "id": "VariableID:202032:5199",
-      "name": "Dropdown/Content/Hover_Filled",
+      "name": "Dropdown/Content/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -4168,7 +4168,7 @@
     },
     {
       "id": "VariableID:202032:5203",
-      "name": "Dropdown/Icon/Hover_Filled",
+      "name": "Dropdown/Icon/HoverFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -4446,7 +4446,7 @@
     },
     {
       "id": "VariableID:202319:2623",
-      "name": "Icons/Autocomplite/BG",
+      "name": "Icons/Autocomplete/BG",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -4476,7 +4476,7 @@
     },
     {
       "id": "VariableID:202319:2618",
-      "name": "Icons/Autocomplite/Var",
+      "name": "Icons/Autocomplete/Var",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -4588,7 +4588,7 @@
     },
     {
       "id": "VariableID:202319:2620",
-      "name": "Icons/Autocomplite/POU",
+      "name": "Icons/Autocomplete/POU",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -4608,7 +4608,7 @@
     },
     {
       "id": "VariableID:202319:2622",
-      "name": "Icons/Autocomplite/Type Enum",
+      "name": "Icons/Autocomplete/TypeEnum",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -5536,7 +5536,7 @@
     },
     {
       "id": "VariableID:83b3f4a42a9b3e7f5665026930fb5ad4c8571fd4/202348:67",
-      "name": "Input Number/Content/Default",
+      "name": "InputNumber/Content/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:7f4cf53cc0144611765259846bb4d18d5f79ae54/202348:3",
       "values": {
@@ -5578,7 +5578,7 @@
     },
     {
       "id": "VariableID:202283:4917",
-      "name": "Canvas/Modal 2",
+      "name": "Canvas/Modal2",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -5860,7 +5860,7 @@
     },
     {
       "id": "VariableID:200794:44474",
-      "name": "Segment/Background/Active Alternative",
+      "name": "Segment/Background/ActiveAlternative",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -6215,7 +6215,7 @@
     },
     {
       "id": "VariableID:200769:3472",
-      "name": "Light/Fuchisa/8",
+      "name": "Light/Fuchsia/8",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1980",
       "values": {
@@ -6369,7 +6369,7 @@
     },
     {
       "id": "VariableID:184292:102343",
-      "name": "Search/icons/Default",
+      "name": "Search/Icons/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:181601:143663",
       "values": {
@@ -6485,7 +6485,7 @@
     },
     {
       "id": "VariableID:183897:34085",
-      "name": "icons/Close",
+      "name": "Icons/Close",
       "type": "COLOR",
       "collection": "VariableCollectionId:181601:143663",
       "values": {
@@ -6549,7 +6549,7 @@
     },
     {
       "id": "VariableID:184292:102344",
-      "name": "Search/icons/Disable",
+      "name": "Search/Icons/Disable",
       "type": "COLOR",
       "collection": "VariableCollectionId:181601:143663",
       "values": {
@@ -6581,7 +6581,7 @@
     },
     {
       "id": "VariableID:200756:1775",
-      "name": "Search/Background/Default_Filled",
+      "name": "Search/Background/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -6597,7 +6597,7 @@
     },
     {
       "id": "VariableID:200756:1794",
-      "name": "Search/Border/Default_Filled",
+      "name": "Search/Border/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -6613,7 +6613,7 @@
     },
     {
       "id": "VariableID:200758:1802",
-      "name": "Search/Icons/Default_Filled",
+      "name": "Search/Icons/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -6629,7 +6629,7 @@
     },
     {
       "id": "VariableID:200756:1781",
-      "name": "Search/Content/Default_Filled",
+      "name": "Search/Content/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7083,7 +7083,7 @@
     },
     {
       "id": "VariableID:200752:3105",
-      "name": "CheckboxLable/Content/Default",
+      "name": "CheckboxLabel/Content/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7099,7 +7099,7 @@
     },
     {
       "id": "VariableID:200752:3488",
-      "name": "CheckboxLable/Content/Hover",
+      "name": "CheckboxLabel/Content/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7115,7 +7115,7 @@
     },
     {
       "id": "VariableID:200752:3489",
-      "name": "CheckboxLable/Content/Focused",
+      "name": "CheckboxLabel/Content/Focused",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7131,7 +7131,7 @@
     },
     {
       "id": "VariableID:200752:3490",
-      "name": "CheckboxLable/Content/Invalid",
+      "name": "CheckboxLabel/Content/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7147,7 +7147,7 @@
     },
     {
       "id": "VariableID:200752:3491",
-      "name": "CheckboxLable/Content/Disabled",
+      "name": "CheckboxLabel/Content/Disabled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7163,7 +7163,7 @@
     },
     {
       "id": "VariableID:200752:3508",
-      "name": "CheckboxLable/Between",
+      "name": "CheckboxLabel/Between",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7291,7 +7291,7 @@
     },
     {
       "id": "VariableID:200765:2640",
-      "name": "Radio/Checked/Border IN/Pressed",
+      "name": "Radio/Checked/BorderIn/Pressed",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7307,7 +7307,7 @@
     },
     {
       "id": "VariableID:200765:2641",
-      "name": "Radio/Checked/Border IN/Invalid",
+      "name": "Radio/Checked/BorderIn/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7323,7 +7323,7 @@
     },
     {
       "id": "VariableID:200765:2643",
-      "name": "RadioLable/Content/Default",
+      "name": "RadioLabel/Content/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7339,7 +7339,7 @@
     },
     {
       "id": "VariableID:200765:2644",
-      "name": "RadioLable/Between",
+      "name": "RadioLabel/Between",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7355,7 +7355,7 @@
     },
     {
       "id": "VariableID:200765:2649",
-      "name": "RadioLable/Content/Hover",
+      "name": "RadioLabel/Content/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7371,7 +7371,7 @@
     },
     {
       "id": "VariableID:200765:2650",
-      "name": "RadioLable/Content/Focused",
+      "name": "RadioLabel/Content/Focused",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7387,7 +7387,7 @@
     },
     {
       "id": "VariableID:200765:2651",
-      "name": "RadioLable/Content/Invalid",
+      "name": "RadioLabel/Content/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7403,7 +7403,7 @@
     },
     {
       "id": "VariableID:200765:2652",
-      "name": "RadioLable/Content/Disabled",
+      "name": "RadioLabel/Content/Disabled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7451,7 +7451,7 @@
     },
     {
       "id": "VariableID:200765:704",
-      "name": "Radio/Border_1",
+      "name": "Radio/Border1",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7467,7 +7467,7 @@
     },
     {
       "id": "VariableID:200765:705",
-      "name": "Radio/Border_2",
+      "name": "Radio/Border2",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7563,7 +7563,7 @@
     },
     {
       "id": "VariableID:200765:711",
-      "name": "Radio/Unchecked/Background/Invald",
+      "name": "Radio/Unchecked/Background/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7734,7 +7734,7 @@
     },
     {
       "id": "VariableID:200744:3078",
-      "name": "Checkbox/Unchecked/Background/Invald",
+      "name": "Checkbox/Unchecked/Background/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -7926,7 +7926,7 @@
     },
     {
       "id": "VariableID:200747:3093",
-      "name": "Checkbox/Unchecked/Border/Invald",
+      "name": "Checkbox/Unchecked/Border/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -8054,7 +8054,7 @@
     },
     {
       "id": "VariableID:200747:3101",
-      "name": "Checkbox/Border_1",
+      "name": "Checkbox/Border1",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -8070,7 +8070,7 @@
     },
     {
       "id": "VariableID:200747:3102",
-      "name": "Checkbox/Border_2",
+      "name": "Checkbox/Border2",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -8166,7 +8166,7 @@
     },
     {
       "id": "VariableID:200765:716",
-      "name": "Radio/Unchecked/Border/Invald",
+      "name": "Radio/Unchecked/Border/Invalid",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -8390,7 +8390,7 @@
     },
     {
       "id": "VariableID:200768:23",
-      "name": "ToggleLable/hBetween",
+      "name": "ToggleLabel/hBetween",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -8406,7 +8406,7 @@
     },
     {
       "id": "VariableID:200768:33",
-      "name": "ToggleLable/vBetween",
+      "name": "ToggleLabel/vBetween",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {

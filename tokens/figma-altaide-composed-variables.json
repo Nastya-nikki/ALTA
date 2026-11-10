@@ -92,7 +92,7 @@
     },
     {
       "id": "VariableID:183897:34085",
-      "name": "icons/Close",
+      "name": "Icons/Close",
       "type": "COLOR",
       "collection": "VariableCollectionId:181601:143663",
       "values": {
@@ -144,7 +144,7 @@
     },
     {
       "id": "VariableID:198388:8568",
-      "name": "Button_Secondary/vPadding",
+      "name": "ButtonSecondary/vPadding",
       "type": "FLOAT",
       "collection": "VariableCollectionId:198388:8545",
       "values": {
@@ -740,7 +740,7 @@
     },
     {
       "id": "VariableID:200729:1685",
-      "name": "Dropdown/Background/Default_Filled",
+      "name": "Dropdown/Background/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -756,7 +756,7 @@
     },
     {
       "id": "VariableID:200729:1691",
-      "name": "Dropdown/Content/Default_Filled",
+      "name": "Dropdown/Content/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -884,7 +884,7 @@
     },
     {
       "id": "VariableID:200729:1778",
-      "name": "Dropdown/Border/Default_Filled",
+      "name": "Dropdown/Border/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -916,7 +916,7 @@
     },
     {
       "id": "VariableID:200765:704",
-      "name": "Radio/Border_1",
+      "name": "Radio/Border1",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -1124,7 +1124,7 @@
     },
     {
       "id": "VariableID:200803:46805",
-      "name": "Dropdown/Icon/Default_Filled",
+      "name": "Dropdown/Icon/DefaultFilled",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2148,7 +2148,7 @@
     },
     {
       "id": "VariableID:201068:9896",
-      "name": "Icons/MainIcons/Gray Default",
+      "name": "Icons/MainIcons/GrayDefault",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -2822,7 +2822,7 @@
     },
     {
       "id": "VariableID:200769:3472",
-      "name": "Light/Fuchisa/8",
+      "name": "Light/Fuchsia/8",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1980",
       "values": {
@@ -4398,7 +4398,7 @@
     },
     {
       "id": "VariableID:201044:9246",
-      "name": "SidebarDeviceSettings/Border width",
+      "name": "SidebarDeviceSettings/BorderWidth",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -5178,7 +5178,7 @@
     },
     {
       "id": "VariableID:200747:3101",
-      "name": "Checkbox/Border_1",
+      "name": "Checkbox/Border1",
       "type": "FLOAT",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -5354,7 +5354,7 @@
     },
     {
       "id": "VariableID:201014:5795",
-      "name": "TableCell/Background/Defaul",
+      "name": "TableCell/Background/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -5450,7 +5450,7 @@
     },
     {
       "id": "VariableID:201014:24779",
-      "name": "TableCell/Border/Defaul",
+      "name": "TableCell/Border/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -5626,7 +5626,7 @@
     },
     {
       "id": "VariableID:201014:24794",
-      "name": "TableCell/Content/Defaul",
+      "name": "TableCell/Content/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -5770,7 +5770,7 @@
     },
     {
       "id": "VariableID:200769:3473",
-      "name": "Light/Fuchisa/9",
+      "name": "Light/Fuchsia/9",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1980",
       "values": {
@@ -6223,7 +6223,7 @@
     },
     {
       "id": "VariableID:201064:57954",
-      "name": "Icons/Spiner/Default",
+      "name": "Icons/Spinner/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -6383,7 +6383,7 @@
     },
     {
       "id": "VariableID:202319:2621",
-      "name": "Icons/Autocomplite/Global var",
+      "name": "Icons/Autocomplete/GlobalVar",
       "type": "COLOR",
       "collection": "VariableCollectionId:200597:1981",
       "values": {
@@ -6699,7 +6699,7 @@
     "VariableID:200597:1996": "--shell-20",
     "VariableID:200701:2998": "--shell-light-gray-8",
     "VariableID:200597:2152": "--shell-dark-fuchsia-9",
-    "VariableID:200769:3472": "--shell-light-fuchisa-8",
+    "VariableID:200769:3472": "--shell-light-fuchsia-8",
     "VariableID:200597:2069": "--shell-dark-gray-4",
     "VariableID:200597:2158": "--shell-dark-gray-14",
     "VariableID:200597:1993": "--shell-14",
@@ -6743,7 +6743,7 @@
     "VariableID:201034:37651": "--shell-treelevels-background-warning",
     "VariableID:201034:37652": "--shell-treelevels-background-warningactive",
     "VariableID:201034:37653": "--shell-treelevels-background-focused",
-    "VariableID:201034:37655": "--shell-treelevels-background-notavailable",
+    "VariableID:201034:37655": "--shell-treelevels-background-notavailabel",
     "VariableID:201034:37656": "--shell-treelevels-background-draganddrop",
     "VariableID:201034:37657": "--shell-treelevels-content-default",
     "VariableID:201034:37658": "--shell-treelevels-content-nocompilation",
@@ -6791,7 +6791,7 @@
     "VariableID:201044:5672": "--shell-treelevelsdevice-background-warning",
     "VariableID:201044:5673": "--shell-treelevelsdevice-background-warningactive",
     "VariableID:201044:5674": "--shell-treelevelsdevice-background-focused",
-    "VariableID:201044:5675": "--shell-treelevelsdevice-background-notavailable",
+    "VariableID:201044:5675": "--shell-treelevelsdevice-background-notavailabel",
     "VariableID:201044:5678": "--shell-treelevelsdevice-content-nocompilation",
     "VariableID:200597:2128": "--shell-dark-red-11",
     "VariableID:200712:4053": "--shell-light-red-8",
@@ -6868,13 +6868,13 @@
     "VariableID:201007:16": "--shell-functiontype-border",
     "VariableID:201007:1635": "--shell-subtitle-content",
     "VariableID:201007:1636": "--shell-subtitle-line",
-    "VariableID:201014:5795": "--shell-tablecell-background-defaul",
+    "VariableID:201014:5795": "--shell-tablecell-background-default",
     "VariableID:201014:24771": "--shell-tablecell-background-active",
     "VariableID:201014:24772": "--shell-tablecell-background-focused",
     "VariableID:201014:24773": "--shell-tablecell-background-invalid",
     "VariableID:201014:24775": "--shell-tablecell-background-selection",
     "VariableID:201014:24776": "--shell-tablecell-background-disabled",
-    "VariableID:201014:24779": "--shell-tablecell-border-defaul",
+    "VariableID:201014:24779": "--shell-tablecell-border-default",
     "VariableID:201014:24780": "--shell-tablecell-border-active",
     "VariableID:201014:24781": "--shell-tablecell-border-focused",
     "VariableID:201014:24782": "--shell-tablecell-border-invalid",
@@ -6885,7 +6885,7 @@
     "VariableID:201014:24791": "--shell-tablecell-hpadding",
     "VariableID:201014:24792": "--shell-tablecell-vpadding",
     "VariableID:201014:24793": "--shell-tablecell-lpadding",
-    "VariableID:201014:24794": "--shell-tablecell-content-defaul",
+    "VariableID:201014:24794": "--shell-tablecell-content-default",
     "VariableID:201014:24796": "--shell-tablecell-content-focused",
     "VariableID:201014:24797": "--shell-tablecell-content-invalid",
     "VariableID:201014:24799": "--shell-tablecell-content-selection",
@@ -6894,7 +6894,7 @@
     "VariableID:201099:6896": "--shell-menulink-hover",
     "VariableID:201099:6897": "--shell-menulink-active",
     "VariableID:201099:6898": "--shell-menulink-disabled",
-    "VariableID:200769:3473": "--shell-light-fuchisa-9",
+    "VariableID:200769:3473": "--shell-light-fuchsia-9",
     "VariableID:200701:3001": "--shell-light-gray-11",
     "VariableID:200752:3589": "--shell-link-content-default",
     "VariableID:200752:3608": "--shell-link-between",
@@ -6923,7 +6923,7 @@
     "VariableID:201063:53698": "--shell-icons-resize-default",
     "VariableID:201063:57831": "--shell-icons-plus-radius",
     "VariableID:201063:57835": "--shell-icons-plus-background",
-    "VariableID:201064:57954": "--shell-icons-spiner-default",
+    "VariableID:201064:57954": "--shell-icons-spinner-default",
     "VariableID:201066:5140": "--shell-icons-toolbarverticalicon-background",
     "VariableID:201066:5142": "--shell-icons-toolbarverticalicon-radius",
     "VariableID:201068:7106": "--shell-tooltiphelp-background",
@@ -6933,7 +6933,7 @@
     "VariableID:201068:7110": "--shell-tooltiphelp-hpadding",
     "VariableID:201068:7111": "--shell-tooltiphelp-vpadding",
     "VariableID:201068:7112": "--shell-tooltiphelp-between",
-    "VariableID:202319:2621": "--shell-icons-autocomplite-global-var",
+    "VariableID:202319:2621": "--shell-icons-autocomplete-global-var",
     "VariableID:182588:88964": "--shell-spacing-horizontal-4"
   },
   "contextBindings": {
@@ -7098,7 +7098,7 @@
     "--shell-treelevels-lpadding7": "VariableID:201038:8222",
     "--shell-treelevels-lpadding8": "VariableID:201038:8223",
     "--shell-treelevels-background-error": "VariableID:201034:37649",
-    "--shell-treelevels-background-notavailable": "VariableID:201034:37655",
+    "--shell-treelevels-background-notavailabel": "VariableID:201034:37655",
     "--shell-treelevels-background-focused": "VariableID:201034:37653",
     "--shell-treelevels-betweenfocused": "VariableID:201038:33256",
     "--shell-treelevels-contentbackground": "VariableID:201038:28834",
@@ -7145,13 +7145,13 @@
     "--shell-subtitle-content": "VariableID:201007:1635",
     "--shell-subtitle-line": "VariableID:201007:1636",
     "--shell-checkbox-radius": "VariableID:200747:3100",
-    "--shell-tablecell-background-defaul": "VariableID:201014:5795",
-    "--shell-tablecell-border-defaul": "VariableID:201014:24779",
+    "--shell-tablecell-background-default": "VariableID:201014:5795",
+    "--shell-tablecell-border-default": "VariableID:201014:24779",
     "--shell-tablecell-borderwidth": "VariableID:201014:24788",
     "--shell-tablecell-between": "VariableID:201014:24790",
     "--shell-tablecell-hpadding": "VariableID:201014:24791",
     "--shell-tablecell-vpadding": "VariableID:201014:24792",
-    "--shell-tablecell-content-defaul": "VariableID:201014:24794",
+    "--shell-tablecell-content-default": "VariableID:201014:24794",
     "--shell-tablecell-background-active": "VariableID:201014:24771",
     "--shell-tablecell-border-active": "VariableID:201014:24780",
     "--shell-tablecell-lpadding": "VariableID:201014:24793",
@@ -7234,7 +7234,7 @@
     "--shell-contextbarvertical-between": "VariableID:200999:27188",
     "--shell-contextbarvertical-padding": "VariableID:200999:27187",
     "--shell-0": "VariableID:200597:1984",
-    "--shell-icons-autocomplite-global-var": "VariableID:202319:2621",
+    "--shell-icons-autocomplete-global-var": "VariableID:202319:2621",
     "--shell-tooltiphelp-background": "VariableID:201068:7106",
     "--shell-tooltiphelp-between": "VariableID:201068:7112",
     "--shell-tooltiphelp-hpadding": "VariableID:201068:7110",
@@ -7247,7 +7247,7 @@
     "--shell-icons-plus-background": "VariableID:201063:57835",
     "--shell-icons-plus-radius": "VariableID:201063:57831",
     "--shell-icons-resize-default": "VariableID:201063:53698",
-    "--shell-icons-spiner-default": "VariableID:201064:57954",
+    "--shell-icons-spinner-default": "VariableID:201064:57954",
     "--shell-icons-toolbarverticalicon-background": "VariableID:201066:5140",
     "--shell-icons-toolbarverticalicon-radius": "VariableID:201066:5142",
     "--shell-icons-toolbarcommands-background-active": "VariableID:201052:4771",
@@ -24112,7 +24112,7 @@
   "styles": [
     {
       "id": "S:07c2e71257bc6497e7de452e0cc64d229a1411aa,13576:97",
-      "name": "Dark/Fill Color/Text/Primary",
+      "name": "Dark/FillColor/Text/Primary",
       "type": "PAINT",
       "paints": [
         {
@@ -24131,7 +24131,7 @@
     },
     {
       "id": "S:4b75866ed4498a04320ac6ea6a0d56378e338277,13576:85",
-      "name": "Dark/Fill Color/Subtle/Transparent",
+      "name": "Dark/FillColor/Subtle/Transparent",
       "type": "PAINT",
       "paints": [
         {

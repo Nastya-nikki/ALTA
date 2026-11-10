@@ -3159,7 +3159,7 @@
         "children": [
           {
             "id": "185086:2024",
-            "name": "AltaIDE/Icons/Spiner",
+            "name": "AltaIDE/Icons/Spinner",
             "type": "INSTANCE",
             "visible": true,
             "x": 12,
@@ -3251,7 +3251,7 @@
         "children": [
           {
             "id": "185086:1982",
-            "name": "AltaIDE/Icons/Spiner",
+            "name": "AltaIDE/Icons/Spinner",
             "type": "INSTANCE",
             "visible": true,
             "x": 12,
@@ -3390,7 +3390,7 @@
           },
           {
             "id": "185086:1975",
-            "name": "AltaIDE/Icons/Spiner",
+            "name": "AltaIDE/Icons/Spinner",
             "type": "INSTANCE",
             "visible": true,
             "x": 44,
@@ -4509,7 +4509,7 @@
         "children": [
           {
             "id": "185086:2087",
-            "name": "AltaIDE/Icons/Spiner",
+            "name": "AltaIDE/Icons/Spinner",
             "type": "INSTANCE",
             "visible": true,
             "x": 12,
@@ -4601,7 +4601,7 @@
         "children": [
           {
             "id": "185086:2099",
-            "name": "AltaIDE/Icons/Spiner",
+            "name": "AltaIDE/Icons/Spinner",
             "type": "INSTANCE",
             "visible": true,
             "x": 12,
@@ -4740,7 +4740,7 @@
           },
           {
             "id": "185086:2084",
-            "name": "AltaIDE/Icons/Spiner",
+            "name": "AltaIDE/Icons/Spinner",
             "type": "INSTANCE",
             "visible": true,
             "x": 40,
@@ -5186,7 +5186,7 @@
         "children": [
           {
             "id": "186483:17774",
-            "name": "AltaIDE/Icons/Spiner",
+            "name": "AltaIDE/Icons/Spinner",
             "type": "INSTANCE",
             "visible": true,
             "x": 12,
@@ -5411,7 +5411,7 @@
         "children": [
           {
             "id": "186483:17789",
-            "name": "AltaIDE/Icons/Spiner",
+            "name": "AltaIDE/Icons/Spinner",
             "type": "INSTANCE",
             "visible": true,
             "x": 12,
