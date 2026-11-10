@@ -2,7 +2,7 @@
   "variables": [
     {
       "id": "VariableID:1906:131465",
-      "name": "keywords/keywordVar",
+      "name": "Keywords/keywordVar",
       "type": "COLOR",
       "collection": "VariableCollectionId:1904:131346",
       "values": {
@@ -42,7 +42,7 @@
     },
     {
       "id": "VariableID:1921:107160",
-      "name": "BG_CodeCanvas/Debugging",
+      "name": "BGCodeCanvas/Debugging",
       "type": "COLOR",
       "collection": "VariableCollectionId:1921:68804",
       "values": {
@@ -74,7 +74,7 @@
     },
     {
       "id": "VariableID:1906:131468",
-      "name": "keywords/keywordControl",
+      "name": "Keywords/keywordControl",
       "type": "COLOR",
       "collection": "VariableCollectionId:1904:131346",
       "values": {
@@ -334,7 +334,7 @@
     },
     {
       "id": "VariableID:1906:131457",
-      "name": "identifier/type",
+      "name": "Identifier/type",
       "type": "COLOR",
       "collection": "VariableCollectionId:1904:131346",
       "values": {
@@ -470,7 +470,7 @@
     },
     {
       "id": "VariableID:1921:107159",
-      "name": "BG_CodeCanvas/Hover",
+      "name": "BGCodeCanvas/Hover",
       "type": "COLOR",
       "collection": "VariableCollectionId:1921:68804",
       "values": {
@@ -486,7 +486,7 @@
     },
     {
       "id": "VariableID:1904:131347",
-      "name": "identifier/varGlobal",
+      "name": "Identifier/varGlobal",
       "type": "COLOR",
       "collection": "VariableCollectionId:1904:131346",
       "values": {
@@ -558,7 +558,7 @@
     },
     {
       "id": "VariableID:1906:131467",
-      "name": "keywords/keywordItem",
+      "name": "Keywords/keywordItem",
       "type": "COLOR",
       "collection": "VariableCollectionId:1904:131346",
       "values": {
@@ -598,7 +598,7 @@
     },
     {
       "id": "VariableID:1906:131451",
-      "name": "identifier/variable",
+      "name": "Identifier/variable",
       "type": "COLOR",
       "collection": "VariableCollectionId:1904:131346",
       "values": {
@@ -634,7 +634,7 @@
     },
     {
       "id": "VariableID:1921:68805",
-      "name": "BG_CodeCanvas/Default",
+      "name": "BGCodeCanvas/Default",
       "type": "COLOR",
       "collection": "VariableCollectionId:1921:68804",
       "values": {
@@ -1717,7 +1717,7 @@
     },
     {
       "id": "S:e0712839c20f01a100a825d2b5180b0e4fe531a8,",
-      "name": "AltaCodeEditor/Dark/Error&Warning/border/marker-warning",
+      "name": "AltaCodeEditor/Dark/ErrorAndWarning/Border/MarkerWarning",
       "type": "PAINT",
       "paints": [
         {
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "S:2ade81fba17ee4bb09c5d439fd536ed145500831,",
-      "name": "AltaCodeEditor/Dark/Error&Warning/border/marker-error",
+      "name": "AltaCodeEditor/Dark/ErrorAndWarning/Border/MarkerError",
       "type": "PAINT",
       "paints": [
         {
@@ -1755,7 +1755,7 @@
     },
     {
       "id": "S:fe70c82edb5fcbb3db2c974a33adee072d51c708,",
-      "name": "AltaCodeEditor/Dark/Error&Warning/border/marker-info",
+      "name": "AltaCodeEditor/Dark/ErrorAndWarning/Border/MarkerInfo",
       "type": "PAINT",
       "paints": [
         {
@@ -1774,7 +1774,7 @@
     },
     {
       "id": "S:48d1aea07feb45a63002cbc4845f1795a990f77e,",
-      "name": "AltaCodeEditor/Dark/Error&Warning/border/marker-hint",
+      "name": "AltaCodeEditor/Dark/ErrorAndWarning/Border/MarkerHint",
       "type": "PAINT",
       "paints": [
         {
@@ -1831,7 +1831,7 @@
     },
     {
       "id": "S:90f2d39b8d3d8cc6aa1022584413c79321eefda6,",
-      "name": "AltaCodeEditor/Dark/Error&Warning/BG",
+      "name": "AltaCodeEditor/Dark/ErrorAndWarning/BG",
       "type": "PAINT",
       "paints": [
         {
